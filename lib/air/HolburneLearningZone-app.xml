@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><application xmlns="http://ns.adobe.com/air/application/2.5" minimumPatchLevel="0">
+<!-- AIR Application Descriptor File. See http://www.adobe.com/go/learn_air_1.0_application_descriptor_en. -->
+	<id>HolburneLearningZone</id>
+	<name>Holburne Learning Zone</name>
+        <versionNumber>0.0.1</versionNumber>
+        <versionLabel>alpha 0.0.1</versionLabel>
+	<filename>HolburneLearningZone</filename>
+	<description>
+		<text xml:lang="en">Holburne Learning Zone interactive touch screen application</text>
+	</description>
+	<copyright>2011 AllofUs Inc.</copyright>
+	<initialWindow>
+		<content>HolburneLearningZone.swf</content>
+		<title>Holburne Learning Zone</title>
+		<systemChrome>standard</systemChrome>
+		<transparent>false</transparent>
+		<visible>true</visible>
+		<minimizable>true</minimizable>
+		<maximizable>true</maximizable>
+		<resizable>true</resizable>
+		<width>1920</width>
+		<height>1080</height>
+		<x>0</x>
+		<y>0</y>
+		<minSize>1024 576</minSize>
+		<maxSize>1920 1080</maxSize>
+	</initialWindow>
+	<installFolder>Holburne</installFolder>
+	<programMenuFolder>Holburne</programMenuFolder>
+	
+	<customUpdateUI>false</customUpdateUI>
+	<allowBrowserInvocation>false</allowBrowserInvocation>
+	
+<!--	<icon>-->
+<!--		<image16x16>assets/icons/16x16.png</image16x16>-->
+<!--		<image32x32>assets/icons/32x32.png</image32x32>-->
+<!--		<image48x48>assets/icons/48x48.png</image48x48>-->
+<!--		<image128x128>assets/icons/128x128.png</image128x128>-->
+<!--	</icon>	-->
+
+</application>

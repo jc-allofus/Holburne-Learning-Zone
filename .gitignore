@@ -1,0 +1,17 @@
+
+#
+/bin-debug
+
+# /build/
+/build/user.properties
+
+
+# /lib/swc/
+/lib/swc/GUI_Assets.swf
+
+# OS generated files #
+######################
+.DS_Store?
+thumbs.db
+Icon?
+Thumbs.db
