@@ -1,13 +1,23 @@
 
-#
+# PROJECT bin-debug folder
+###############
 /bin-debug
 
-# /build/
+
+#bin folders (mainly w/ flash .xfl files) 
+#########################################
+bin/
+
+
+#user-specific build properties file
+###################################
 /build/user.properties
 
 
-# /lib/swc/
-/lib/swc/GUI_Assets.swf
+#project specific ignores
+#########################
+/lib/swc/*.swf
+
 
 # OS generated files #
 ######################

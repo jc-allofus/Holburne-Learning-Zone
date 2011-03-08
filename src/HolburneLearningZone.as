@@ -1,5 +1,6 @@
 package
 {
+	import org.robotlegs.mvcs.Context;
 	import com.allofus.shared.logging.GetLogger;
 	import com.allofus.shared.logging.LogWriter;
 	import com.allofus.shared.logging.MonsterDebuggerTarget;
@@ -19,6 +20,9 @@ package
 	 */
 	public class HolburneLearningZone extends Sprite
 	{
+		
+		private var context:Context;
+		
 		public function HolburneLearningZone()
 		{
 			if(stage)initApp();
@@ -32,7 +36,7 @@ package
 			initializeMonsterDebuggerLogging();
 			initializeFileLogging();
 			testLogging();
-			//createContext();
+			createContext();
 		}
 		
 		protected function initializeMonsterDebuggerLogging():void
@@ -76,6 +80,11 @@ package
 			logger.warn("test warn.");
 			logger.error("test error.");
 			logger.fatal("test fatal");
+		}
+		
+		protected function createContext():void
+		{
+			context = new Context(this);
 		}
 		
 		private static const logger:ILogger = GetLogger.qualifiedName( HolburneLearningZone );
