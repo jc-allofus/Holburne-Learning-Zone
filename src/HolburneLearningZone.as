@@ -1,10 +1,12 @@
 package
 {
+	import com.allofus.shared.logging.GetLogger;
 	import com.allofus.shared.logging.LogWriter;
 	import com.allofus.shared.logging.MonsterDebuggerTarget;
 	import com.allofus.shared.logging.SOSLoggingTarget;
 	import com.allofus.shared.logging.formatters.JSONFormatter;
 
+	import mx.logging.ILogger;
 	import mx.logging.Log;
 	import mx.logging.LogEventLevel;
 
@@ -29,10 +31,11 @@ package
 			initializeSOSLogging();
 			initializeMonsterDebuggerLogging();
 			initializeFileLogging();
+			testLogging();
 			//createContext();
 		}
 		
-				protected function initializeMonsterDebuggerLogging():void
+		protected function initializeMonsterDebuggerLogging():void
 		{
 			var monsterTarget : MonsterDebuggerTarget = new MonsterDebuggerTarget(this);
 			monsterTarget.includeCategory = true;
@@ -65,5 +68,16 @@ package
 			fileLogTarget.level = LogEventLevel.WARN;
 			Log.addTarget(fileLogTarget);
 		}
+		
+		protected function testLogging():void
+		{
+			logger.debug("test debug.");
+			logger.info("test info.");
+			logger.warn("test warn.");
+			logger.error("test error.");
+			logger.fatal("test fatal");
+		}
+		
+		private static const logger:ILogger = GetLogger.qualifiedName( HolburneLearningZone );
 	}
 }
