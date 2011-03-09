@@ -11,4 +11,7 @@
     <AS3Classpath generateProblems="false" sdkBased="true" type="lib" useAsSharedCode="false">frameworks/libs/mx/mx.swc</AS3Classpath>
     <AS3Classpath generateProblems="true" sdkBased="false" type="source" useAsSharedCode="false">lib/as/MonsterDebugger</AS3Classpath>
     <AS3Classpath generateProblems="true" sdkBased="false" type="source" useAsSharedCode="false">lib/as/Stats</AS3Classpath>
+    <AS3Classpath generateProblems="false" sdkBased="true" type="lib" useAsSharedCode="false">frameworks/libs/air/applicationupdater.swc</AS3Classpath>
+    <AS3Classpath generateProblems="false" sdkBased="true" type="lib" useAsSharedCode="false">frameworks/libs/air/applicationupdater_ui.swc</AS3Classpath>
+    <AS3Classpath generateProblems="false" sdkBased="true" type="lib" useAsSharedCode="false">frameworks/libs/air/servicemonitor.swc</AS3Classpath>
 </AS3Classpath>

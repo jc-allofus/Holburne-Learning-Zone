@@ -1,18 +1,24 @@
 package
 {
-	import org.robotlegs.mvcs.Context;
+	import net.hires.debug.Stats;
+
 	import com.allofus.shared.logging.GetLogger;
 	import com.allofus.shared.logging.LogWriter;
 	import com.allofus.shared.logging.MonsterDebuggerTarget;
 	import com.allofus.shared.logging.SOSLoggingTarget;
 	import com.allofus.shared.logging.formatters.JSONFormatter;
 
+	import org.robotlegs.mvcs.Context;
+
 	import mx.logging.ILogger;
 	import mx.logging.Log;
 	import mx.logging.LogEventLevel;
 
+	import flash.desktop.NativeApplication;
 	import flash.display.Sprite;
+	import flash.display.StageScaleMode;
 	import flash.events.Event;
+	import flash.events.InvokeEvent;
 	import flash.filesystem.File;
 
 	/**
@@ -23,10 +29,17 @@ package
 		
 		private var context:Context;
 		
+		public var backgroundLayer:Sprite;
+		public var homepageLayer:Sprite;
+		public var chapterLayer:Sprite; 
+		public var splashScreenLayer:Sprite;
+		public var debugLayer:Sprite;
+		
 		public function HolburneLearningZone()
 		{
 			if(stage)initApp();
 			else addEventListener(Event.ADDED_TO_STAGE, initApp);
+			NativeApplication.nativeApplication.addEventListener(InvokeEvent.INVOKE, onApplicationInvoked);
 		}
 		
 		protected function initApp(event:Event = null):void
@@ -36,7 +49,14 @@ package
 			initializeMonsterDebuggerLogging();
 			initializeFileLogging();
 			testLogging();
+			createLayers();
+			createStats();
 			createContext();
+		}
+		
+		protected function onApplicationInvoked(event:InvokeEvent):void
+		{
+			stage.scaleMode = StageScaleMode.SHOW_ALL;
 		}
 		
 		protected function initializeMonsterDebuggerLogging():void
@@ -82,11 +102,40 @@ package
 			logger.fatal("test fatal");
 		}
 		
-		protected function createContext():void
+		protected function createLayers():void
 		{
-			context = new Context(this);
+			backgroundLayer = new Sprite();
+			homepageLayer = new Sprite();
+			chapterLayer = new Sprite();
+			splashScreenLayer = new Sprite();
+			debugLayer = new Sprite();
+			
+			addChild(backgroundLayer);
+			addChild(homepageLayer);
+			addChild(chapterLayer);
+			addChild(splashScreenLayer);
+			addChild(debugLayer);
 		}
 		
-		private static const logger:ILogger = GetLogger.qualifiedName( HolburneLearningZone );
+		protected function createStats():void
+		{
+			debugLayer.addChild(new Stats());
+		}
+		
+		public function clearLayer(layer:Sprite):void
+		{
+			while (layer.numChildren > 0)
+			{
+				layer.removeChildAt(0);
+			}
+		}
+		
+		protected function createContext():void
+		{
+			context = new HolburneLearningZoneContext(this);
+		}
+		
+		private static const logger : ILogger = GetLogger.qualifiedName(HolburneLearningZone);
+
 	}
 }

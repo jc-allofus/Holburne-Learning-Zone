@@ -70,7 +70,6 @@
 			<source-path path-element="${basedir}/${project.srcpath}" />
 			<source-path path-element="${basedir}/${project.libpath}/as/MonsterDebugger" />
 			<source-path path-element="${basedir}/${project.libpath}/as/Stats" />
-			<!--<source-path path-element="${basedir}/${project.libpath}/as/SimpleGUI" />-->
 			<library-path dir="${basedir}/${project.libpath}/swc" includes="*.swc" append="true" />
 			<default-size width="${swf.width}" height="${swf.height}" />
 			<target-player>10.1</target-player>
@@ -84,11 +83,10 @@
 			<load_config path="${FLEX_HOME}/frameworks/air-config.xml"/>
 			<default_frame_rate value="31" />
 			<default_background_color value="0x000000" />
-			<default_size width="1064" height="440" />
+			<default_size width="${swf.width}" height="${swf.height}" />
 			<source_path path="${project.srcpath}" append="true"/>
 			<source_path path="${project.libpath}/as/MonsterDebugger" append="true"/>
 			<source_path path="${project.libpath}/as/Stats" append="true"/>
-			<!--<source_path path="${project.libpath}/as/SimpleGUI" append="true"/>-->
 			<library_path path="${FLEX_HOME}/frameworks/libs"/>
 			<library_path path="${project.libpath}/swc" />
 			<file_specs path="${project.documentClass}" />

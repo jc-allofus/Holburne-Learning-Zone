@@ -1,6 +1,14 @@
 package
 {
-	import com.allofus.holburne.learningzone.controller.startup.PrepareFSMCommand;
+	import com.allofus.holburne.learningzone.view.mediator.ApplicationMediator;
+	import com.allofus.holburne.learningzone.model.InternetConnectionProxy;
+	import com.allofus.holburne.learningzone.model.ConfigProxy;
+	import com.allofus.holburne.learningzone.view.splash.SplashScreenMediator;
+	import com.allofus.holburne.learningzone.view.splash.SplashScreen;
+	import com.allofus.holburne.learningzone.model.ApplicationStatusModel;
+	import com.allofus.holburne.learningzone.controller.ApplicationStatusChanged;
+	import com.allofus.holburne.learningzone.events.ApplicationStatusEvent;
+	import com.allofus.holburne.learningzone.controller.startup.StartupCommand;
 	import com.allofus.shared.logging.GetLogger;
 
 	import org.robotlegs.base.ContextEvent;
@@ -22,12 +30,23 @@ package
 		
 		override public function startup():void
 		{
-			//model
+			//MODEL & SERVICES
+			injector.mapSingleton(ApplicationStatusModel);
+			injector.mapSingleton(ConfigProxy);
+			injector.mapSingleton(InternetConnectionProxy);
 			
-			//view
+			//VIEW
+			mediatorMap.mapView(HolburneLearningZone, ApplicationMediator); //document class		
+			mediatorMap.createMediator(contextView); 						//create mediator for document class
+				
+			mediatorMap.mapView(SplashScreen, SplashScreenMediator);//600 x 350 ?
 			
 			//controller
-			commandMap.mapEvent(ContextEvent.STARTUP, PrepareFSMCommand);
+			commandMap.mapEvent(ApplicationStatusEvent.CHANGED, ApplicationStatusChanged);
+			commandMap.mapEvent(ContextEvent.STARTUP, StartupCommand);
+			
+			//kick it off!
+			dispatchEvent(new ContextEvent(ContextEvent.STARTUP));
 		}
 		
 		private static const logger:ILogger = GetLogger.qualifiedName( HolburneLearningZoneContext );
