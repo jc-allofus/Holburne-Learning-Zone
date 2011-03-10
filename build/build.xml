@@ -148,7 +148,7 @@
 		<antcall target="01. Clean" />
 		<!--<antcall target="02. Compile fonts" />-->
 		<antcall target="03. Copy Assets" />
-		<antcall target="04. Compile MXMLC" />
+		<antcall target="05. Compile BigSource Zarkov" />
 		<antcall target="07. Make certificate" />
 		<antcall target="08. Package air application" />
 		<antcall target="01a. Copy update.xml to deploy" />

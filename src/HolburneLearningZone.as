@@ -32,6 +32,7 @@ package
 		public var backgroundLayer:Sprite;
 		public var homepageLayer:Sprite;
 		public var chapterLayer:Sprite; 
+		public var frameBorderLayer:Sprite;
 		public var splashScreenLayer:Sprite;
 		public var debugLayer:Sprite;
 		
@@ -107,12 +108,14 @@ package
 			backgroundLayer = new Sprite();
 			homepageLayer = new Sprite();
 			chapterLayer = new Sprite();
+			frameBorderLayer = new Sprite();
 			splashScreenLayer = new Sprite();
 			debugLayer = new Sprite();
 			
 			addChild(backgroundLayer);
 			addChild(homepageLayer);
 			addChild(chapterLayer);
+			addChild(frameBorderLayer);
 			addChild(splashScreenLayer);
 			addChild(debugLayer);
 		}

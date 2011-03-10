@@ -1,27 +1,25 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="1920" height="1080" frameRate="31" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" viewAngle3D="122.353661987282" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
-     <folders>
-          <DOMFolderItem name="Home Pages" itemID="4d77b9bf-000003aa" isExpanded="true"/>
-     </folders>
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="1920" height="1080" frameRate="31" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" vanishingPoint3DX="960" vanishingPoint3DY="540" nextSceneIdentifier="3" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <media>
-          <DOMBitmapItem name="BackgroundTexture" itemID="4d79018f-000002c3" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.BackgroundTexture" sourceExternalFilepath="./LIBRARY/BackgroundTexture.jpg" sourceLastImported="1299775886" sourcePlatform="macintosh" externalFileSize="196117" quality="50" href="BackgroundTexture.jpg" bitmapDataHRef="M 14 1299684582.dat" frameRight="38400" frameBottom="21600" isJPEG="true"/>
-          <DOMBitmapItem name="Frame" itemID="4d79018e-000002c2" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.Frame" sourceExternalFilepath="./LIBRARY/Frame.png" sourceLastImported="1299684789" sourcePlatform="macintosh" externalFileSize="538067" originalCompressionType="lossless" quality="50" href="Frame.png" bitmapDataHRef="M 15 1299775684.dat" frameRight="38400" frameBottom="21600"/>
-          <DOMBitmapItem name="home_arrow-left-tap.png" itemID="4d77b4ca-0000035f" sourceExternalFilepath="./LIBRARY/home_arrow-left-tap.png" sourceLastImported="1299600386" sourcePlatform="macintosh" externalFileSize="6023" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="home_arrow-left-tap.png" bitmapDataHRef="M 2 1299684416.dat" frameRight="2700" frameBottom="2720"/>
-          <DOMBitmapItem name="home_arrow-left.png" itemID="4d77b4ca-00000360" sourceExternalFilepath="./LIBRARY/home_arrow-left.png" sourceLastImported="1299600372" sourcePlatform="macintosh" externalFileSize="6529" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="home_arrow-left.png" bitmapDataHRef="M 3 1299684416.dat" frameRight="2700" frameBottom="2720"/>
-          <DOMBitmapItem name="home_arrow-right_tap.png" itemID="4d77b4ca-00000361" sourceExternalFilepath="./LIBRARY/home_arrow-right_tap.png" sourceLastImported="1299600347" sourcePlatform="macintosh" externalFileSize="6010" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="home_arrow-right_tap.png" bitmapDataHRef="M 4 1299684417.dat" frameRight="2700" frameBottom="2720"/>
-          <DOMBitmapItem name="home_arrow-right.png" itemID="4d77b4ca-00000362" sourceExternalFilepath="./LIBRARY/home_arrow-right.png" sourceLastImported="1299600332" sourcePlatform="macintosh" externalFileSize="6457" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="home_arrow-right.png" bitmapDataHRef="M 5 1299684417.dat" frameRight="2700" frameBottom="2720"/>
-          <DOMBitmapItem name="home-tab_tap.png" itemID="4d77b4ca-00000363" sourceExternalFilepath="./LIBRARY/home-tab_tap.png" sourceLastImported="1299598268" sourcePlatform="macintosh" externalFileSize="10947" originalCompressionType="lossless" quality="50" href="home-tab_tap.png" bitmapDataHRef="M 6 1299684417.dat" frameRight="3600" frameBottom="2280"/>
-          <DOMBitmapItem name="home-tab.png" itemID="4d77b4ca-00000364" sourceExternalFilepath="./LIBRARY/home-tab.png" sourceLastImported="1299598178" sourcePlatform="macintosh" externalFileSize="11783" originalCompressionType="lossless" quality="50" href="home-tab.png" bitmapDataHRef="M 7 1299684417.dat" frameRight="3600" frameBottom="2280"/>
-          <DOMBitmapItem name="Home Pages/homepage_large.png" itemID="4d77bb91-000003b9" sourceExternalFilepath="./LIBRARY/Home Pages/homepage_large.png" sourceLastImported="1299692429" sourcePlatform="macintosh" externalFileSize="3923951" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Home Pages/homepage_large.png" bitmapDataHRef="M 8 1299684418.dat" frameRight="64020" frameBottom="36020"/>
-          <DOMBitmapItem name="homepage_large.png copy" itemID="4d77bb8f-000003b8" sourceExternalFilepath="./LIBRARY/homepage_large.png" sourceLastImported="1299670338" sourcePlatform="macintosh" externalFileSize="3923951" originalCompressionType="lossless" quality="50" href="homepage_large.png" bitmapDataHRef="M 15 1299691193.dat" frameRight="64020" frameBottom="36020"/>
-          <DOMBitmapItem name="homepage_small.png" itemID="4d77b4cd-00000366" sourceExternalFilepath="./LIBRARY/homepage_small.png" sourceLastImported="1299670377" sourcePlatform="macintosh" externalFileSize="1644035" originalCompressionType="lossless" quality="50" href="homepage_small.png" bitmapDataHRef="M 9 1299684423.dat" frameRight="38420" frameBottom="21620"/>
-          <DOMBitmapItem name="subsection_nav_panel.png" itemID="4d77b4cd-00000367" sourceExternalFilepath="./LIBRARY/subsection_nav_panel.png" sourceLastImported="1299598407" sourcePlatform="macintosh" externalFileSize="87256" originalCompressionType="lossless" quality="50" href="subsection_nav_panel.png" bitmapDataHRef="M 10 1299684425.dat" frameRight="6560" frameBottom="6900"/>
-          <DOMBitmapItem name="tab_-selected.png" itemID="4d77b4cd-00000368" sourceExternalFilepath="./LIBRARY/tab_-selected.png" sourceLastImported="1299597690" sourcePlatform="macintosh" externalFileSize="19598" originalCompressionType="lossless" quality="50" href="tab_-selected.png" bitmapDataHRef="M 11 1299684426.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
-          <DOMBitmapItem name="tab_non--selected.png" itemID="4d77b4cd-00000369" sourceExternalFilepath="./LIBRARY/tab_non--selected.png" sourceLastImported="1299597625" sourcePlatform="macintosh" externalFileSize="18033" originalCompressionType="lossless" quality="50" href="tab_non--selected.png" bitmapDataHRef="M 12 1299684426.dat" frameRight="6580" frameBottom="2280"/>
-          <DOMBitmapItem name="tab_tap.png" itemID="4d77b4cd-0000036a" sourceExternalFilepath="./LIBRARY/tab_tap.png" sourceLastImported="1299597976" sourcePlatform="macintosh" externalFileSize="18131" originalCompressionType="lossless" quality="50" href="tab_tap.png" bitmapDataHRef="M 13 1299684426.dat" frameRight="6580" frameBottom="2280"/>
+          <DOMCompiledClipItem name="InvisibleButton copy" itemID="4d77c4aa-0000067e" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.view.component.InvisibleButton" sourceLastImported="1299694712" sourcePlatform="macintosh" customIconID="0" actionscriptClass="com.allofus.holburne.learningzone.view.component.InvisibleButton" swfScmHRef="ETWHPHSYW7.swf" swfScmSourceFilename="/Users/jc/Library/Application Support/Adobe/Flash CS5/en_US/Configuration/TMPETWHPHSYW7..swf" persistLivePreview11="true" livePreview11ScmHRef="ETWHPHSYW71.swf" livePreview11ScmSourceFilename="/Users/jc/Library/Application Support/Adobe/Flash CS5/en_US/Configuration/TMPETWHOHSYW7..swf" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true" swcPath="InvisibleButton copy.xml" rootSymbolLinkageID="com.allofus.holburne.learningzone.view.component.InvisibleButton" movieRectRight="3000" movieRectBottom="3000" playerVersion="9" actionscriptVersion="3" hashKey="nQopU5zcwszMzjR/zNV8R.">
+               <classProperties><![CDATA[<component id="com/allofus/holburne/learningzone/view/component/InvisibleButton" class="com.allofus.holburne.learningzone.view.component.InvisibleButton" modified="1299694712054">
+<movieBounds xmin="0" xmax="3000" ymin="0" ymax="3000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="com.allofus.holburne.learningzone.view.component.InvisibleButton"/>
+</classDefs>
+<class id="com.allofus.holburne.learningzone.view.component.InvisibleButton" >
+	<method id="InvisibleButton" isConstructor="true" isProperty="false">
+	</method>
+</class></component>
+]]></classProperties>
+               <customIcon>
+                    <CustomIcon rowByteCount="72" colorDepth="32" width="18" height="18" frameRight="360" frameBottom="360" isTransparent="true" href="ETWHPHSYW72.dat"/>
+               </customIcon>
+               <SwcItem name="com.allofus.holburne.learningzone.view.component.InvisibleButton" version="1299694712" isTopLevel="true"/>
+          </DOMCompiledClipItem>
      </media>
      <symbols>
-          <Include href="Home Pages/HomePage1.xml"/>
-          <Include href="Home Pages/invisButton.xml" loadImmediate="false"/>
+          <Include href="InvisibleButton.xml"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -29,7 +27,19 @@
                     <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
-                                   <elements/>
+                                   <elements>
+                                        <DOMComponentInstance libraryItemName="InvisibleButton" name="" selected="true" centerPoint3DX="960.45" centerPoint3DY="540.45" uniqueID="1">
+                                             <matrix>
+                                                  <Matrix tx="885.45" ty="465.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="75" y="75"/>
+                                             </transformationPoint>
+                                             <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Scene 1' oldCopiedComponentPath='1'>
+</component>
+]]></dataBindingXML>
+                                        </DOMComponentInstance>
+                                   </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
@@ -339,21 +349,14 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="716965" publishTime="1299775893"/>
-          <PublishItem publishSize="620553" publishTime="1299772835"/>
-          <PublishItem publishSize="620524" publishTime="1299772652"/>
-          <PublishItem publishSize="620568" publishTime="1299771133"/>
-          <PublishItem publishSize="620567" publishTime="1299771046"/>
-          <PublishItem publishSize="620568" publishTime="1299770483"/>
-          <PublishItem publishSize="620491" publishTime="1299770400"/>
-          <PublishItem publishSize="620804" publishTime="1299769889"/>
-          <PublishItem publishSize="620794" publishTime="1299695151"/>
-          <PublishItem publishSize="620794" publishTime="1299695028"/>
-          <PublishItem publishSize="620786" publishTime="1299694521"/>
-          <PublishItem publishSize="620521" publishTime="1299692624"/>
-          <PublishItem publishSize="195086" publishTime="1299684651"/>
-          <PublishItem publishSize="908" publishTime="1299590257"/>
-          <PublishItem publishSize="514" publishTime="1299589993"/>
-          <PublishItem publishSize="514" publishTime="1299589978"/>
+          <PublishItem publishSize="2199" publishTime="1299694712"/>
      </publishHistory>
+     <swcCache>
+          <Swc hashKey="nQopU5zcwszMzjR/zNV8R." href="EVA7IHSYY0.swc">
+               <classDefinitions>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="com.allofus.holburne.learningzone.view.component.InvisibleButton"/>
+               </classDefinitions>
+          </Swc>
+     </swcCache>
 </DOMDocument>

@@ -20,23 +20,23 @@
     <pngDefaultName>1</pngDefaultName>
     <qtDefaultName>1</qtDefaultName>
     <rnwkDefaultName>1</rnwkDefaultName>
-    <flashFileName>../../lib/swc/GuiAssets.swf</flashFileName>
-    <projectorWinFileName>Gui Assets.exe</projectorWinFileName>
-    <projectorMacFileName>Gui Assets.app</projectorMacFileName>
-    <htmlFileName>Gui Assets.html</htmlFileName>
-    <gifFileName>Gui Assets.gif</gifFileName>
-    <jpegFileName>Gui Assets.jpg</jpegFileName>
-    <pngFileName>Gui Assets.png</pngFileName>
-    <qtFileName>Gui Assets.mov</qtFileName>
-    <rnwkFileName>Gui Assets.smil</rnwkFileName>
+    <flashFileName>../../lib/swcHomepage.swf</flashFileName>
+    <projectorWinFileName>Homepage.exe</projectorWinFileName>
+    <projectorMacFileName>Homepage.app</projectorMacFileName>
+    <htmlFileName>Homepage.html</htmlFileName>
+    <gifFileName>Homepage.gif</gifFileName>
+    <jpegFileName>Homepage.jpg</jpegFileName>
+    <pngFileName>Homepage.png</pngFileName>
+    <qtFileName>Homepage.mov</qtFileName>
+    <rnwkFileName>Homepage.smil</rnwkFileName>
   </PublishFormatProperties>
   <PublishHtmlProperties enabled="true">
     <VersionDetectionIfAvailable>0</VersionDetectionIfAvailable>
     <VersionInfo>10,1,52,0;9,0,124,0;8,0,24,0;7,0,14,0;6,0,79,0;5,0,58,0;4,0,32,0;3,0,8,0;2,0,1,12;1,0,0,1;</VersionInfo>
     <UsingDefaultContentFilename>1</UsingDefaultContentFilename>
     <UsingDefaultAlternateFilename>1</UsingDefaultAlternateFilename>
-    <ContentFilename>Gui Assets.xfl_content.html</ContentFilename>
-    <AlternateFilename>Gui Assets.xfl_alternate.html</AlternateFilename>
+    <ContentFilename>Homepage.xfl_content.html</ContentFilename>
+    <AlternateFilename>Homepage.xfl_alternate.html</AlternateFilename>
     <UsingOwnAlternateFile>0</UsingOwnAlternateFile>
     <OwnAlternateFilename></OwnAlternateFilename>
     <Width>1920</Width>
@@ -74,7 +74,7 @@
     <ActionScriptVersion>3</ActionScriptVersion>
     <PackageExportFrame>1</PackageExportFrame>
     <PackagePaths></PackagePaths>
-    <AS3PackagePaths>.;../../src</AS3PackagePaths>
+    <AS3PackagePaths>.</AS3PackagePaths>
     <AS3ConfigConst>CONFIG::FLASH_AUTHORING=&quot;true&quot;;</AS3ConfigConst>
     <DebuggingPermitted>0</DebuggingPermitted>
     <DebuggingPassword></DebuggingPassword>
@@ -94,7 +94,7 @@
     <ExportSwc>1</ExportSwc>
     <ScriptStuckDelay>15</ScriptStuckDelay>
     <IncludeXMP>1</IncludeXMP>
-    <HardwareAcceleration>2</HardwareAcceleration>
+    <HardwareAcceleration>0</HardwareAcceleration>
     <AS3Flags>4102</AS3Flags>
     <DefaultLibraryLinkage>rsl</DefaultLibraryLinkage>
     <RSLPreloaderMethod>wrap</RSLPreloaderMethod>
