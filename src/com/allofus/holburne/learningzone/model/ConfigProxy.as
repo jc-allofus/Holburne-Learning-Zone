@@ -1,6 +1,7 @@
 package com.allofus.holburne.learningzone.model
 {
 	import com.allofus.shared.logging.GetLogger;
+	import com.allofus.shared.text.FontManager;
 	import com.greensock.events.LoaderEvent;
 	import com.greensock.loading.CSSLoader;
 	import com.greensock.loading.LoaderMax;
@@ -12,6 +13,7 @@ package com.allofus.holburne.learningzone.model
 	import mx.logging.ILogger;
 
 	import flash.events.Event;
+	import flash.text.StyleSheet;
 
 	/**
 	 * @author jc
@@ -25,6 +27,8 @@ package com.allofus.holburne.learningzone.model
 		private static const LOADER_ID:String = "ConfigProxyLoader";
 		private static const FILE_ID:String = "configXML";
 		private static const ESTIMATED_BYTES:int = 1024;
+		
+		private static const CSS_ID:String = "locale-css"; //css loader id from <LoaderMax> node in config.xml
 		
 		protected var loader : LoaderMax;
 		
@@ -65,6 +69,10 @@ package com.allofus.holburne.learningzone.model
 		
 		protected function handleLoadConfigSuccess(event:LoaderEvent):void
 		{
+			//setup css
+			var css:StyleSheet = loader.getContent(CSS_ID) as StyleSheet;
+			if(css)FontManager.css = css;
+			
 			//config xml
 			var result:XML = loader.getContent(FILE_ID) as XML;
 			//ogger.debug("result: " + result);

@@ -32,7 +32,9 @@ package
 		public var backgroundLayer:Sprite;
 		public var homepageLayer:Sprite;
 		public var chapterLayer:Sprite; 
+		public var blankOutLayer:Sprite;
 		public var frameBorderLayer:Sprite;
+		public var chapterMenuLayer:Sprite;
 		public var splashScreenLayer:Sprite;
 		public var debugLayer:Sprite;
 		
@@ -51,7 +53,6 @@ package
 			initializeFileLogging();
 			testLogging();
 			createLayers();
-			createStats();
 			createContext();
 		}
 		
@@ -107,22 +108,21 @@ package
 		{
 			backgroundLayer = new Sprite();
 			homepageLayer = new Sprite();
+			blankOutLayer = new Sprite();
 			chapterLayer = new Sprite();
 			frameBorderLayer = new Sprite();
+			chapterMenuLayer = new Sprite();
 			splashScreenLayer = new Sprite();
 			debugLayer = new Sprite();
 			
 			addChild(backgroundLayer);
 			addChild(homepageLayer);
+			addChild(blankOutLayer);
 			addChild(chapterLayer);
 			addChild(frameBorderLayer);
+			addChild(chapterMenuLayer);
 			addChild(splashScreenLayer);
 			addChild(debugLayer);
-		}
-		
-		protected function createStats():void
-		{
-			debugLayer.addChild(new Stats());
 		}
 		
 		public function clearLayer(layer:Sprite):void

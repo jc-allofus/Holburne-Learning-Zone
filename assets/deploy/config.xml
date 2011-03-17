@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <HolburneLearningZone>
+	<LoaderMax name="locale-assets" load="true">
+        <CSSLoader url="assets/styles/defaultStyles.css" name="locale-css" estimatedBytes="500"/>
+        <SWFLoader url="assets/fonts/LearningZoneFonts.swf" name="locale-fonts" estimatedBytes="65000"  />
+    </LoaderMax>
 	<UpdateURL path="http://insert/update/url/here" />
 </HolburneLearningZone>

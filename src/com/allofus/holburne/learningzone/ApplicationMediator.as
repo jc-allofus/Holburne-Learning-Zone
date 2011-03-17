@@ -1,5 +1,7 @@
-package com.allofus.holburne.learningzone.view.mediator
+package com.allofus.holburne.learningzone
 {
+	import com.allofus.holburne.learningzone.events.DebugEvent;
+	import com.allofus.holburne.learningzone.events.UtilEvent;
 	import flash.display.StageDisplayState;
 	import com.allofus.shared.logging.GetLogger;
 
@@ -26,9 +28,17 @@ package com.allofus.holburne.learningzone.view.mediator
 		{
 			switch (event.keyCode)
 			{
+				case Keyboard.D:
+					dispatch(new DebugEvent(DebugEvent.TOGGLE));
+					break;
+				
 				case Keyboard.F:
 					toggleFullscreen();
 					break;
+					
+				case Keyboard.S:
+					//take screenshot
+					dispatch(new UtilEvent(UtilEvent.TAKE_SCREENSHOT));
 					
 				default:
 					break;

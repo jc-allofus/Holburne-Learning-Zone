@@ -1,12 +1,16 @@
 package com.allofus.holburne.learningzone.controller.startup
 {
-	import com.allofus.holburne.learningzone.view.frame.FrameVC;
+	import com.allofus.holburne.learningzone.view.debug.DebugVC;
 	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.controller.FSMConstants;
 	import com.allofus.holburne.learningzone.events.ApplicationStatusEvent;
 	import com.allofus.holburne.learningzone.view.background.BackgroundVC;
+	import com.allofus.holburne.learningzone.view.frame.BlankOutVC;
+	import com.allofus.holburne.learningzone.view.frame.FrameVC;
 	import com.allofus.holburne.learningzone.view.homepage.HomepageVC;
 	import com.allofus.shared.logging.GetLogger;
+	import com.greensock.plugins.TransformAroundCenterPlugin;
+	import com.greensock.plugins.TweenPlugin;
 
 	import org.robotlegs.mvcs.Command;
 	import org.robotlegs.utilities.statemachine.StateEvent;
@@ -25,6 +29,8 @@ package com.allofus.holburne.learningzone.controller.startup
 			logger.info("construct initial view");
 			dispatch(new ApplicationStatusEvent(ApplicationStatusEvent.CHANGED, "constructing views..."));
 			
+			TweenPlugin.activate([TransformAroundCenterPlugin]);
+			
 			var mainView:HolburneLearningZone = contextView as HolburneLearningZone;
 			
 			var sRect:Rectangle = new Rectangle(0,0,AppGlobals.APP_WIDTH, AppGlobals.APP_HEIGHT);
@@ -32,7 +38,9 @@ package com.allofus.holburne.learningzone.controller.startup
 			
 			mainView.backgroundLayer.addChild(new BackgroundVC());
 			mainView.homepageLayer.addChild(new HomepageVC());
+			mainView.blankOutLayer.addChild(new BlankOutVC());
 			mainView.frameBorderLayer.addChild(new FrameVC());
+			mainView.debugLayer.addChild(new DebugVC());
 			
 			mainView.backgroundLayer.mouseEnabled = mainView.frameBorderLayer.mouseEnabled = false;
 			mainView.backgroundLayer.mouseChildren = mainView.frameBorderLayer.mouseChildren = false;

@@ -1,12 +1,50 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="1920" height="1080" frameRate="31" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" viewAngle3D="122.353661987282" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
-     <symbols/>
+     <folders>
+          <DOMFolderItem name="Chapter 01" itemID="4d7deec7-0000026d" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 01/01.1 Introduction" itemID="4d7deee3-00000271" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 02" itemID="4d7fa2f8-00000279" isExpanded="true"/>
+          <DOMFolderItem name="Home Page" itemID="4d7e1060-000002c1" isExpanded="true"/>
+     </folders>
+     <media>
+          <DOMBitmapItem name="Chapter 01/01.1 Introduction/1_1.jpg" itemID="4d7df30d-0000027e" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter1.Chap1IntroImage" sourceExternalFilepath="./LIBRARY/Chapter 01/01.1 Introduction/1_1.jpg" sourceLastImported="1300185000" sourcePlatform="macintosh" externalFileSize="73214" quality="50" href="Chapter 01/01.1 Introduction/1_1.jpg" bitmapDataHRef="M 2 1300099811.dat" frameRight="12000" frameBottom="12480" isJPEG="true"/>
+          <DOMBitmapItem name="Chapter 02/2_1_large_no-boarder.png" itemID="4d7f9ee2-0000026d" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter2.Chap2IntroImage" sourceExternalFilepath="./LIBRARY/2_1_large_no-boarder.png" sourceLastImported="1300206916" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Chapter 02/2_1_large_no-boarder.png" bitmapDataHRef="M 4 1300208811.dat" frameRight="12520" frameBottom="9260"/>
+          <DOMBitmapItem name="Home Page/homepage_large.png" itemID="4d77bb91-000003b9" sourceExternalFilepath="./LIBRARY/Home Pages/homepage_large.png" sourceLastImported="1299692429" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Home Page/homepage_large.png" bitmapDataHRef="M 8 1299684418.dat" frameRight="64020" frameBottom="36020"/>
+          <DOMBitmapItem name="Chapter 01/01.1 Introduction/Reference shot" itemID="4d7e02fd-00000292" sourceExternalFilepath="../../../../../../Users/jc/Documents/HolburneLearningZoneScreenshots/Mon Mar 14 11/20/04 GMT+0000 2011.jpg" sourceLastImported="1300103933" sourcePlatform="macintosh" quality="50" href="Chapter 01/01.jpg" bitmapDataHRef="M 3 1300101662.dat" frameRight="38400" frameBottom="21600" isJPEG="true"/>
+     </media>
+     <symbols>
+          <Include href="Home Page/HomePage1.xml"/>
+          <Include href="Home Page/invisButton.xml" loadImmediate="false"/>
+          <Include href="sample.xml" loadImmediate="false"/>
+     </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
-                    <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+                    <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="Chapter 01/01.1 Introduction/1_1.jpg">
+                                             <matrix>
+                                                  <Matrix tx="211" ty="144"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 1" color="#4FFF4F" locked="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="Chapter 01/01.1 Introduction/Reference shot"/>
+                                   </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
@@ -316,6 +354,14 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="731587" publishTime="1300210508"/>
+          <PublishItem publishSize="731574" publishTime="1300210441"/>
+          <PublishItem publishSize="731608" publishTime="1300210314"/>
+          <PublishItem publishSize="655387" publishTime="1300122818"/>
+          <PublishItem publishSize="655378" publishTime="1300121821"/>
+          <PublishItem publishSize="655172" publishTime="1300108745"/>
+          <PublishItem publishSize="655172" publishTime="1300108680"/>
+          <PublishItem publishSize="655166" publishTime="1300107380"/>
           <PublishItem publishSize="908" publishTime="1299590257"/>
           <PublishItem publishSize="514" publishTime="1299589993"/>
           <PublishItem publishSize="514" publishTime="1299589978"/>

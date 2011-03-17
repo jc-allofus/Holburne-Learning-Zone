@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<library name="EmbedCodes" output="lib/font" format="2">
+	<font id="BaskervilleGreekItalic" family="Arial" style="0" cs="0" type="1" path="/env/workspace_fdt/HolburneLearningZone/lib/font/Baskerville Greek Italic.ttf" ascff="false"/>
+	<font id="BaskervilleGreek" family="Arial" style="0" cs="0" type="1" path="/env/workspace_fdt/HolburneLearningZone/lib/font/Baskerville Greek.ttf" ascff="false"/>
+</library>

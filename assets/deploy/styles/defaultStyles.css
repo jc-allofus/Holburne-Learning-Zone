@@ -1,0 +1,23 @@
+p{
+	font-family:BaskervilleGreek;
+	font-color:#80816d;
+	font-size: 18px;
+}
+
+.title{
+	font-size: 24px;
+	color:#b00404;
+}
+
+.imageCaption{
+	font-size: 14px;
+}
+
+.imageCaptionItalic{
+	font-family:BaskervilleGreekItalic;
+	font-size: 14px;
+}
+
+.buttonLabel{
+	color:#80816d;
+}
