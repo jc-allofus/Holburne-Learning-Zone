@@ -1,5 +1,6 @@
 package com.allofus.holburne.learningzone.view.menu
 {
+	import com.allofus.holburne.learningzone.model.vo.MenuButtonVO;
 	import com.allofus.holburne.learningzone.events.ChapterMenuEvent;
 	import com.allofus.shared.logging.GetLogger;
 
@@ -18,13 +19,23 @@ package com.allofus.holburne.learningzone.view.menu
 		
 		override public function onRegister():void
 		{
-			eventMap.mapListener(eventDispatcher, ChapterMenuEvent.ITEM_SELECTED, handleItemSelected);
+			eventMap.mapListener(eventDispatcher, ChapterMenuEvent.ADD_MENU_ITEMS, handleAddItems);
+			eventMap.mapListener(view, ChapterMenuEvent.ITEM_SELECTED, relayToSystem);
 			eventMap.mapListener(view, Event.CLOSE, handleCloseClicked);
 		}
 		
-		protected function handleItemSelected(event:ChapterMenuEvent):void
+		protected function relayToSystem(event:ChapterMenuEvent):void
 		{
-			logger.fatal("AIIIIIIIIII I SEEEEEEEE IT!!!!");
+			dispatch(event);
+		}
+		
+		protected function handleAddItems(event:ChapterMenuEvent):void
+		{
+			var itemVOs:Vector.<MenuButtonVO> = event.menuItems;
+			if(itemVOs && itemVOs.length > 1)
+			{
+				view.addItems(itemVOs);
+			}
 		}
 		
 		protected function handleCloseClicked(e:Event):void

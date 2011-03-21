@@ -1,5 +1,7 @@
 package
 {
+	import com.allofus.holburne.learningzone.view.menu.MenuPanelVCMediator;
+	import com.allofus.holburne.learningzone.view.menu.MenuPanelVC;
 	import com.allofus.holburne.learningzone.controller.CleanupChaptersCommand;
 	import com.allofus.holburne.learningzone.model.Chapter1Model;
 	import com.allofus.holburne.learningzone.ApplicationMediator;
@@ -65,6 +67,7 @@ package
 			mediatorMap.mapView(HomepageVC, HomePage1Mediator);
 			mediatorMap.mapView(Chapter01, Chapter01Mediator, AbstractChapterView);
 			mediatorMap.mapView(ChapterMenu, ChapterMenuMediator);
+			mediatorMap.mapView(MenuPanelVC, MenuPanelVCMediator);
 			
 			//CONTROLLER
 			commandMap.mapEvent(ContextEvent.STARTUP, StartupCommand);

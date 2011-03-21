@@ -1,5 +1,6 @@
 package com.allofus.holburne.learningzone.view.component
 {
+	import flash.text.TextFormatAlign;
 	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.guiassets.TextPanelDecoration;
 	import com.allofus.shared.text.FontManager;
@@ -43,7 +44,7 @@ package com.allofus.holburne.learningzone.view.component
 			addChild(_titleField);
 			
 			var bw:Number = width - (BORDER_SIZE * 2);
-			_bodyField = FontManager.createTextField(body,bw,0,true);
+			_bodyField = FontManager.createTextField(body,bw,0,true,TextFormatAlign.JUSTIFY);
 			_bodyField.x = BORDER_SIZE;
 			PositionUtil.positionUnder(_bodyField, _titleField, HEADER_GAP);
 			addChild(_bodyField);	

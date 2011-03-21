@@ -16,7 +16,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 		override public function onRegister():void
 		{
 			super.onRegister();
-			dispatch(new ChapterMenuEvent(ChapterMenuEvent.ADD_MENU_ITEMS, model.menuItems));	
+			dispatch(new ChapterMenuEvent(ChapterMenuEvent.ADD_MENU_ITEMS, null, model.menuItems));	
 		}
 		
 	}

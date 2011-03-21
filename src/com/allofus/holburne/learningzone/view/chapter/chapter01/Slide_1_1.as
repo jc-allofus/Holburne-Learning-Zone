@@ -41,9 +41,9 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			
 			var title:String ="INTRODUCTION";
 			var description:String = 
-				"<p>This life-size view of a wealthy English family enjoying the countryside is one of the most ambitions paintings made during Thomas Gainsborough's sixteen years in Bath.  From 1759 to 1774 he rented one of the most expensive houses in the town, right opposite the Abbey and next to the Pump Room.  In had a spacious studio where visitors to the Spa could come to be recorded in their fashionable finery.</p>"
-			+	"<p>&npsp;</p>"
-			+	"<p>George Byam, a plantation owner from Antigua, paid 100 guineas (over eight month's rent for the artist) for this portrait of himself and his new wife.  Gainsborough added their daughter Selina to the composition a few years later.  At the same time, Byam treated his wife to a re-painting of her dress from its original pink to a more up-to-date shade of blue.</p>";
+				"<p class='justified'>This life-size view of a wealthy English family enjoying the countryside is one of the most ambitions paintings made during Thomas Gainsborough's sixteen years in Bath.  From 1759 to 1774 he rented one of the most expensive houses in the town, right opposite the Abbey and next to the Pump Room.  In had a spacious studio where visitors to the Spa could come to be recorded in their fashionable finery.</p>"
+			+	"<p></p>"
+			+	"<p class='justified'>George Byam, a plantation owner from Antigua, paid 100 guineas (over eight month's rent for the artist) for this portrait of himself and his new wife.  Gainsborough added their daughter Selina to the composition a few years later.  At the same time, Byam treated his wife to a re-painting of her dress from its original pink to a more up-to-date shade of blue.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
 			addChild(text);
 			

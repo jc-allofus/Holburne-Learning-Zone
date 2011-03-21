@@ -1,6 +1,5 @@
 package com.allofus.shared.util
 {
-	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
 	import com.allofus.holburne.learningzone.AppGlobals;
 
 	import flash.display.DisplayObject;
@@ -15,9 +14,19 @@ package com.allofus.shared.util
 			thisObject.x = Math.round((relativeTo.x + (relativeTo.width * 0.5)) - (thisObject.width * 0.5));
 		}
 		
+		public static function centerHorizontallyByVal(thisObject:DisplayObject, val:Number):void
+		{
+			thisObject.x = Math.round((val * 0.5) - (thisObject.width * 0.5));
+		}
+		
 		public static function centerVertically(thisObject:DisplayObject, relativeTo:DisplayObject):void
 		{
 			thisObject.y = Math.round((relativeTo.y + (relativeTo.height * 0.5)) - (thisObject.height * 0.5));
+		}
+		
+		public static function centerVerticallyByVal(thisObject:DisplayObject, val:Number):void
+		{
+			thisObject.x = Math.round((val * 0.5) - (thisObject.height * 0.5));
 		}
 		
 		public static function positionUnder(thisObject:DisplayObject, underThisOne:DisplayObject, distance:Number = 0):void

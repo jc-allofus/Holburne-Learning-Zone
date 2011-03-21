@@ -1,5 +1,6 @@
 package com.allofus.shared.text 
 {
+	import flash.text.TextFormat;
 	import com.allofus.shared.logging.GetLogger;
 	import com.allofus.shared.util.DrawUtils;
 
@@ -42,7 +43,7 @@ package com.allofus.shared.text
 			return holder;
 		}
 		
-		public static function createTextField(str : String, width:int = 400, height:int = 0, multiline:Boolean = false) : TextField
+		public static function createTextField(str : String, width:int = 400, height:int = 0, multiline:Boolean = false, justify:String = null) : TextField
 		{
 			var field : TextField = new TextField();
 			field.antiAliasType = AntiAliasType.ADVANCED;
@@ -60,12 +61,19 @@ package com.allofus.shared.text
 			{
 				field.autoSize = TextFieldAutoSize.LEFT;
 			}
+			
+			if(justify)
+			{
+				var fmt:TextFormat = field.getTextFormat();
+				fmt.align = justify;
+			}
 			field.width = width;
 			field.height = height;
 			
 			field.styleSheet = cssStyle;
 			field.embedFonts = true;
 			field.border = true;
+			field.selectable = false;
 			field.htmlText = str;
 			return field;
 		}
@@ -93,7 +101,8 @@ package com.allofus.shared.text
 			
 			field.styleSheet = cssStyle;
 			field.embedFonts = true;
-//			field.border = true;
+			field.border = true;
+			field.selectable = selectable;
 			field.htmlText = "<p class='" + style + "'>" + label + "</p>";
 			return field;	
 		}

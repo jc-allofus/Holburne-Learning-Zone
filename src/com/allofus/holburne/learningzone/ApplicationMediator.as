@@ -2,13 +2,14 @@ package com.allofus.holburne.learningzone
 {
 	import com.allofus.holburne.learningzone.events.DebugEvent;
 	import com.allofus.holburne.learningzone.events.UtilEvent;
-	import flash.display.StageDisplayState;
 	import com.allofus.shared.logging.GetLogger;
 
 	import org.robotlegs.mvcs.Mediator;
 
 	import mx.logging.ILogger;
 
+	import flash.display.StageDisplayState;
+	import flash.events.Event;
 	import flash.events.KeyboardEvent;
 	import flash.ui.Keyboard;
 
@@ -35,6 +36,9 @@ package com.allofus.holburne.learningzone
 				case Keyboard.F:
 					toggleFullscreen();
 					break;
+					
+				case Keyboard.C:
+					dispatch(new Event(Event.CLEAR));
 					
 				case Keyboard.S:
 					//take screenshot

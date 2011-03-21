@@ -18,6 +18,10 @@ p{
 	font-size: 14px;
 }
 
+.justified{
+	text-align:justify;	
+}
+
 .buttonLabel{
 	color:#80816d;
 }

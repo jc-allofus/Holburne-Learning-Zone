@@ -18,7 +18,12 @@ package com.allofus.holburne.learningzone.model
 			
 			_menuVOs.push
 			(
-				new MenuButtonVO({label:"<p class='buttonLabel'>Thomas Gainsborough</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"1_2_1"})
+				new MenuButtonVO({label:"<p class='buttonLabel'>Thomas Gainsborough</p>", subMenuButtons:new <MenuButtonVO>[
+					new MenuButtonVO({label:"<p class='buttonLabel'>The Artist</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"1_2_1"}),
+					new MenuButtonVO({label:"<p class='buttonLabel'>Other Work</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"1_2_2"}),
+					new MenuButtonVO({label:"<p class='buttonLabel'>Where He Lived</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"1_2_3"}),
+					new MenuButtonVO({label:"<p class='buttonLabel'>Photo of Model</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"1_2_3"})
+					]})
 			);
 			
 			_menuVOs.push
