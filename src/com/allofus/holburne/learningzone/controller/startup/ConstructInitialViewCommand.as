@@ -1,5 +1,9 @@
 package com.allofus.holburne.learningzone.controller.startup
 {
+	import com.greensock.plugins.ColorTransformPlugin;
+	import com.greensock.plugins.TintPlugin;
+	import flash.filters.ColorMatrixFilter;
+	import com.greensock.plugins.EndArrayPlugin;
 	import com.allofus.holburne.learningzone.view.debug.DebugVC;
 	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.controller.FSMConstants;
@@ -29,7 +33,7 @@ package com.allofus.holburne.learningzone.controller.startup
 			logger.info("construct initial view");
 			dispatch(new ApplicationStatusEvent(ApplicationStatusEvent.CHANGED, "constructing views..."));
 			
-			TweenPlugin.activate([TransformAroundCenterPlugin]);
+			TweenPlugin.activate([TintPlugin, ColorTransformPlugin, EndArrayPlugin, ColorMatrixFilter, TransformAroundCenterPlugin]);
 			
 			var mainView:HolburneLearningZone = contextView as HolburneLearningZone;
 			
@@ -42,8 +46,8 @@ package com.allofus.holburne.learningzone.controller.startup
 			mainView.frameBorderLayer.addChild(new FrameVC());
 			mainView.debugLayer.addChild(new DebugVC());
 			
-			mainView.backgroundLayer.mouseEnabled = mainView.frameBorderLayer.mouseEnabled = false;
-			mainView.backgroundLayer.mouseChildren = mainView.frameBorderLayer.mouseChildren = false;
+			mainView.debugLayer.mouseEnabled = mainView.backgroundLayer.mouseEnabled = mainView.frameBorderLayer.mouseEnabled = false;
+			mainView.debugLayer.mouseChildren = mainView.backgroundLayer.mouseChildren = mainView.frameBorderLayer.mouseChildren = false;
 						
 			dispatch(new StateEvent(StateEvent.ACTION, FSMConstants.CONSTRUCTING_VIEW_COMPLETE));
 		}

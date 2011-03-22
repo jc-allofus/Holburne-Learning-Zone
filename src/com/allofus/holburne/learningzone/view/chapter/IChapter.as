@@ -5,7 +5,6 @@ package com.allofus.holburne.learningzone.view.chapter
 	 */
 	public interface IChapter
 	{
-		function transitionIn():void
 		function close():void
 		function dispose():void
 	}

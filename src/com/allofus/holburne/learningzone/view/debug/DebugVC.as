@@ -21,6 +21,9 @@ package com.allofus.holburne.learningzone.view.debug
 			
 			addChild(new Stats());
 			
+			mouseEnabled = false;
+			mouseChildren = false;
+			
 			//draw rect for "main content frame"
 			//frame for where zoomed images should end up for visual reference, this should be turned off later
 			leftContentFrame = new Shape();

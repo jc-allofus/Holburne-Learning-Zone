@@ -1,5 +1,6 @@
 package com.allofus.holburne.learningzone.view.component
 {
+	import flash.filters.GlowFilter;
 	import flash.text.TextFormatAlign;
 	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.guiassets.TextPanelDecoration;
@@ -54,13 +55,18 @@ package com.allofus.holburne.learningzone.view.component
 			background.graphics.beginFill(0xFFFFFF);
 			background.graphics.drawRect(0, 0, width, th);
 			
+			//{color:0x333333, alpha:1, blurX:12, blurY:12, strength:1, inner:false, knockout:false, quality:1}
+			var gf:GlowFilter = new GlowFilter(0, 1,12,12,1);
+			
+			filters = [gf];
+			
 			PositionUtil.centerHorizontally(decoration, this );
 			PositionUtil.centerHorizontally(_titleField, this);
 		}
 		
 		public function transitionIn(delay:Number = 0):void
 		{
-			TweenMax.to(this, AppGlobals.FADE_DURATION, {ease:AppGlobals.FADE_EASE, autoAlpha:1, glowFilter:AppGlobals.GLOW_ON, delay:delay});
+			//TweenMax.to(this, AppGlobals.FADE_DURATION, {ease:AppGlobals.FADE_EASE, autoAlpha:1, glowFilter:AppGlobals.GLOW_ON, delay:delay});
 		}
 	}
 }

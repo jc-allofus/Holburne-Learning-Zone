@@ -16,14 +16,13 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 	/**
 	 * @author jc
 	 */
-	public class Slide_1_1 extends AbstractSlide
+	public class Slide_1_1VC extends AbstractSlide
 	{
 		protected var img:ImageWithBorderAndCaption;
 		protected var text:TextBoxWithTitleAndDescription;
 		
-		protected var transition:TimelineMax;
 		
-		public function Slide_1_1()
+		public function Slide_1_1VC()
 		{
 			var caption:String = 
 				"<p class='imageCaptionItalic'>The Byam Family</p>"
@@ -56,9 +55,19 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 		
 		override public function transitionIn():void
 		{
-			img.transitionIn();
+			img.alpha = text.alpha = 0;
+			staggerItemsIn([img,text]);
+		}
+		
+		override protected function staggerInComplete():void
+		{
 			img.showCaption();
-			text.transitionIn(0.25);
+		}
+		
+		override public function transitionInFromHomeScreen():void
+		{
+			img.showCaption();
+			staggerItemsIn([img,text]);
 		}
 		
 		override public function transitionOut():void

@@ -22,16 +22,13 @@ package com.allofus.holburne.learningzone.view.menu
 		
 		protected function mainMenuButtonSelected(event:ChapterMenuEvent):void
 		{
-			logger.fatal("i see one of the buttons was clicked." + event.currentTarget);
 			if(event.selectedVO == view.triggeredBy)
 			{
-				logger.fatal("i should open, its my due");
 				view.open();
 			}
 			else
 			{
 				view.close();
-				logger.fatal("close");
 			}
 		}
 		

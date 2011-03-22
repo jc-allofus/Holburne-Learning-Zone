@@ -77,7 +77,6 @@ package com.allofus.holburne.learningzone.view.menu
 			var firstItem:MenuButton = sectionButtonDOs[0];
 			firstItem.selected = true;
 			currentSelected = firstItem;
-			dispatchEvent(new ChapterMenuEvent(ChapterMenuEvent.ITEM_SELECTED, firstItem.vo));
 		}
 		
 		public function transitionIn(delay:Number = 0.5):void

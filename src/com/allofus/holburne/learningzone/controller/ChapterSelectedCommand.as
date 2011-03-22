@@ -37,6 +37,7 @@ package com.allofus.holburne.learningzone.controller
 			{
 				mainView.chapterMenuLayer.addChild(new ChapterMenu());
 				mainView.chapterLayer.addChild(chapter as AbstractChapterView);
+				chapter.showFirstSlide();
 			}
 			else
 			{

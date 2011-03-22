@@ -12,6 +12,7 @@ package com.allofus.holburne.learningzone.view.component
 	import flash.display.Bitmap;
 	import flash.display.Shape;
 	import flash.display.Sprite;
+	import flash.filters.GlowFilter;
 	import flash.text.TextField;
 
 	/**
@@ -47,6 +48,10 @@ package com.allofus.holburne.learningzone.view.component
 			_captionLabel.y = this.img.y + this.img.height + BORDER_SIZE;
 			_captionLabel.visible = false;
 			_captionLabel.alpha = 0;
+			
+			var gf:GlowFilter = new GlowFilter(0, 1,12,12,1);
+			
+			filters = [gf];
 			
 			addChild(border);
 			addChild(img);

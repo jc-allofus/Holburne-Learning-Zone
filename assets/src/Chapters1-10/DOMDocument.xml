@@ -1,17 +1,65 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="1920" height="1080" frameRate="31" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" viewAngle3D="122.353661987282" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="Chapter 01" itemID="4d7deec7-0000026d" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 01/01.1 Introduction" itemID="4d7deee3-00000271" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 02" itemID="4d7fa2f8-00000279" isExpanded="true"/>
-          <DOMFolderItem name="Home Page" itemID="4d7e1060-000002c1" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 01/01.1 Introduction" itemID="4d7deee3-00000271"/>
+          <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough" itemID="4d8769c7-00000267" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.1" itemID="4d88a061-00000268"/>
+          <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2" itemID="4d88a081-0000026e" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp" itemID="4d88b84b-000002fd" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/full" itemID="4d88c478-000003f7"/>
+          <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/thumbs" itemID="4d88c46c-000003f3"/>
+          <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.3" itemID="4d88a094-00000272"/>
+          <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.4" itemID="4d88a09b-00000276"/>
+          <DOMFolderItem name="Chapter 01/01.3 Thomas Gainsborough" itemID="4d88a1b4-000002a9"/>
+          <DOMFolderItem name="Chapter 01/01.4 The Painting" itemID="4d88a236-000002ad"/>
+          <DOMFolderItem name="Chapter 01/01.4 The Painting/01.4.1" itemID="4d88a280-000002bf"/>
+          <DOMFolderItem name="Chapter 01/01.4 The Painting/01.4.2" itemID="4d88a28c-000002c4"/>
+          <DOMFolderItem name="Chapter 01/01.4 The Painting/01.4.3" itemID="4d88a292-000002c8"/>
+          <DOMFolderItem name="Chapter 02" itemID="4d7fa2f8-00000279"/>
+          <DOMFolderItem name="Home Page" itemID="4d7e1060-000002c1"/>
      </folders>
      <media>
-          <DOMBitmapItem name="Chapter 01/01.1 Introduction/1_1.jpg" itemID="4d7df30d-0000027e" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter1.Chap1IntroImage" sourceExternalFilepath="./LIBRARY/Chapter 01/01.1 Introduction/1_1.jpg" sourceLastImported="1300185000" sourcePlatform="macintosh" externalFileSize="73214" quality="50" href="Chapter 01/01.1 Introduction/1_1.jpg" bitmapDataHRef="M 2 1300099811.dat" frameRight="12000" frameBottom="12480" isJPEG="true"/>
+          <DOMBitmapItem name="Chapter 01/01.1 Introduction/1_1.jpg" itemID="4d7df30d-0000027e" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter1.Chap1IntroImage" sourceExternalFilepath="./LIBRARY/Chapter 01/01.1 Introduction/1_1.jpg" sourceLastImported="1300719963" sourcePlatform="macintosh" externalFileSize="73214" quality="50" href="Chapter 01/01.1 Introduction/1_1.jpg" bitmapDataHRef="M 2 1300099811.dat" frameRight="12000" frameBottom="12480" isJPEG="true"/>
+          <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.1/1_2_1_large.png" itemID="4d88a0a5-00000277" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.1/1_2_1_large.png" sourceLastImported="1300799653" sourcePlatform="macintosh" externalFileSize="431547" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.1/1_2_1_large.png" bitmapDataHRef="M 5 1300720324.dat" frameRight="9920" frameBottom="14700"/>
+          <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_10_large.png" itemID="4d88baf5-000003d3" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Img_1_2_2_10" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_10_large.png" sourceLastImported="1299679992" sourcePlatform="macintosh" externalFileSize="586039" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_10_large.png" bitmapDataHRef="M 21 1300805838.dat" frameRight="14120" frameBottom="11740"/>
+          <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_10_small.png" itemID="4d88ba1d-00000398" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_10_small.png" sourceLastImported="1299679938" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_10_small.png" bitmapDataHRef="M 22 1300805839.dat" frameRight="4240" frameBottom="3160"/>
+          <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_2_large.png" itemID="4d88baf6-000003d4" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Img_1_2_2_2" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_2_large.png" sourceLastImported="1299673112" sourcePlatform="macintosh" externalFileSize="406191" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_2_large.png" bitmapDataHRef="M 7 1300805794.dat" frameRight="8940" frameBottom="14680"/>
+          <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_2_small.png" itemID="4d88ba38-000003ac" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_2_small.png" sourceLastImported="1299673014" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_2_small.png" bitmapDataHRef="M 8 1300805794.dat" frameRight="2680" frameBottom="4040"/>
+          <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_3_large.png" itemID="4d88baf6-000003d5" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Img_1_2_2_3" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_3_large.png" sourceLastImported="1299673310" sourcePlatform="macintosh" externalFileSize="554409" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_3_large.png" bitmapDataHRef="M 9 1300805795.dat" frameRight="11700" frameBottom="14680"/>
+          <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_3_small.png" itemID="4d88ba4b-000003b6" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_3_small.png" sourceLastImported="1299673521" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_3_small.png" bitmapDataHRef="M 10 1300805796.dat" frameRight="3520" frameBottom="4040"/>
+          <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_4_large.png" itemID="4d88baf6-000003d6" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Img_1_2_2_4" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_4_large.png" sourceLastImported="1299673698" sourcePlatform="macintosh" externalFileSize="431639" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_4_large.png" bitmapDataHRef="M 11 1300805797.dat" frameRight="9260" frameBottom="14680"/>
+          <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_4_small.png" itemID="4d88ba5f-000003c0" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_4_small.png" sourceLastImported="1299673644" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_4_small.png" bitmapDataHRef="M 12 1300805797.dat" frameRight="2780" frameBottom="4040"/>
+          <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_5_large.png" itemID="4d88baf7-000003d7" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Img_1_2_2_5" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_5_large.png" sourceLastImported="1299674161" sourcePlatform="macintosh" externalFileSize="609023" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_5_large.png" bitmapDataHRef="M 13 1300805799.dat" frameRight="14120" frameBottom="11100"/>
+          <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_5_small.png" itemID="4d88baf7-000003d8" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_5_small.png" sourceLastImported="1299674100" sourcePlatform="macintosh" externalFileSize="62427" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_5_small.png" bitmapDataHRef="M 14 1300805800.dat" frameRight="4240" frameBottom="2980"/>
+          <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_6_large.png" itemID="4d88baf7-000003d9" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Img_1_2_2_6" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_6_large.png" sourceLastImported="1299674583" sourcePlatform="macintosh" externalFileSize="584910" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_6_large.png" bitmapDataHRef="M 15 1300805801.dat" frameRight="11320" frameBottom="14680"/>
+          <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_6_small.png" itemID="4d88baf7-000003da" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_6_small.png" sourceLastImported="1299674520" sourcePlatform="macintosh" externalFileSize="56799" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_6_small.png" bitmapDataHRef="M 16 1300805804.dat" frameRight="3400" frameBottom="4040"/>
+          <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_7_large.png" itemID="4d88baf7-000003db" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Img_1_2_2_7" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_7_large.png" sourceLastImported="1299678900" sourcePlatform="macintosh" externalFileSize="477659" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_7_large.png" bitmapDataHRef="M 17 1300805806.dat" frameRight="10920" frameBottom="14680"/>
+          <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_7_small.png" itemID="4d88ba2d-000003a2" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_7_small.png" sourceLastImported="1299678475" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_7_small.png" bitmapDataHRef="M 18 1300805832.dat" frameRight="3280" frameBottom="4040"/>
+          <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_9_large.png" itemID="4d88baf7-000003dc" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Img_1_2_2_9" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_9_large.png" sourceLastImported="1299679210" sourcePlatform="macintosh" externalFileSize="555172" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_9_large.png" bitmapDataHRef="M 19 1300805833.dat" frameRight="11040" frameBottom="14680"/>
+          <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_9_small.png" itemID="4d88ba69-000003ca" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_9_small.png" sourceLastImported="1299679158" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_9_small.png" bitmapDataHRef="M 20 1300805835.dat" frameRight="3320" frameBottom="4040"/>
           <DOMBitmapItem name="Chapter 02/2_1_large_no-boarder.png" itemID="4d7f9ee2-0000026d" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter2.Chap2IntroImage" sourceExternalFilepath="./LIBRARY/2_1_large_no-boarder.png" sourceLastImported="1300206916" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Chapter 02/2_1_large_no-boarder.png" bitmapDataHRef="M 4 1300208811.dat" frameRight="12520" frameBottom="9260"/>
           <DOMBitmapItem name="Home Page/homepage_large.png" itemID="4d77bb91-000003b9" sourceExternalFilepath="./LIBRARY/Home Pages/homepage_large.png" sourceLastImported="1299692429" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Home Page/homepage_large.png" bitmapDataHRef="M 8 1299684418.dat" frameRight="64020" frameBottom="36020"/>
-          <DOMBitmapItem name="Chapter 01/01.1 Introduction/Reference shot" itemID="4d7e02fd-00000292" sourceExternalFilepath="../../../../../../Users/jc/Documents/HolburneLearningZoneScreenshots/Mon Mar 14 11/20/04 GMT+0000 2011.jpg" sourceLastImported="1300103933" sourcePlatform="macintosh" quality="50" href="Chapter 01/01.jpg" bitmapDataHRef="M 3 1300101662.dat" frameRight="38400" frameBottom="21600" isJPEG="true"/>
+          <DOMBitmapItem name="Mon Mar 21 151357 GMT+0000 2011.png" itemID="4d88baf7-000003dd" sourceExternalFilepath="./LIBRARY/Mon Mar 21 15&amp;#5813&amp;#5857 GMT+0000 2011.jpg" sourceLastImported="1300805042" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Mon Mar 21 151357 GMT+0000 2011.jpg" bitmapDataHRef="M 6 1300720603.dat" frameRight="38400" frameBottom="21600"/>
      </media>
      <symbols>
+          <Include href="Chapter 01/01.2 Thomas Gainsborough/01.2.1/Main Image 1_2_1.xml" loadImmediate="false"/>
+          <Include href="Chapter 01/01.2 Thomas Gainsborough/01.2.1/Slide_1_2_1.xml"/>
+          <Include href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/Slide_1_2_2.xml"/>
+          <Include href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/thumbs/Thumb_1_2_2_2.xml" loadImmediate="false"/>
+          <Include href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/thumbs/Thumb_1_2_2_3.xml" loadImmediate="false"/>
+          <Include href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/thumbs/Thumb_1_2_2_4.xml" loadImmediate="false"/>
+          <Include href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/thumbs/Thumb_1_2_2_5.xml" loadImmediate="false"/>
+          <Include href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/thumbs/Thumb_1_2_2_6.xml" loadImmediate="false"/>
+          <Include href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/thumbs/Thumb_1_2_2_7.xml" loadImmediate="false"/>
+          <Include href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/thumbs/Thumb_1_2_2_9.xml" loadImmediate="false"/>
+          <Include href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/thumbs/Thumb_1_2_2_10.xml" loadImmediate="false"/>
+          <Include href="Chapter 01/01.2 Thomas Gainsborough/01.2.3/Slide_1_2_3.xml"/>
+          <Include href="Chapter 01/01.2 Thomas Gainsborough/01.2.4/Slide_1_2_4.xml"/>
+          <Include href="Chapter 01/01.3 Thomas Gainsborough/Slide_1_3_1.xml"/>
+          <Include href="Chapter 01/01.4 The Painting/01.4.1/Slide_1_4_1.xml"/>
+          <Include href="Chapter 01/01.4 The Painting/01.4.2/Slide_1_4_2.xml"/>
+          <Include href="Chapter 01/01.4 The Painting/01.4.3/Slide_1_4_3.xml"/>
+          <Include href="Chapter 01/Chapter 1 stage reference.xml" loadImmediate="false"/>
           <Include href="Home Page/HomePage1.xml"/>
           <Include href="Home Page/invisButton.xml" loadImmediate="false"/>
           <Include href="sample.xml" loadImmediate="false"/>
@@ -19,32 +67,10 @@
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
-                    <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
+                    <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="Layer 2" color="#9933CC" locked="true">
-                         <frames>
-                              <DOMFrame index="0" keyMode="9728">
-                                   <elements>
-                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="Chapter 01/01.1 Introduction/1_1.jpg">
-                                             <matrix>
-                                                  <Matrix tx="211" ty="144"/>
-                                             </matrix>
-                                        </DOMBitmapInstance>
-                                   </elements>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="Layer 1" color="#4FFF4F" locked="true">
-                         <frames>
-                              <DOMFrame index="0" keyMode="9728">
-                                   <elements>
-                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="Chapter 01/01.1 Introduction/Reference shot"/>
-                                   </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
@@ -354,6 +380,13 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="1142861" publishTime="1300814237"/>
+          <PublishItem publishSize="1142873" publishTime="1300814221"/>
+          <PublishItem publishSize="1142875" publishTime="1300808603"/>
+          <PublishItem publishSize="1142872" publishTime="1300807414"/>
+          <PublishItem publishSize="1142872" publishTime="1300807303"/>
+          <PublishItem publishSize="1142701" publishTime="1300806764"/>
+          <PublishItem publishSize="1142701" publishTime="1300806709"/>
           <PublishItem publishSize="731587" publishTime="1300210508"/>
           <PublishItem publishSize="731574" publishTime="1300210441"/>
           <PublishItem publishSize="731608" publishTime="1300210314"/>
