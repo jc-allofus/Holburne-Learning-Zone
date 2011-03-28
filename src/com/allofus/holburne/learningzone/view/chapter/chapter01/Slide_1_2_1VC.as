@@ -50,6 +50,14 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			super.staggerItemsIn([img,text]);
 		}
 		
+		override public function dispose():void
+		{
+			img = null;
+			containerMc = null;
+			text = null;
+			super.dispose();
+		}
+		
 		private static const logger:ILogger = GetLogger.qualifiedName( Slide_1_2_1VC );
 		
 	}

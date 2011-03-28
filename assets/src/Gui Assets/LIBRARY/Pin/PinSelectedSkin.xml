@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Pin/PinSelectedSkin" itemID="4d8b526a-000002b3" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.PinSelectedSkin" sourceLibraryItemHRef="Pin/PinUpSkin copy" lastModified="1300983468">
+  <timeline>
+    <DOMTimeline name="PinSelectedSkin">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Pin/hotspot_pin_selected.png">
+                  <matrix>
+                    <Matrix tx="-23" ty="-44"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

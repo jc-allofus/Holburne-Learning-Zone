@@ -48,6 +48,8 @@ package com.allofus.holburne.learningzone.controller.startup
 			
 			mainView.debugLayer.mouseEnabled = mainView.backgroundLayer.mouseEnabled = mainView.frameBorderLayer.mouseEnabled = false;
 			mainView.debugLayer.mouseChildren = mainView.backgroundLayer.mouseChildren = mainView.frameBorderLayer.mouseChildren = false;
+			
+			mainView.mouseVisible = false;
 						
 			dispatch(new StateEvent(StateEvent.ACTION, FSMConstants.CONSTRUCTING_VIEW_COMPLETE));
 		}

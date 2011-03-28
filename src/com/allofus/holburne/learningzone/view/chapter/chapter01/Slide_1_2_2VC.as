@@ -1,10 +1,8 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter01
 {
-	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.model.vo.ThumbnailClickedVO;
-	import com.allofus.holburne.learningzone.view.chapter.AbstractSlide;
+	import com.allofus.holburne.learningzone.view.component.ThumbnailImagesSlide;
 	import com.allofus.shared.logging.GetLogger;
-	import com.greensock.TweenMax;
 	import com.holburne.learningzone.swcassets.Img_1_2_2_10;
 	import com.holburne.learningzone.swcassets.Img_1_2_2_2;
 	import com.holburne.learningzone.swcassets.Img_1_2_2_3;
@@ -17,69 +15,56 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 
 	import mx.logging.ILogger;
 
-	import flash.display.MovieClip;
-	import flash.events.MouseEvent;
+	import flash.display.Sprite;
 
 	/**
 	 * @author jc
 	 */
-	public class Slide_1_2_2VC extends AbstractSlide
+	public class Slide_1_2_2VC extends ThumbnailImagesSlide
 	{
 		protected var containerMc:Slide_1_2_2;
-		protected var thumbnails:Vector.<MovieClip>;
-		
-		protected var thumbnailVOs:Vector.<ThumbnailClickedVO>;
-		
-		protected var _selectedThumb:MovieClip;
 		
 		public function Slide_1_2_2VC()
 		{
 			containerMc = new Slide_1_2_2();
-			thumbnails = new <MovieClip>[containerMc.thumb_1_2_2_2, containerMc.thumb_1_2_2_3, containerMc.thumb_1_2_2_4, containerMc.thumb_1_2_2_5, containerMc.thumb_1_2_2_6, containerMc.thumb_1_2_2_7, containerMc.thumb_1_2_2_9, containerMc.thumb_1_2_2_10];
+			largeImageContainer = new Sprite();
+			containerMc.alpha = largeImageContainer.alpha = 0;
 			
 			thumbnailVOs = new <ThumbnailClickedVO>
 			[
+				new ThumbnailClickedVO(containerMc.thumb_1_2_2_10, Img_1_2_2_10),
 				new ThumbnailClickedVO(containerMc.thumb_1_2_2_2, Img_1_2_2_2),
 				new ThumbnailClickedVO(containerMc.thumb_1_2_2_3, Img_1_2_2_3),
 				new ThumbnailClickedVO(containerMc.thumb_1_2_2_4, Img_1_2_2_4),
 				new ThumbnailClickedVO(containerMc.thumb_1_2_2_5, Img_1_2_2_5),
 				new ThumbnailClickedVO(containerMc.thumb_1_2_2_6, Img_1_2_2_6),
 				new ThumbnailClickedVO(containerMc.thumb_1_2_2_7, Img_1_2_2_7),
-				new ThumbnailClickedVO(containerMc.thumb_1_2_2_9, Img_1_2_2_9),
-				new ThumbnailClickedVO(containerMc.thumb_1_2_2_10, Img_1_2_2_10)
+				new ThumbnailClickedVO(containerMc.thumb_1_2_2_9, Img_1_2_2_9)
 			];
 			
-			var vo:ThumbnailClickedVO = new ThumbnailClickedVO(containerMc.thumb_1_2_2_2, Img_1_2_2_2);
-			
-			
-			initThumbs();
-			
+			enableThumbs();
 			addChild(containerMc);
+			addChild(largeImageContainer);
+			
 			super();
 		}
 		
-		protected function initThumbs():void
+		override public function transitionIn():void
 		{
-			for (var i : int = 0; i < thumbnails.length; i++) 
-			{
-				//thumbnails[i].alpha = 0;
-				thumbnails[i].addEventListener(MouseEvent.CLICK, handleThumbClick);
-			}
+			super.staggerItemsIn([largeImageContainer,containerMc]);
 		}
 		
-		protected function handleThumbClick(event:MouseEvent):void
+		override public function dispose():void
 		{
-			if(_selectedThumb)deselect(_selectedThumb);
-			var clicked:MovieClip = event.currentTarget as MovieClip;
-			TweenMax.to(clicked, AppGlobals.FADE_DURATION * 0.5, {alpha:0.8, colorTransform:{tint:0xffffff, tintAmount:0.7}, ease:AppGlobals.FADE_EASE});
-			_selectedThumb = clicked;
+			removeChild(containerMc);
+			removeChild(largeImageContainer);
+			containerMc = null;
+			largeImageContainer = null;
+			thumbnailVOs.length = 0;
+			thumbnailVOs = null;
+			super.dispose();
 		}
 		
-		protected function deselect(thumb:MovieClip):void
-		{
-			//thumbnails[i].alpha = 1;
-			TweenMax.to(thumb, AppGlobals.FADE_DURATION * 0.5, {alpha:1, colorTransform:{tintAmount:0}, ease:AppGlobals.FADE_EASE});
-		}
 		
 		private static const logger:ILogger = GetLogger.qualifiedName( Slide_1_2_2VC );
 	}

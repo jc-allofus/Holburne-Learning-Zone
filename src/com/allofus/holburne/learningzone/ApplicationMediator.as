@@ -39,6 +39,11 @@ package com.allofus.holburne.learningzone
 					
 				case Keyboard.C:
 					dispatch(new Event(Event.CLEAR));
+					break;
+					
+				case Keyboard.M:
+					dispatch(new UtilEvent(UtilEvent.TOGGLE_MOUSE_VISIBLE));
+					break;
 					
 				case Keyboard.S:
 					//take screenshot

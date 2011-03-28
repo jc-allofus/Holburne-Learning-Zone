@@ -1,4 +1,14 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="1920" height="1080" frameRate="31" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" vanishingPoint3DX="960" vanishingPoint3DY="540" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+     <folders>
+          <DOMFolderItem name="Home Page" itemID="4d7e1060-000002c1" isExpanded="true"/>
+     </folders>
+     <media>
+          <DOMBitmapItem name="Home Page/homepage_large.png" itemID="4d77bb91-000003b9" sourceExternalFilepath="../Chapters1-10/LIBRARY/Home Pages/homepage_large.png" sourceLastImported="1299692429" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Home Page/homepage_large.png" bitmapDataHRef="M 8 1299684418.dat" frameRight="64020" frameBottom="36020"/>
+     </media>
+     <symbols>
+          <Include href="Home Page/HomePage1.xml"/>
+          <Include href="Home Page/invisButton.xml" loadImmediate="false"/>
+     </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
@@ -314,5 +324,11 @@
           </swatchList>
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
-     <publishHistory/>
+     <publishHistory>
+          <PublishItem publishSize="426462" publishTime="1300898355"/>
+          <PublishItem publishSize="426432" publishTime="1300898338"/>
+          <PublishItem publishSize="426415" publishTime="1300898244"/>
+          <PublishItem publishSize="426415" publishTime="1300898173"/>
+          <PublishItem publishSize="426415" publishTime="1300897757"/>
+     </publishHistory>
 </DOMDocument>

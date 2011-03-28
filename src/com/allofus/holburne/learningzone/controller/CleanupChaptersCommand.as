@@ -1,8 +1,12 @@
 package com.allofus.holburne.learningzone.controller
 {
-	import com.allofus.holburne.learningzone.view.menu.ChapterMenu;
 	import com.allofus.holburne.learningzone.view.chapter.AbstractChapterView;
+	import com.allofus.holburne.learningzone.view.menu.ChapterMenu;
+	import com.allofus.shared.logging.GetLogger;
+
 	import org.robotlegs.mvcs.Command;
+
+	import mx.logging.ILogger;
 
 	/**
 	 * @author jc
@@ -11,6 +15,7 @@ package com.allofus.holburne.learningzone.controller
 	{
 		override public function execute():void
 		{
+			logger.info("cleanup/dispose chapters.");
 			var mainView:HolburneLearningZone = contextView as HolburneLearningZone;
 			
 			var chapter:AbstractChapterView;
@@ -30,5 +35,7 @@ package com.allofus.holburne.learningzone.controller
 				
 			}
 		}
+		
+		private static const logger:ILogger = GetLogger.qualifiedName( CleanupChaptersCommand );
 	}
 }

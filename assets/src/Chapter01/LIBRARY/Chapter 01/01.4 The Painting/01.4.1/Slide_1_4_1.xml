@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.4 The Painting/01.4.1/Slide_1_4_1" itemID="4d88a2a8-000002d2" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_4_1" sourceLibraryItemHRef="Chapter 01/01.3 Thomas Gainsborough/Slide_1_3_1 copy" lastModified="1300900797" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="Slide_1_4_1">
+      <layers>
+        <DOMLayer name="reference" color="#4FFF4F" current="true" isSelected="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Chapter 01/Chapter 1 stage reference" name="" selected="true" centerPoint3DX="960" centerPoint3DY="540">
+                  <transformationPoint>
+                    <Point x="960" y="540"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -25,6 +25,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			slides["1_1"] = Slide_1_1VC;
 			slides["1_2_1"] = Slide_1_2_1VC;
 			slides["1_2_2"] = Slide_1_2_2VC;
+			slides["1_2_4"] = Slide_1_2_4VC;
 			super();
 		}
 		

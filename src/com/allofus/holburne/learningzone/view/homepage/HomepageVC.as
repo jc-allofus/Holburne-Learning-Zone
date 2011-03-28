@@ -33,7 +33,6 @@ package com.allofus.holburne.learningzone.view.homepage
 		protected var zoomed:Boolean = false;
 		
 		protected var selectedButtonsLayer:Sprite;
-		//protected var selectedButton:HomePageThumbnailButton;
 		
 		protected var zoomFrame:Shape;
 		
@@ -75,7 +74,6 @@ package com.allofus.holburne.learningzone.view.homepage
 		protected function handleButtonMCClicked(event:MouseEvent = null):void
 		{
 			_selectedChapter = null;
-			glassPanel.visible = true;  //stop more clickity
 			closeAllHomepageThumbnailButtons();
 
 			//open newly selceted one			
@@ -136,6 +134,7 @@ package com.allofus.holburne.learningzone.view.homepage
 				btn.scaleX = btn.scaleY = THUMB_SCALE;
 				btn.expand();
 				selectedButtonsLayer.addChild(btn);
+				glassPanel.visible = true;  //stop more clickity
 			}
 		}
 		

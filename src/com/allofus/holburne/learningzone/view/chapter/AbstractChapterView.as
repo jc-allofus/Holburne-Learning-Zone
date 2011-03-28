@@ -44,7 +44,6 @@ package com.allofus.holburne.learningzone.view.chapter
 		{
 			var abs:AbstractSlide;
 			var clazz:Class = slides[id];
-			logger.info("here is what we have in the dic: " + clazz);
 			if(clazz)
 			{
 				abs = new clazz() as AbstractSlide;
@@ -79,8 +78,8 @@ package com.allofus.holburne.learningzone.view.chapter
 			if(_currentSelected)
 			{
 				_currentSelected.addEventListener(Event.COMPLETE, cleanupOldSlides);
-				_currentSelected.transitionOut();
 				oldSlides.push(_currentSelected);
+				_currentSelected.transitionOut();
 				_currentSelected = null;
 			}
 			
@@ -96,17 +95,18 @@ package com.allofus.holburne.learningzone.view.chapter
 				logger.warn("no entry for " + slideId + " in my slides dictionary");
 			}
 		}
-
+		
 		public function cleanupOldSlides(event:Event = null):void
 		{
 			var slide:AbstractSlide;
 			for (var i : int = 0; i < oldSlides.length; i++) 
 			{
 				slide = oldSlides[i];
-				logger.info("cleaning up: " + slide);
+				logger.debug("cleaning up: " + slide);
 				slide.removeEventListener(Event.COMPLETE, cleanupOldSlides);
 				slide.dispose();
-				if(contains(slide))removeChild(slide);	
+				if(contains(slide))removeChild(slide);
+				oldSlides[i] = null;
 			}
 			oldSlides.length = 0;
 		}

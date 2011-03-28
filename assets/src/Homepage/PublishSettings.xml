@@ -20,7 +20,7 @@
     <pngDefaultName>1</pngDefaultName>
     <qtDefaultName>1</qtDefaultName>
     <rnwkDefaultName>1</rnwkDefaultName>
-    <flashFileName>../../lib/swcHomepage.swf</flashFileName>
+    <flashFileName>../../lib/swc/Homepage.swf</flashFileName>
     <projectorWinFileName>Homepage.exe</projectorWinFileName>
     <projectorMacFileName>Homepage.app</projectorMacFileName>
     <htmlFileName>Homepage.html</htmlFileName>

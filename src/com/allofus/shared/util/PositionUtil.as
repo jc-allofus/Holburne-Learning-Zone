@@ -34,6 +34,11 @@ package com.allofus.shared.util
 			thisObject.y = underThisOne.y + underThisOne.height + distance;
 		}
 		
+		public static function positionToTheRight(thisObject:DisplayObject, toTheRightOfThisOne:DisplayObject, distance:Number = 0):void
+		{
+			thisObject.x = toTheRightOfThisOne.x + toTheRightOfThisOne.width + distance;
+		}
+		
 		public static function getPositionInLeftFrame(obj:DisplayObject):Point
 		{
 			var tx:Number = -obj.x + ((AppGlobals.LEFT_FRAME_WIDTH * 0.5) - (obj.width * 0.5)) + AppGlobals.LEFT_FRAME_X;

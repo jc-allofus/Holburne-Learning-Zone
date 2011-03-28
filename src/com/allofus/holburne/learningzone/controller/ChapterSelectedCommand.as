@@ -4,6 +4,7 @@ package com.allofus.holburne.learningzone.controller
 	import com.allofus.holburne.learningzone.model.ChapterIDs;
 	import com.allofus.holburne.learningzone.view.chapter.AbstractChapterView;
 	import com.allofus.holburne.learningzone.view.chapter.chapter01.Chapter01;
+	import com.allofus.holburne.learningzone.view.chapter.chapter02.Chapter02;
 	import com.allofus.holburne.learningzone.view.menu.ChapterMenu;
 	import com.allofus.shared.logging.GetLogger;
 
@@ -23,13 +24,17 @@ package com.allofus.holburne.learningzone.controller
 		
 		override public function execute():void
 		{
+			logger.info("create " + event.vo.id);
 			var mainView:HolburneLearningZone = contextView as HolburneLearningZone;
 			var chapter:AbstractChapterView;
 			switch(event.vo.id)
 			{
 				case ChapterIDs.CHAPTER_01:
-					logger.info("make chapter 1");
 					chapter = new Chapter01(event.vo);
+					break;
+					
+				case ChapterIDs.CHAPTER_02:
+					chapter = new Chapter02(event.vo);
 					break;
 			}
 			

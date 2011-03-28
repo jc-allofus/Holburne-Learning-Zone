@@ -1,0 +1,93 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/Slide_1_2_2" itemID="4d88a0ee-00000279" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_2_2" sourceLibraryItemHRef="Symbol 1" lastModified="1300902169" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="Slide_1_2_2">
+      <layers>
+        <DOMLayer name="thumbs" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_thumbs/Thumb_1_2_2_10" name="thumb_1_2_2_10" centerPoint3DX="1112.25" centerPoint3DY="271.05">
+                  <matrix>
+                    <Matrix tx="1006.25" ty="192.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="106" y="79"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_thumbs/Thumb_1_2_2_7" name="thumb_1_2_2_7" centerPoint3DX="1465.45" centerPoint3DY="329">
+                  <matrix>
+                    <Matrix tx="1383.45" ty="228"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="82" y="101"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_thumbs/Thumb_1_2_2_2" name="thumb_1_2_2_2" centerPoint3DX="1285.25" centerPoint3DY="279.05">
+                  <matrix>
+                    <Matrix tx="1218.25" ty="178.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="67" y="101"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_thumbs/Thumb_1_2_2_3" name="thumb_1_2_2_3" centerPoint3DX="1680.35" centerPoint3DY="271.05">
+                  <matrix>
+                    <Matrix tx="1592.35" ty="170.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="88" y="101"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_thumbs/Thumb_1_2_2_4" name="thumb_1_2_2_4" centerPoint3DX="1080.25" centerPoint3DY="592.1">
+                  <matrix>
+                    <Matrix tx="1010.75" ty="491.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="69.5" y="101"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_thumbs/Thumb_1_2_2_9" name="thumb_1_2_2_9" centerPoint3DX="1260.3" centerPoint3DY="592.1">
+                  <matrix>
+                    <Matrix tx="1177.3" ty="491.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="83" y="101"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_thumbs/Thumb_1_2_2_5" name="thumb_1_2_2_5" centerPoint3DX="1469.4" centerPoint3DY="592.1">
+                  <matrix>
+                    <Matrix tx="1363.4" ty="517.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="106" y="74.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_thumbs/Thumb_1_2_2_6" name="thumb_1_2_2_6" centerPoint3DX="1692.4" centerPoint3DY="592.1">
+                  <matrix>
+                    <Matrix tx="1607.4" ty="491.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="85" y="101"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="reference" color="#4FFF4F" locked="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Chapter 01/Chapter 1 stage reference" name="" centerPoint3DX="960" centerPoint3DY="540">
+                  <transformationPoint>
+                    <Point x="960" y="540"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

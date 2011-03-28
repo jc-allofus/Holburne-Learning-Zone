@@ -1,7 +1,7 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter01
 {
 	import com.allofus.holburne.learningzone.events.ChapterMenuEvent;
-	import com.allofus.holburne.learningzone.model.Chapter1Model;
+	import com.allofus.holburne.learningzone.model.Chapter01Model;
 	import com.allofus.holburne.learningzone.view.chapter.AbstractChapterMediator;
 
 	/**
@@ -11,7 +11,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 	public class Chapter01Mediator extends AbstractChapterMediator
 	{
 		
-		[Inject] public var model:Chapter1Model;
+		[Inject] public var model:Chapter01Model;
 		
 		override public function onRegister():void
 		{

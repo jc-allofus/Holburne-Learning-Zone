@@ -20,7 +20,6 @@ package com.allofus.holburne.learningzone.view.chapter
 		
 		public function AbstractSlide()
 		{
-			logger.info("doing parent constructor");
 		}
 		
 		public function transitionIn():void
@@ -30,7 +29,7 @@ package com.allofus.holburne.learningzone.view.chapter
 		
 		public function transitionInFromHomeScreen() : void
 		{
-			//implement in "introduction" slides
+			//implement in concrete "introduction" slides
 			logger.warn("haven't implemented transitionInFromHomeScreen() " + this);
 		}
 		
@@ -71,6 +70,7 @@ package com.allofus.holburne.learningzone.view.chapter
 		
 		protected function dispatchOut():void
 		{
+			logger.fatal("dispatching out");
 			dispatchEvent(new Event(Event.COMPLETE));
 		}
 		

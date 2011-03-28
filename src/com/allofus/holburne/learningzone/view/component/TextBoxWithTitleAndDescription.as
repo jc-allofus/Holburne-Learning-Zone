@@ -1,16 +1,14 @@
 package com.allofus.holburne.learningzone.view.component
 {
-	import flash.filters.GlowFilter;
-	import flash.text.TextFormatAlign;
 	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.guiassets.TextPanelDecoration;
 	import com.allofus.shared.text.FontManager;
 	import com.allofus.shared.util.PositionUtil;
-	import com.greensock.TweenMax;
 
 	import flash.display.Bitmap;
 	import flash.display.Shape;
 	import flash.display.Sprite;
+	import flash.filters.GlowFilter;
 	import flash.text.TextField;
 
 	/**
@@ -45,7 +43,7 @@ package com.allofus.holburne.learningzone.view.component
 			addChild(_titleField);
 			
 			var bw:Number = width - (BORDER_SIZE * 2);
-			_bodyField = FontManager.createTextField(body,bw,0,true,TextFormatAlign.JUSTIFY);
+			_bodyField = FontManager.createTextField(body,bw,0,true);
 			_bodyField.x = BORDER_SIZE;
 			PositionUtil.positionUnder(_bodyField, _titleField, HEADER_GAP);
 			addChild(_bodyField);	
@@ -57,7 +55,6 @@ package com.allofus.holburne.learningzone.view.component
 			
 			//{color:0x333333, alpha:1, blurX:12, blurY:12, strength:1, inner:false, knockout:false, quality:1}
 			var gf:GlowFilter = new GlowFilter(0, 1,12,12,1);
-			
 			filters = [gf];
 			
 			PositionUtil.centerHorizontally(decoration, this );

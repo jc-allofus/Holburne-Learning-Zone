@@ -1,7 +1,5 @@
 package
 {
-	import net.hires.debug.Stats;
-
 	import com.allofus.shared.logging.GetLogger;
 	import com.allofus.shared.logging.LogWriter;
 	import com.allofus.shared.logging.MonsterDebuggerTarget;
@@ -20,6 +18,7 @@ package
 	import flash.events.Event;
 	import flash.events.InvokeEvent;
 	import flash.filesystem.File;
+	import flash.ui.Mouse;
 
 	/**
 	 * @author jc
@@ -37,6 +36,8 @@ package
 		public var chapterMenuLayer:Sprite;
 		public var splashScreenLayer:Sprite;
 		public var debugLayer:Sprite;
+		
+		protected var _mouseVisible:Boolean = false;
 		
 		public function HolburneLearningZone()
 		{
@@ -137,6 +138,25 @@ package
 		{
 			context = new HolburneLearningZoneContext(this);
 		}
+		
+		public function set mouseVisible(value:Boolean):void
+		{
+			if(value)
+			{
+				Mouse.show();	
+			}
+			else
+			{
+				Mouse.hide();
+			}
+			_mouseVisible = value;
+		}
+		
+		public function get mouseVisible():Boolean
+		{
+			return _mouseVisible;
+		}
+	
 		
 		private static const logger : ILogger = GetLogger.qualifiedName(HolburneLearningZone);
 

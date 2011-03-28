@@ -1,9 +1,10 @@
 package
 {
+	import com.allofus.holburne.learningzone.controller.ToggleMouseVisibleCommand;
 	import com.allofus.holburne.learningzone.view.menu.MenuPanelVCMediator;
 	import com.allofus.holburne.learningzone.view.menu.MenuPanelVC;
 	import com.allofus.holburne.learningzone.controller.CleanupChaptersCommand;
-	import com.allofus.holburne.learningzone.model.Chapter1Model;
+	import com.allofus.holburne.learningzone.model.Chapter01Model;
 	import com.allofus.holburne.learningzone.ApplicationMediator;
 	import com.allofus.holburne.learningzone.controller.ApplicationStatusChanged;
 	import com.allofus.holburne.learningzone.controller.ChapterSelectedCommand;
@@ -55,7 +56,7 @@ package
 			injector.mapSingleton(ApplicationStatusModel);
 			injector.mapSingleton(ConfigProxy);
 			injector.mapSingleton(InternetConnectionProxy);
-			injector.mapSingleton(Chapter1Model);
+			injector.mapSingleton(Chapter01Model);
 			
 			//VIEW
 			mediatorMap.mapView(HolburneLearningZone, ApplicationMediator); //document class		
@@ -73,6 +74,7 @@ package
 			commandMap.mapEvent(ContextEvent.STARTUP, StartupCommand);
 			commandMap.mapEvent(ApplicationStatusEvent.CHANGED, ApplicationStatusChanged);
 			commandMap.mapEvent(UtilEvent.TAKE_SCREENSHOT, TakeScreenshotCommand);
+			commandMap.mapEvent(UtilEvent.TOGGLE_MOUSE_VISIBLE, ToggleMouseVisibleCommand);
 			commandMap.mapEvent(ChapterEvent.SELECTED, ChapterSelectedCommand);
 			commandMap.mapEvent(ChapterEvent.CLEANUP, CleanupChaptersCommand);
 			commandMap.mapEvent(ChapterMenuEvent.CLOSE_CHAPTER, CloseChapterCommand);
