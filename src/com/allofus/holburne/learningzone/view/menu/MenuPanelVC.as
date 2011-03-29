@@ -1,6 +1,5 @@
 package com.allofus.holburne.learningzone.view.menu
 {
-	import com.greensock.loading.SelfLoader;
 	import com.allofus.holburne.learningzone.events.ChapterMenuEvent;
 	import com.allofus.holburne.learningzone.guiassets.menu.MenuPanel;
 	import com.allofus.holburne.learningzone.model.vo.MenuButtonVO;

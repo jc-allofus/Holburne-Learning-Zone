@@ -1,20 +1,19 @@
-package com.allofus.holburne.learningzone.view.chapter.chapter01
+package com.allofus.holburne.learningzone.view.chapter.chapter02
 {
 	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
 	import com.allofus.holburne.learningzone.view.component.IntroductionSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
-	import com.holburne.learningzone.swc.chapter1.Chap1IntroImage;
+	import com.holburne.learningzone.swc.chapter2.Chap2IntroImage;
 
 	import flash.display.Bitmap;
 
 	/**
 	 * @author jc
 	 */
-	public class Slide_1_1VC extends IntroductionSlide
+	public class Slide_2_1VC extends IntroductionSlide
 	{
-		
-		public function Slide_1_1VC()
+		public function Slide_2_1VC()
 		{
 			var caption:String = 
 				"<p class='imageCaptionItalic'>The Byam Family</p>"
@@ -24,7 +23,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			+	"<p class='imageCaption'>On long-term loan from the Andrew Brownswood Arts Foundation</p>"
 			+	"<p class='imageCaption'>1.2001.1</p>";
 			
-			img = new ImageWithBorderAndCaption(new Bitmap(new Chap1IntroImage(0,0)), caption);
+			img = new ImageWithBorderAndCaption(new Bitmap(new Chap2IntroImage(0,0)), caption);
 			addChild(img);
 			
 			var title:String ="INTRODUCTION";
@@ -39,6 +38,5 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			
 			super();
 		}
-		
 	}
 }

@@ -1,13 +1,16 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="1920" height="1080" frameRate="31" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" viewAngle3D="122.353661987282" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="Chapter 02" itemID="4d7fa2f8-00000279" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 02/02.1 Introduction" itemID="4d90a8b9-000002ac"/>
+          <DOMFolderItem name="Chapter 02/02.1 Introduction" itemID="4d90a8b9-000002ac" isExpanded="true"/>
           <DOMFolderItem name="Chapter 02/02.2 The Brughal Family" itemID="4d90a8c9-000002ad"/>
           <DOMFolderItem name="Chapter 02/02.3 Whats Going On" itemID="4d90a8d5-000002ae"/>
-          <DOMFolderItem name="Chapter 02/02.4 The Paintings History" itemID="4d90a897-0000029f"/>
+          <DOMFolderItem name="Chapter 02/02.4 The Paintings History" itemID="4d90a897-0000029f" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 02/02.4 The Paintings History/02.4.3" itemID="4d91c2c2-0000031d" isExpanded="true"/>
      </folders>
      <media>
           <DOMBitmapItem name="Chapter 02/02.1 Introduction/2_1_large_no-boarder.png" itemID="4d7f9ee2-0000026d" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter2.Chap2IntroImage" sourceExternalFilepath="../Chapters1-10/LIBRARY/2_1_large_no-boarder.png" sourceLastImported="1300206916" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Chapter 02/02.1 Introduction/2_1_large_no-boarder.png" bitmapDataHRef="M 4 1300208811.dat" frameRight="12520" frameBottom="9260"/>
+          <DOMBitmapItem name="Chapter 02/02.4 The Paintings History/02.4.3/2_4_3_large_after.png" itemID="4d91c2ca-0000031e" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Img_2_4_3_Before" sourceExternalFilepath="./LIBRARY/Chapter 02/02.4 The Paintings History/02.4.3/2_4_3_large_after.png" sourceLastImported="1301326111" sourcePlatform="macintosh" externalFileSize="624049" originalCompressionType="lossless" quality="50" href="Chapter 02/02.4 The Paintings History/02.4.3/2_4_3_large_after.png" bitmapDataHRef="M 2 1301398081.dat" frameRight="12520" frameBottom="9380"/>
+          <DOMBitmapItem name="Chapter 02/02.4 The Paintings History/02.4.3/2_4_3_large_before.png" itemID="4d91c2cb-0000031f" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Img_2_4_3_After" sourceExternalFilepath="./LIBRARY/Chapter 02/02.4 The Paintings History/02.4.3/2_4_3_large_before.png" sourceLastImported="1301326094" sourcePlatform="macintosh" externalFileSize="592385" originalCompressionType="lossless" quality="50" href="Chapter 02/02.4 The Paintings History/02.4.3/2_4_3_large_before.png" bitmapDataHRef="M 3 1301398082.dat" frameRight="12520" frameBottom="9380"/>
      </media>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -325,6 +328,7 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="77210" publishTime="1301331772"/>
           <PublishItem publishSize="77187" publishTime="1300896598"/>
           <PublishItem publishSize="1149610" publishTime="1300896536"/>
           <PublishItem publishSize="1149609" publishTime="1300896496"/>
@@ -344,6 +348,5 @@
           <PublishItem publishSize="731574" publishTime="1300210441"/>
           <PublishItem publishSize="731608" publishTime="1300210314"/>
           <PublishItem publishSize="655387" publishTime="1300122818"/>
-          <PublishItem publishSize="655378" publishTime="1300121821"/>
      </publishHistory>
 </DOMDocument>

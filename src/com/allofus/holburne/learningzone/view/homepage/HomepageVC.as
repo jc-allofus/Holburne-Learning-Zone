@@ -1,7 +1,7 @@
 package com.allofus.holburne.learningzone.view.homepage
 {
-	import com.allofus.holburne.learningzone.events.ChapterEvent;
 	import com.allofus.holburne.learningzone.AppGlobals;
+	import com.allofus.holburne.learningzone.events.ChapterEvent;
 	import com.allofus.holburne.learningzone.model.ChapterIDs;
 	import com.allofus.holburne.learningzone.model.vo.ChapterVO;
 	import com.allofus.holburne.learningzone.view.component.HomePageThumbnailButton;

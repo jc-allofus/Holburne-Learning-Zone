@@ -1,26 +1,27 @@
 package
 {
-	import com.allofus.holburne.learningzone.controller.ToggleMouseVisibleCommand;
-	import com.allofus.holburne.learningzone.view.menu.MenuPanelVCMediator;
-	import com.allofus.holburne.learningzone.view.menu.MenuPanelVC;
-	import com.allofus.holburne.learningzone.controller.CleanupChaptersCommand;
-	import com.allofus.holburne.learningzone.model.Chapter01Model;
 	import com.allofus.holburne.learningzone.ApplicationMediator;
 	import com.allofus.holburne.learningzone.controller.ApplicationStatusChanged;
 	import com.allofus.holburne.learningzone.controller.ChapterSelectedCommand;
+	import com.allofus.holburne.learningzone.controller.CleanupChaptersCommand;
 	import com.allofus.holburne.learningzone.controller.CloseChapterCommand;
 	import com.allofus.holburne.learningzone.controller.TakeScreenshotCommand;
+	import com.allofus.holburne.learningzone.controller.ToggleMouseVisibleCommand;
 	import com.allofus.holburne.learningzone.controller.startup.StartupCommand;
 	import com.allofus.holburne.learningzone.events.ApplicationStatusEvent;
 	import com.allofus.holburne.learningzone.events.ChapterEvent;
 	import com.allofus.holburne.learningzone.events.ChapterMenuEvent;
 	import com.allofus.holburne.learningzone.events.UtilEvent;
 	import com.allofus.holburne.learningzone.model.ApplicationStatusModel;
+	import com.allofus.holburne.learningzone.model.Chapter01Model;
+	import com.allofus.holburne.learningzone.model.Chapter02Model;
 	import com.allofus.holburne.learningzone.model.ConfigProxy;
 	import com.allofus.holburne.learningzone.model.InternetConnectionProxy;
 	import com.allofus.holburne.learningzone.view.chapter.AbstractChapterView;
 	import com.allofus.holburne.learningzone.view.chapter.chapter01.Chapter01;
 	import com.allofus.holburne.learningzone.view.chapter.chapter01.Chapter01Mediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter02.Chapter02;
+	import com.allofus.holburne.learningzone.view.chapter.chapter02.Chapter02Mediator;
 	import com.allofus.holburne.learningzone.view.debug.DebugVC;
 	import com.allofus.holburne.learningzone.view.debug.DebugViewMediator;
 	import com.allofus.holburne.learningzone.view.frame.BlankOutMediator;
@@ -29,6 +30,8 @@ package
 	import com.allofus.holburne.learningzone.view.homepage.HomepageVC;
 	import com.allofus.holburne.learningzone.view.menu.ChapterMenu;
 	import com.allofus.holburne.learningzone.view.menu.ChapterMenuMediator;
+	import com.allofus.holburne.learningzone.view.menu.MenuPanelVC;
+	import com.allofus.holburne.learningzone.view.menu.MenuPanelVCMediator;
 	import com.allofus.holburne.learningzone.view.splash.SplashScreen;
 	import com.allofus.holburne.learningzone.view.splash.SplashScreenMediator;
 	import com.allofus.shared.logging.GetLogger;
@@ -57,6 +60,7 @@ package
 			injector.mapSingleton(ConfigProxy);
 			injector.mapSingleton(InternetConnectionProxy);
 			injector.mapSingleton(Chapter01Model);
+			injector.mapSingleton(Chapter02Model);
 			
 			//VIEW
 			mediatorMap.mapView(HolburneLearningZone, ApplicationMediator); //document class		
@@ -67,6 +71,7 @@ package
 			mediatorMap.mapView(DebugVC, DebugViewMediator);
 			mediatorMap.mapView(HomepageVC, HomePage1Mediator);
 			mediatorMap.mapView(Chapter01, Chapter01Mediator, AbstractChapterView);
+			mediatorMap.mapView(Chapter02, Chapter02Mediator, AbstractChapterView);
 			mediatorMap.mapView(ChapterMenu, ChapterMenuMediator);
 			mediatorMap.mapView(MenuPanelVC, MenuPanelVCMediator);
 			

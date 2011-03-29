@@ -22,16 +22,14 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			oldSlides = new Vector.<AbstractSlide>();
 			
 			slides = new Dictionary();
-//			slides["1_1"] = Slide_1_1VC;
-//			slides["1_2_1"] = Slide_1_2_1VC;
-//			slides["1_2_2"] = Slide_1_2_2VC;
-//			slides["1_2_4"] = Slide_1_2_4VC;
+			slides["2_1"] = Slide_2_1VC;
+			slides["2_4_3"] = Slide_2_4_3VC;
 			super();
 		}
 		
 		override public function showFirstSlide() : void
 		{
-			_currentSelected = makeSlide("1_1");
+			_currentSelected = makeSlide("2_1");
 			addChild(_currentSelected);
 			_currentSelected.transitionInFromHomeScreen();
 		}
