@@ -34,6 +34,9 @@ package com.allofus.holburne.learningzone
 				case Keyboard.NUMBER_2:
 				case Keyboard.NUMBER_3:
 				case Keyboard.NUMBER_4:
+				case Keyboard.NUMBER_5:
+				case Keyboard.NUMBER_6:
+				case Keyboard.NUMBER_7:
 					//send to system (to be picked up by backgroundVCMediator)
 					dispatch(event);
 					break;

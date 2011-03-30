@@ -39,6 +39,18 @@ package com.allofus.holburne.learningzone.view.background
 				case Keyboard.NUMBER_4:
 					view.switchBackgroundTexture(4);
 					break;
+					
+				case Keyboard.NUMBER_5:
+					view.switchBackgroundTexture(5);
+					break;
+					
+				case Keyboard.NUMBER_6:
+					view.switchBackgroundTexture(6);
+					break;
+					
+				case Keyboard.NUMBER_7:
+					view.switchBackgroundTexture(7);
+					break;
 			}
 		}
 	}

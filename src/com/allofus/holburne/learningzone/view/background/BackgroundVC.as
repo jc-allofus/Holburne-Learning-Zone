@@ -5,6 +5,9 @@ package com.allofus.holburne.learningzone.view.background
 	import com.allofus.holburne.learningzone.guiassets.BackgroundTexture02;
 	import com.allofus.holburne.learningzone.guiassets.BackgroundTexture03;
 	import com.allofus.holburne.learningzone.guiassets.BackgroundTexture04;
+	import com.allofus.holburne.learningzone.guiassets.BackgroundTexture05;
+	import com.allofus.holburne.learningzone.guiassets.BackgroundTexture06;
+	import com.allofus.holburne.learningzone.guiassets.BackgroundTexture07;
 	import com.allofus.shared.logging.GetLogger;
 
 	import mx.logging.ILogger;
@@ -55,6 +58,18 @@ package com.allofus.holburne.learningzone.view.background
 						
 					case 4:
 						bgImage.bitmapData = new BackgroundTexture04(0,0);
+						break;
+						
+					case 5:
+						bgImage.bitmapData = new BackgroundTexture05(0,0);
+						break;
+						
+					case 6:
+						bgImage.bitmapData = new BackgroundTexture06(0,0);
+						break;
+						
+					case 7:
+						bgImage.bitmapData = new BackgroundTexture07(0,0);
 						break;
 				}
 			}
