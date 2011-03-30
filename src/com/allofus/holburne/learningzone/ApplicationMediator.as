@@ -29,6 +29,16 @@ package com.allofus.holburne.learningzone
 		{
 			switch (event.keyCode)
 			{
+				case Keyboard.NUMBER_0:
+				case Keyboard.NUMBER_1:
+				case Keyboard.NUMBER_2:
+				case Keyboard.NUMBER_3:
+				case Keyboard.NUMBER_4:
+					//send to system (to be picked up by backgroundVCMediator)
+					dispatch(event);
+					break;
+				
+				
 				case Keyboard.D:
 					dispatch(new DebugEvent(DebugEvent.TOGGLE));
 					break;

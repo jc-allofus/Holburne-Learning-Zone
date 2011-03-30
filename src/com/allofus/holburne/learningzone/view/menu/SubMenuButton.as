@@ -54,7 +54,6 @@ package com.allofus.holburne.learningzone.view.menu
 
 		override public function dispose() : void
 		{
-			logger.info("dispose: " + this);
 			
 			super.dispose();
 			background = null;

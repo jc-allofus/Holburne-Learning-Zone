@@ -1,5 +1,7 @@
 package
 {
+	import com.allofus.holburne.learningzone.view.background.BackgroundVCMediator;
+	import com.allofus.holburne.learningzone.view.background.BackgroundVC;
 	import com.allofus.holburne.learningzone.ApplicationMediator;
 	import com.allofus.holburne.learningzone.controller.ApplicationStatusChanged;
 	import com.allofus.holburne.learningzone.controller.ChapterSelectedCommand;
@@ -65,7 +67,8 @@ package
 			//VIEW
 			mediatorMap.mapView(HolburneLearningZone, ApplicationMediator); //document class		
 			mediatorMap.createMediator(contextView); 						//create mediator for document class
-				
+			
+			mediatorMap.mapView(BackgroundVC, BackgroundVCMediator);
 			mediatorMap.mapView(SplashScreen, SplashScreenMediator);//600 x 350 
 			mediatorMap.mapView(BlankOutVC, BlankOutMediator);
 			mediatorMap.mapView(DebugVC, DebugViewMediator);

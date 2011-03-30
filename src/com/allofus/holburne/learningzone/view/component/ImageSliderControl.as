@@ -24,6 +24,7 @@ package com.allofus.holburne.learningzone.view.component
 		protected var line:Shape;
 		protected var slideUpSkin:Sprite;
 		protected var slideDownSkin:Sprite;
+		protected var _selected:Boolean = false;
 		
 		public function ImageSliderControl(refObj:DisplayObject)
 		{
@@ -46,32 +47,27 @@ package com.allofus.holburne.learningzone.view.component
 			
 			y = halfHeight;
 			
-			addEventListener(Event.ADDED_TO_STAGE, enableListeners);
 		}
 		
-		protected function enableListeners(event:Event = null):void
+
+		public function set selected(value:Boolean) : void
 		{
-			addEventListener(MouseEvent.MOUSE_DOWN, handleMouseDown);
-			stage.addEventListener(MouseEvent.MOUSE_UP, handleMouseUp);
-		}
-		
-		protected function disableListeners():void
-		{
-			removeEventListener(MouseEvent.MOUSE_DOWN, handleMouseDown);
-			stage.removeEventListener(MouseEvent.MOUSE_UP, handleMouseUp);
+			_selected = slideDownSkin.visible = value;
 		}
 
-		protected function handleMouseDown(event : MouseEvent) : void
+		public function dispose() : void
 		{
-			slideDownSkin.visible = true;
+			
+			while (numChildren > 0)
+			{
+				removeChildAt(0);
+			}
+			
+			line = null;
+			slideUpSkin = null;
+			slideDownSkin = null;
 		}
 		
-		protected function handleMouseUp(event : MouseEvent) : void
-		{
-			slideDownSkin.visible = false;
-		}
-		
-		private static const logger:ILogger = GetLogger.qualifiedName( ImageSliderControl );		
-		
+		private static const logger : ILogger = GetLogger.qualifiedName(ImageSliderControl);
 	}
 }

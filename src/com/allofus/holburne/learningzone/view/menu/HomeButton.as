@@ -53,7 +53,6 @@ package com.allofus.holburne.learningzone.view.menu
 		
 		override public function dispose():void
 		{
-			logger.info("disposing: " + this);
 			super.dispose();		
 			
 			homeTab = null;

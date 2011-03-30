@@ -112,16 +112,19 @@ package com.allofus.holburne.learningzone.view.menu
 		public function dispose() : void
 		{
 			TweenMax.killTweensOf(this);
-			logger.info("disposing: " + this);
+			if(menuButtonDOs)
+			{
+				for (var i : int = 0; i < menuButtonDOs.length; i++) 
+				{
+					menuButtonDOs[i].dispose();				
+				}
+			}
+			
 			while(numChildren > 0)
 			{
 				removeChildAt(0);
 			}
 			
-			for (var i : int = 0; i < menuButtonDOs.length; i++) 
-			{
-				menuButtonDOs[i].dispose();				
-			}
 			menuButtonDOs.length = 0;
 			menuButtonDOs = null;
 			triggeredBy = null;

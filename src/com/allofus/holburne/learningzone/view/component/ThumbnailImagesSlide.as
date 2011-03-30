@@ -113,7 +113,6 @@ package com.allofus.holburne.learningzone.view.component
 		
 		override public function dispose():void
 		{
-			logger.fatal("disposing a thumbnail image slide");
 			if(thumbnailVOs)
 			{
 				thumbnailVOs.length = 0;

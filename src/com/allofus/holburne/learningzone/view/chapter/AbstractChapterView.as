@@ -50,7 +50,7 @@ package com.allofus.holburne.learningzone.view.chapter
 			}
 			else
 			{
-				logger.warn("did not have entry for slide: " + id + " in our dictionary");
+				//logger.warn("did not have entry for slide: " + id + " in our dictionary");
 			}
 			return abs;
 		}
@@ -72,7 +72,7 @@ package com.allofus.holburne.learningzone.view.chapter
 		
 		protected function showSlide(slideId:String):void
 		{
-			logger.info("showSlide: " + slideId);
+			//logger.info("showSlide: " + slideId);
 			
 			//if we already have a slide visible, transition him out & add him to old slides array
 			if(_currentSelected)
@@ -92,7 +92,7 @@ package com.allofus.holburne.learningzone.view.chapter
 			}
 			else
 			{
-				logger.warn("no entry for " + slideId + " in my slides dictionary");
+				logger.warn("no entry for " + slideId + " in slides dictionary");
 			}
 		}
 		
@@ -102,7 +102,7 @@ package com.allofus.holburne.learningzone.view.chapter
 			for (var i : int = 0; i < oldSlides.length; i++) 
 			{
 				slide = oldSlides[i];
-				logger.debug("cleaning up: " + slide);
+				//logger.debug("cleaning up: " + slide);
 				slide.removeEventListener(Event.COMPLETE, cleanupOldSlides);
 				slide.dispose();
 				if(contains(slide))removeChild(slide);
@@ -118,7 +118,8 @@ package com.allofus.holburne.learningzone.view.chapter
 		
 		public function close():void
 		{
-			_currentSelected.transitionOut();
+			if(_currentSelected)
+				_currentSelected.transitionOut();
 		}
 		
 		private static const logger : ILogger = GetLogger.qualifiedName(AbstractChapterView);

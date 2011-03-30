@@ -187,7 +187,6 @@ package com.allofus.shared.text
 		public static function set css(value : StyleSheet) : void 
 		{
 			cssStyle = value;
-			logger.info("setting stylesheet.");
 			listStyles();
 		}
 		

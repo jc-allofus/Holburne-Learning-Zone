@@ -70,7 +70,6 @@ package com.allofus.holburne.learningzone.view.chapter
 		
 		protected function dispatchOut():void
 		{
-			logger.fatal("dispatching out");
 			dispatchEvent(new Event(Event.COMPLETE));
 		}
 		

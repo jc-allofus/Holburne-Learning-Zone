@@ -10,6 +10,7 @@ package com.allofus.holburne.learningzone.view.component
 	import mx.logging.ILogger;
 
 	import flash.display.Bitmap;
+	import flash.display.DisplayObject;
 	import flash.display.Shape;
 	import flash.display.Sprite;
 	import flash.filters.GlowFilter;
@@ -23,13 +24,13 @@ package com.allofus.holburne.learningzone.view.component
 		public static const BORDER_SIZE:int = 20;
 		public static const BORDER_COLOR:uint = 0xFFFFFF;
 		
-		protected var img:Bitmap;
+		protected var img:DisplayObject;
 		protected var border:Shape;
 		protected var _captionLabel:TextField;
 		
 		protected var captionTimeline:TimelineMax;
 		
-		public function ImageWithBorderAndCaption(img:Bitmap, captionText:String)
+		public function ImageWithBorderAndCaption(img:DisplayObject, captionText:String)
 		{
 			//visible = false;
 			
@@ -67,15 +68,24 @@ package com.allofus.holburne.learningzone.view.component
 		}
 		
 		
-		public function showCaption():void
+		public function showCaption(useTween:Boolean = true):void
 		{
-			logger.fatal("my height: " + height);
 			addChild(_captionLabel);
 			var th:Number = _captionLabel.y + _captionLabel.height + BORDER_SIZE;
-			if(captionTimeline) captionTimeline.clear();
-			captionTimeline = new TimelineMax({onComplete:showCaptionComplete});
-			captionTimeline.insert(new TweenMax(border, 0.35, {height:th, ease:Expo.easeInOut}));
-			captionTimeline.append(new TweenMax(_captionLabel, AppGlobals.FADE_DURATION, {autoAlpha:1, ease:AppGlobals.FADE_EASE}));
+			
+			if(useTween)
+			{
+				if(captionTimeline) captionTimeline.clear();
+				captionTimeline = new TimelineMax({onComplete:showCaptionComplete});
+				captionTimeline.insert(new TweenMax(border, 0.35, {height:th, ease:Expo.easeInOut}));
+				captionTimeline.append(new TweenMax(_captionLabel, AppGlobals.FADE_DURATION, {autoAlpha:1, ease:AppGlobals.FADE_EASE}));
+			}
+			else
+			{
+				border.height = th;
+				_captionLabel.alpha = 1;
+				_captionLabel.visible = true;
+			}
 		}
 		
 		protected function showCaptionComplete():void
@@ -112,7 +122,14 @@ package com.allofus.holburne.learningzone.view.component
 				removeChildAt(0);
 			}
 			
-			if(img)img.bitmapData.dispose();
+			if(img)
+			{
+				if(img is Bitmap)
+					(img as Bitmap).bitmapData.dispose();
+					
+				if(img is BeforeAndAfterSwipeWithCaption)
+					(img as BeforeAndAfterSwipeWithCaption).dispose();
+			}
 			
 			_captionLabel = null;
 			img = null;

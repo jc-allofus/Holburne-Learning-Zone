@@ -33,7 +33,6 @@ package com.allofus.holburne.learningzone.view.menu
 		
 		public function ChapterMenu()
 		{
-			logger.fatal("made menu: " + this);
 			homeButton = new HomeButton(null);
 			homeButton.x = 65;
 			homeButton.addEventListener(MouseEvent.CLICK, handleClose);
@@ -50,7 +49,7 @@ package com.allofus.holburne.learningzone.view.menu
 		
 		public function addItems(itemVOs : Vector.<MenuButtonVO>) : void
 		{
-			logger.fatal("adding menu itmes: " + itemVOs);
+			logger.debug("adding menu itmes: " + itemVOs);
 			var menuButton:MenuButton;
 			if(!sectionButtonDOs)sectionButtonDOs = new Vector.<MenuButton>();
 			for (var i : int = 0; i < itemVOs.length; i++) 
@@ -158,8 +157,8 @@ package com.allofus.holburne.learningzone.view.menu
 			
 			for (var j : int = 0; j < subMenuPanelLayer.numChildren; j++) 
 			{
-				var panel:MenuPanelVC = subMenuPanelLayer.getChildAt(0) as MenuPanelVC;
-				panel.dispose();	
+				var panel:MenuPanelVC = subMenuPanelLayer.getChildAt(j) as MenuPanelVC;
+				if(panel)panel.dispose();	
 			}
 			subMenuPanelLayer = null;
 			

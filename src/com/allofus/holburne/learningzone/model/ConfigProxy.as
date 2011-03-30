@@ -58,7 +58,7 @@ package com.allofus.holburne.learningzone.model
 		
 		protected function handleProgress(event:LoaderEvent):void
 		{
-			logger.debug("loading progress: " + event);
+			//logger.debug("loading progress: " + event);
 		}
 		
 		protected function handleError(event:LoaderEvent):void
