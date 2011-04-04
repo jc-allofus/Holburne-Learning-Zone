@@ -1,5 +1,6 @@
 package com.allofus.holburne.learningzone.controller.startup
 {
+	import com.allofus.holburne.learningzone.view.homepage.HomepageSingleClickVC;
 	import com.greensock.plugins.ColorTransformPlugin;
 	import com.greensock.plugins.TintPlugin;
 	import flash.filters.ColorMatrixFilter;
@@ -41,7 +42,12 @@ package com.allofus.holburne.learningzone.controller.startup
 			mainView.scrollRect = sRect;
 			
 			mainView.backgroundLayer.addChild(new BackgroundVC());
-			mainView.homepageLayer.addChild(new HomepageVC());
+
+			//testing out single click to chapter instead of the double dip
+//			mainView.homepageLayer.addChild(new HomepageVC());
+			mainView.homepageLayer.addChild(new HomepageSingleClickVC());
+
+
 			mainView.blankOutLayer.addChild(new BlankOutVC());
 			mainView.frameBorderLayer.addChild(new FrameVC());
 			mainView.debugLayer.addChild(new DebugVC());

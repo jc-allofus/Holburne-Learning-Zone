@@ -101,7 +101,7 @@ package com.allofus.shared.text
 			
 			field.styleSheet = cssStyle;
 			field.embedFonts = true;
-			field.border = true;
+			//field.border = true;
 			field.selectable = selectable;
 			field.htmlText = "<p class='" + style + "'>" + label + "</p>";
 			return field;	

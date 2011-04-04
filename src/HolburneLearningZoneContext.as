@@ -1,5 +1,6 @@
 package
 {
+	import com.allofus.holburne.learningzone.view.homepage.HomepageSingleClickVC;
 	import com.allofus.holburne.learningzone.view.component.video.VideoPlayerMediator;
 	import com.allofus.holburne.learningzone.view.component.video.VideoPlayer;
 	import com.allofus.holburne.learningzone.view.component.video.VideoControlsMediator;
@@ -78,7 +79,8 @@ package
 			mediatorMap.mapView(DebugVC, DebugViewMediator);
 			mediatorMap.mapView(MenuPanelVC, MenuPanelVCMediator);
 			mediatorMap.mapView(ChapterMenu, ChapterMenuMediator);
-			mediatorMap.mapView(HomepageVC, HomePage1Mediator);
+//			mediatorMap.mapView(HomepageVC, HomePage1Mediator);
+			mediatorMap.mapView(HomepageSingleClickVC, HomePage1Mediator);
 			mediatorMap.mapView(VideoControls, VideoControlsMediator);
 			mediatorMap.mapView(VideoPlayer, VideoPlayerMediator);
 			

@@ -15,7 +15,7 @@ package com.allofus.holburne.learningzone.view.homepage
 	 */
 	public class HomePage1Mediator extends Mediator
 	{
-		[Inject] public var view:HomepageVC;
+		[Inject] public var view:HomepageSingleClickVC;
 		
 		override public function onRegister():void
 		{
