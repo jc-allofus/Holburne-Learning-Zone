@@ -20,6 +20,19 @@ package com.allofus.holburne.learningzone.view.chapter
 		
 		public function AbstractSlide()
 		{
+			if(!stage)
+			{
+				addEventListener(Event.ADDED_TO_STAGE, initSlide);
+			}
+			else
+			{
+				initSlide();
+			}
+		}
+		
+		protected function initSlide(event : Event = null) : void
+		{
+			//hook for anything else to init once we have a stage reference
 		}
 		
 		public function transitionIn():void

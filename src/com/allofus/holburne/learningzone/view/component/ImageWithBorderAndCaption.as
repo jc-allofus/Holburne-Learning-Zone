@@ -21,8 +21,6 @@ package com.allofus.holburne.learningzone.view.component
 	 */
 	public class ImageWithBorderAndCaption extends Sprite
 	{
-		public static const BORDER_SIZE:int = 20;
-		public static const BORDER_COLOR:uint = 0xFFFFFF;
 		
 		protected var img:DisplayObject;
 		protected var border:Shape;
@@ -35,18 +33,18 @@ package com.allofus.holburne.learningzone.view.component
 			//visible = false;
 			
 			this.img  = img;
-			this.img.x = this.img.y = BORDER_SIZE;
+			this.img.x = this.img.y = AppGlobals.BORDER_SIZE;
 			
-			var totalWidth:int = Math.round(img.width + (BORDER_SIZE * 2));
-			var totalHeight:int = Math.round(img.height + (BORDER_SIZE * 2));
+			var totalWidth:int = Math.round(img.width + (AppGlobals.BORDER_SIZE * 2));
+			var totalHeight:int = Math.round(img.height + (AppGlobals.BORDER_SIZE * 2));
 			
 			border = new Shape();
-			border.graphics.beginFill(BORDER_COLOR);
+			border.graphics.beginFill(AppGlobals.BORDER_COLOR);
 			border.graphics.drawRect(0, 0, totalWidth, totalHeight);
 
 			_captionLabel = FontManager.createTextField(captionText, img.width, 0, true);
-			_captionLabel.x = BORDER_SIZE;
-			_captionLabel.y = this.img.y + this.img.height + BORDER_SIZE;
+			_captionLabel.x = AppGlobals.BORDER_SIZE;
+			_captionLabel.y = this.img.y + this.img.height + AppGlobals.BORDER_SIZE;
 			_captionLabel.visible = false;
 			_captionLabel.alpha = 0;
 			
@@ -71,7 +69,7 @@ package com.allofus.holburne.learningzone.view.component
 		public function showCaption(useTween:Boolean = true):void
 		{
 			addChild(_captionLabel);
-			var th:Number = _captionLabel.y + _captionLabel.height + BORDER_SIZE;
+			var th:Number = _captionLabel.y + _captionLabel.height + AppGlobals.BORDER_SIZE;
 			
 			if(useTween)
 			{
@@ -95,7 +93,7 @@ package com.allofus.holburne.learningzone.view.component
 		
 		public function hideCaption():void
 		{
-			var th:Number = Math.round(img.height + (BORDER_SIZE * 2));;
+			var th:Number = Math.round(img.height + (AppGlobals.BORDER_SIZE * 2));;
 			if(captionTimeline) captionTimeline.clear();
 			captionTimeline = new TimelineMax({onComplete:hideCaptionComplete});
 			captionTimeline.insert(new TweenMax(_captionLabel, 0.35, {autoAlpha:0, ease:AppGlobals.FADE_EASE}));

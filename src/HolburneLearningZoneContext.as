@@ -1,5 +1,9 @@
 package
 {
+	import com.allofus.holburne.learningzone.view.component.video.VideoPlayerMediator;
+	import com.allofus.holburne.learningzone.view.component.video.VideoPlayer;
+	import com.allofus.holburne.learningzone.view.component.video.VideoControlsMediator;
+	import com.allofus.holburne.learningzone.view.component.video.VideoControls;
 	import com.allofus.holburne.learningzone.view.background.BackgroundVCMediator;
 	import com.allofus.holburne.learningzone.view.background.BackgroundVC;
 	import com.allofus.holburne.learningzone.ApplicationMediator;
@@ -72,11 +76,14 @@ package
 			mediatorMap.mapView(SplashScreen, SplashScreenMediator);//600 x 350 
 			mediatorMap.mapView(BlankOutVC, BlankOutMediator);
 			mediatorMap.mapView(DebugVC, DebugViewMediator);
+			mediatorMap.mapView(MenuPanelVC, MenuPanelVCMediator);
+			mediatorMap.mapView(ChapterMenu, ChapterMenuMediator);
 			mediatorMap.mapView(HomepageVC, HomePage1Mediator);
+			mediatorMap.mapView(VideoControls, VideoControlsMediator);
+			mediatorMap.mapView(VideoPlayer, VideoPlayerMediator);
+			
 			mediatorMap.mapView(Chapter01, Chapter01Mediator, AbstractChapterView);
 			mediatorMap.mapView(Chapter02, Chapter02Mediator, AbstractChapterView);
-			mediatorMap.mapView(ChapterMenu, ChapterMenuMediator);
-			mediatorMap.mapView(MenuPanelVC, MenuPanelVCMediator);
 			
 			//CONTROLLER
 			commandMap.mapEvent(ContextEvent.STARTUP, StartupCommand);
