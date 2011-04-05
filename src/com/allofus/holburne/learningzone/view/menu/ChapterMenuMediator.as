@@ -21,6 +21,7 @@ package com.allofus.holburne.learningzone.view.menu
 		{
 			eventMap.mapListener(eventDispatcher, ChapterMenuEvent.ADD_MENU_ITEMS, handleAddItems);
 			eventMap.mapListener(view, ChapterMenuEvent.ITEM_SELECTED, relayToSystem);
+			eventMap.mapListener(view, ChapterMenuEvent.SUBMENU_ITEM_SELECTED, relayToSystem);
 			eventMap.mapListener(view, Event.CLOSE, handleCloseClicked);
 		}
 		

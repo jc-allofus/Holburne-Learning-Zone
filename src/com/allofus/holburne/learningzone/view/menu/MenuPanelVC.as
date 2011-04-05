@@ -25,12 +25,14 @@ package com.allofus.holburne.learningzone.view.menu
 		
 		protected var background:Bitmap;
 		
+		public var menuButtonDOs:Vector.<SubMenuButton>;
 		protected var menuButtonVOs:Vector.<MenuButtonVO>;
-		protected var menuButtonDOs:Vector.<SubMenuButton>;
 		protected var currentSelected:SubMenuButton;
 		
 		public var triggeredBy:MenuButtonVO;
 		protected var bottomOfMenu:Number = 0;
+		
+		protected var _opened:Boolean = false;
 		
 		public function MenuPanelVC(vos:Vector.<MenuButtonVO>, triggeredBy:MenuButtonVO)
 		{
@@ -82,7 +84,7 @@ package com.allofus.holburne.learningzone.view.menu
 			}
 		}
 		
-		protected function deselectAllButtons():void
+		public function deselectAllButtons():void
 		{
 			if(menuButtonDOs && menuButtonDOs.length > 0)
 			{
@@ -91,6 +93,7 @@ package com.allofus.holburne.learningzone.view.menu
 					menuButtonDOs[i].selected = false;
 					
 				}
+				currentSelected = null;
 			}
 			else
 			{
@@ -100,12 +103,13 @@ package com.allofus.holburne.learningzone.view.menu
 		
 		public function open():void
 		{
-			selectFirst();
+			_opened = true;
 			TweenMax.to(this, 0.5, {y:-bottomOfMenu, ease:Expo.easeOut});
 		}
 		
 		public function close():void
 		{
+			_opened = false;
 			TweenMax.to(this, 0.5, {y:0, ease:Expo.easeOut});
 		}
 
@@ -133,6 +137,12 @@ package com.allofus.holburne.learningzone.view.menu
 			background = null;
 		}
 		
-		private static const logger:ILogger = GetLogger.qualifiedName( MenuPanelVC );
+		public function toggle() : void
+		{
+			_opened ? close() : open();
+		}
+		
+		private static const logger : ILogger = GetLogger.qualifiedName(MenuPanelVC);
+
 	}
 }

@@ -47,6 +47,7 @@ package com.allofus.holburne.learningzone.view.component
 		
 		override protected function staggerInComplete():void
 		{
+			if(!pins)return;
 			for (var i : int = 0; i < pins.length; i++) 
 			{
 				pins[i].transitionIn(i*0.1);

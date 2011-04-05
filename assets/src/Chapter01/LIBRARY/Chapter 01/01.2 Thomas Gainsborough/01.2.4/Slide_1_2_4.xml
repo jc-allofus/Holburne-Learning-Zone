@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.2 Thomas Gainsborough/01.2.4/Slide_1_2_4" itemID="4d88a17b-000002a3" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_2_4" sourceLibraryItemHRef="Chapter 01/01.2 Thomas Gainsborough/01.2.3/Slide_1_2_3 copy" lastModified="1300964058" lastUniqueIdentifier="7">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.2 Thomas Gainsborough/01.2.4/Slide_1_2_4" itemID="4d88a17b-000002a3" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_2_4" sourceLibraryItemHRef="Chapter 01/01.2 Thomas Gainsborough/01.2.3/Slide_1_2_3 copy" lastModified="1302017243" lastUniqueIdentifier="7">
   <timeline>
     <DOMTimeline name="Slide_1_2_4">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="hst1" selected="true" centerPoint3DX="376.1" centerPoint3DY="344.1">
+                <DOMSymbolInstance libraryItemName="PinTarget" name="hst1" centerPoint3DX="376.1" centerPoint3DY="344.1">
                   <matrix>
                     <Matrix tx="376.1" ty="344.1"/>
                   </matrix>
@@ -38,7 +38,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="hst5" centerPoint3DX="782.2" centerPoint3DY="592.15">
+                <DOMSymbolInstance libraryItemName="PinTarget" name="hst5" selected="true" centerPoint3DX="782.2" centerPoint3DY="592.15">
                   <matrix>
                     <Matrix tx="782.2" ty="592.15"/>
                   </matrix>

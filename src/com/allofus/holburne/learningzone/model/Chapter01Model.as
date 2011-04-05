@@ -28,12 +28,18 @@ package com.allofus.holburne.learningzone.model
 			
 			_menuVOs.push
 			(
-				new MenuButtonVO({label:"<p class='buttonLabel'>The Byam Family</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"1_3"})
+				new MenuButtonVO({label:"<p class='buttonLabel'>The Byam Family</p>", subMenuButtons:new <MenuButtonVO>[
+					new MenuButtonVO({label:"<p class='buttonLabel'>button label here...</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"1_3"})
+					]})
 			);
 			
 			_menuVOs.push
 			(
-				new MenuButtonVO({label:"<p class='buttonLabel'>The Painting</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"1_4"})
+				new MenuButtonVO({label:"<p class='buttonLabel'>The Painting</p>", subMenuButtons:new <MenuButtonVO>[
+					new MenuButtonVO({label:"<p class='buttonLabel'>button label here...</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"1_4_1"}),
+					new MenuButtonVO({label:"<p class='buttonLabel'>button label here...</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"1_4_2"}),
+					new MenuButtonVO({label:"<p class='buttonLabel'>button label here...</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"1_4_3"})
+					]})
 			);
 			
 			super();

@@ -1,12 +1,5 @@
 package
 {
-	import com.allofus.holburne.learningzone.view.homepage.HomepageSingleClickVC;
-	import com.allofus.holburne.learningzone.view.component.video.VideoPlayerMediator;
-	import com.allofus.holburne.learningzone.view.component.video.VideoPlayer;
-	import com.allofus.holburne.learningzone.view.component.video.VideoControlsMediator;
-	import com.allofus.holburne.learningzone.view.component.video.VideoControls;
-	import com.allofus.holburne.learningzone.view.background.BackgroundVCMediator;
-	import com.allofus.holburne.learningzone.view.background.BackgroundVC;
 	import com.allofus.holburne.learningzone.ApplicationMediator;
 	import com.allofus.holburne.learningzone.controller.ApplicationStatusChanged;
 	import com.allofus.holburne.learningzone.controller.ChapterSelectedCommand;
@@ -24,21 +17,25 @@ package
 	import com.allofus.holburne.learningzone.model.Chapter02Model;
 	import com.allofus.holburne.learningzone.model.ConfigProxy;
 	import com.allofus.holburne.learningzone.model.InternetConnectionProxy;
+	import com.allofus.holburne.learningzone.view.background.BackgroundVC;
+	import com.allofus.holburne.learningzone.view.background.BackgroundVCMediator;
 	import com.allofus.holburne.learningzone.view.chapter.AbstractChapterView;
 	import com.allofus.holburne.learningzone.view.chapter.chapter01.Chapter01;
 	import com.allofus.holburne.learningzone.view.chapter.chapter01.Chapter01Mediator;
 	import com.allofus.holburne.learningzone.view.chapter.chapter02.Chapter02;
 	import com.allofus.holburne.learningzone.view.chapter.chapter02.Chapter02Mediator;
+	import com.allofus.holburne.learningzone.view.component.video.VideoControls;
+	import com.allofus.holburne.learningzone.view.component.video.VideoControlsMediator;
+	import com.allofus.holburne.learningzone.view.component.video.VideoPlayer;
+	import com.allofus.holburne.learningzone.view.component.video.VideoPlayerMediator;
 	import com.allofus.holburne.learningzone.view.debug.DebugVC;
 	import com.allofus.holburne.learningzone.view.debug.DebugViewMediator;
 	import com.allofus.holburne.learningzone.view.frame.BlankOutMediator;
 	import com.allofus.holburne.learningzone.view.frame.BlankOutVC;
 	import com.allofus.holburne.learningzone.view.homepage.HomePage1Mediator;
-	import com.allofus.holburne.learningzone.view.homepage.HomepageVC;
+	import com.allofus.holburne.learningzone.view.homepage.HomepageSingleClickVC;
 	import com.allofus.holburne.learningzone.view.menu.ChapterMenu;
 	import com.allofus.holburne.learningzone.view.menu.ChapterMenuMediator;
-	import com.allofus.holburne.learningzone.view.menu.MenuPanelVC;
-	import com.allofus.holburne.learningzone.view.menu.MenuPanelVCMediator;
 	import com.allofus.holburne.learningzone.view.splash.SplashScreen;
 	import com.allofus.holburne.learningzone.view.splash.SplashScreenMediator;
 	import com.allofus.shared.logging.GetLogger;
@@ -77,7 +74,6 @@ package
 			mediatorMap.mapView(SplashScreen, SplashScreenMediator);//600 x 350 
 			mediatorMap.mapView(BlankOutVC, BlankOutMediator);
 			mediatorMap.mapView(DebugVC, DebugViewMediator);
-			mediatorMap.mapView(MenuPanelVC, MenuPanelVCMediator);
 			mediatorMap.mapView(ChapterMenu, ChapterMenuMediator);
 //			mediatorMap.mapView(HomepageVC, HomePage1Mediator);
 			mediatorMap.mapView(HomepageSingleClickVC, HomePage1Mediator);

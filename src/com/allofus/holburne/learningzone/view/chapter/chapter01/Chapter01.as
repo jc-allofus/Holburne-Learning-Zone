@@ -23,10 +23,17 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			
 			slides = new Dictionary();
 			slides["1_1"] = Slide_1_1VC;
+			
 			slides["1_2_1"] = Slide_1_2_1VC;
 			slides["1_2_2"] = Slide_1_2_2VC;
 			slides["1_2_3"] = Slide_1_2_3VC;
 			slides["1_2_4"] = Slide_1_2_4VC;
+			
+			slides["1_3"] = Slide_1_3_1VC;
+			
+			slides["1_4_1"] = Slide_1_4_1VC;
+			slides["1_4_2"] = Slide_1_4_2VC;
+			slides["1_4_3"] = Slide_1_4_3VC;
 			super();
 		}
 		

@@ -1,11 +1,19 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.4 The Painting/01.4.1/Slide_1_4_1" itemID="4d88a2a8-000002d2" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_4_1" sourceLibraryItemHRef="Chapter 01/01.3 Thomas Gainsborough/Slide_1_3_1 copy" lastModified="1302019286" lastUniqueIdentifier="8">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.3 The Byam Family/Slide_1_3_1" itemID="4d88a25e-000002ba" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_3_1" sourceLibraryItemHRef="Chapter 01/01.2 Thomas Gainsborough/01.2.4/Slide_1_2_4 copy" lastModified="1302019249" lastUniqueIdentifier="4">
   <timeline>
-    <DOMTimeline name="Slide_1_4_1">
+    <DOMTimeline name="Slide_1_3_1">
       <layers>
-        <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
+                <DOMSymbolInstance libraryItemName="Chapter 01/TheFamily" name="" selected="true" centerPoint3DX="511" centerPoint3DY="520.5">
+                  <matrix>
+                    <Matrix tx="171" ty="104"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="340" y="416.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="PinTarget" name="hst1" centerPoint3DX="532.3" centerPoint3DY="281">
                   <matrix>
                     <Matrix tx="532.3" ty="281"/>
@@ -22,28 +30,12 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="hst3" selected="true" centerPoint3DX="685" centerPoint3DY="499.4">
+                <DOMSymbolInstance libraryItemName="PinTarget" name="hst3" centerPoint3DX="685" centerPoint3DY="499.4">
                   <matrix>
                     <Matrix tx="685" ty="499.4"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Layer 2" color="#9933CC">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="Chapter 01/TheFamily" name="" centerPoint3DX="511" centerPoint3DY="520.5">
-                  <matrix>
-                    <Matrix tx="171" ty="104"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="340" y="416.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>

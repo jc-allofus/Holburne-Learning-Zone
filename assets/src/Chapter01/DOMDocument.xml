@@ -3,22 +3,23 @@
           <DOMFolderItem name="Chapter 01" itemID="4d7deec7-0000026d" isExpanded="true"/>
           <DOMFolderItem name="Chapter 01/01.1 Introduction" itemID="4d7deee3-00000271" isExpanded="true"/>
           <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough" itemID="4d8769c7-00000267" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.1" itemID="4d88a061-00000268" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2" itemID="4d88a081-0000026e" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.1" itemID="4d88a061-00000268"/>
+          <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2" itemID="4d88a081-0000026e"/>
           <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_bmp" itemID="4d8a1a8e-000002fb"/>
           <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_full" itemID="4d8a1a92-000002fd" isExpanded="true"/>
           <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_thumbs" itemID="4d8a1a84-000002fa"/>
           <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.3" itemID="4d88a094-00000272"/>
           <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.4" itemID="4d88a09b-00000276" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 01/01.3 Thomas Gainsborough" itemID="4d88a1b4-000002a9" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 01/01.3 The Byam Family" itemID="4d9b2532-000002b4" isExpanded="true"/>
           <DOMFolderItem name="Chapter 01/01.4 The Painting" itemID="4d88a236-000002ad" isExpanded="true"/>
           <DOMFolderItem name="Chapter 01/01.4 The Painting/01.4.1" itemID="4d88a280-000002bf" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 01/01.4 The Painting/01.4.1/_bmp" itemID="4d8a25ca-000003ae" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 01/01.4 The Painting/01.4.1/_bmp" itemID="4d8a25ca-000003ae"/>
           <DOMFolderItem name="Chapter 01/01.4 The Painting/01.4.2" itemID="4d88a28c-000002c4" isExpanded="true"/>
           <DOMFolderItem name="Chapter 01/01.4 The Painting/01.4.3" itemID="4d88a292-000002c8" isExpanded="true"/>
      </folders>
      <media>
-          <DOMBitmapItem name="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_1_large_caption-space.png" itemID="4d8a2673-000003d7" sourceExternalFilepath="./LIBRARY/Chapter 01/01.4 The Painting/01.4.1/_bmp/1_1_large_caption-space.png" sourceLastImported="1299683530" sourcePlatform="macintosh" externalFileSize="715136" originalCompressionType="lossless" quality="50" href="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_1_large_caption-space.png" bitmapDataHRef="M 30 1300899159.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
+          <DOMBitmapItem name="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_1_large_caption-space.png" itemID="4d8a2673-000003d7" sourceExternalFilepath="./LIBRARY/Chapter 01/01.4 The Painting/01.4.1/_bmp/1_1_large_caption-space.png" sourceLastImported="1302008384" sourcePlatform="macintosh" externalFileSize="715136" originalCompressionType="lossless" quality="50" href="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_1_large_caption-space.png" bitmapDataHRef="M 30 1300899159.dat" frameRight="13600" frameBottom="16660"/>
+          <DOMBitmapItem name="Chapter 01/1_1_large_caption-space.png" itemID="4d9b3ccd-000002f9" sourceExternalFilepath="./LIBRARY/Chapter 01/1_1_large_caption-space.png" sourceLastImported="1302019276" sourcePlatform="macintosh" externalFileSize="715136" originalCompressionType="lossless" quality="50" href="Chapter 01/1_1_large_caption-space.png" bitmapDataHRef="M 29 1302013476.dat" frameRight="13600" frameBottom="16660"/>
           <DOMBitmapItem name="Chapter 01/01.1 Introduction/1_1.jpg" itemID="4d90bedc-000002fe" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter1.Chap1IntroImage" sourceExternalFilepath="./LIBRARY/Chapter 01/01.1 Introduction/1_1.jpg" sourceLastImported="1301331470" sourcePlatform="macintosh" externalFileSize="73214" quality="50" href="Chapter 01/01.1 Introduction/1_1.jpg" bitmapDataHRef="M 2 1300099811.dat" frameRight="12000" frameBottom="12480" isJPEG="true"/>
           <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.1/1_2_1_large.png" itemID="4d90bedc-000002ff" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.1/1_2_1_large.png" sourceLastImported="1301331470" sourcePlatform="macintosh" externalFileSize="431547" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.1/1_2_1_large.png" bitmapDataHRef="M 5 1300720324.dat" frameRight="9920" frameBottom="14700"/>
           <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_bmp/1_2_2_10_large.png" itemID="4d90bedc-00000300" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.2/_bmp/1_2_2_10_large.png" sourceLastImported="1301331470" sourcePlatform="macintosh" externalFileSize="586039" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_bmp/1_2_2_10_large.png" bitmapDataHRef="M 21 1300805838.dat" frameRight="14120" frameBottom="11740"/>
@@ -38,13 +39,13 @@
           <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_bmp/1_2_2_9_large.png" itemID="4d90bedf-00000309" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.2/_bmp/1_2_2_9_large.png" sourceLastImported="1301331470" sourcePlatform="macintosh" externalFileSize="555172" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_bmp/1_2_2_9_large.png" bitmapDataHRef="M 19 1300805833.dat" frameRight="11040" frameBottom="14680"/>
           <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_bmp/1_2_2_9_small.png" itemID="4d88ba69-000003ca" sourceExternalFilepath="../Chapters1-10/LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.2/bmp/1_2_2_9_small.png" sourceLastImported="1299679158" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_bmp/1_2_2_9_small.png" bitmapDataHRef="M 20 1300805835.dat" frameRight="3320" frameBottom="4040"/>
           <DOMBitmapItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.4/1_2_4_large.png" itemID="4d90bedf-0000030a" sourceExternalFilepath="./LIBRARY/Chapter 01/01.2 Thomas Gainsborough/01.2.4/1_2_4_large.png" sourceLastImported="1301331470" sourcePlatform="macintosh" externalFileSize="559499" originalCompressionType="lossless" quality="50" href="Chapter 01/01.2 Thomas Gainsborough/01.2.4/1_2_4_large.png" bitmapDataHRef="M 22 1300898912.dat" frameRight="19480" frameBottom="14900"/>
-          <DOMBitmapItem name="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_1.png" itemID="4d8a2674-000003d9" sourceExternalFilepath="./LIBRARY/Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_1.png" sourceLastImported="1299681087" sourcePlatform="macintosh" externalFileSize="31821" originalCompressionType="lossless" quality="50" href="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_1.png" bitmapDataHRef="M 23 1300898914.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
-          <DOMBitmapItem name="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_2.png" itemID="4d8a2674-000003da" sourceExternalFilepath="./LIBRARY/Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_2.png" sourceLastImported="1299681202" sourcePlatform="macintosh" externalFileSize="39923" originalCompressionType="lossless" quality="50" href="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_2.png" bitmapDataHRef="M 24 1300898915.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
-          <DOMBitmapItem name="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_3.png" itemID="4d8a2675-000003db" sourceExternalFilepath="./LIBRARY/Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_3.png" sourceLastImported="1299681277" sourcePlatform="macintosh" externalFileSize="71240" originalCompressionType="lossless" quality="50" href="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_3.png" bitmapDataHRef="M 25 1300898915.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
-          <DOMBitmapItem name="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_4.png" itemID="4d8a2675-000003dc" sourceExternalFilepath="./LIBRARY/Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_4.png" sourceLastImported="1299681349" sourcePlatform="macintosh" externalFileSize="68703" originalCompressionType="lossless" quality="50" href="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_4.png" bitmapDataHRef="M 26 1300898916.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
-          <DOMBitmapItem name="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_5.png" itemID="4d8a2675-000003dd" sourceExternalFilepath="./LIBRARY/Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_5.png" sourceLastImported="1299681408" sourcePlatform="macintosh" externalFileSize="84805" originalCompressionType="lossless" quality="50" href="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_5.png" bitmapDataHRef="M 27 1300898916.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
-          <DOMBitmapItem name="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_5a.png" itemID="4d8a2675-000003de" sourceExternalFilepath="./LIBRARY/Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_5a.png" sourceLastImported="1299681602" sourcePlatform="macintosh" externalFileSize="33758" originalCompressionType="lossless" quality="50" href="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_5a.png" bitmapDataHRef="M 28 1300898917.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
-          <DOMBitmapItem name="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_6.png" itemID="4d8a2675-000003df" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Img1_4_1_6" sourceExternalFilepath="./LIBRARY/Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_6.png" sourceLastImported="1299681736" sourcePlatform="macintosh" externalFileSize="33070" originalCompressionType="lossless" quality="50" href="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_6.png" bitmapDataHRef="M 29 1300898917.dat" frameRight="3460" frameBottom="4200"/>
+          <DOMBitmapItem name="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_1.png" itemID="4d8a2674-000003d9" sourceExternalFilepath="./LIBRARY/Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_1.png" sourceLastImported="1302008384" sourcePlatform="macintosh" externalFileSize="31821" originalCompressionType="lossless" quality="50" href="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_1.png" bitmapDataHRef="M 23 1300898914.dat" frameRight="4200" frameBottom="3340"/>
+          <DOMBitmapItem name="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_2.png" itemID="4d8a2674-000003da" sourceExternalFilepath="./LIBRARY/Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_2.png" sourceLastImported="1302008384" sourcePlatform="macintosh" externalFileSize="39923" originalCompressionType="lossless" quality="50" href="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_2.png" bitmapDataHRef="M 24 1300898915.dat" frameRight="4200" frameBottom="2380"/>
+          <DOMBitmapItem name="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_3.png" itemID="4d8a2675-000003db" sourceExternalFilepath="./LIBRARY/Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_3.png" sourceLastImported="1302008384" sourcePlatform="macintosh" externalFileSize="71240" originalCompressionType="lossless" quality="50" href="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_3.png" bitmapDataHRef="M 25 1300898915.dat" frameRight="3200" frameBottom="4200"/>
+          <DOMBitmapItem name="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_4.png" itemID="4d8a2675-000003dc" sourceExternalFilepath="./LIBRARY/Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_4.png" sourceLastImported="1302008384" sourcePlatform="macintosh" externalFileSize="68703" originalCompressionType="lossless" quality="50" href="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_4.png" bitmapDataHRef="M 26 1300898916.dat" frameRight="4200" frameBottom="2740"/>
+          <DOMBitmapItem name="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_5.png" itemID="4d8a2675-000003dd" sourceExternalFilepath="./LIBRARY/Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_5.png" sourceLastImported="1302008384" sourcePlatform="macintosh" externalFileSize="84805" originalCompressionType="lossless" quality="50" href="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_5.png" bitmapDataHRef="M 27 1300898916.dat" frameRight="4200" frameBottom="4240"/>
+          <DOMBitmapItem name="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_5a.png" itemID="4d8a2675-000003de" sourceExternalFilepath="./LIBRARY/Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_5a.png" sourceLastImported="1302008384" sourcePlatform="macintosh" externalFileSize="33758" originalCompressionType="lossless" quality="50" href="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_5a.png" bitmapDataHRef="M 28 1300898917.dat" frameRight="4200" frameBottom="3340"/>
+          <DOMBitmapItem name="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_6.png" itemID="4d8a2675-000003df" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Img1_4_1_6" sourceExternalFilepath="./LIBRARY/Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_6.png" sourceLastImported="1302008384" sourcePlatform="macintosh" externalFileSize="33070" originalCompressionType="lossless" quality="50" href="Chapter 01/01.4 The Painting/01.4.1/_bmp/1_4_1_6.png" bitmapDataHRef="M 29 1300898917.dat" frameRight="3460" frameBottom="4200"/>
           <DOMBitmapItem name="Chapter 01/Mon Mar 21 151357 GMT+0000 2011.png" itemID="4d88baf7-000003dd" sourceExternalFilepath="../Chapters1-10/LIBRARY/Mon Mar 21 15&amp;#5813&amp;#5857 GMT+0000 2011.jpg" sourceLastImported="1300805042" sourcePlatform="macintosh" quality="50" href="Chapter 01/Mon Mar 21 151357 GMT+0000 2011.jpg" bitmapDataHRef="M 6 1300720603.dat" frameRight="38400" frameBottom="21600" isJPEG="true"/>
      </media>
      <symbols>
@@ -69,11 +70,12 @@
           <Include href="Chapter 01/01.2 Thomas Gainsborough/01.2.2/Slide_1_2_2.xml"/>
           <Include href="Chapter 01/01.2 Thomas Gainsborough/01.2.3/Slide_1_2_3.xml"/>
           <Include href="Chapter 01/01.2 Thomas Gainsborough/01.2.4/Slide_1_2_4.xml"/>
-          <Include href="Chapter 01/01.3 Thomas Gainsborough/Slide_1_3_1.xml"/>
+          <Include href="Chapter 01/01.3 The Byam Family/Slide_1_3_1.xml"/>
           <Include href="Chapter 01/01.4 The Painting/01.4.1/Slide_1_4_1.xml"/>
           <Include href="Chapter 01/01.4 The Painting/01.4.2/Slide_1_4_2.xml"/>
           <Include href="Chapter 01/01.4 The Painting/01.4.3/Slide_1_4_3.xml"/>
           <Include href="Chapter 01/Chapter 1 stage reference.xml" loadImmediate="false"/>
+          <Include href="Chapter 01/TheFamily.xml" loadImmediate="false"/>
           <Include href="PinTarget.xml" loadImmediate="false"/>
      </symbols>
      <timelines>
@@ -392,6 +394,15 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="887762" publishTime="1302019041"/>
+          <PublishItem publishSize="887767" publishTime="1302019028"/>
+          <PublishItem publishSize="887763" publishTime="1302018415"/>
+          <PublishItem publishSize="887762" publishTime="1302017635"/>
+          <PublishItem publishSize="887766" publishTime="1302017567"/>
+          <PublishItem publishSize="887762" publishTime="1302017484"/>
+          <PublishItem publishSize="887762" publishTime="1302017072"/>
+          <PublishItem publishSize="887640" publishTime="1302015551"/>
+          <PublishItem publishSize="820479" publishTime="1302014013"/>
           <PublishItem publishSize="820470" publishTime="1301331692"/>
           <PublishItem publishSize="810473" publishTime="1301055964"/>
           <PublishItem publishSize="810474" publishTime="1301055937"/>
@@ -403,14 +414,5 @@
           <PublishItem publishSize="1149610" publishTime="1300896536"/>
           <PublishItem publishSize="1149609" publishTime="1300896496"/>
           <PublishItem publishSize="1149604" publishTime="1300896410"/>
-          <PublishItem publishSize="1149604" publishTime="1300893797"/>
-          <PublishItem publishSize="1149398" publishTime="1300892936"/>
-          <PublishItem publishSize="1142997" publishTime="1300883995"/>
-          <PublishItem publishSize="1142988" publishTime="1300881906"/>
-          <PublishItem publishSize="1142861" publishTime="1300814237"/>
-          <PublishItem publishSize="1142873" publishTime="1300814221"/>
-          <PublishItem publishSize="1142875" publishTime="1300808603"/>
-          <PublishItem publishSize="1142872" publishTime="1300807414"/>
-          <PublishItem publishSize="1142872" publishTime="1300807303"/>
      </publishHistory>
 </DOMDocument>

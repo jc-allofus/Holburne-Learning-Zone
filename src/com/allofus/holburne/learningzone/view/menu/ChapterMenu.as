@@ -1,5 +1,7 @@
 package com.allofus.holburne.learningzone.view.menu
 {
+	import flash.ui.Keyboard;
+	import flash.events.KeyboardEvent;
 	import com.allofus.holburne.learningzone.events.ChapterMenuEvent;
 	import flash.events.MouseEvent;
 	import com.allofus.shared.util.PositionUtil;
@@ -29,7 +31,8 @@ package com.allofus.holburne.learningzone.view.menu
 		protected var sectionButtonLayer:Sprite;
 		protected var subMenuPanelLayer:Sprite;
 		protected var transition : TimelineMax;
-		protected var currentSelected : MenuButton;
+		protected var currentSelectedMainButton : MenuButton;
+		protected var currentSelectedPanel:MenuPanelVC;
 		
 		public function ChapterMenu()
 		{
@@ -45,6 +48,24 @@ package com.allofus.holburne.learningzone.view.menu
 			sectionButtonLayer.addChild(subMenuPanelLayer);
 			
 			transitionIn();
+			
+			addEventListener(Event.ADDED_TO_STAGE, addKeyListners);
+		}
+
+		private function addKeyListners(event : Event) : void
+		{
+			stage.addEventListener(KeyboardEvent.KEY_DOWN, onKeyDown);
+		}
+
+		private function onKeyDown(event : KeyboardEvent) : void
+		{
+			switch (event.keyCode)
+			{
+				case Keyboard.Q:
+					deselectAllMainButtons();
+					break;
+					
+			}
 		}
 		
 		public function addItems(itemVOs : Vector.<MenuButtonVO>) : void
@@ -64,20 +85,21 @@ package com.allofus.holburne.learningzone.view.menu
 				{
 					var menuPanel:MenuPanelVC = new MenuPanelVC(itemVOs[i].subMenuButtons, menuButton.vo);
 					menuPanel.x = menuButton.x + 5;
-					//menuPanel.y = 00;
+					menuButton.panel = menuPanel;
+					menuPanel.addEventListener(ChapterMenuEvent.SUBMENU_ITEM_SELECTED, handleSubmenuButtonClicked);
 					subMenuPanelLayer.addChild(menuPanel);
 				}
 			}
 			PositionUtil.centerHorizontallyByVal(sectionButtonLayer, AppGlobals.APP_WIDTH);
 			selectFirstItem();
 		}
-		
+
 		public function selectFirstItem():void
 		{
-			deselectAllButtons();
+			deselectAllMainButtons();
 			var firstItem:MenuButton = sectionButtonDOs[0];
 			firstItem.selected = true;
-			currentSelected = firstItem;
+			currentSelectedMainButton = firstItem;
 		}
 		
 		public function transitionIn(delay:Number = 0.5):void
@@ -112,19 +134,77 @@ package com.allofus.holburne.learningzone.view.menu
 			dispatchEvent(new Event(Event.CLOSE));
 		}
 		
+		//main menu buttons clicked
 		protected function handleMenuButtonClicked(event:MouseEvent):void
 		{
 			var btn:MenuButton = event.currentTarget as MenuButton;
-			if(currentSelected != btn)
+			
+			//if we have a button action assigned (normally the 'introduction'), dispatch it up to mediator who will redispatch to system
+			if(btn.vo.action)
 			{
-				deselectAllButtons();
+				deselectAllMainButtons();
+				closeAllPanels();
+				deslectAllSubPanelButtons();
 				btn.selected = true;
-				currentSelected = btn;
+				currentSelectedMainButton = btn;
 				dispatchEvent(new ChapterMenuEvent(ChapterMenuEvent.ITEM_SELECTED, btn.vo));
+			}
+			
+			//if the button that is clicked has a sub-menu, toggle it open or closed
+			if(btn.panel)
+			{
+				//close all the other panels
+				var numPanels:int = subMenuPanelLayer.numChildren;
+				var panel:MenuPanelVC;
+				for (var i : int = 0; i < numPanels; i++) 
+				{
+					panel = subMenuPanelLayer.getChildAt(i) as MenuPanelVC;
+					if(panel !== currentSelectedPanel)
+						panel.close(); //deselect all except for the current panel
+				}
+				
+				//don't open the menu if its the currently selected one (already open)
+				if(btn.panel !== currentSelectedPanel)
+					btn.panel.open();
+					
 			}
 		}
 		
-		protected function deselectAllButtons():void
+		//button inside a MenuPanelVC clicked
+		protected function handleSubmenuButtonClicked(event : ChapterMenuEvent) : void
+		{
+			var selectedPanel:MenuPanelVC = event.currentTarget as MenuPanelVC;
+			if(event.selectedVO && event.selectedVO.action)
+			{
+				var numPanels:int = subMenuPanelLayer.numChildren;
+				var otherPanel:MenuPanelVC;
+				for (var i : int = 0; i < numPanels; i++) 
+				{
+					otherPanel = subMenuPanelLayer.getChildAt(i) as MenuPanelVC;
+					if(otherPanel !== selectedPanel) //deselect & close all except for the current panel
+					{
+						otherPanel.deselectAllButtons();
+						otherPanel.close();
+					}
+				}
+				deselectAllMainButtons(); //deselect all 'main' buttons	
+				
+				
+				//select the main button who owns this panel
+				for (var j : int = 0; j < sectionButtonDOs.length; j++) 
+				{
+					if(sectionButtonDOs[j].panel === selectedPanel)
+						sectionButtonDOs[j].selected = true;	
+				}
+				
+				currentSelectedPanel = selectedPanel;
+				
+				//send the selection up to mediator	
+				dispatchEvent(event);
+			}
+		}
+		
+		protected function deselectAllMainButtons():void
 		{
 			if(sectionButtonDOs && sectionButtonDOs.length > 0)
 			{
@@ -139,9 +219,33 @@ package com.allofus.holburne.learningzone.view.menu
 			}
 		}
 		
+		protected function closeAllPanels():void
+		{
+			currentSelectedPanel = null;
+			var numPanels:int = subMenuPanelLayer.numChildren;
+			var panel:MenuPanelVC;
+			for (var i : int = 0; i < numPanels; i++) 
+			{
+				panel = subMenuPanelLayer.getChildAt(i) as MenuPanelVC;
+				panel.close();
+				
+			}
+		}
+		
+		protected function deslectAllSubPanelButtons():void
+		{
+			var numPanels:int = subMenuPanelLayer.numChildren;
+			var panel:MenuPanelVC;
+			for (var i : int = 0; i < numPanels; i++) 
+			{
+				panel = subMenuPanelLayer.getChildAt(i) as MenuPanelVC;
+				panel.deselectAllButtons(); 
+			}
+		}
+		
 		public function dispose():void
 		{
-			currentSelected = null;
+			currentSelectedMainButton = null;
 			
 			homeButton.removeEventListener(MouseEvent.CLICK, handleClose);
 			homeButton.dispose();

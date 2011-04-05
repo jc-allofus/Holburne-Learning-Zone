@@ -27,6 +27,7 @@ package com.allofus.holburne.learningzone.view.menu
 		protected var menuTabClicked:Bitmap;
 		
 		protected var label : TextField;
+		public var panel : MenuPanelVC;
 		
 		
 		public function MenuButton(vo:MenuButtonVO)
