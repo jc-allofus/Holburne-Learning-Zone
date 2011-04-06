@@ -17,6 +17,7 @@ package
 	import com.allofus.holburne.learningzone.model.Chapter02Model;
 	import com.allofus.holburne.learningzone.model.ConfigProxy;
 	import com.allofus.holburne.learningzone.model.InternetConnectionProxy;
+	import com.allofus.holburne.learningzone.service.XMLFeedService;
 	import com.allofus.holburne.learningzone.view.background.BackgroundVC;
 	import com.allofus.holburne.learningzone.view.background.BackgroundVCMediator;
 	import com.allofus.holburne.learningzone.view.chapter.AbstractChapterView;
@@ -63,6 +64,7 @@ package
 			injector.mapSingleton(ApplicationStatusModel);
 			injector.mapSingleton(ConfigProxy);
 			injector.mapSingleton(InternetConnectionProxy);
+			injector.mapSingleton(XMLFeedService);
 			injector.mapSingleton(Chapter01Model);
 			injector.mapSingleton(Chapter02Model);
 			

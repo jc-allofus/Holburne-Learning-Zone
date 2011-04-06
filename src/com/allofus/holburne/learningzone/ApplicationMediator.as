@@ -1,6 +1,8 @@
 package com.allofus.holburne.learningzone
 {
+	import com.allofus.holburne.learningzone.model.vo.DidTheRightThingVO;
 	import com.allofus.holburne.learningzone.events.DebugEvent;
+	import com.allofus.holburne.learningzone.events.VoteEvent;
 	import com.allofus.holburne.learningzone.events.UtilEvent;
 	import com.allofus.shared.logging.GetLogger;
 
@@ -37,6 +39,7 @@ package com.allofus.holburne.learningzone
 				case Keyboard.NUMBER_5:
 				case Keyboard.NUMBER_6:
 				case Keyboard.NUMBER_7:
+				case Keyboard.NUMBER_8:
 					//send to system (to be picked up by backgroundVCMediator)
 					dispatch(event);
 					break;
@@ -61,6 +64,14 @@ package com.allofus.holburne.learningzone
 				case Keyboard.S:
 					//take screenshot
 					dispatch(new UtilEvent(UtilEvent.TAKE_SCREENSHOT));
+					
+				case Keyboard.Y:
+					dispatch(new VoteEvent(VoteEvent.SEND_VOTE, new DidTheRightThingVO(true)));
+					break;
+					
+				case Keyboard.N:
+					dispatch(new VoteEvent(VoteEvent.SEND_VOTE, new DidTheRightThingVO(false)));
+					break;
 					
 				default:
 					break;

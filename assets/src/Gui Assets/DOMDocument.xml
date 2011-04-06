@@ -1,7 +1,7 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="1920" height="1080" frameRate="31" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" viewAngle3D="122.353661987282" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
-          <DOMFolderItem name="Background textures" itemID="4d931433-00000310"/>
-          <DOMFolderItem name="Background textures/alternate textures" itemID="4d931493-00000325"/>
+          <DOMFolderItem name="Background textures" itemID="4d931433-00000310" isExpanded="true"/>
+          <DOMFolderItem name="Background textures/alternate textures" itemID="4d931493-00000325" isExpanded="true"/>
           <DOMFolderItem name="Image Slider" itemID="4d90b383-000002d7"/>
           <DOMFolderItem name="Menu" itemID="4d80a415-00000266"/>
           <DOMFolderItem name="Pin" itemID="4d8a2fca-00000402"/>
@@ -16,6 +16,7 @@
           <DOMBitmapItem name="Background textures/alternate textures/04.png" itemID="4d933c5f-00000372" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.BackgroundTexture05" sourceExternalFilepath="./LIBRARY/Background textures/alternate textures/04.png" sourceLastImported="1301494477" sourcePlatform="macintosh" externalFileSize="3233765" originalCompressionType="lossless" quality="50" href="Background textures/alternate textures/04.png" bitmapDataHRef="M 26 1301494805.dat" frameRight="38400" frameBottom="21600"/>
           <DOMBitmapItem name="Background textures/alternate textures/05.png" itemID="4d933c60-00000373" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.BackgroundTexture06" sourceExternalFilepath="./LIBRARY/Background textures/alternate textures/05.png" sourceLastImported="1301494661" sourcePlatform="macintosh" externalFileSize="3324645" originalCompressionType="lossless" quality="50" href="Background textures/alternate textures/05.png" bitmapDataHRef="M 27 1301494809.dat" frameRight="38400" frameBottom="21600"/>
           <DOMBitmapItem name="Background textures/alternate textures/06.png" itemID="4d933c61-00000374" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.BackgroundTexture07" sourceExternalFilepath="./LIBRARY/Background textures/alternate textures/06.png" sourceLastImported="1301494688" sourcePlatform="macintosh" externalFileSize="3554605" originalCompressionType="lossless" quality="50" href="Background textures/alternate textures/06.png" bitmapDataHRef="M 28 1301494813.dat" frameRight="38400" frameBottom="21600"/>
+          <DOMBitmapItem name="Background textures/alternate textures/07.png" itemID="4d9c9a8f-0000027d" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.BackgroundTexture08" sourceExternalFilepath="./LIBRARY/Background textures/alternate textures/07.png" sourceLastImported="1302083890" sourcePlatform="macintosh" externalFileSize="2915093" originalCompressionType="lossless" quality="50" href="Background textures/alternate textures/07.png" bitmapDataHRef="M 30 1302108741.dat" frameRight="38400" frameBottom="21600"/>
           <DOMBitmapItem name="Background textures/BackgroundTexture" itemID="4d93143e-00000311" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.BackgroundTexture" sourceExternalFilepath="./LIBRARY/Background textures/BackgroundTexture.jpg" sourceLastImported="1301494795" sourcePlatform="macintosh" externalFileSize="196117" quality="50" href="Background textures/BackgroundTexture.jpg" bitmapDataHRef="M 14 1299684582.dat" frameRight="38400" frameBottom="21600" isJPEG="true"/>
           <DOMBitmapItem name="Bitmap 29" itemID="4d94b694-0000045f" sourceExternalFilepath="./LIBRARY/Bitmap 29./Users/jc/Library/Caches/TemporaryItems/FlashPNG" sourceLastImported="1301588917" sourcePlatform="macintosh" externalFileSize="4018" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap 29./Users/jc/Library/Caches/TemporaryItems/FlashPNG" bitmapDataHRef="M 29 1301588918.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
           <DOMBitmapItem name="PopupPanel/closePopupPanel.png" itemID="4d90bf3f-0000030b" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.ClosePanelUpSkin" sourceExternalFilepath="./LIBRARY/PopupPanel/closePopupPanel.png" sourceLastImported="1301331471" sourcePlatform="macintosh" externalFileSize="4189" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="PopupPanel/closePopupPanel.png" bitmapDataHRef="M 18 1300986658.dat" frameRight="1480" frameBottom="1480"/>
@@ -37,7 +38,7 @@
           <DOMBitmapItem name="Menu/tab_-selected.png" itemID="4d80a4b5-0000026a" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.menu.MenuTabSelected" sourceExternalFilepath="./LIBRARY/Menu/tab_-selected.png" sourceLastImported="1300276405" sourcePlatform="macintosh" externalFileSize="19598" originalCompressionType="lossless" quality="50" href="Menu/tab_-selected.png" bitmapDataHRef="M 11 1299684426.dat" frameRight="6580" frameBottom="2280"/>
           <DOMBitmapItem name="Menu/tab_non--selected.png" itemID="4d80a4b6-0000026b" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.menu.MenuTab" sourceExternalFilepath="./LIBRARY/Menu/tab_non--selected.png" sourceLastImported="1300276405" sourcePlatform="macintosh" externalFileSize="18033" originalCompressionType="lossless" quality="50" href="Menu/tab_non--selected.png" bitmapDataHRef="M 12 1299684426.dat" frameRight="6580" frameBottom="2280"/>
           <DOMBitmapItem name="Menu/tab_tap.png" itemID="4d80a4b6-0000026c" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.menu.MenuTabClicked" sourceExternalFilepath="./LIBRARY/Menu/tab_tap.png" sourceLastImported="1300276405" sourcePlatform="macintosh" externalFileSize="18131" originalCompressionType="lossless" quality="50" href="Menu/tab_tap.png" bitmapDataHRef="M 13 1299684426.dat" frameRight="6580" frameBottom="2280"/>
-          <DOMBitmapItem name="text-panel-decoration.png" itemID="4d7e115f-000002c9" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.TextPanelDecoration" sourceExternalFilepath="./LIBRARY/text-panel-decoration.png" sourceLastImported="1300107296" sourcePlatform="macintosh" externalFileSize="1952" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="text-panel-decoration.png" bitmapDataHRef="M 16 1300107538.dat" frameRight="5120" frameBottom="100"/>
+          <DOMBitmapItem name="text detail.png" itemID="4d9c9d41-00000283" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.TextPanelDecoration" sourceExternalFilepath="./LIBRARY/text detail.png" sourceLastImported="1301932209" sourcePlatform="macintosh" externalFileSize="3233" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="text detail.png" bitmapDataHRef="M 31 1302109480.dat" frameRight="5140" frameBottom="100"/>
      </media>
      <symbols>
           <Include href="Image Slider/ImageSlideControlDownSkin.xml"/>
@@ -55,23 +56,7 @@
                     <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
-                                   <elements>
-                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="Background textures/alternate textures/04.png">
-                                             <matrix>
-                                                  <Matrix tx="-77.05" ty="-246"/>
-                                             </matrix>
-                                        </DOMBitmapInstance>
-                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="Background textures/alternate textures/05.png">
-                                             <matrix>
-                                                  <Matrix tx="-77.05" ty="-246"/>
-                                             </matrix>
-                                        </DOMBitmapInstance>
-                                        <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Background textures/alternate textures/06.png">
-                                             <matrix>
-                                                  <Matrix tx="-77.05" ty="-246"/>
-                                             </matrix>
-                                        </DOMBitmapInstance>
-                                   </elements>
+                                   <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
@@ -381,6 +366,8 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="4745207" publishTime="1302108909"/>
+          <PublishItem publishSize="4745207" publishTime="1302108825"/>
           <PublishItem publishSize="4492559" publishTime="1301658115"/>
           <PublishItem publishSize="323104" publishTime="1301331783"/>
           <PublishItem publishSize="323107" publishTime="1301329151"/>
@@ -399,7 +386,5 @@
           <PublishItem publishSize="620804" publishTime="1299769889"/>
           <PublishItem publishSize="620794" publishTime="1299695151"/>
           <PublishItem publishSize="620794" publishTime="1299695028"/>
-          <PublishItem publishSize="620786" publishTime="1299694521"/>
-          <PublishItem publishSize="620521" publishTime="1299692624"/>
      </publishHistory>
 </DOMDocument>

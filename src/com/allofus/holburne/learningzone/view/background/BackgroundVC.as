@@ -8,6 +8,7 @@ package com.allofus.holburne.learningzone.view.background
 	import com.allofus.holburne.learningzone.guiassets.BackgroundTexture05;
 	import com.allofus.holburne.learningzone.guiassets.BackgroundTexture06;
 	import com.allofus.holburne.learningzone.guiassets.BackgroundTexture07;
+	import com.allofus.holburne.learningzone.guiassets.BackgroundTexture08;
 	import com.allofus.shared.logging.GetLogger;
 
 	import mx.logging.ILogger;
@@ -24,7 +25,7 @@ package com.allofus.holburne.learningzone.view.background
 		
 		public function BackgroundVC()
 		{
-			bgImage = new Bitmap(new BackgroundTexture(0,0));
+			bgImage = new Bitmap(new BackgroundTexture08(0,0));
 			bgImage.smoothing = true;
 			cacheAsBitmap = true;
 			mouseEnabled = false;
@@ -70,6 +71,10 @@ package com.allofus.holburne.learningzone.view.background
 						
 					case 7:
 						bgImage.bitmapData = new BackgroundTexture07(0,0);
+						break;
+						
+					case 8:
+						bgImage.bitmapData = new BackgroundTexture08(0,0);
 						break;
 				}
 			}

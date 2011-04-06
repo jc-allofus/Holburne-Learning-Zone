@@ -166,7 +166,6 @@ package com.allofus.holburne.learningzone.view.menu
 				//don't open the menu if its the currently selected one (already open)
 				if(btn.panel !== currentSelectedPanel)
 					btn.panel.open();
-					
 			}
 		}
 		

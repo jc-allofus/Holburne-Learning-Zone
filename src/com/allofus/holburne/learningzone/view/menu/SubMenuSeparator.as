@@ -7,7 +7,7 @@ package com.allofus.holburne.learningzone.view.menu
 	 */
 	public class SubMenuSeparator extends Shape
 	{
-		public static const COLOR:uint = 0x33333;
+		public static const COLOR:uint = 0x80816d;
 		public static const RADIUS:int = 5;
 		
 		public function SubMenuSeparator()

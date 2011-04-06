@@ -16,8 +16,8 @@ package com.allofus.holburne.learningzone.controller.startup
 	{
 		override public function execute():void
 		{
-			//this is really just placeholder for now in case i need proper model later; 
-			//the majority of this app is view and its gonna ba a hackathon!
+			//this is really just placeholder for now in case i need something more later... 
+			//the majority of this app is view and its gonna ba a mingin
 			logger.info("prepare models");
 			dispatch(new ApplicationStatusEvent(ApplicationStatusEvent.CHANGED, "prepare models.."));
 			dispatch(new StateEvent(StateEvent.ACTION, FSMConstants.PREPARE_MODELS_SUCCESS));

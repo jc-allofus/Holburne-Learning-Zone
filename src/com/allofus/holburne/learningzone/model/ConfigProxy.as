@@ -33,6 +33,7 @@ package com.allofus.holburne.learningzone.model
 		protected var loader : LoaderMax;
 		
 		protected var _updateURL : String;
+		protected var _apiBaseURL : String;
 		
 		public function ConfigProxy()
 		{
@@ -79,6 +80,7 @@ package com.allofus.holburne.learningzone.model
 			if(result)
 			{
 				_updateURL = result.UpdateURL.@path;
+				_apiBaseURL = result.APIBaseURL.@path;
 				logger.info("update url: " + _updateURL);
 				success();
 			}
@@ -101,6 +103,11 @@ package com.allofus.holburne.learningzone.model
 		public function get updateURL() : String
 		{
 			return _updateURL;
+		}
+		
+		public function get apiBaseURL():String
+		{
+			return _apiBaseURL;
 		}
 
 		private static const logger : ILogger = GetLogger.qualifiedName(ConfigProxy);
