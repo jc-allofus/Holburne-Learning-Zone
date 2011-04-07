@@ -1,7 +1,10 @@
 package com.allofus.holburne.learningzone.view.frame
 {
+	import com.allofus.holburne.learningzone.guiassets.BackgroundTexture08;
 	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.greensock.TweenMax;
+
+	import flash.display.Bitmap;
 	import flash.display.Sprite;
 
 	/**
@@ -9,11 +12,15 @@ package com.allofus.holburne.learningzone.view.frame
 	 */
 	public class BlankOutVC extends Sprite
 	{
+		protected var texture:Bitmap;
+		
 		public function BlankOutVC()
 		{
 			visible = false;
-			graphics.beginFill(0xFFFFFF, 0.8);
-			graphics.drawRect(0, 0, AppGlobals.APP_WIDTH, AppGlobals.APP_HEIGHT);
+			//graphics.beginFill(0xFFFFFF, 0.8);
+			//graphics.drawRect(0, 0, AppGlobals.APP_WIDTH, AppGlobals.APP_HEIGHT);
+			texture = new Bitmap(new BackgroundTexture08(0,0));
+			addChild(texture);
 		}
 		
 		public function show():void

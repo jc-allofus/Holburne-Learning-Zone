@@ -22,8 +22,8 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge fillStyle1="1" edges="!422 741|422 756!422 756|342 756!342 756|342 256!342 256|422 256!422 256|422 270"/>
                     <Edge fillStyle1="1" strokeStyle="1" edges="!422 270|657.5 505.5!657.5 505.5|422 741"/>
+                    <Edge fillStyle1="1" edges="!422 741|422 756!422 756|342 756!342 756|342 256!342 256|422 256!422 256|422 270"/>
                   </edges>
                 </DOMShape>
               </elements>

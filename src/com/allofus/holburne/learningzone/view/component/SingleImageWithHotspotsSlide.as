@@ -83,8 +83,8 @@ package com.allofus.holburne.learningzone.view.component
 			pin.select();
 			var panel:PopupPanel = new PopupPanel(pin.vo.panelVO);
 			panel.addEventListener(Event.CLOSING, deselectAllPins);
-			panel.x = text.x - 15;
-			panel.y = text.y + text.height - 15;
+			panel.x = text.x;
+			PositionUtil.positionUnder(panel, text, 15);
 			popupPanelLayer.addChild(panel);
 			panel.transitionIn();
 		}

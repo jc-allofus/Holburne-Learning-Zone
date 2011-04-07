@@ -48,7 +48,7 @@ package com.allofus.holburne.learningzone.view.component
 			_captionLabel.visible = false;
 			_captionLabel.alpha = 0;
 			
-			var gf:GlowFilter = new GlowFilter(0, 1,12,12,1);
+			var gf:GlowFilter = new GlowFilter(0,0.25,20,20,1,1);
 			
 			filters = [gf];
 			

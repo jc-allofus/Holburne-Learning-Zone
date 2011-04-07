@@ -1,13 +1,5 @@
 package com.allofus.holburne.learningzone.view.background
 {
-	import com.allofus.holburne.learningzone.guiassets.BackgroundTexture;
-	import com.allofus.holburne.learningzone.guiassets.BackgroundTexture01;
-	import com.allofus.holburne.learningzone.guiassets.BackgroundTexture02;
-	import com.allofus.holburne.learningzone.guiassets.BackgroundTexture03;
-	import com.allofus.holburne.learningzone.guiassets.BackgroundTexture04;
-	import com.allofus.holburne.learningzone.guiassets.BackgroundTexture05;
-	import com.allofus.holburne.learningzone.guiassets.BackgroundTexture06;
-	import com.allofus.holburne.learningzone.guiassets.BackgroundTexture07;
 	import com.allofus.holburne.learningzone.guiassets.BackgroundTexture08;
 	import com.allofus.shared.logging.GetLogger;
 
@@ -42,35 +34,35 @@ package com.allofus.holburne.learningzone.view.background
 				switch(id)
 				{
 					case 0:
-						bgImage.bitmapData = new BackgroundTexture(0,0);
+//						bgImage.bitmapData = new BackgroundTexture(0,0);
 						break;
 					
 					case 1:
-						bgImage.bitmapData = new BackgroundTexture01(0,0);
+//						bgImage.bitmapData = new BackgroundTexture01(0,0);
 						break;
 						
 					case 2:
-						bgImage.bitmapData = new BackgroundTexture02(0,0);
+//						bgImage.bitmapData = new BackgroundTexture02(0,0);
 						break;
 						
 					case 3:
-						bgImage.bitmapData = new BackgroundTexture03(0,0);
+//						bgImage.bitmapData = new BackgroundTexture03(0,0);
 						break;
 						
 					case 4:
-						bgImage.bitmapData = new BackgroundTexture04(0,0);
+//						bgImage.bitmapData = new BackgroundTexture04(0,0);
 						break;
 						
 					case 5:
-						bgImage.bitmapData = new BackgroundTexture05(0,0);
+//						bgImage.bitmapData = new BackgroundTexture05(0,0);
 						break;
 						
 					case 6:
-						bgImage.bitmapData = new BackgroundTexture06(0,0);
+//						bgImage.bitmapData = new BackgroundTexture06(0,0);
 						break;
 						
 					case 7:
-						bgImage.bitmapData = new BackgroundTexture07(0,0);
+//						bgImage.bitmapData = new BackgroundTexture07(0,0);
 						break;
 						
 					case 8:

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="VideoControls/PauseUpSkin" itemID="4d95b443-0000027b" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.PauseUpSkin" sourceLibraryItemHRef="VideoControls/PlayUpSkin copy" lastModified="1301658055">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="VideoControls/PauseUpSkin" itemID="4d95b443-0000027b" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.PauseUpSkin" sourceLibraryItemHRef="VideoControls/PlayUpSkin copy" lastModified="1302169117">
   <timeline>
     <DOMTimeline name="PauseUpSkin">
       <layers>
@@ -13,7 +13,7 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!666 256|666 756!666 756|586 756!586 756|586 256!586 256|666 256!422 256|422 756!422 756|342 756!342 756|342 256!342 256|422 256"/>
+                    <Edge fillStyle1="1" edges="!422 256|422 756!422 756|342 756!342 756|342 256!342 256|422 256!666 256|666 756!666 756|586 756!586 756|586 256!586 256|666 256"/>
                   </edges>
                 </DOMShape>
               </elements>

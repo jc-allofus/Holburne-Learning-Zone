@@ -24,7 +24,7 @@ package com.allofus.holburne.learningzone.view.component
 	public class PopupPanel extends Sprite
 	{
 		private static const MARGIN:int = 20;
-		private static const TEXTWIDTH:int = 250;
+		private static const MARGIN_RIGHT:int = 60;
 		
 		protected var vo:PopupPanelVO;
 		protected var backgroundPane:Shape;
@@ -40,7 +40,7 @@ package com.allofus.holburne.learningzone.view.component
 			backgroundPane = new Shape();
 			addChild(backgroundPane);
 			
-			text =  FontManager.createTextField(vo.text,TEXTWIDTH,0,true);
+			text =  FontManager.createTextField(vo.text,10,0,true);
 			addChild(text);
 						
 			if(vo.imageClassRef)
@@ -61,25 +61,29 @@ package com.allofus.holburne.learningzone.view.component
 			if(image)
 			{
 				image.x = image.y = MARGIN;
+				text.width = AppGlobals.RIGHT_FRAME_WIDTH - image.width - (MARGIN * 2) - MARGIN_RIGHT;
 				PositionUtil.positionToTheRight(text, image, MARGIN);
 			}
 			else
 			{
+				text.width = AppGlobals.RIGHT_FRAME_WIDTH - MARGIN - MARGIN_RIGHT;
 				text.x = MARGIN;
 			}
 			text.y = MARGIN;
 			
-			PositionUtil.positionToTheRight(closeButton, text);
-			PositionUtil.positionUnder(closeButton, text);
-			closeButton.y = height - closeButton.height;
-			
 			var g:Graphics = backgroundPane.graphics;
 			g.clear();
-			g.beginFill(0xFFFFFF, 1);
-			g.drawRect(0, 0, width + (MARGIN * 2), height + (MARGIN * 2));
+			g.beginFill(0xFFFFFF);
+			g.drawRect(0, 0, AppGlobals.RIGHT_FRAME_WIDTH, height + MARGIN);
 			
-			var gf:GlowFilter = new GlowFilter(0, 1,12,12,1);
-			filters = [gf];
+			var gf:GlowFilter = new GlowFilter(0, 0.25,20,20,1,1,false,true);
+			backgroundPane.filters = [gf];
+			
+			graphics.beginFill(0xFFFFFF, 0.3);
+			graphics.drawRect(0, 0, width, height);
+			
+			closeButton.x = width - closeButton.width - MARGIN;
+			closeButton.y = height - closeButton.height - MARGIN;
 		}
 		
 		public function transitionIn():void

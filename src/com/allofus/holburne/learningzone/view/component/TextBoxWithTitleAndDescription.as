@@ -23,12 +23,16 @@ package com.allofus.holburne.learningzone.view.component
 		public static const HEADER_GAP:int = 35;
 		
 		protected var background:Shape;
+		protected var glowShape:Shape;
 		protected var decoration:Bitmap;
 		protected var _titleField:TextField;
 		protected var _bodyField:TextField;
 		
 		public function TextBoxWithTitleAndDescription(title:String, body:String, width:Number = AppGlobals.RIGHT_FRAME_WIDTH)
 		{
+			glowShape = new Shape();
+			addChild(glowShape);
+			
 			background = new Shape();
 			addChild(background);
 			
@@ -50,12 +54,15 @@ package com.allofus.holburne.learningzone.view.component
 			
 			var th:Number = _bodyField.y + _bodyField.height + BORDER_SIZE;
 			
-			background.graphics.beginFill(0xFFFFFF);
-			background.graphics.drawRect(0, 0, width, th);
-			
+			glowShape.graphics.beginFill(0xFFFFFF);
+			glowShape.graphics.drawRect(0, 0, width, th);
 			//{color:0x333333, alpha:1, blurX:12, blurY:12, strength:1, inner:false, knockout:false, quality:1}
-			var gf:GlowFilter = new GlowFilter(0, 1,12,12,1);
-			filters = [gf];
+			var gf:GlowFilter = new GlowFilter(0, 0.25,20,20,1,1,false,true);
+			glowShape.filters = [gf];
+			
+			graphics.beginFill(0xFFFFFF, 0.3);
+			graphics.drawRect(0, 0, width, th);		
+			
 			
 			PositionUtil.centerHorizontally(decoration, this );
 			PositionUtil.centerHorizontally(_titleField, this);
