@@ -15,6 +15,24 @@ package
 	import com.allofus.holburne.learningzone.model.ApplicationStatusModel;
 	import com.allofus.holburne.learningzone.model.Chapter01Model;
 	import com.allofus.holburne.learningzone.model.Chapter02Model;
+	import com.allofus.holburne.learningzone.model.Chapter03Model;
+	import com.allofus.holburne.learningzone.model.Chapter04Model;
+	import com.allofus.holburne.learningzone.model.Chapter05Model;
+	import com.allofus.holburne.learningzone.model.Chapter06Model;
+	import com.allofus.holburne.learningzone.model.Chapter07Model;
+	import com.allofus.holburne.learningzone.model.Chapter08Model;
+	import com.allofus.holburne.learningzone.model.Chapter09Model;
+	import com.allofus.holburne.learningzone.model.Chapter10Model;
+	import com.allofus.holburne.learningzone.model.Chapter11Model;
+	import com.allofus.holburne.learningzone.model.Chapter12Model;
+	import com.allofus.holburne.learningzone.model.Chapter13Model;
+	import com.allofus.holburne.learningzone.model.Chapter14Model;
+	import com.allofus.holburne.learningzone.model.Chapter15Model;
+	import com.allofus.holburne.learningzone.model.Chapter16Model;
+	import com.allofus.holburne.learningzone.model.Chapter17Model;
+	import com.allofus.holburne.learningzone.model.Chapter18Model;
+	import com.allofus.holburne.learningzone.model.Chapter19Model;
+	import com.allofus.holburne.learningzone.model.Chapter20Model;
 	import com.allofus.holburne.learningzone.model.ConfigProxy;
 	import com.allofus.holburne.learningzone.model.InternetConnectionProxy;
 	import com.allofus.holburne.learningzone.service.XMLFeedService;
@@ -65,8 +83,28 @@ package
 			injector.mapSingleton(ConfigProxy);
 			injector.mapSingleton(InternetConnectionProxy);
 			injector.mapSingleton(XMLFeedService);
+			
+			//menu structure
 			injector.mapSingleton(Chapter01Model);
 			injector.mapSingleton(Chapter02Model);
+			injector.mapSingleton(Chapter03Model);
+			injector.mapSingleton(Chapter04Model);
+			injector.mapSingleton(Chapter05Model);
+			injector.mapSingleton(Chapter06Model);
+			injector.mapSingleton(Chapter07Model);
+			injector.mapSingleton(Chapter08Model);
+			injector.mapSingleton(Chapter09Model);
+			injector.mapSingleton(Chapter10Model);
+			injector.mapSingleton(Chapter11Model);
+			injector.mapSingleton(Chapter12Model);
+			injector.mapSingleton(Chapter13Model);
+			injector.mapSingleton(Chapter14Model);
+			injector.mapSingleton(Chapter15Model);
+			injector.mapSingleton(Chapter16Model);
+			injector.mapSingleton(Chapter17Model);
+			injector.mapSingleton(Chapter18Model);
+			injector.mapSingleton(Chapter19Model);
+			injector.mapSingleton(Chapter20Model);
 			
 			//VIEW
 			mediatorMap.mapView(HolburneLearningZone, ApplicationMediator); //document class		
