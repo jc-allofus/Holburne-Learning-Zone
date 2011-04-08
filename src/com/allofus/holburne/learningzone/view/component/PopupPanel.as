@@ -89,7 +89,7 @@ package com.allofus.holburne.learningzone.view.component
 		public function transitionIn():void
 		{
 			TweenMax.to(this, AppGlobals.FADE_DURATION, {autoAlpha:1, ease:AppGlobals.FADE_EASE});
-		}
+		}	
 		
 		public function close(event:Event = null):void
 		{

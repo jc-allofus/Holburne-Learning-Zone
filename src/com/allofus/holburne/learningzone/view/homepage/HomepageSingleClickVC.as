@@ -75,6 +75,7 @@ package com.allofus.holburne.learningzone.view.homepage
 			switch (clicked)
 			{
 				case homepage.t0:
+					vo = new ChapterVO(ChapterIDs.CHAPTER_03, homepage.t0);
 					break;
 					
 				case homepage.t1:
@@ -86,24 +87,31 @@ package com.allofus.holburne.learningzone.view.homepage
 					break;
 					
 				case homepage.t3:
+					vo = new ChapterVO(ChapterIDs.CHAPTER_04, homepage.t3);
 					break;
 					
 				case homepage.t4:
+					vo = new ChapterVO(ChapterIDs.CHAPTER_05, homepage.t4);
 					break;
 					
 				case homepage.t5:
+					vo = new ChapterVO(ChapterIDs.CHAPTER_06, homepage.t5);
 					break;
 					
 				case homepage.t6:
+					vo = new ChapterVO(ChapterIDs.CHAPTER_07, homepage.t6);
 					break;
 					
 				case homepage.t7:
+					vo = new ChapterVO(ChapterIDs.CHAPTER_08, homepage.t7);
 					break;
 					
 				case homepage.t8:
+					vo = new ChapterVO(ChapterIDs.CHAPTER_09, homepage.t8);
 					break;
 					
 				case homepage.t9:
+					vo = new ChapterVO(ChapterIDs.CHAPTER_10, homepage.t9);
 					break;
 			}
 			

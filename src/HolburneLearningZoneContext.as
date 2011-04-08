@@ -43,6 +43,8 @@ package
 	import com.allofus.holburne.learningzone.view.chapter.chapter01.Chapter01Mediator;
 	import com.allofus.holburne.learningzone.view.chapter.chapter02.Chapter02;
 	import com.allofus.holburne.learningzone.view.chapter.chapter02.Chapter02Mediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter04.Chapter04;
+	import com.allofus.holburne.learningzone.view.chapter.chapter04.Chapter04Mediator;
 	import com.allofus.holburne.learningzone.view.component.video.VideoControls;
 	import com.allofus.holburne.learningzone.view.component.video.VideoControlsMediator;
 	import com.allofus.holburne.learningzone.view.component.video.VideoPlayer;
@@ -84,7 +86,7 @@ package
 			injector.mapSingleton(InternetConnectionProxy);
 			injector.mapSingleton(XMLFeedService);
 			
-			//menu structure
+			//model/menu structure
 			injector.mapSingleton(Chapter01Model);
 			injector.mapSingleton(Chapter02Model);
 			injector.mapSingleton(Chapter03Model);
@@ -122,6 +124,7 @@ package
 			
 			mediatorMap.mapView(Chapter01, Chapter01Mediator, AbstractChapterView);
 			mediatorMap.mapView(Chapter02, Chapter02Mediator, AbstractChapterView);
+			mediatorMap.mapView(Chapter04, Chapter04Mediator, AbstractChapterView);
 			
 			//CONTROLLER
 			commandMap.mapEvent(ContextEvent.STARTUP, StartupCommand);

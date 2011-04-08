@@ -1,60 +1,13 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="1920" height="1080" frameRate="31" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" viewAngle3D="122.353661987282" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" hasAccessibleData="true">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="1920" height="1080" frameRate="31" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" viewAngle3D="122.353661987282" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
-          <DOMFolderItem name="Background textures" itemID="4d931433-00000310"/>
-          <DOMFolderItem name="Background textures/alternate textures" itemID="4d931493-00000325" isExpanded="true"/>
-          <DOMFolderItem name="Image Slider" itemID="4d90b383-000002d7"/>
-          <DOMFolderItem name="Menu" itemID="4d80a415-00000266"/>
-          <DOMFolderItem name="Pin" itemID="4d8a2fca-00000402"/>
-          <DOMFolderItem name="PopupPanel" itemID="4d8b6eac-000002c1" isExpanded="true"/>
-          <DOMFolderItem name="TextPanel" itemID="4d9d7e9a-00000284" isExpanded="true"/>
-          <DOMFolderItem name="VideoControls" itemID="4d94ab0f-0000044d"/>
+          <DOMFolderItem name="Chapter 04" itemID="4d9defe9-00000361" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 04/04.1 Introduction" itemID="4d9deff0-00000362" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 04/04.2 The Brughal Family" itemID="4d9deff5-00000363"/>
+          <DOMFolderItem name="Chapter 04/04.3 Whats Going On" itemID="4d9deffa-00000364"/>
+          <DOMFolderItem name="Chapter 04/04.4 The Paintings History" itemID="4d9defff-00000365" isExpanded="true"/>
      </folders>
-     <media>
-          <DOMBitmapItem name="Background textures/alternate textures/00.png" itemID="4d9314f7-00000326" sourceExternalFilepath="./LIBRARY/Background textures/alternate textures/00.png" sourceLastImported="1301494789" sourcePlatform="macintosh" externalFileSize="3722855" originalCompressionType="lossless" quality="60" href="Background textures/alternate textures/00.png" bitmapDataHRef="M 22 1301484637.dat" frameRight="38400" frameBottom="21600"/>
-          <DOMBitmapItem name="Background textures/alternate textures/01.png" itemID="4d9314f9-00000327" sourceExternalFilepath="./LIBRARY/Background textures/alternate textures/01.png" sourceLastImported="1301494791" sourcePlatform="macintosh" externalFileSize="5493434" originalCompressionType="lossless" quality="50" href="Background textures/alternate textures/01.png" bitmapDataHRef="M 23 1301484642.dat" frameRight="38400" frameBottom="21600"/>
-          <DOMBitmapItem name="Background textures/alternate textures/02.png" itemID="4d9314fa-00000328" sourceExternalFilepath="./LIBRARY/Background textures/alternate textures/02.png" sourceLastImported="1301494793" sourcePlatform="macintosh" externalFileSize="5518484" originalCompressionType="lossless" quality="50" href="Background textures/alternate textures/02.png" bitmapDataHRef="M 24 1301484647.dat" frameRight="38400" frameBottom="21600"/>
-          <DOMBitmapItem name="Background textures/alternate textures/03.png" itemID="4d9314fc-00000329" sourceExternalFilepath="./LIBRARY/Background textures/alternate textures/03.png" sourceLastImported="1301494794" sourcePlatform="macintosh" externalFileSize="5522566" originalCompressionType="lossless" quality="50" href="Background textures/alternate textures/03.png" bitmapDataHRef="M 25 1301484652.dat" frameRight="38400" frameBottom="21600"/>
-          <DOMBitmapItem name="Background textures/alternate textures/04.png" itemID="4d933c5f-00000372" sourceExternalFilepath="./LIBRARY/Background textures/alternate textures/04.png" sourceLastImported="1301494477" sourcePlatform="macintosh" externalFileSize="3233765" originalCompressionType="lossless" quality="50" href="Background textures/alternate textures/04.png" bitmapDataHRef="M 26 1301494805.dat" frameRight="38400" frameBottom="21600"/>
-          <DOMBitmapItem name="Background textures/alternate textures/05.png" itemID="4d933c60-00000373" sourceExternalFilepath="./LIBRARY/Background textures/alternate textures/05.png" sourceLastImported="1301494661" sourcePlatform="macintosh" externalFileSize="3324645" originalCompressionType="lossless" quality="50" href="Background textures/alternate textures/05.png" bitmapDataHRef="M 27 1301494809.dat" frameRight="38400" frameBottom="21600"/>
-          <DOMBitmapItem name="Background textures/alternate textures/06.png" itemID="4d933c61-00000374" sourceExternalFilepath="./LIBRARY/Background textures/alternate textures/06.png" sourceLastImported="1301494688" sourcePlatform="macintosh" externalFileSize="3554605" originalCompressionType="lossless" quality="50" href="Background textures/alternate textures/06.png" bitmapDataHRef="M 28 1301494813.dat" frameRight="38400" frameBottom="21600"/>
-          <DOMBitmapItem name="Background textures/alternate textures/07.png" itemID="4d9c9a8f-0000027d" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.BackgroundTexture08" sourceExternalFilepath="./LIBRARY/Background textures/alternate textures/07.png" sourceLastImported="1302167068" sourcePlatform="macintosh" externalFileSize="2915093" originalCompressionType="lossless" quality="50" href="Background textures/alternate textures/07.png" bitmapDataHRef="M 30 1302108741.dat" frameRight="38400" frameBottom="21600"/>
-          <DOMBitmapItem name="Background textures/BackgroundTexture" itemID="4d93143e-00000311" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.BackgroundTexture" sourceExternalFilepath="./LIBRARY/Background textures/BackgroundTexture.jpg" sourceLastImported="1301494795" sourcePlatform="macintosh" externalFileSize="196117" quality="50" href="Background textures/BackgroundTexture.jpg" bitmapDataHRef="M 14 1299684582.dat" frameRight="38400" frameBottom="21600" isJPEG="true"/>
-          <DOMBitmapItem name="Bitmap 29" itemID="4d94b694-0000045f" sourceExternalFilepath="./LIBRARY/Bitmap 29./Users/jc/Library/Caches/TemporaryItems/FlashPNG" sourceLastImported="1301588917" sourcePlatform="macintosh" externalFileSize="4018" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap 29./Users/jc/Library/Caches/TemporaryItems/FlashPNG" bitmapDataHRef="M 29 1301588918.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
-          <DOMBitmapItem name="PopupPanel/close_button_selected.png" itemID="4d9de948-00000346" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.ClosePanelDownSkin" sourceExternalFilepath="./LIBRARY/PopupPanel/close_button_selected.png" sourceLastImported="1302183261" sourcePlatform="macintosh" externalFileSize="4249" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="PopupPanel/close_button_selected.png" bitmapDataHRef="M 32 1302194408.dat" frameRight="1160" frameBottom="1180"/>
-          <DOMBitmapItem name="PopupPanel/close_button.png" itemID="4d9de948-00000347" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.ClosePanelUpSkin" sourceExternalFilepath="./LIBRARY/PopupPanel/close_button.png" sourceLastImported="1302183211" sourcePlatform="macintosh" externalFileSize="4134" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="PopupPanel/close_button.png" bitmapDataHRef="M 33 1302194409.dat" frameRight="1160" frameBottom="1180"/>
-          <DOMBitmapItem name="PopupPanel/closePopupPanel.png" itemID="4d90bf3f-0000030b" sourceExternalFilepath="./LIBRARY/PopupPanel/closePopupPanel.png" sourceLastImported="1301331471" sourcePlatform="macintosh" externalFileSize="4189" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="PopupPanel/closePopupPanel.png" bitmapDataHRef="M 18 1300986658.dat" frameRight="1480" frameBottom="1480"/>
-          <DOMBitmapItem name="PopupPanel/closePopupPanelDown.png" itemID="4d90bf3f-0000030c" sourceExternalFilepath="./LIBRARY/PopupPanel/closePopupPanelDown.png" sourceLastImported="1301331471" sourcePlatform="macintosh" externalFileSize="4685" originalCompressionType="lossless" quality="50" href="PopupPanel/closePopupPanelDown.png" bitmapDataHRef="M 19 1300986658.dat" frameRight="1480" frameBottom="1480"/>
-          <DOMBitmapItem name="Frame" itemID="4d79018e-000002c2" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.Frame" sourceExternalFilepath="./LIBRARY/Frame.png" sourceLastImported="1299684789" sourcePlatform="macintosh" externalFileSize="538067" originalCompressionType="lossless" quality="50" href="Frame.png" bitmapDataHRef="M 15 1299775684.dat" frameRight="38400" frameBottom="21600"/>
-          <DOMBitmapItem name="home_arrow-left-tap.png" itemID="4d77b4ca-0000035f" sourceExternalFilepath="./LIBRARY/home_arrow-left-tap.png" sourceLastImported="1299600386" sourcePlatform="macintosh" externalFileSize="6023" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="home_arrow-left-tap.png" bitmapDataHRef="M 2 1299684416.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
-          <DOMBitmapItem name="home_arrow-left.png" itemID="4d77b4ca-00000360" sourceExternalFilepath="./LIBRARY/home_arrow-left.png" sourceLastImported="1299600372" sourcePlatform="macintosh" externalFileSize="6529" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="home_arrow-left.png" bitmapDataHRef="M 3 1299684416.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
-          <DOMBitmapItem name="home_arrow-right_tap.png" itemID="4d77b4ca-00000361" sourceExternalFilepath="./LIBRARY/home_arrow-right_tap.png" sourceLastImported="1299600347" sourcePlatform="macintosh" externalFileSize="6010" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="home_arrow-right_tap.png" bitmapDataHRef="M 4 1299684417.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
-          <DOMBitmapItem name="home_arrow-right.png" itemID="4d77b4ca-00000362" sourceExternalFilepath="./LIBRARY/home_arrow-right.png" sourceLastImported="1299600332" sourcePlatform="macintosh" externalFileSize="6457" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="home_arrow-right.png" bitmapDataHRef="M 5 1299684417.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
-          <DOMBitmapItem name="Menu/home-tab_tap.png" itemID="4d80a4b5-00000267" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.menu.HomeTabClicked" sourceExternalFilepath="./LIBRARY/Menu/home-tab_tap.png" sourceLastImported="1300276405" sourcePlatform="macintosh" externalFileSize="10947" originalCompressionType="lossless" quality="50" href="Menu/home-tab_tap.png" bitmapDataHRef="M 6 1299684417.dat" frameRight="3600" frameBottom="2280"/>
-          <DOMBitmapItem name="Menu/home-tab.png" itemID="4d80a4b5-00000268" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.menu.HomeTab" sourceExternalFilepath="./LIBRARY/Menu/home-tab.png" sourceLastImported="1300276405" sourcePlatform="macintosh" externalFileSize="11783" originalCompressionType="lossless" quality="50" href="Menu/home-tab.png" bitmapDataHRef="M 7 1299684417.dat" frameRight="3600" frameBottom="2280"/>
-          <DOMBitmapItem name="homepage_large.png copy" itemID="4d77bb8f-000003b8" sourceExternalFilepath="./LIBRARY/homepage_large.png" sourceLastImported="1299670338" sourcePlatform="macintosh" externalFileSize="3923951" originalCompressionType="lossless" quality="50" href="homepage_large.png" bitmapDataHRef="M 15 1299691193.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
-          <DOMBitmapItem name="homepage_small.png" itemID="4d77b4cd-00000366" sourceExternalFilepath="./LIBRARY/homepage_small.png" sourceLastImported="1299670377" sourcePlatform="macintosh" externalFileSize="1644035" originalCompressionType="lossless" quality="50" href="homepage_small.png" bitmapDataHRef="M 9 1299684423.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
-          <DOMBitmapItem name="Pin/hotspot_pin_selected.png" itemID="4d90bf3f-0000030d" sourceExternalFilepath="./LIBRARY/Pin/hotspot_pin_selected.png" sourceLastImported="1301331471" sourcePlatform="macintosh" externalFileSize="7698" originalCompressionType="lossless" quality="50" href="Pin/hotspot_pin_selected.png" bitmapDataHRef="M 16 1300901955.dat" frameRight="940" frameBottom="1020"/>
-          <DOMBitmapItem name="Pin/hotspot_pin.png" itemID="4d90bf3f-0000030e" sourceExternalFilepath="./LIBRARY/Pin/hotspot_pin.png" sourceLastImported="1301331471" sourcePlatform="macintosh" externalFileSize="7654" originalCompressionType="lossless" quality="50" href="Pin/hotspot_pin.png" bitmapDataHRef="M 17 1300901956.dat" frameRight="940" frameBottom="1020"/>
-          <DOMBitmapItem name="Menu/subsection_nav_panel.png" itemID="4d80a4b5-00000269" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.menu.MenuPanel" sourceExternalFilepath="./LIBRARY/Menu/subsection_nav_panel.png" sourceLastImported="1300276405" sourcePlatform="macintosh" externalFileSize="87256" originalCompressionType="lossless" quality="50" href="Menu/subsection_nav_panel.png" bitmapDataHRef="M 10 1299684425.dat" frameRight="6560" frameBottom="6900"/>
-          <DOMBitmapItem name="Image Slider/swipe_drag_selected.png" itemID="4d90bf3f-0000030f" sourceExternalFilepath="./LIBRARY/Image Slider/swipe_drag_selected.png" sourceLastImported="1301331471" sourcePlatform="macintosh" externalFileSize="2566" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Image Slider/swipe_drag_selected.png" bitmapDataHRef="M 20 1301328793.dat" frameRight="1020" frameBottom="1020"/>
-          <DOMBitmapItem name="Image Slider/swipe_drag.png" itemID="4d90bf3f-00000310" sourceExternalFilepath="./LIBRARY/Image Slider/swipe_drag.png" sourceLastImported="1301331471" sourcePlatform="macintosh" externalFileSize="1883" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Image Slider/swipe_drag.png" bitmapDataHRef="M 21 1301328793.dat" frameRight="1020" frameBottom="1020"/>
-          <DOMBitmapItem name="Menu/tab_-selected.png" itemID="4d80a4b5-0000026a" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.menu.MenuTabSelected" sourceExternalFilepath="./LIBRARY/Menu/tab_-selected.png" sourceLastImported="1300276405" sourcePlatform="macintosh" externalFileSize="19598" originalCompressionType="lossless" quality="50" href="Menu/tab_-selected.png" bitmapDataHRef="M 11 1299684426.dat" frameRight="6580" frameBottom="2280"/>
-          <DOMBitmapItem name="Menu/tab_non--selected.png" itemID="4d80a4b6-0000026b" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.menu.MenuTab" sourceExternalFilepath="./LIBRARY/Menu/tab_non--selected.png" sourceLastImported="1300276405" sourcePlatform="macintosh" externalFileSize="18033" originalCompressionType="lossless" quality="50" href="Menu/tab_non--selected.png" bitmapDataHRef="M 12 1299684426.dat" frameRight="6580" frameBottom="2280"/>
-          <DOMBitmapItem name="Menu/tab_tap.png" itemID="4d80a4b6-0000026c" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.menu.MenuTabClicked" sourceExternalFilepath="./LIBRARY/Menu/tab_tap.png" sourceLastImported="1300276405" sourcePlatform="macintosh" externalFileSize="18131" originalCompressionType="lossless" quality="50" href="Menu/tab_tap.png" bitmapDataHRef="M 13 1299684426.dat" frameRight="6580" frameBottom="2280"/>
-          <DOMBitmapItem name="text detail.png" itemID="4d9c9d41-00000283" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.TextPanelDecoration" sourceExternalFilepath="./LIBRARY/text detail.png" sourceLastImported="1302167068" sourcePlatform="macintosh" externalFileSize="3233" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="text detail.png" bitmapDataHRef="M 31 1302109480.dat" frameRight="5140" frameBottom="100"/>
-          <DOMBitmapItem name="TextPanel/text_panel_cropped.jpg" itemID="4d9d7f30-00000289" sourceExternalFilepath="./LIBRARY/TextPanel/text_panel_cropped.jpg" sourceLastImported="1302167178" sourcePlatform="macintosh" externalFileSize="92057" quality="50" href="TextPanel/text_panel_cropped.jpg" bitmapDataHRef="M 31 1302167206.dat" frameRight="14800" frameBottom="21600" isJPEG="true"/>
-     </media>
-     <symbols>
-          <Include href="Image Slider/ImageSlideControlDownSkin.xml"/>
-          <Include href="Image Slider/ImageSlideControlUpSkin.xml"/>
-          <Include href="Pin/PinSelectedSkin.xml"/>
-          <Include href="Pin/PinUpSkin.xml"/>
-          <Include href="test.xml" loadImmediate="false"/>
-          <Include href="VideoControls/PauseDownSkin.xml"/>
-          <Include href="VideoControls/PauseUpSkin.xml"/>
-          <Include href="VideoControls/PlayDownSkin.xml"/>
-          <Include href="VideoControls/PlayUpSkin.xml"/>
-     </symbols>
+     <media/>
+     <symbols/>
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
@@ -371,25 +324,25 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="575224" publishTime="1302178993"/>
-          <PublishItem publishSize="4835892" publishTime="1302178950"/>
-          <PublishItem publishSize="4835885" publishTime="1302167383"/>
-          <PublishItem publishSize="4835891" publishTime="1302167329"/>
-          <PublishItem publishSize="4745207" publishTime="1302108909"/>
-          <PublishItem publishSize="4745207" publishTime="1302108825"/>
-          <PublishItem publishSize="4492559" publishTime="1301658115"/>
-          <PublishItem publishSize="323104" publishTime="1301331783"/>
-          <PublishItem publishSize="323107" publishTime="1301329151"/>
-          <PublishItem publishSize="313997" publishTime="1300977987"/>
-          <PublishItem publishSize="309524" publishTime="1300447942"/>
-          <PublishItem publishSize="309525" publishTime="1300446553"/>
-          <PublishItem publishSize="297099" publishTime="1300276682"/>
-          <PublishItem publishSize="291600" publishTime="1300107374"/>
-          <PublishItem publishSize="716965" publishTime="1299775893"/>
-          <PublishItem publishSize="620553" publishTime="1299772835"/>
-          <PublishItem publishSize="620524" publishTime="1299772652"/>
-          <PublishItem publishSize="620568" publishTime="1299771133"/>
-          <PublishItem publishSize="620567" publishTime="1299771046"/>
-          <PublishItem publishSize="620568" publishTime="1299770483"/>
+          <PublishItem publishSize="77210" publishTime="1301331772"/>
+          <PublishItem publishSize="77187" publishTime="1300896598"/>
+          <PublishItem publishSize="1149610" publishTime="1300896536"/>
+          <PublishItem publishSize="1149609" publishTime="1300896496"/>
+          <PublishItem publishSize="1149604" publishTime="1300896410"/>
+          <PublishItem publishSize="1149604" publishTime="1300893797"/>
+          <PublishItem publishSize="1149398" publishTime="1300892936"/>
+          <PublishItem publishSize="1142997" publishTime="1300883995"/>
+          <PublishItem publishSize="1142988" publishTime="1300881906"/>
+          <PublishItem publishSize="1142861" publishTime="1300814237"/>
+          <PublishItem publishSize="1142873" publishTime="1300814221"/>
+          <PublishItem publishSize="1142875" publishTime="1300808603"/>
+          <PublishItem publishSize="1142872" publishTime="1300807414"/>
+          <PublishItem publishSize="1142872" publishTime="1300807303"/>
+          <PublishItem publishSize="1142701" publishTime="1300806764"/>
+          <PublishItem publishSize="1142701" publishTime="1300806709"/>
+          <PublishItem publishSize="731587" publishTime="1300210508"/>
+          <PublishItem publishSize="731574" publishTime="1300210441"/>
+          <PublishItem publishSize="731608" publishTime="1300210314"/>
+          <PublishItem publishSize="655387" publishTime="1300122818"/>
      </publishHistory>
 </DOMDocument>

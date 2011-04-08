@@ -1,6 +1,8 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter01
 {
+	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.model.vo.ThumbnailClickedVO;
+	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
 	import com.allofus.holburne.learningzone.view.component.ThumbnailImagesSlide;
 	import com.allofus.shared.logging.GetLogger;
 	import com.holburne.learningzone.swcassets.Img_1_2_2_10;
@@ -23,6 +25,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 	public class Slide_1_2_2VC extends ThumbnailImagesSlide
 	{
 		protected var containerMc:Slide_1_2_2;
+		protected var text:TextBoxWithTitleAndDescription;
 		
 		public function Slide_1_2_2VC()
 		{
@@ -46,12 +49,22 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			addChild(containerMc);
 			addChild(largeImageContainer);
 			
+			var title:String ="OTHER WORKS IN THE HOLBURNE COLLECTION";
+			var description:String = 
+				"<p class='justified'>Because of Gainsborough's importance to Bath, the Holburne has become a centre for display and study of his work in Bath.  The museum itself owns few examples of his paintings and drawings, and we are grateful to all those lenders who have allowed the Holburne to exhibit some particularly fine examples of his portraiture.</p>";
+			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
+			addChild(text);
+			text.visible = false;
+			text.alpha = 0;
+			text.x = AppGlobals.RIGHT_FAME_X;
+			text.y = AppGlobals.RIGHT_FRAME_Y;
+			addChild(text);
 			super();
 		}
 		
 		override public function transitionIn():void
 		{
-			super.staggerItemsIn([largeImageContainer,containerMc]);
+			super.staggerItemsIn([largeImageContainer,text,containerMc]);
 		}
 		
 		override public function dispose():void

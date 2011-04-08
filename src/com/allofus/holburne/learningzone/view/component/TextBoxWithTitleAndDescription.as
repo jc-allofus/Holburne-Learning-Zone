@@ -28,7 +28,7 @@ package com.allofus.holburne.learningzone.view.component
 		protected var _titleField:TextField;
 		protected var _bodyField:TextField;
 		
-		public function TextBoxWithTitleAndDescription(title:String, body:String, width:Number = AppGlobals.RIGHT_FRAME_WIDTH)
+		public function TextBoxWithTitleAndDescription(title:String, body:String, targetWidth:Number = AppGlobals.RIGHT_FRAME_WIDTH, targetHeight:Number = NaN)
 		{
 			glowShape = new Shape();
 			addChild(glowShape);
@@ -46,26 +46,31 @@ package com.allofus.holburne.learningzone.view.component
 			_titleField.y = BORDER_SIZE;
 			addChild(_titleField);
 			
-			var bw:Number = width - (BORDER_SIZE * 2);
+			var bw:Number = targetWidth - (BORDER_SIZE * 2);
 			_bodyField = FontManager.createTextField(body,bw,0,true);
 			_bodyField.x = BORDER_SIZE;
 			PositionUtil.positionUnder(_bodyField, _titleField, HEADER_GAP);
 			addChild(_bodyField);	
 			
-			var th:Number = _bodyField.y + _bodyField.height + BORDER_SIZE;
+			var th:Number = (isNaN(targetHeight)) ? _bodyField.y + _bodyField.height + BORDER_SIZE : targetHeight;
 			
 			glowShape.graphics.beginFill(0xFFFFFF);
-			glowShape.graphics.drawRect(0, 0, width, th);
+			glowShape.graphics.drawRect(0, 0, targetWidth, th);
 			//{color:0x333333, alpha:1, blurX:12, blurY:12, strength:1, inner:false, knockout:false, quality:1}
 			var gf:GlowFilter = new GlowFilter(0, 0.25,20,20,1,1,false,true);
 			glowShape.filters = [gf];
 			
 			graphics.beginFill(0xFFFFFF, 0.3);
-			graphics.drawRect(0, 0, width, th);		
+			graphics.drawRect(0, 0, targetWidth, th);		
 			
 			
 			PositionUtil.centerHorizontally(decoration, this );
 			PositionUtil.centerHorizontally(_titleField, this);
+		}
+		
+		public function get bottomOfCopy():Number
+		{
+			return _bodyField.y + _bodyField.height;
 		}
 		
 		public function transitionIn(delay:Number = 0):void
