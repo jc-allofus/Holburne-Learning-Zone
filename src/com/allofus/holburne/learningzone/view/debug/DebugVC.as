@@ -3,23 +3,28 @@ package com.allofus.holburne.learningzone.view.debug
 	import net.hires.debug.Stats;
 
 	import com.allofus.holburne.learningzone.AppGlobals;
+	import com.bit101.components.Label;
 
 	import flash.display.Shape;
 	import flash.display.Sprite;
+	import flash.events.MouseEvent;
 
 	/**
 	 * @author jc
 	 */
 	public class DebugVC extends Sprite
 	{
+		protected var stats:Stats;
 		protected var leftContentFrame:Shape;
 		protected var rightContentFrame:Shape;
+		protected var mousePosLabel:Label;
 		
 		public function DebugVC()
 		{
 			visible = false;
 			
-			addChild(new Stats());
+			stats = new Stats();
+			addChild(stats);
 			
 			mouseEnabled = false;
 			mouseChildren = false;
@@ -39,6 +44,30 @@ package com.allofus.holburne.learningzone.view.debug
 			rightContentFrame.x = AppGlobals.RIGHT_FAME_X;
 			rightContentFrame.y = AppGlobals.RIGHT_FRAME_Y;
 			addChild(rightContentFrame);
+			
+			mousePosLabel = new Label(this,15,100,"mouse pos");
+		}
+
+		public function toggleHideShow() : void
+		{
+			visible = !visible;
+			
+			if(visible)
+			{
+				if(stage)
+					stage.addEventListener(MouseEvent.MOUSE_MOVE, handleMouseMove);
+			}
+			else
+			{
+				if(stage)
+					stage.removeEventListener(MouseEvent.MOUSE_MOVE, handleMouseMove);
+			}
+			
+		}
+
+		private function handleMouseMove(event : MouseEvent) : void
+		{
+			mousePosLabel.text = "x: " + this.mouseX + ", y: " + this.mouseY;
 		}
 	}
 }

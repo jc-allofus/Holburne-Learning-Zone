@@ -103,6 +103,15 @@
 		</exec> 
 	</target>
 	
+	<target name="06a. Launch Debug">
+		<exec executable="${FLEX_HOME}/bin/adl" failonerror="true">
+			<arg value="${project.descriptor}" />
+			<arg value="${project.binpath.debug}" />
+			<arg value="--"/>
+			<arg value="true"/>
+		</exec> 
+	</target>
+	
 	<target name="07. Make certificate" description="create self-signed code signing cert.  skips if there is already one there...">
 		<if>
 			<equals arg1="${hasCertificate}" arg2="true"/>

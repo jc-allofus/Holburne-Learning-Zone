@@ -11,6 +11,7 @@ package com.allofus.holburne.learningzone.view.homepage
 	import com.greensock.easing.Strong;
 	import com.holburne.learningzone.swc.chapter1.Chap1IntroImage;
 	import com.holburne.learningzone.swc.chapter2.Chap2IntroImage;
+	import com.holburne.learningzone.swc.chapter3.Chap3IntroImage;
 
 	import mx.logging.ILogger;
 
@@ -103,6 +104,9 @@ package com.allofus.holburne.learningzone.view.homepage
 					break;
 					
 				case homepage.t3:
+					vo.thumbnail = homepage.t3;
+					vo.id = ChapterIDs.CHAPTER_03;
+					btn = new HomePageThumbnailButton(new Bitmap(new Chap3IntroImage(0,0)), "", vo);
 					break;
 					
 				case homepage.t4:

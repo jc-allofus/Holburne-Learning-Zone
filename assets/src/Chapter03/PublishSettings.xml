@@ -20,23 +20,23 @@
     <pngDefaultName>1</pngDefaultName>
     <qtDefaultName>1</qtDefaultName>
     <rnwkDefaultName>1</rnwkDefaultName>
-    <flashFileName>../../lib/swc/Chapter04.swf</flashFileName>
-    <projectorWinFileName>Chapter04.exe</projectorWinFileName>
-    <projectorMacFileName>Chapter04.app</projectorMacFileName>
-    <htmlFileName>Chapter04.html</htmlFileName>
-    <gifFileName>Chapter04.gif</gifFileName>
-    <jpegFileName>Chapter04.jpg</jpegFileName>
-    <pngFileName>Chapter04.png</pngFileName>
-    <qtFileName>Chapter04.mov</qtFileName>
-    <rnwkFileName>Chapter04.smil</rnwkFileName>
+    <flashFileName>../../lib/swc/Chapter03.swf</flashFileName>
+    <projectorWinFileName>Chapter03.exe</projectorWinFileName>
+    <projectorMacFileName>Chapter03.app</projectorMacFileName>
+    <htmlFileName>Chapter03.html</htmlFileName>
+    <gifFileName>Chapter03.gif</gifFileName>
+    <jpegFileName>Chapter03.jpg</jpegFileName>
+    <pngFileName>Chapter03.png</pngFileName>
+    <qtFileName>Chapter03.mov</qtFileName>
+    <rnwkFileName>Chapter03.smil</rnwkFileName>
   </PublishFormatProperties>
   <PublishHtmlProperties enabled="true">
     <VersionDetectionIfAvailable>0</VersionDetectionIfAvailable>
     <VersionInfo>10,1,52,0;9,0,124,0;8,0,24,0;7,0,14,0;6,0,79,0;5,0,58,0;4,0,32,0;3,0,8,0;2,0,1,12;1,0,0,1;</VersionInfo>
     <UsingDefaultContentFilename>1</UsingDefaultContentFilename>
     <UsingDefaultAlternateFilename>1</UsingDefaultAlternateFilename>
-    <ContentFilename>Chapter04.xfl_content.html</ContentFilename>
-    <AlternateFilename>Chapter04.xfl_alternate.html</AlternateFilename>
+    <ContentFilename>Chapter03.xfl_content.html</ContentFilename>
+    <AlternateFilename>Chapter03.xfl_alternate.html</AlternateFilename>
     <UsingOwnAlternateFile>0</UsingOwnAlternateFile>
     <OwnAlternateFilename></OwnAlternateFilename>
     <Width>1920</Width>

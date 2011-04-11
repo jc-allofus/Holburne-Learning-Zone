@@ -1,0 +1,322 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 03/03.3/03.3.1/RightContent" itemID="4da33331-0000061a" sourceLibraryItemHRef="Symbol 1" lastModified="1302542155">
+  <timeline>
+    <DOMTimeline name="RightContent">
+      <layers>
+        <DOMLayer name="Layer 5" color="#4FFFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="11" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="text" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText width="504.15" height="130" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="242" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Self Portrait </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville-Italic" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>(detail of Temple of Vesta, Tivoli)&#xD;Thomas Barker (1769-1847)&#xD;Oil on canvas, about 1794&#xD;78.7 x 64.6 cm&#xD;Collection of Sir Thomas William Holburne&#xD;A102</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMStaticText width="399.95" height="130" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="341" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>W. Watts&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>All Saints’ Chapel</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville-Italic" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>, Bath, 1794&#xD;Engraving, 20 x 15 cm&#xD;Bath Central Library, Image courtesy of Bath in Time &#xD;[ref 11876]&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMStaticText width="428.95" height="130" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="242" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Thomas Barker (1769-1847)&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Lieutenant-General Sir William Cockburn</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville-Italic" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>, &#xD;Oil on canvas, 1816&#xD;239 x 147.3 cm&#xD;Victoria Art Gallery, Bath &amp; North East Somerset Council&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMStaticText width="346.95" height="108" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="359" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Lansdown Grove, c.1860&#xD;Engraving, 23 x 15.5 cm&#xD;Bath Central Library&#xD;Image courtesy of Bath in Time &#xD;[ref 14939]</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" keyMode="9728">
+              <elements>
+                <DOMStaticText width="329.95" height="108" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="214" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Charles Jagger (about1770-1827)&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Sir Thomas William Holburne of Menstrie</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville-Italic" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>, &#xD;1827&#xD;Watercolour on ivory&#xD;10.2 x 7.8 cm </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" keyMode="9728">
+              <elements>
+                <DOMStaticText width="354.95" height="64" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="327" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>View from 10, Cavendish Crescent, Bath.  &#xD;The house beyond the Crescent is Doric House, Thomas and Priscilla Barker’s “Gallery House”.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" keyMode="9728">
+              <elements>
+                <DOMStaticText width="356.95" height="42" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="178" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>National Exhibition of Works of Art, Leeds, 1868: Catalogue title page</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" keyMode="9728">
+              <elements>
+                <DOMStaticText width="349.95" height="86" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="177" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Sir Thomas William Holburne &#xD;Photograph by H Foote&#xD;c.1870&#xD;9.5 x 5.6 cm  </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" keyMode="9728">
+              <elements>
+                <DOMStaticText width="360.95" height="86" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="236" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>The Holburne Museum &#xD;Charlotte St, Bath&#xD;c.1900.  &#xD;Barker’s portrait is between the windows, top left.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728">
+              <elements>
+                <DOMStaticText selected="true" width="504.15" height="20" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="242" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>TBC</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" keyMode="9728">
+              <elements>
+                <DOMStaticText selected="true" width="504.15" height="20" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="242" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>TBC</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="img" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" libraryItemName="Chapter 03/03.3/03.3.1/timeline details/3_3_1_01.png"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" libraryItemName="Chapter 03/03.3/03.3.1/timeline details/3_3_1_02.png"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" libraryItemName="Chapter 03/03.3/03.3.1/timeline details/3_3_1_04.png"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Chapter 03/03.3/03.3.1/timeline details/3_3_1_05.png"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Chapter 03/03.3/03.3.1/timeline details/3_3_1_06.png"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" libraryItemName="Chapter 03/03.3/03.3.1/timeline details/3_3_1_07.png"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" libraryItemName="Chapter 03/03.3/03.3.1/timeline details/3_3_1_08.png"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" libraryItemName="Chapter 03/03.3/03.3.1/timeline details/3_3_1_09.png"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="10" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" locked="true" outline="true" useOutlineView="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="11" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#80816D"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!12000 4600|0 4600!0 4600|0 0!0 0|12000 0!12000 0|12000 4600"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

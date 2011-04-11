@@ -5,6 +5,7 @@ package com.allofus.holburne.learningzone.view.component
 
 	import flash.display.Shape;
 	import flash.display.Sprite;
+	import flash.filters.GlowFilter;
 	import flash.text.TextField;
 
 	/**
@@ -35,6 +36,9 @@ package com.allofus.holburne.learningzone.view.component
 			
 			colorFillShape = new Shape();
 			addChild(colorFillShape);
+			
+			var gf:GlowFilter = new GlowFilter(0, 0.15,20,20,1,1,false,true);
+			knockoutShape.filters = [gf];
 			
 			
 			_label = FontManager.createStyledTextField("0%",_labelClass);

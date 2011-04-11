@@ -1,0 +1,113 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 03/03.3/03.3.1/Slide_3_3_1" itemID="4da2e342-0000032a" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_3_3_1" sourceLibraryItemHRef="Symbol 1" lastModified="1302542137" lastUniqueIdentifier="4">
+  <timeline>
+    <DOMTimeline name="Slide_3_3_1" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;630&lt;/guideline&gt;&lt;guideline direction="v"&gt;960&lt;/guideline&gt;&lt;guideline direction="v"&gt;999&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="right content" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Chapter 03/03.3/03.3.1/RightContent" name="rightContent" selected="true" centerPoint3DX="1300" centerPoint3DY="745">
+                  <matrix>
+                    <Matrix tx="1000" ty="630"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="300" y="115"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="left content" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Chapter 03/03.3/03.3.1/LeftContent" name="leftContent" centerPoint3DX="652.45" centerPoint3DY="715">
+                  <matrix>
+                    <Matrix tx="364.95" ty="630"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="287.5" y="85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="decoration" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Chapter 03/03.3/03.3.1/timeline stuff" name="" centerPoint3DX="959.5" centerPoint3DY="494.5">
+                  <matrix>
+                    <Matrix tx="959.5" ty="112"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="382.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg white" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix tx="959.5" ty="112"/>
+                  </matrix>
+                  <members>
+                    <DOMSymbolInstance libraryItemName="Chapter 03/03.3/03.3.1/bg" name="" selected="true" centerPoint3DX="959.5" centerPoint3DY="494.5">
+                      <matrix>
+                        <Matrix tx="67" ty="112"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="892.5" y="382.5"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.30078125"/>
+                      </color>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glow" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Chapter 03/03.3/03.3.1/bg" name="" centerPoint3DX="959.5" centerPoint3DY="494.5">
+                  <matrix>
+                    <Matrix tx="67" ty="112"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="892.5" y="382.5"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="20" blurY="20" color="#000000" knockout="true" strength="0.2"/>
+                  </filters>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#4FFFFF" locked="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" libraryItemName="Mon Apr 11 16:59:31 GMT+0100 2011.jpg"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

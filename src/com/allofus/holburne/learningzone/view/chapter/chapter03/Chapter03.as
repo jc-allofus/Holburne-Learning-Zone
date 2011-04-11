@@ -22,14 +22,17 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 			oldSlides = new Vector.<AbstractSlide>();
 			
 			slides = new Dictionary();
+			slides["3_1"] = Slide_3_1VC;
+			
+			slides["3_3_1"] = Slide_3_3_1VC;
 			super();
 		}
 		
 		override public function showFirstSlide() : void
 		{
-//			_currentSelected = makeSlide("x_1");
-//			addChild(_currentSelected);
-//			_currentSelected.transitionInFromHomeScreen();
+			_currentSelected = makeSlide("3_1");
+			addChild(_currentSelected);
+			_currentSelected.transitionInFromHomeScreen();
 		}
 		
 		private static const logger:ILogger = GetLogger.qualifiedName( Chapter03 );

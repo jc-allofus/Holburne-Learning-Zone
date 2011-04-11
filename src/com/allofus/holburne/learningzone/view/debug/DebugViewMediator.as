@@ -17,7 +17,7 @@ package com.allofus.holburne.learningzone.view.debug
 		
 		protected function handleToggle(event:DebugEvent):void
 		{
-			view.visible = !view.visible;
+			view.toggleHideShow();
 		}
 	}
 }

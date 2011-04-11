@@ -1,0 +1,391 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 03/03.3/03.3.1/LeftContent" itemID="4da32768-00000440" sourceLibraryItemHRef="Symbol 1" lastModified="1302541105">
+  <timeline>
+    <DOMTimeline name="LeftContent" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;67&lt;/guideline&gt;&lt;guideline direction="v"&gt;74&lt;/guideline&gt;&lt;guideline direction="h"&gt;23&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="Layer 5" color="#4FFFFF">
+          <frames>
+            <DOMFrame index="0" duration="11" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText width="494.9" height="20" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="76.65" ty="1.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Rome</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMDynamicText selected="true" width="495.6" height="141.65" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="76.65" ty="26"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Barker in Italy</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMStaticText width="494.9" height="20" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="76.65" ty="1.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Lansdown Place, Bath</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMDynamicText width="495.6" height="141.65" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="76.65" ty="26"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Barker returns to Bath to live with Spackman family, next to All Saints’ Chapel, below Lansdown Place.  He probably painted this portrait then.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMStaticText width="494.9" height="20" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="76.65" ty="1.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Lansdown Crescent</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMDynamicText width="495.6" height="141.65" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="76.65" ty="26"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Portrait acquired by Barker’s friend and patron Lieutenant-General Sir William Cockburn, who lived in Lansdown Crescent</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMStaticText width="494.9" height="20" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="76.65" ty="1.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Lansdown Grove, Lansdown Road</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMDynamicText width="495.6" height="141.65" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="76.65" ty="26"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Portrait in the collection of Cockburn’s son Sir WSR Cockburn</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" keyMode="9728">
+              <elements>
+                <DOMStaticText width="494.9" height="20" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="76.65" ty="1.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Lansdown Grove</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMDynamicText width="495.6" height="141.65" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="76.65" ty="26"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Portrait sold to Sir William Holburne by Sir Edward Cockburn</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" keyMode="9728">
+              <elements>
+                <DOMStaticText width="494.9" height="20" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="76.65" ty="1.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>10, Cavendish Crescent</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMDynamicText width="495.6" height="141.65" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="76.65" ty="26"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Portrait hangs in Sir William Holburne’s Study</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" keyMode="9728">
+              <elements>
+                <DOMStaticText width="494.9" height="20" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="76.65" ty="1.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>General Infirmary, Leeds</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMDynamicText width="495.6" height="141.65" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="76.65" ty="26"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Portrait of Himself” by “Tom Barker (of Bath)” is exhibited at the National Exhibition of Works of Art, Leeds</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" keyMode="9728">
+              <elements>
+                <DOMStaticText width="494.9" height="42" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="76.65" ty="1.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>10, Cavendish Crescent&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMDynamicText width="495.6" height="141.65" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="76.65" ty="26"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Death of Sir William Holburne</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" keyMode="9728">
+              <elements>
+                <DOMStaticText width="494.9" height="20" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="76.65" ty="1.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Charlotte St, Bath</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMDynamicText width="495.6" height="141.65" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="76.65" ty="26"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>The Holburne of Menstrie Museum opens its doors to the public</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728">
+              <elements>
+                <DOMStaticText width="494.9" height="20" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="76.65" ty="1.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Sydney Gardens, Bath</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMDynamicText width="495.6" height="141.65" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="76.65" ty="26"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>The Holburne of Menstrie Museum re-opens in its permanent home</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" keyMode="9728">
+              <elements>
+                <DOMStaticText width="494.9" height="20" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="76.65" ty="1.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Sydney Gardens, Bath</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMDynamicText width="495.6" height="141.65" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="76.65" ty="26"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Following a three-year building project, Barker’s portrait returns to Bath and the Holburne Museum</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="place / event" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="11" keyMode="9728">
+              <elements>
+                <DOMDynamicText selected="true" width="64" height="58.95" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Place: &#xD;Event: </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="guide" color="#4FFF4F" locked="true" outline="true" useOutlineView="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#80816D"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!11500 3400S2|0 3400!0 3400|0 0!0 0|11500 0!11500 0|11500 3400"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
