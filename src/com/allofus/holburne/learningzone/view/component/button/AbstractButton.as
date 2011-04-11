@@ -1,6 +1,6 @@
-package com.allofus.holburne.learningzone.view.menu
+package com.allofus.holburne.learningzone.view.component.button
 {
-	import com.allofus.holburne.learningzone.model.vo.MenuButtonVO;
+	import com.allofus.holburne.learningzone.model.vo.ButtonVO;
 
 	import flash.display.Sprite;
 	import flash.events.Event;
@@ -11,10 +11,10 @@ package com.allofus.holburne.learningzone.view.menu
 	 */
 	public class AbstractButton extends Sprite
 	{
-		public var vo:MenuButtonVO;
+		public var vo:ButtonVO;
 		protected var _selected : Boolean;
 		
-		public function AbstractButton(vo:MenuButtonVO)
+		public function AbstractButton(vo:ButtonVO)
 		{
 			this.vo = vo;
 			buttonMode = true;

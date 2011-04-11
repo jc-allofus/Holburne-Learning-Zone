@@ -1,5 +1,7 @@
 package
 {
+	import com.allofus.holburne.learningzone.view.chapter.chapter04.Slide_4_4_3VCMediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter04.Slide_4_4_3VC;
 	import com.allofus.holburne.learningzone.ApplicationMediator;
 	import com.allofus.holburne.learningzone.controller.ApplicationStatusChanged;
 	import com.allofus.holburne.learningzone.controller.ChapterSelectedCommand;
@@ -43,8 +45,42 @@ package
 	import com.allofus.holburne.learningzone.view.chapter.chapter01.Chapter01Mediator;
 	import com.allofus.holburne.learningzone.view.chapter.chapter02.Chapter02;
 	import com.allofus.holburne.learningzone.view.chapter.chapter02.Chapter02Mediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter03.Chapter03;
+	import com.allofus.holburne.learningzone.view.chapter.chapter03.Chapter03Mediator;
 	import com.allofus.holburne.learningzone.view.chapter.chapter04.Chapter04;
 	import com.allofus.holburne.learningzone.view.chapter.chapter04.Chapter04Mediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter05.Chapter05;
+	import com.allofus.holburne.learningzone.view.chapter.chapter05.Chapter05Mediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter06.Chapter06;
+	import com.allofus.holburne.learningzone.view.chapter.chapter06.Chapter06Mediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter07.Chapter07;
+	import com.allofus.holburne.learningzone.view.chapter.chapter07.Chapter07Mediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter08.Chapter08;
+	import com.allofus.holburne.learningzone.view.chapter.chapter08.Chapter08Mediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter09.Chapter09;
+	import com.allofus.holburne.learningzone.view.chapter.chapter09.Chapter09Mediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter10.Chapter10;
+	import com.allofus.holburne.learningzone.view.chapter.chapter10.Chapter10Mediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter11.Chapter11;
+	import com.allofus.holburne.learningzone.view.chapter.chapter11.Chapter11Mediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter12.Chapter12;
+	import com.allofus.holburne.learningzone.view.chapter.chapter12.Chapter12Mediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter13.Chapter13;
+	import com.allofus.holburne.learningzone.view.chapter.chapter13.Chapter13Mediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter14.Chapter14;
+	import com.allofus.holburne.learningzone.view.chapter.chapter14.Chapter14Mediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter15.Chapter15;
+	import com.allofus.holburne.learningzone.view.chapter.chapter15.Chapter15Mediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter16.Chapter16;
+	import com.allofus.holburne.learningzone.view.chapter.chapter16.Chapter16Mediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter17.Chapter17;
+	import com.allofus.holburne.learningzone.view.chapter.chapter17.Chapter17Mediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter18.Chapter18;
+	import com.allofus.holburne.learningzone.view.chapter.chapter18.Chapter18Mediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter19.Chapter19;
+	import com.allofus.holburne.learningzone.view.chapter.chapter19.Chapter19Mediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter20.Chapter20;
+	import com.allofus.holburne.learningzone.view.chapter.chapter20.Chapter20Mediator;
 	import com.allofus.holburne.learningzone.view.component.video.VideoControls;
 	import com.allofus.holburne.learningzone.view.component.video.VideoControlsMediator;
 	import com.allofus.holburne.learningzone.view.component.video.VideoPlayer;
@@ -122,9 +158,30 @@ package
 			mediatorMap.mapView(VideoControls, VideoControlsMediator);
 			mediatorMap.mapView(VideoPlayer, VideoPlayerMediator);
 			
+			//chapters
 			mediatorMap.mapView(Chapter01, Chapter01Mediator, AbstractChapterView);
 			mediatorMap.mapView(Chapter02, Chapter02Mediator, AbstractChapterView);
+			mediatorMap.mapView(Chapter03, Chapter03Mediator, AbstractChapterView);
 			mediatorMap.mapView(Chapter04, Chapter04Mediator, AbstractChapterView);
+			mediatorMap.mapView(Chapter05, Chapter05Mediator, AbstractChapterView);
+			mediatorMap.mapView(Chapter06, Chapter06Mediator, AbstractChapterView);
+			mediatorMap.mapView(Chapter07, Chapter07Mediator, AbstractChapterView);
+			mediatorMap.mapView(Chapter08, Chapter08Mediator, AbstractChapterView);
+			mediatorMap.mapView(Chapter09, Chapter09Mediator, AbstractChapterView);
+			mediatorMap.mapView(Chapter10, Chapter10Mediator, AbstractChapterView);
+			mediatorMap.mapView(Chapter11, Chapter11Mediator, AbstractChapterView);
+			mediatorMap.mapView(Chapter12, Chapter12Mediator, AbstractChapterView);
+			mediatorMap.mapView(Chapter13, Chapter13Mediator, AbstractChapterView);
+			mediatorMap.mapView(Chapter14, Chapter14Mediator, AbstractChapterView);
+			mediatorMap.mapView(Chapter15, Chapter15Mediator, AbstractChapterView);
+			mediatorMap.mapView(Chapter16, Chapter16Mediator, AbstractChapterView);
+			mediatorMap.mapView(Chapter17, Chapter17Mediator, AbstractChapterView);
+			mediatorMap.mapView(Chapter18, Chapter18Mediator, AbstractChapterView);
+			mediatorMap.mapView(Chapter19, Chapter19Mediator, AbstractChapterView);
+			mediatorMap.mapView(Chapter20, Chapter20Mediator, AbstractChapterView);
+			
+			//slides who need mediators
+			mediatorMap.mapView(Slide_4_4_3VC, Slide_4_4_3VCMediator);
 			
 			//CONTROLLER
 			commandMap.mapEvent(ContextEvent.STARTUP, StartupCommand);

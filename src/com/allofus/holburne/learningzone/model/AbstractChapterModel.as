@@ -1,6 +1,6 @@
 package com.allofus.holburne.learningzone.model
 {
-	import com.allofus.holburne.learningzone.model.vo.MenuButtonVO;
+	import com.allofus.holburne.learningzone.model.vo.ButtonVO;
 
 	import org.robotlegs.mvcs.Actor;
 
@@ -9,13 +9,13 @@ package com.allofus.holburne.learningzone.model
 	 */
 	public class AbstractChapterModel extends Actor
 	{
-		protected var _menuVOs:Vector.<MenuButtonVO>;
+		protected var _menuVOs:Vector.<ButtonVO>;
 		
 		public function AbstractChapterModel()
 		{
 		}
 		
-		public function get menuItems():Vector.<MenuButtonVO>
+		public function get menuItems():Vector.<ButtonVO>
 		{
 			return _menuVOs;
 		}

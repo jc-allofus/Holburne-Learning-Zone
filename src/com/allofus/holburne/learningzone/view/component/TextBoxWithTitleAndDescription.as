@@ -25,8 +25,8 @@ package com.allofus.holburne.learningzone.view.component
 		protected var background:Shape;
 		protected var glowShape:Shape;
 		protected var decoration:Bitmap;
-		protected var _titleField:TextField;
-		protected var _bodyField:TextField;
+		public var titleField:TextField;
+		public var bodyField:TextField;
 		
 		public function TextBoxWithTitleAndDescription(title:String, body:String, targetWidth:Number = AppGlobals.RIGHT_FRAME_WIDTH, targetHeight:Number = NaN)
 		{
@@ -42,17 +42,17 @@ package com.allofus.holburne.learningzone.view.component
 			decoration.y = Math.round((BORDER_SIZE * 0.5) - (decoration.height * 0.5));
 			addChild(decoration);
 			
-			_titleField = FontManager.createStyledTextField(title, "title");
-			_titleField.y = BORDER_SIZE;
-			addChild(_titleField);
+			titleField = FontManager.createStyledTextField(title, "title");
+			titleField.y = BORDER_SIZE;
+			addChild(titleField);
 			
 			var bw:Number = targetWidth - (BORDER_SIZE * 2);
-			_bodyField = FontManager.createTextField(body,bw,0,true);
-			_bodyField.x = BORDER_SIZE;
-			PositionUtil.positionUnder(_bodyField, _titleField, HEADER_GAP);
-			addChild(_bodyField);	
+			bodyField = FontManager.createTextField(body,bw,0,true);
+			bodyField.x = BORDER_SIZE;
+			PositionUtil.positionUnder(bodyField, titleField, HEADER_GAP);
+			addChild(bodyField);	
 			
-			var th:Number = (isNaN(targetHeight)) ? _bodyField.y + _bodyField.height + BORDER_SIZE : targetHeight;
+			var th:Number = (isNaN(targetHeight)) ? bodyField.y + bodyField.height + BORDER_SIZE : targetHeight;
 			
 			glowShape.graphics.beginFill(0xFFFFFF);
 			glowShape.graphics.drawRect(0, 0, targetWidth, th);
@@ -65,12 +65,12 @@ package com.allofus.holburne.learningzone.view.component
 			
 			
 			PositionUtil.centerHorizontally(decoration, this );
-			PositionUtil.centerHorizontally(_titleField, this);
+			PositionUtil.centerHorizontally(titleField, this);
 		}
 		
 		public function get bottomOfCopy():Number
 		{
-			return _bodyField.y + _bodyField.height;
+			return bodyField.y + bodyField.height;
 		}
 		
 		public function transitionIn(delay:Number = 0):void

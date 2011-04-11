@@ -1,6 +1,6 @@
 package com.allofus.holburne.learningzone.model
 {
-	import com.allofus.holburne.learningzone.model.vo.MenuButtonVO;
+	import com.allofus.holburne.learningzone.model.vo.ButtonVO;
 
 	/**
 	 * @author jc
@@ -9,24 +9,24 @@ package com.allofus.holburne.learningzone.model
 	{
 		public function Chapter17Model()
 		{
-			_menuVOs = new Vector.<MenuButtonVO>();
+			_menuVOs = new Vector.<ButtonVO>();
 			
 			_menuVOs.push
 			(
-				new MenuButtonVO({label:"<p class='buttonLabel'>Introduction</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"17_1"})
+				new ButtonVO({label:"<p class='buttonLabel'>Introduction</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"17_1"})
 			);
 			
 			_menuVOs.push
 			(
-				new MenuButtonVO({label:"<p class='buttonLabel'>Looking in Detail</p>", subMenuButtons:new <MenuButtonVO>[
-					new MenuButtonVO({label:"<p class='buttonLabel'>Looking in Detail</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"17_2_1"})
+				new ButtonVO({label:"<p class='buttonLabel'>Looking in Detail</p>", subMenuButtons:new <ButtonVO>[
+					new ButtonVO({label:"<p class='buttonLabel'>Looking in Detail</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"17_2_1"})
 					]})
 			);
 			
 			_menuVOs.push
 			(
-				new MenuButtonVO({label:"<p class='buttonLabel'>Detail of Stitching</p>", subMenuButtons:new <MenuButtonVO>[
-					new MenuButtonVO({label:"<p class='buttonLabel'>Detail of Stitching</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"17_3_1"})
+				new ButtonVO({label:"<p class='buttonLabel'>Detail of Stitching</p>", subMenuButtons:new <ButtonVO>[
+					new ButtonVO({label:"<p class='buttonLabel'>Detail of Stitching</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"17_3_1"})
 				]})
 			);
 			

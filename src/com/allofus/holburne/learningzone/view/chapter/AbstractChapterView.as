@@ -1,7 +1,7 @@
 package com.allofus.holburne.learningzone.view.chapter
 {
 	import com.allofus.holburne.learningzone.model.vo.ChapterVO;
-	import com.allofus.holburne.learningzone.model.vo.MenuButtonVO;
+	import com.allofus.holburne.learningzone.model.vo.ButtonVO;
 	import com.allofus.shared.logging.GetLogger;
 
 	import mx.logging.ILogger;
@@ -64,7 +64,7 @@ package com.allofus.holburne.learningzone.view.chapter
 		{
 			switch(actionName)
 			{
-				case MenuButtonVO.SHOW_SLIDE:
+				case ButtonVO.SHOW_SLIDE:
 					showSlide(paramString);
 					break;
 			}

@@ -1,21 +1,23 @@
 package com.allofus.holburne.learningzone.view.menu
 {
-	import flash.ui.Keyboard;
-	import flash.events.KeyboardEvent;
-	import com.allofus.holburne.learningzone.events.ChapterMenuEvent;
-	import flash.events.MouseEvent;
-	import com.allofus.shared.util.PositionUtil;
 	import com.allofus.holburne.learningzone.AppGlobals;
-	import com.allofus.holburne.learningzone.model.vo.MenuButtonVO;
+	import com.allofus.holburne.learningzone.events.ChapterMenuEvent;
+	import com.allofus.holburne.learningzone.model.vo.ButtonVO;
+	import com.allofus.holburne.learningzone.view.component.button.HomeButton;
+	import com.allofus.holburne.learningzone.view.component.button.MenuButton;
 	import com.allofus.shared.logging.GetLogger;
+	import com.allofus.shared.util.PositionUtil;
 	import com.greensock.TimelineMax;
 	import com.greensock.TweenAlign;
 	import com.greensock.TweenMax;
-
-	import mx.logging.ILogger;
-
 	import flash.display.Sprite;
 	import flash.events.Event;
+	import flash.events.KeyboardEvent;
+	import flash.events.MouseEvent;
+	import flash.ui.Keyboard;
+	import mx.logging.ILogger;
+
+
 
 	/**
 	 * @author jc
@@ -68,7 +70,7 @@ package com.allofus.holburne.learningzone.view.menu
 			}
 		}
 		
-		public function addItems(itemVOs : Vector.<MenuButtonVO>) : void
+		public function addItems(itemVOs : Vector.<ButtonVO>) : void
 		{
 			logger.debug("adding menu itmes: " + itemVOs);
 			var menuButton:MenuButton;

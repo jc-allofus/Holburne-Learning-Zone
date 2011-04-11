@@ -1,6 +1,6 @@
 package com.allofus.holburne.learningzone.model
 {
-	import com.allofus.holburne.learningzone.model.vo.MenuButtonVO;
+	import com.allofus.holburne.learningzone.model.vo.ButtonVO;
 
 	/**
 	 * @author jc
@@ -9,31 +9,31 @@ package com.allofus.holburne.learningzone.model
 	{
 		public function Chapter18Model()
 		{
-			_menuVOs = new Vector.<MenuButtonVO>();
+			_menuVOs = new Vector.<ButtonVO>();
 			
 			_menuVOs.push
 			(
-				new MenuButtonVO({label:"<p class='buttonLabel'>Introduction</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"18_1"})
+				new ButtonVO({label:"<p class='buttonLabel'>Introduction</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"18_1"})
 			);
 			
 			_menuVOs.push
 			(
-				new MenuButtonVO({label:"<p class='buttonLabel'>Looking in Detail</p>", subMenuButtons:new <MenuButtonVO>[
-					new MenuButtonVO({label:"<p class='buttonLabel'>Looking in Detail</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"18_2_1"})
+				new ButtonVO({label:"<p class='buttonLabel'>Looking in Detail</p>", subMenuButtons:new <ButtonVO>[
+					new ButtonVO({label:"<p class='buttonLabel'>Looking in Detail</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"18_2_1"})
 					]})
 			);
 			
 			_menuVOs.push
 			(
-				new MenuButtonVO({label:"<p class='buttonLabel'>Diana and Actaeon by Others</p>", subMenuButtons:new <MenuButtonVO>[
-					new MenuButtonVO({label:"<p class='buttonLabel'>Diana and Actaeon by Others</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"18_3_1"})
+				new ButtonVO({label:"<p class='buttonLabel'>Diana and Actaeon by Others</p>", subMenuButtons:new <ButtonVO>[
+					new ButtonVO({label:"<p class='buttonLabel'>Diana and Actaeon by Others</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"18_3_1"})
 				]})
 			);
 			
 			_menuVOs.push
 			(
-				new MenuButtonVO({label:"<p class='buttonLabel'>Video</p>", subMenuButtons:new <MenuButtonVO>[
-					new MenuButtonVO({label:"<p class='buttonLabel'>Video</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"18_4_1"})
+				new ButtonVO({label:"<p class='buttonLabel'>Video</p>", subMenuButtons:new <ButtonVO>[
+					new ButtonVO({label:"<p class='buttonLabel'>Video</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"18_4_1"})
 				]})
 			);			
 			

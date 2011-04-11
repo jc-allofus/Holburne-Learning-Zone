@@ -2,17 +2,18 @@ package com.allofus.holburne.learningzone.view.menu
 {
 	import com.allofus.holburne.learningzone.events.ChapterMenuEvent;
 	import com.allofus.holburne.learningzone.guiassets.menu.MenuPanel;
-	import com.allofus.holburne.learningzone.model.vo.MenuButtonVO;
+	import com.allofus.holburne.learningzone.model.vo.ButtonVO;
+	import com.allofus.holburne.learningzone.view.component.button.SubMenuButton;
 	import com.allofus.shared.logging.GetLogger;
 	import com.allofus.shared.util.PositionUtil;
 	import com.greensock.TweenMax;
 	import com.greensock.easing.Expo;
-
-	import mx.logging.ILogger;
-
 	import flash.display.Bitmap;
 	import flash.display.Sprite;
 	import flash.events.MouseEvent;
+	import mx.logging.ILogger;
+
+
 
 	/**
 	 * @author jc
@@ -26,15 +27,15 @@ package com.allofus.holburne.learningzone.view.menu
 		protected var background:Bitmap;
 		
 		public var menuButtonDOs:Vector.<SubMenuButton>;
-		protected var menuButtonVOs:Vector.<MenuButtonVO>;
+		protected var menuButtonVOs:Vector.<ButtonVO>;
 		protected var currentSelected:SubMenuButton;
 		
-		public var triggeredBy:MenuButtonVO;
+		public var triggeredBy:ButtonVO;
 		protected var bottomOfMenu:Number = 0;
 		
 		protected var _opened:Boolean = false;
 		
-		public function MenuPanelVC(vos:Vector.<MenuButtonVO>, triggeredBy:MenuButtonVO)
+		public function MenuPanelVC(vos:Vector.<ButtonVO>, triggeredBy:ButtonVO)
 		{
 			this.triggeredBy = triggeredBy;
 			menuButtonVOs = vos;

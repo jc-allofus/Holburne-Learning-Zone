@@ -1,6 +1,6 @@
 package com.allofus.holburne.learningzone.events
 {
-	import com.allofus.holburne.learningzone.model.vo.MenuButtonVO;
+	import com.allofus.holburne.learningzone.model.vo.ButtonVO;
 	import flash.events.Event;
 
 	/**
@@ -13,10 +13,10 @@ package com.allofus.holburne.learningzone.events
 		public static const SUBMENU_ITEM_SELECTED:String = "chapterMenuEvent/SubmenuItemSelected";
 		public static const ADD_MENU_ITEMS:String = "chapterMenuEvent/AddItems";
 		
-		public var selectedVO:MenuButtonVO;
-		public var menuItems:Vector.<MenuButtonVO>;
+		public var selectedVO:ButtonVO;
+		public var menuItems:Vector.<ButtonVO>;
 		
-		public function ChapterMenuEvent(type : String, selectedVO:MenuButtonVO = null, menuItems:Vector.<MenuButtonVO> = null, bubbles : Boolean = false, cancelable : Boolean = false)
+		public function ChapterMenuEvent(type : String, selectedVO:ButtonVO = null, menuItems:Vector.<ButtonVO> = null, bubbles : Boolean = false, cancelable : Boolean = false)
 		{
 			this.selectedVO = selectedVO;
 			this.menuItems = menuItems;

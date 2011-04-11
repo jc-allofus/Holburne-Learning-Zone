@@ -1,15 +1,15 @@
-package com.allofus.holburne.learningzone.view.menu
+package com.allofus.holburne.learningzone.view.component.button
 {
-	import com.allofus.holburne.learningzone.model.vo.MenuButtonVO;
+	import com.allofus.holburne.learningzone.model.vo.ButtonVO;
 	import com.allofus.shared.logging.GetLogger;
 	import com.allofus.shared.text.FontManager;
 	import com.allofus.shared.util.PositionUtil;
 	import com.greensock.TweenMax;
-
-	import mx.logging.ILogger;
-
 	import flash.display.Shape;
 	import flash.text.TextField;
+	import mx.logging.ILogger;
+
+
 
 	/**
 	 * @author jc
@@ -23,7 +23,7 @@ package com.allofus.holburne.learningzone.view.menu
 		protected var background:Shape;
 		protected var label:TextField;
 		
-		public function SubMenuButton(vo:MenuButtonVO)
+		public function SubMenuButton(vo:ButtonVO)
 		{
 			super(vo);
 			

@@ -1,6 +1,6 @@
 package com.allofus.holburne.learningzone.model
 {
-	import com.allofus.holburne.learningzone.model.vo.MenuButtonVO;
+	import com.allofus.holburne.learningzone.model.vo.ButtonVO;
 
 	/**
 	 * @author jc
@@ -9,19 +9,19 @@ package com.allofus.holburne.learningzone.model
 	{
 		public function Chapter13Model()
 		{
-			_menuVOs = new Vector.<MenuButtonVO>();
+			_menuVOs = new Vector.<ButtonVO>();
 			
 			_menuVOs.push
 			(
-				new MenuButtonVO({label:"<p class='buttonLabel'>Introduction</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"13_1"})
+				new ButtonVO({label:"<p class='buttonLabel'>Introduction</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"13_1"})
 			);
 			
 			_menuVOs.push
 			(
-				new MenuButtonVO({label:"<p class='buttonLabel'>More About the Sculpture</p>", subMenuButtons:new <MenuButtonVO>[
-					new MenuButtonVO({label:"<p class='buttonLabel'>Video</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"13_2_1"}),
-					new MenuButtonVO({label:"<p class='buttonLabel'>About Plura</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"13_2_2"}),
-					new MenuButtonVO({label:"<p class='buttonLabel'>Pietà</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"13_2_3"})
+				new ButtonVO({label:"<p class='buttonLabel'>More About the Sculpture</p>", subMenuButtons:new <ButtonVO>[
+					new ButtonVO({label:"<p class='buttonLabel'>Video</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"13_2_1"}),
+					new ButtonVO({label:"<p class='buttonLabel'>About Plura</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"13_2_2"}),
+					new ButtonVO({label:"<p class='buttonLabel'>Pietà</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"13_2_3"})
 					]})
 			);
 			

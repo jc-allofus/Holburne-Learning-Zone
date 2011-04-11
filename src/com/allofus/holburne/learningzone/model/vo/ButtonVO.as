@@ -3,7 +3,7 @@ package com.allofus.holburne.learningzone.model.vo
 	/**
 	 * @author jc
 	 */
-	public class MenuButtonVO
+	public class ButtonVO
 	{
 		
 		public static const SHOW_SLIDE:String = "mainMenuButtonAction/ShowSlide";
@@ -11,9 +11,9 @@ package com.allofus.holburne.learningzone.model.vo
 		public var label:String;
 		public var action:String;
 		public var actionParams:String;
-		public var subMenuButtons:Vector.<MenuButtonVO>;
+		public var subMenuButtons:Vector.<ButtonVO>;
 		
-		public function MenuButtonVO(params:Object = null)
+		public function ButtonVO(params:Object = null)
 		{
 			if(params["label"]) this.label = params["label"];
 			if(params["action"]) this.action = params["action"];

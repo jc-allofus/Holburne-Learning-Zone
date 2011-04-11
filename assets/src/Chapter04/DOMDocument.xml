@@ -1,13 +1,18 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="1920" height="1080" frameRate="31" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" viewAngle3D="122.353661987282" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="1920" height="1080" frameRate="31" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" rulerVisible="true" viewAngle3D="122.353661987282" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="Chapter 04" itemID="4d9defe9-00000361" isExpanded="true"/>
           <DOMFolderItem name="Chapter 04/04.1 Introduction" itemID="4d9deff0-00000362" isExpanded="true"/>
           <DOMFolderItem name="Chapter 04/04.2 The Brughal Family" itemID="4d9deff5-00000363"/>
           <DOMFolderItem name="Chapter 04/04.3 Whats Going On" itemID="4d9deffa-00000364"/>
           <DOMFolderItem name="Chapter 04/04.4 The Paintings History" itemID="4d9defff-00000365" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 04/04.4 The Paintings History/04.4.3" itemID="4d9efc14-0000025a" isExpanded="true"/>
      </folders>
-     <media/>
-     <symbols/>
+     <media>
+          <DOMBitmapItem name="Chapter 04/04.4 The Paintings History/04.4.3/Fri Apr 8 13:12:40 GMT+0100 2011.jpg" itemID="4d9efc00-00000254" sourceExternalFilepath="../../../../../../Users/jc/Documents/HolburneLearningZoneScreenshots/Fri Apr 8 13/12/40 GMT+0100 2011.jpg" sourceLastImported="1302264775" sourcePlatform="macintosh" quality="50" href="Chapter 04/04.4 The Paintings History/04.4.3/Fri Apr 8 13&amp;#5812&amp;#5840 GMT+0100 2011.jpg" bitmapDataHRef="M 1 1302264832.dat" frameRight="38400" frameBottom="21600" isJPEG="true"/>
+     </media>
+     <symbols>
+          <Include href="Chapter 04/04.4 The Paintings History/04.4.3/Slide_04_4_3.xml"/>
+     </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>

@@ -9,6 +9,10 @@ p{
 	color:#b00404;
 }
 
+.copy{
+	color:#80816d;
+}
+
 .imageCaption{
 	font-size: 14px;
 }
@@ -28,4 +32,10 @@ p{
 
 .buttonLabel{
 	color:#80816d;
+}
+
+.voteResultDiscLabel{
+	color:#FFFFFF;
+	text-align:center;
+	font-size:38px;
 }

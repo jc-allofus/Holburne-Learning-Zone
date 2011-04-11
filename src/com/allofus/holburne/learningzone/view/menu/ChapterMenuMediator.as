@@ -1,6 +1,6 @@
 package com.allofus.holburne.learningzone.view.menu
 {
-	import com.allofus.holburne.learningzone.model.vo.MenuButtonVO;
+	import com.allofus.holburne.learningzone.model.vo.ButtonVO;
 	import com.allofus.holburne.learningzone.events.ChapterMenuEvent;
 	import com.allofus.shared.logging.GetLogger;
 
@@ -32,7 +32,7 @@ package com.allofus.holburne.learningzone.view.menu
 		
 		protected function handleAddItems(event:ChapterMenuEvent):void
 		{
-			var itemVOs:Vector.<MenuButtonVO> = event.menuItems;
+			var itemVOs:Vector.<ButtonVO> = event.menuItems;
 			if(itemVOs && itemVOs.length > 1)
 			{
 				view.addItems(itemVOs);

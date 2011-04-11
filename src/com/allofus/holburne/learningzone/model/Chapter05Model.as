@@ -1,6 +1,6 @@
 package com.allofus.holburne.learningzone.model
 {
-	import com.allofus.holburne.learningzone.model.vo.MenuButtonVO;
+	import com.allofus.holburne.learningzone.model.vo.ButtonVO;
 
 	/**
 	 * @author jc
@@ -9,26 +9,26 @@ package com.allofus.holburne.learningzone.model
 	{
 		public function Chapter05Model()
 		{
-			_menuVOs = new Vector.<MenuButtonVO>();
+			_menuVOs = new Vector.<ButtonVO>();
 			
 			_menuVOs.push
 			(
-				new MenuButtonVO({label:"<p class='buttonLabel'>Introduction</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"5_1"})
+				new ButtonVO({label:"<p class='buttonLabel'>Introduction</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"5_1"})
 			);
 			
 			_menuVOs.push
 			(
-				new MenuButtonVO({label:"<p class='buttonLabel'>The Artist</p>", subMenuButtons:new <MenuButtonVO>[
-					new MenuButtonVO({label:"<p class='buttonLabel'>Biography</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"5_2_1"})
+				new ButtonVO({label:"<p class='buttonLabel'>The Artist</p>", subMenuButtons:new <ButtonVO>[
+					new ButtonVO({label:"<p class='buttonLabel'>Biography</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"5_2_1"})
 					]})
 			);
 			
 			_menuVOs.push
 			(
-				new MenuButtonVO({label:"<p class='buttonLabel'>The Painting</p>", subMenuButtons:new <MenuButtonVO>[
-					new MenuButtonVO({label:"<p class='buttonLabel'>What are those strange things?</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"5_3_1"}),
-					new MenuButtonVO({label:"<p class='buttonLabel'>Other Saints in Holburne</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"5_3_2"}),
-					new MenuButtonVO({label:"<p class='buttonLabel'>Other Monsters in Holburne</p>", action:MenuButtonVO.SHOW_SLIDE, actionParams:"5_3_3"})
+				new ButtonVO({label:"<p class='buttonLabel'>The Painting</p>", subMenuButtons:new <ButtonVO>[
+					new ButtonVO({label:"<p class='buttonLabel'>What are those strange things?</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"5_3_1"}),
+					new ButtonVO({label:"<p class='buttonLabel'>Other Saints in Holburne</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"5_3_2"}),
+					new ButtonVO({label:"<p class='buttonLabel'>Other Monsters in Holburne</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"5_3_3"})
 				]})
 			);
 			

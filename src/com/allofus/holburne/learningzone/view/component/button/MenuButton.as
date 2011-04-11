@@ -1,19 +1,20 @@
-package com.allofus.holburne.learningzone.view.menu
+package com.allofus.holburne.learningzone.view.component.button
 {
 	import com.allofus.holburne.learningzone.guiassets.menu.MenuTab;
 	import com.allofus.holburne.learningzone.guiassets.menu.MenuTabClicked;
 	import com.allofus.holburne.learningzone.guiassets.menu.MenuTabSelected;
-	import com.allofus.holburne.learningzone.model.vo.MenuButtonVO;
+	import com.allofus.holburne.learningzone.model.vo.ButtonVO;
+	import com.allofus.holburne.learningzone.view.menu.MenuPanelVC;
 	import com.allofus.shared.logging.GetLogger;
 	import com.allofus.shared.text.FontManager;
 	import com.allofus.shared.util.PositionUtil;
 	import com.greensock.TweenMax;
-
-	import mx.logging.ILogger;
-
 	import flash.display.Bitmap;
 	import flash.events.MouseEvent;
 	import flash.text.TextField;
+	import mx.logging.ILogger;
+
+
 
 	/**
 	 * These are the buttons that appear across the bottom of the screen for each chapter.
@@ -30,7 +31,7 @@ package com.allofus.holburne.learningzone.view.menu
 		public var panel : MenuPanelVC;
 		
 		
-		public function MenuButton(vo:MenuButtonVO)
+		public function MenuButton(vo:ButtonVO)
 		{
 			super(vo);
 			
