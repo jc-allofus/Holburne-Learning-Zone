@@ -9,6 +9,8 @@ package com.allofus.holburne.learningzone.view.component
 
 	import mx.logging.ILogger;
 
+	import flash.display.Bitmap;
+	import flash.display.BitmapData;
 	import flash.display.DisplayObject;
 	import flash.display.MovieClip;
 	import flash.display.Sprite;
@@ -83,8 +85,11 @@ package com.allofus.holburne.learningzone.view.component
 				if (_selectedThumb === thumbnailVOs[i].thumbnail)
 				{
 					clearLargeImages();
-					var img:MovieClip = new thumbnailVOs[i].largeImageClassRef() as MovieClip;
+					//var img:MovieClip = new thumbnailVOs[i].largeImageClassRef() as MovieClip;
+					var bmd:BitmapData = new thumbnailVOs[i].largeImageClassRef(0,0) as BitmapData;
+					var img:ImageWithBorderAndCaption = new ImageWithBorderAndCaption(new Bitmap(bmd), thumbnailVOs[i].caption);
 					var pt:Point = PositionUtil.getPositionInLeftFrame(img);
+					img.showCaption(false);
 					img.x = pt.x;
 					img.y = pt.y;
 					largeImageContainer.addChild(img);
@@ -113,11 +118,11 @@ package com.allofus.holburne.learningzone.view.component
 		
 		override public function dispose():void
 		{
+			disableThumbs();
 			if(thumbnailVOs)
 			{
 				thumbnailVOs.length = 0;
 			}
-			disableThumbs();
 			thumbnailVOs = null;
 			_selectedThumb = null;
 			largeImageContainer = null;

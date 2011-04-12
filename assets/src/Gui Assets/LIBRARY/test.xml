@@ -5,9 +5,7 @@
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="TextPanel/text_panel_cropped.jpg"/>
-              </elements>
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>

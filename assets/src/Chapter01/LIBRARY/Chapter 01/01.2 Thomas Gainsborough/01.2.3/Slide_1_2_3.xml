@@ -1,12 +1,128 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.2 Thomas Gainsborough/01.2.3/Slide_1_2_3" itemID="4d88a166-00000297" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_2_3" sourceLibraryItemHRef="Chapter 01/01.2 Thomas Gainsborough/01.2.2/Slide_1_2_2 copy" lastModified="1300896544" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.2 Thomas Gainsborough/01.2.3/Slide_1_2_3" itemID="4d88a166-00000297" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_2_3" sourceLibraryItemHRef="Chapter 01/01.2 Thomas Gainsborough/01.2.2/Slide_1_2_2 copy" lastModified="1302629733" lastUniqueIdentifier="15">
   <timeline>
     <DOMTimeline name="Slide_1_2_3">
       <layers>
-        <DOMLayer name="reference" color="#4FFF4F" current="true" isSelected="true" autoNamed="false" layerType="guide">
+        <DOMLayer name="pin markers" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Chapter 01/Chapter 1 stage reference" name="" selected="true" centerPoint3DX="960" centerPoint3DY="540">
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t1" centerPoint3DX="501.1" centerPoint3DY="347.05">
+                  <matrix>
+                    <Matrix tx="501.1" ty="347.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t2" centerPoint3DX="512.1" centerPoint3DY="526.1">
+                  <matrix>
+                    <Matrix tx="512.1" ty="526.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t3" centerPoint3DX="550.1" centerPoint3DY="526.1">
+                  <matrix>
+                    <Matrix tx="550.1" ty="526.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t4" centerPoint3DX="536.1" centerPoint3DY="543.1">
+                  <matrix>
+                    <Matrix tx="536.1" ty="543.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t5" centerPoint3DX="585.15" centerPoint3DY="553.1">
+                  <matrix>
+                    <Matrix tx="585.15" ty="553.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t6" centerPoint3DX="457.1" centerPoint3DY="321.05">
+                  <matrix>
+                    <Matrix tx="457.1" ty="321.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t7" centerPoint3DX="505.5" centerPoint3DY="192.9">
+                  <matrix>
+                    <Matrix tx="505.5" ty="192.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="caption" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText width="380.5" height="88" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="279.1" ty="751.15"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>William Hibbart &#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>A New and Correct Plan of the City of Bath with the New Additional Buildings</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="Baskerville-Italic" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>&#xD;1772&#xD;Engraving, 37.5 x 49 cm&#xD;Bath Central Library, image courtesy of Bath in Time [ref 26519]</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="Baskerville-Italic" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="image" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Chapter 01/01.2 Thomas Gainsborough/01.2.3/1_2_3.png">
+                  <matrix>
+                    <Matrix tx="235.1" ty="102.9"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="reference" color="#4FFF4F" locked="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Chapter 01/Chapter 1 stage reference" name="" centerPoint3DX="960" centerPoint3DY="540">
                   <transformationPoint>
                     <Point x="960" y="540"/>
                   </transformationPoint>

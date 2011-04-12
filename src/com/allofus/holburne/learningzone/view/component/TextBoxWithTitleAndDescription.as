@@ -19,9 +19,6 @@ package com.allofus.holburne.learningzone.view.component
 	public class TextBoxWithTitleAndDescription extends Sprite
 	{
 		
-		public static const BORDER_SIZE:int = 60;
-		public static const HEADER_GAP:int = 35;
-		
 		protected var background:Shape;
 		protected var glowShape:Shape;
 		protected var decoration:Bitmap;
@@ -30,6 +27,9 @@ package com.allofus.holburne.learningzone.view.component
 		
 		public function TextBoxWithTitleAndDescription(title:String, body:String, targetWidth:Number = AppGlobals.RIGHT_FRAME_WIDTH, targetHeight:Number = NaN)
 		{
+			var BORDER_SIZE:int = AppGlobals.TEXT_BORDER_SIZE;
+			var HEADER_GAP:int = AppGlobals.TEXT_HEADER_GAP;
+			
 			glowShape = new Shape();
 			addChild(glowShape);
 			

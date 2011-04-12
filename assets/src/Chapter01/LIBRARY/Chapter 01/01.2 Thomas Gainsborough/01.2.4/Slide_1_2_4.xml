@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.2 Thomas Gainsborough/01.2.4/Slide_1_2_4" itemID="4d88a17b-000002a3" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_2_4" sourceLibraryItemHRef="Chapter 01/01.2 Thomas Gainsborough/01.2.3/Slide_1_2_3 copy" lastModified="1302017243" lastUniqueIdentifier="7">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.2 Thomas Gainsborough/01.2.4/Slide_1_2_4" itemID="4d88a17b-000002a3" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_2_4" sourceLibraryItemHRef="Chapter 01/01.2 Thomas Gainsborough/01.2.3/Slide_1_2_3 copy" lastModified="1302625106" lastUniqueIdentifier="7">
   <timeline>
     <DOMTimeline name="Slide_1_2_4">
       <layers>
-        <DOMLayer name="pin landingspots" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="pin landingspots" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false" visible="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -50,7 +50,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="large image" color="#9933CC" locked="true" autoNamed="false">
+        <DOMLayer name="large image" color="#9933CC" locked="true" autoNamed="false" visible="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -63,7 +63,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="reference" color="#4FFF4F" locked="true" autoNamed="false" layerType="guide">
+        <DOMLayer name="reference" color="#4FFF4F" autoNamed="false" layerType="guide">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

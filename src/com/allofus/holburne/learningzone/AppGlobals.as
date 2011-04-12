@@ -26,6 +26,10 @@ package com.allofus.holburne.learningzone
 		public static const BORDER_SIZE:int = 20;
 		public static const BORDER_COLOR:uint = 0xFFFFFF;
 		
+		//text box stuff
+		public static const TEXT_BORDER_SIZE:int = 60;
+		public static const TEXT_HEADER_GAP:int = 35;
+		
 		//animation vars
 		public static const FADE_DURATION:Number = 0.5;
 		public static const FADE_EASE:Function = Sine.easeOut;

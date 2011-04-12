@@ -86,7 +86,7 @@ package com.allofus.holburne.learningzone.view.menu
 				if(itemVOs[i].subMenuButtons && itemVOs[i].subMenuButtons.length > 0)
 				{
 					var menuPanel:MenuPanelVC = new MenuPanelVC(itemVOs[i].subMenuButtons, menuButton.vo);
-					menuPanel.x = menuButton.x + 5;
+					menuPanel.x = menuButton.x + 2;
 					menuButton.panel = menuPanel;
 					menuPanel.addEventListener(ChapterMenuEvent.SUBMENU_ITEM_SELECTED, handleSubmenuButtonClicked);
 					subMenuPanelLayer.addChild(menuPanel);
