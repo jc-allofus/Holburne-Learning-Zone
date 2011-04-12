@@ -1,22 +1,16 @@
 package com.allofus.holburne.learningzone.view.homepage
 {
-	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.events.ChapterEvent;
 	import com.allofus.holburne.learningzone.model.ChapterIDs;
 	import com.allofus.holburne.learningzone.model.vo.ChapterVO;
-	import com.allofus.holburne.learningzone.view.component.HomePageThumbnailButton;
 	import com.allofus.shared.logging.GetLogger;
 	import com.allofus.shared.util.PositionUtil;
 	import com.greensock.TweenMax;
 	import com.greensock.easing.Strong;
-	import com.holburne.learningzone.swc.chapter1.Chap1IntroImage;
-	import com.holburne.learningzone.swc.chapter2.Chap2IntroImage;
 
 	import mx.logging.ILogger;
 
-	import flash.display.Bitmap;
 	import flash.display.MovieClip;
-	import flash.display.Shape;
 	import flash.display.Sprite;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
@@ -41,7 +35,7 @@ package com.allofus.holburne.learningzone.view.homepage
 			homepage = new HomePage1();
 			homepage.cacheAsBitmap = true;
 			homepage.scaleX = homepage.scaleY = THUMB_SCALE;
-			buttonMCs = new <MovieClip>[homepage.t0, homepage.t1, homepage.t2, homepage.t3, homepage.t4, homepage.t5, homepage.t6, homepage.t7, homepage.t8, homepage.t9];
+			buttonMCs = new <MovieClip>[homepage.t1, homepage.t2, homepage.t3, homepage.t4, homepage.t5, homepage.t6, homepage.t7, homepage.t8, homepage.t9, homepage.t10];
 			addChild(homepage);
 			enableButtons();
 			
@@ -74,16 +68,13 @@ package com.allofus.holburne.learningzone.view.homepage
 			var vo:ChapterVO;
 			switch (clicked)
 			{
-				case homepage.t0:
-					vo = new ChapterVO(ChapterIDs.CHAPTER_10, homepage.t0);
-					break;
 					
 				case homepage.t1:
-					vo = new ChapterVO(ChapterIDs.CHAPTER_02, homepage.t1);
+					vo = new ChapterVO(ChapterIDs.CHAPTER_01, homepage.t1);
 					break;
 					
 				case homepage.t2:
-					vo = new ChapterVO(ChapterIDs.CHAPTER_01, homepage.t2);
+					vo = new ChapterVO(ChapterIDs.CHAPTER_02, homepage.t2);
 					break;
 					
 				case homepage.t3:
@@ -91,27 +82,31 @@ package com.allofus.holburne.learningzone.view.homepage
 					break;
 					
 				case homepage.t4:
-					vo = new ChapterVO(ChapterIDs.CHAPTER_05, homepage.t4);
+					vo = new ChapterVO(ChapterIDs.CHAPTER_04, homepage.t4);
 					break;
 					
 				case homepage.t5:
-					vo = new ChapterVO(ChapterIDs.CHAPTER_06, homepage.t5);
+					vo = new ChapterVO(ChapterIDs.CHAPTER_05, homepage.t5);
 					break;
 					
 				case homepage.t6:
-					vo = new ChapterVO(ChapterIDs.CHAPTER_07, homepage.t6);
+					vo = new ChapterVO(ChapterIDs.CHAPTER_06, homepage.t6);
 					break;
 					
 				case homepage.t7:
-					vo = new ChapterVO(ChapterIDs.CHAPTER_08, homepage.t7);
+					vo = new ChapterVO(ChapterIDs.CHAPTER_07, homepage.t7);
 					break;
 					
 				case homepage.t8:
-					vo = new ChapterVO(ChapterIDs.CHAPTER_09, homepage.t8);
+					vo = new ChapterVO(ChapterIDs.CHAPTER_08, homepage.t8);
 					break;
 					
 				case homepage.t9:
-					vo = new ChapterVO(ChapterIDs.CHAPTER_10, homepage.t9);
+					vo = new ChapterVO(ChapterIDs.CHAPTER_09, homepage.t9);
+					break;
+					
+				case homepage.t10:
+					vo = new ChapterVO(ChapterIDs.CHAPTER_10, homepage.t10);
 					break;
 			}
 			
