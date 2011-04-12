@@ -1,0 +1,17 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_small/t122_02" itemID="4da4892a-000004c1" sourceLibraryItemHRef="Symbol 1" lastModified="1302628650">
+  <timeline>
+    <DOMTimeline name="t122_02">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_small/1_2_2_02_small.png"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
