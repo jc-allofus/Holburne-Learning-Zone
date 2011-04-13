@@ -4,6 +4,7 @@ p{
 	font-size: 18px;
 }
 
+
 .popupPanelTitle{
 	color:#b00404;	
 }
@@ -14,6 +15,11 @@ p{
 }
 
 .copy{
+	color:#80816d;
+}
+
+.copyItalic{
+	font-family:BaskervilleGreekItalic;
 	color:#80816d;
 }
 

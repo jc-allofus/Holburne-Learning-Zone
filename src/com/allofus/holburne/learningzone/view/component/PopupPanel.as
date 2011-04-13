@@ -82,8 +82,8 @@ package com.allofus.holburne.learningzone.view.component
 			graphics.beginFill(0xFFFFFF, 0.3);
 			graphics.drawRect(0, 0, width, height);
 			
-			closeButton.x = width - closeButton.width - MARGIN;
-			closeButton.y = height - closeButton.height - MARGIN;
+			closeButton.x = width - closeButton.width;
+			closeButton.y = height - closeButton.height;
 		}
 		
 		public function transitionIn():void

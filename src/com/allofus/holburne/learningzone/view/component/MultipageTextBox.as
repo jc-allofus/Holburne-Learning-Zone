@@ -118,6 +118,7 @@ package com.allofus.holburne.learningzone.view.component
 			
 			for (var i : int = 0; i < pageDOs.length; i++) 
 			{
+				TweenMax.killTweensOf(pageDOs[i]);
 				if(i == pageNumber)
 				{
 					pageDOs[i].alpha = 0;

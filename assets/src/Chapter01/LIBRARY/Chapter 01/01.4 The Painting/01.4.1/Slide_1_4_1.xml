@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.4 The Painting/01.4.1/Slide_1_4_1" itemID="4d88a2a8-000002d2" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_4_1" sourceLibraryItemHRef="Chapter 01/01.3 Thomas Gainsborough/Slide_1_3_1 copy" lastModified="1302019286" lastUniqueIdentifier="8">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.4 The Painting/01.4.1/Slide_1_4_1" itemID="4d88a2a8-000002d2" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_4_1" sourceLibraryItemHRef="Chapter 01/01.3 Thomas Gainsborough/Slide_1_3_1 copy" lastModified="1302692064" lastUniqueIdentifier="11">
   <timeline>
     <DOMTimeline name="Slide_1_4_1">
       <layers>
@@ -6,30 +6,73 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="hst1" centerPoint3DX="532.3" centerPoint3DY="281">
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t1" centerPoint3DX="350.35" centerPoint3DY="419">
                   <matrix>
-                    <Matrix tx="532.3" ty="281"/>
+                    <Matrix tx="350.35" ty="419"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="hst2" centerPoint3DX="626" centerPoint3DY="280">
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t2" centerPoint3DX="253.05" centerPoint3DY="222">
                   <matrix>
-                    <Matrix tx="626" ty="280"/>
+                    <Matrix tx="253.05" ty="222"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="hst3" selected="true" centerPoint3DX="685" centerPoint3DY="499.4">
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t3" centerPoint3DX="573" centerPoint3DY="527.4">
                   <matrix>
-                    <Matrix tx="685" ty="499.4"/>
+                    <Matrix tx="573" ty="527.4"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t4" centerPoint3DX="539.45" centerPoint3DY="478.95">
+                  <matrix>
+                    <Matrix tx="539.45" ty="478.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t5" centerPoint3DX="758.45" centerPoint3DY="575.9">
+                  <matrix>
+                    <Matrix tx="758.45" ty="575.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t6" centerPoint3DX="690.45" centerPoint3DY="342.95">
+                  <matrix>
+                    <Matrix tx="690.45" ty="342.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMStaticText selected="true" width="375.75" height="106" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="214" ty="789.95"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>The Byam Family</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="Baskerville-Italic" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>&#xD;Thomas Gainsborough (1727-1788)&#xD;Oil on canvas, 1762-66&#xD;238.5 x 229.7 cm&#xD;On long-term loan from the Andrew Brownswood Arts Foundation&#xD;1.2001.1</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
               </elements>
             </DOMFrame>
           </frames>

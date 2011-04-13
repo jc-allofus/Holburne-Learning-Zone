@@ -29,16 +29,16 @@ package com.allofus.holburne.learningzone.model
 			_menuVOs.push
 			(
 				new ButtonVO({label:"<p class='buttonLabel'>The Byam Family</p>", subMenuButtons:new <ButtonVO>[
-					new ButtonVO({label:"<p class='buttonLabel'>button label here...</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"1_3"})
+					new ButtonVO({label:"<p class='buttonLabel'>Who's Who?</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"1_3"})
 					]})
 			);
 			
 			_menuVOs.push
 			(
 				new ButtonVO({label:"<p class='buttonLabel'>The Painting</p>", subMenuButtons:new <ButtonVO>[
-					new ButtonVO({label:"<p class='buttonLabel'>button label here...</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"1_4_1"}),
-					new ButtonVO({label:"<p class='buttonLabel'>button label here...</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"1_4_2"}),
-					new ButtonVO({label:"<p class='buttonLabel'>button label here...</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"1_4_3"})
+					new ButtonVO({label:"<p class='buttonLabel'>Gainsborough's Changes</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"1_4_1"}),
+//					new ButtonVO({label:"<p class='buttonLabel'>Before & After</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"1_4_2"}),
+					new ButtonVO({label:"<p class='buttonLabel'>How much did it cost?</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"1_4_3"})
 					]})
 			);
 			
