@@ -95,7 +95,7 @@
 	</target>
 	
 	<target name="06. Debug application" depends="05. Compile BigSource Zarkov" description="Compile and debug using Air Debug Launcher">
-		<exec executable="${FLEX_HOME}/bin/adl" failonerror="true">
+		<exec executable="${bin.adl}" failonerror="true">
 			<arg value="${project.descriptor}" />
 			<arg value="${project.binpath.debug}" />
 			<arg value="--"/>
@@ -104,7 +104,7 @@
 	</target>
 	
 	<target name="06a. Launch Debug">
-		<exec executable="${FLEX_HOME}/bin/adl" failonerror="true">
+		<exec executable="${bin.adl}" failonerror="true">
 			<arg value="${project.descriptor}" />
 			<arg value="${project.binpath.debug}" />
 			<arg value="--"/>

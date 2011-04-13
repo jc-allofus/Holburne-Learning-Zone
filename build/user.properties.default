@@ -1,3 +1,9 @@
 #rename this file to user.properties, add it to the svn:ignore list, modify the below path to fit your workstation...
 #the HolburneLearningZone is built on the Flex SDK 4.5.0.19786
 flex.home=/env/envAS3/flexSDKs/flex_sdk_4.5.0.19786
+
+#path to adl for launching debug (OS X & *nix)
+bin.adl=${flex.home}/bin/adl
+
+#path to adl for launching debug (windows)
+#bin.adl=${flex.home}/bin/adl.exe
