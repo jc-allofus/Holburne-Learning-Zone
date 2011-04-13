@@ -1,7 +1,7 @@
 package com.allofus.holburne.learningzone.view.component
 {
 	import com.allofus.holburne.learningzone.AppGlobals;
-	import com.allofus.holburne.learningzone.model.vo.ThumbnailClickedVO;
+	import com.allofus.holburne.learningzone.model.vo.ThumbnailVO;
 	import com.allofus.holburne.learningzone.view.chapter.AbstractSlide;
 	import com.allofus.shared.logging.GetLogger;
 	import com.allofus.shared.util.PositionUtil;
@@ -23,7 +23,8 @@ package com.allofus.holburne.learningzone.view.component
 	public class ThumbnailImagesSlide extends AbstractSlide
 	{
 		protected var _selectedThumb:MovieClip;
-		protected var thumbnailVOs:Vector.<ThumbnailClickedVO>;
+		protected var _selectedThumbVO:ThumbnailVO;
+		protected var thumbnailVOs:Vector.<ThumbnailVO>;
 		protected var largeImageContainer:Sprite;
 		
 		public function ThumbnailImagesSlide()
@@ -33,10 +34,12 @@ package com.allofus.holburne.learningzone.view.component
 		}
 		protected function selectDefault(thumbIndex:int = 0):void
 		{
-			_selectedThumb = thumbnailVOs[thumbIndex].thumbnail;
+			selectedThumb = thumbnailVOs[thumbIndex].thumbnail;
 			showThumbSelected();
 			showSelectedLargeImage();
 		}
+		
+		
 		
 		protected function enableThumbs():void
 		{
@@ -68,7 +71,7 @@ package com.allofus.holburne.learningzone.view.component
 				}
 				deselect(_selectedThumb);
 			}
-			_selectedThumb = clicked;
+			selectedThumb = clicked;
 			showThumbSelected();
 			showSelectedLargeImage();
 		}
@@ -116,6 +119,19 @@ package com.allofus.holburne.learningzone.view.component
 			}
 		}
 		
+		protected function set selectedThumb(value:MovieClip):void
+		{
+			_selectedThumb = value;
+			for (var i : int = 0; i < thumbnailVOs.length; i++) 
+			{
+				if (_selectedThumb === thumbnailVOs[i].thumbnail)
+				{
+					_selectedThumbVO = thumbnailVOs[i];
+					return;
+				}
+			}
+		}
+		
 		override public function dispose():void
 		{
 			disableThumbs();
@@ -128,7 +144,12 @@ package com.allofus.holburne.learningzone.view.component
 			largeImageContainer = null;
 			super.dispose();	
 		}
+
+		public function get selectedThumbVO() : ThumbnailVO
+		{
+			return _selectedThumbVO;
+		}	
 		
-		private static const logger:ILogger = GetLogger.qualifiedName( ThumbnailImagesSlide );	
+		private static const logger : ILogger = GetLogger.qualifiedName(ThumbnailImagesSlide);
 	}
 }

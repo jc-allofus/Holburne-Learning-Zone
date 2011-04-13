@@ -103,9 +103,9 @@ package com.allofus.holburne.learningzone.view.component
 
 		public function dispose() : void
 		{
+			if(stage)stage.removeEventListener(MouseEvent.MOUSE_UP, stopDragging);
 			removeEventListener(MouseEvent.MOUSE_DOWN, startDragging);
 			removeEventListener(Event.ENTER_FRAME, updateTargetX);
-			if(stage)stage.removeEventListener(MouseEvent.MOUSE_UP, stopDragging);
 				
 			while (numChildren > 0)
 			{

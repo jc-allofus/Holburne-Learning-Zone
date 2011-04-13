@@ -16,21 +16,21 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 		public function Slide_2_1VC()
 		{
 			var caption:String = 
-				"<p class='imageCaptionItalic'>The Byam Family</p>"
-			+	"<p class='imageCaption'>Thomas Gainsborough (1727-1788)</p>"
-			+	"<p class='imageCaption'>Oil on canvas, 1762-66</p>"
-			+	"<p class='imageCaption'>238.5 x 229.7 cm</p>"
-			+	"<p class='imageCaption'>On long-term loan from the Andrew Brownswood Arts Foundation</p>"
-			+	"<p class='imageCaption'>1.2001.1</p>";
+				"<p class='imageCaptionItalic'>The Visit of the Godfather</p>"
+			+	"<p class='imageCaption'>Pieter Brueghel the Younger (1565-1638)</p>"
+			+	"<p class='imageCaption'>Oil on panel</p>"
+			+	"<p class='imageCaption'>36.5 x 49.4 cm</p>"
+			+	"<p class='imageCaption'>Collection of Sir Thomas William Holburne, A46</p>"
+			;
 			
 			img = new ImageWithBorderAndCaption(new Bitmap(new Chap2IntroImage(0,0)), caption);
 			addChild(img);
 			
 			var title:String ="INTRODUCTION";
 			var description:String = 
-				"<p class='justified'>This life-size view of a wealthy English family enjoying the countryside is one of the most ambitions paintings made during Thomas Gainsborough's sixteen years in Bath.  From 1759 to 1774 he rented one of the most expensive houses in the town, right opposite the Abbey and next to the Pump Room.  In had a spacious studio where visitors to the Spa could come to be recorded in their fashionable finery.</p>"
+				"<p class='justified'>The Bruegel family of Antwerp produced four generations of artists.  The dynasty’s founder was Pieter Bruegel the Elder, whose scenes of peasant life, religious subjects and landscapes are greatly loved.  His humorous depictions of country folk usually have a moralising message, sometimes illustrating traditional proverbs.</p>"
 			+	"<p></p>"
-			+	"<p class='justified'>George Byam, a plantation owner from Antigua, paid 100 guineas (over eight month's rent for the artist) for this portrait of himself and his new wife.  Gainsborough added their daughter Selina to the composition a few years later.  At the same time, Byam treated his wife to a re-painting of her dress from its original pink to a more up-to-date shade of blue.</p>";
+			+	"<p class='justified'>Bruegel’s son Pieter ran a busy studio that mostly produced copies or imitations of Pieter the Elder’s compositions.  This version of Visit of the Godfather (also known as Visit to the Farm) is based on an original that appears to be lost, but Pieter the Younger made many versions of it.  It depicts a busy farmhouse kitchen packed with detail.  An elegant couple are welcomed into the house by the farmer, who is their tenant.  The landlord’s wife is giving coins to the farmer’s son.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
 			addChild(text);
 			text.visible = false;

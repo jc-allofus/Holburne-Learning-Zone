@@ -1,0 +1,89 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 02/02.2 The Brughal Family/02.2.3/Slide_2_2_3" itemID="4da5d102-000003e2" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.chapter2.Slide_2_2_3" sourceLibraryItemHRef="Chapter 02/02.2 The Brughal Family/02.2.1/Slide_2_2_1 copy" lastModified="1302717217">
+  <timeline>
+    <DOMTimeline name="Slide_2_2_3">
+      <layers>
+        <DOMLayer name="thumbs" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Chapter 02/02.2 The Brughal Family/02.2.3/_thumb/t1" name="t1" selected="true" centerPoint3DX="1134.95" centerPoint3DY="604.9">
+                  <matrix>
+                    <Matrix tx="1074.95" ty="558.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="46.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 02/02.2 The Brughal Family/02.2.3/_thumb/t2" name="t2" centerPoint3DX="1353.85" centerPoint3DY="603.4">
+                  <matrix>
+                    <Matrix tx="1293.85" ty="555.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="48"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 02/02.2 The Brughal Family/02.2.3/_thumb/t3" name="t3" centerPoint3DX="1525.9" centerPoint3DY="604.9">
+                  <matrix>
+                    <Matrix tx="1465.9" ty="539.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="65.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 02/02.2 The Brughal Family/02.2.3/_thumb/t4" name="t4" centerPoint3DX="1704.9" centerPoint3DY="601.4">
+                  <matrix>
+                    <Matrix tx="1644.9" ty="558.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="43"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 02/02.2 The Brughal Family/02.2.3/_thumb/t5" name="t5" centerPoint3DX="1095.95" centerPoint3DY="719.9">
+                  <matrix>
+                    <Matrix tx="1035.95" ty="670.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="49.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 02/02.2 The Brughal Family/02.2.3/_thumb/t6" name="t6" centerPoint3DX="1278.95" centerPoint3DY="735.9">
+                  <matrix>
+                    <Matrix tx="1218.95" ty="680.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="55.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 02/02.2 The Brughal Family/02.2.3/_thumb/t7" name="t7" centerPoint3DX="1456.9" centerPoint3DY="756.9">
+                  <matrix>
+                    <Matrix tx="1396.9" ty="696.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="60.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 02/02.2 The Brughal Family/02.2.3/_thumb/t8" name="t8" centerPoint3DX="1681.9" centerPoint3DY="751.9">
+                  <matrix>
+                    <Matrix tx="1621.9" ty="706.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="45.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="reference shot" color="#4FFF4F" locked="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Wed Apr 13 15:05:39 GMT+0100 2011.jpg"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

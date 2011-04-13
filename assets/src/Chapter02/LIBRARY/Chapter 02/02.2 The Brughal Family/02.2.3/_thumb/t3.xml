@@ -1,0 +1,17 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 02/02.2 The Brughal Family/02.2.3/_thumb/t3" itemID="4da5d210-00000458" sourceLibraryItemHRef="Symbol 1" lastModified="1302712848">
+  <timeline>
+    <DOMTimeline name="t3">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Chapter 02/02.2 The Brughal Family/02.2.3/_thumb/2_2_3_3_small.png"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,9 +1,13 @@
 package com.allofus.holburne.learningzone.view.component
 {
+	import com.greensock.TweenMax;
 	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.guiassets.TextPanelDecoration;
+	import com.allofus.shared.logging.GetLogger;
 	import com.allofus.shared.text.FontManager;
 	import com.allofus.shared.util.PositionUtil;
+
+	import mx.logging.ILogger;
 
 	import flash.display.Bitmap;
 	import flash.display.Shape;
@@ -18,17 +22,19 @@ package com.allofus.holburne.learningzone.view.component
 	 */
 	public class TextBoxWithTitleAndDescription extends Sprite
 	{
+		protected var BORDER_SIZE:int = AppGlobals.TEXT_BORDER_SIZE;
+		protected var HEADER_GAP:int = AppGlobals.TEXT_HEADER_GAP;
+		protected var textfieldWidth:Number = 100;
 		
 		protected var background:Shape;
 		protected var glowShape:Shape;
 		protected var decoration:Bitmap;
 		public var titleField:TextField;
 		public var bodyField:TextField;
+		public var additionalText:TextField;
 		
 		public function TextBoxWithTitleAndDescription(title:String, body:String, targetWidth:Number = AppGlobals.RIGHT_FRAME_WIDTH, targetHeight:Number = NaN)
 		{
-			var BORDER_SIZE:int = AppGlobals.TEXT_BORDER_SIZE;
-			var HEADER_GAP:int = AppGlobals.TEXT_HEADER_GAP;
 			
 			glowShape = new Shape();
 			addChild(glowShape);
@@ -46,8 +52,8 @@ package com.allofus.holburne.learningzone.view.component
 			titleField.y = BORDER_SIZE;
 			addChild(titleField);
 			
-			var bw:Number = targetWidth - (BORDER_SIZE * 2);
-			bodyField = FontManager.createTextField(body,bw,0,true);
+			textfieldWidth = targetWidth - (BORDER_SIZE * 2);
+			bodyField = FontManager.createTextField(body,textfieldWidth,0,true);
 			bodyField.x = BORDER_SIZE;
 			PositionUtil.positionUnder(bodyField, titleField, HEADER_GAP);
 			addChild(bodyField);	
@@ -73,9 +79,32 @@ package com.allofus.holburne.learningzone.view.component
 			return bodyField.y + bodyField.height;
 		}
 		
+		public function setAdditionalText(value : String) : void
+		{
+			if(!additionalText)
+			{
+				additionalText = FontManager.createTextField(value || "",textfieldWidth, 0, true);
+				addChild(additionalText);
+				additionalText.x = BORDER_SIZE;
+				PositionUtil.positionUnder(additionalText, bodyField, 20);
+			}
+			else
+			{
+				if(value != additionalText.htmlText)
+				{
+					additionalText.htmlText = value || "";
+					additionalText.alpha = 0;
+					TweenMax.to(additionalText, AppGlobals.FADE_DURATION, {alpha:1, ease:AppGlobals.FADE_EASE});	
+				}
+			}
+			
+		}
+		
 		public function transitionIn(delay:Number = 0):void
 		{
 			//TweenMax.to(this, AppGlobals.FADE_DURATION, {ease:AppGlobals.FADE_EASE, autoAlpha:1, glowFilter:AppGlobals.GLOW_ON, delay:delay});
 		}
+		private static const logger:ILogger = GetLogger.qualifiedName( TextBoxWithTitleAndDescription );
+
 	}
 }
