@@ -21,7 +21,8 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 			+	"<p class='imageCaption'>Oil on canvas, about 1794</p>"
 			+	"<p class='imageCaption'>78.7 x 64.6 cm</p>"
 			+	"<p class='imageCaption'>Collection of Sir Thomas William Holburne</p>"
-			+	"<p class='imageCaption'>A102</p>";
+			+	"<p class='imageCaption'>A102</p>"
+			;
 			
 			img = new ImageWithBorderAndCaption(new Bitmap(new Chap3IntroImage(0,0)), caption);
 			addChild(img);

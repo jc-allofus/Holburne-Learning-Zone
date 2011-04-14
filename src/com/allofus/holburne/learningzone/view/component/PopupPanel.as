@@ -129,6 +129,12 @@ package com.allofus.holburne.learningzone.view.component
 				removeChild(backgroundPane);
 			}
 			backgroundPane = null;
+			
+			//get anything else
+			while(numChildren>0)
+			{
+				this.removeChildAt(0);
+			}
 		}
 		
 		private static const logger:ILogger = GetLogger.qualifiedName( PopupPanel );

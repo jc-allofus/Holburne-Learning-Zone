@@ -2,7 +2,10 @@ package com.allofus.holburne.learningzone.view.component
 {
 	import com.allofus.holburne.learningzone.model.vo.HotspotPinVO;
 	import com.allofus.holburne.learningzone.view.chapter.AbstractSlide;
+	import com.allofus.shared.logging.GetLogger;
 	import com.allofus.shared.util.PositionUtil;
+
+	import mx.logging.ILogger;
 
 	import flash.display.Sprite;
 	import flash.events.Event;
@@ -146,5 +149,7 @@ package com.allofus.holburne.learningzone.view.component
 			
 			super.dispose();
 		}
+		
+		private static const logger:ILogger = GetLogger.qualifiedName( SingleImageWithHotspotsSlide );
 	}
 }

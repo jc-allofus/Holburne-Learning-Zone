@@ -4,7 +4,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 	import com.allofus.holburne.learningzone.events.TimelineEvent;
 	import com.allofus.holburne.learningzone.view.chapter.AbstractSlide;
 	import com.allofus.shared.logging.GetLogger;
-	import com.holburne.learningzone.swcassets.Slide_3_3_1;
+	import com.holburne.learningzone.swcassets.chapter3.Slide_3_3_1;
 
 	import mx.logging.ILogger;
 

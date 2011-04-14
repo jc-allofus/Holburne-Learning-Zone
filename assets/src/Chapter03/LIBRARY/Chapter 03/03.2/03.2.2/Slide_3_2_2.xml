@@ -1,0 +1,694 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 03/03.2/03.2.2/Slide_3_2_2" itemID="4da6f9ee-00000399" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.chapter3.Slide_3_2_2" sourceLibraryItemHRef="Symbol 1" lastModified="1302795347" lastUniqueIdentifier="12">
+  <timeline>
+    <DOMTimeline name="Slide_3_2_2">
+      <layers>
+        <DOMLayer name="pin targets" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t2" centerPoint3DX="297.5" centerPoint3DY="469.45">
+                  <matrix>
+                    <Matrix tx="297.5" ty="469.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t3" centerPoint3DX="499.5" centerPoint3DY="469.45">
+                  <matrix>
+                    <Matrix tx="499.5" ty="469.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t4" centerPoint3DX="964.45" centerPoint3DY="469.45">
+                  <matrix>
+                    <Matrix tx="964.45" ty="469.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t6" centerPoint3DX="293.5" centerPoint3DY="611.45">
+                  <matrix>
+                    <Matrix tx="293.5" ty="611.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t7" centerPoint3DX="740.45" centerPoint3DY="611.2">
+                  <matrix>
+                    <Matrix tx="740.45" ty="611.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t5" centerPoint3DX="1641.4" centerPoint3DY="469.45">
+                  <matrix>
+                    <Matrix tx="1641.4" ty="469.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t1" centerPoint3DX="830.95" centerPoint3DY="330.45">
+                  <matrix>
+                    <Matrix tx="830.95" ty="330.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="text" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText width="104.2" height="34" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="777.95" ty="353"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Benjamin Barker I&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>(1725? - 1793)</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="14" bitmapSize="280" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText width="91.5" height="34" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="258.95" ty="506.95"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Thomas Barker &#xD;1769-1847</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="14" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText left="33.45" width="77.1" height="34" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="407.05" ty="506.95"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Priscilla Jones&#xD;1779-1843</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="14" bitmapSize="280" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText left="20.45" width="103.1" height="34" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="667.05" ty="506.95"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Elizabeth, John &amp;&#xD; Emma Barker</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="14" bitmapSize="280" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText left="17.45" width="109.1" height="34" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="888.05" ty="506.95"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Benjamin Barker II&#xD;1776-1838</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="14" bitmapSize="280" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText left="35.7" width="72.6" height="16" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="1114" ty="506.95"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Jane Hewlett</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="14" bitmapSize="280" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText left="32.9" width="78.2" height="16" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="1338" ty="506.95"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Rebecca Syle </characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="14" bitmapSize="280" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText left="32.9" width="78.2" height="34" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="1568" ty="505.95"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Joseph Barker&#xD;1781-1809</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="14" bitmapSize="280" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText left="8" width="128" height="34" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="219.1" ty="658"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Thomas  Jones Barker &#xD;1813-1882</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="14" bitmapSize="280" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText left="14.95" width="114.1" height="34" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="442.05" ty="658"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Benjamin Barker III&#xD;1817-1889</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="14" bitmapSize="280" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText left="18.05" width="107.9" height="34" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="671.05" ty="658"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>John Joseph Barker&#xD;1824-1904</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="14" bitmapSize="280" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText left="2.65" width="138.7" height="52" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="890.05" ty="658"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Octavius William Barker&#xD;1826-1896&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="14" bitmapSize="280" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText left="37.4" width="69.2" height="16" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="1117" ty="658"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>5 daughters </characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="14" bitmapSize="280" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText width="114.05" height="16" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="1052.95" ty="353"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Elizabeth Ann Jones</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="Baskerville" fillColor="#80816D"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="tree lines" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix tx="636.65" ty="316.45"/>
+                  </matrix>
+                  <members>
+                    <DOMGroup>
+                      <matrix>
+                        <Matrix tx="636.65" ty="316.45"/>
+                      </matrix>
+                      <members>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="294.75" ty="329"/>
+                          </matrix>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                                <fill>
+                                  <SolidColor color="#7F826D"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!10 4744|17819 4744"/>
+                            <Edge cubics="!10 4744(;10,4744 17819,4744 17819,4744q10 4744 17819 4744);"/>
+                          </edges>
+                        </DOMShape>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="294.75" ty="329"/>
+                          </matrix>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                                <fill>
+                                  <SolidColor color="#7F826D"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!10 4744|10 5092"/>
+                            <Edge cubics="!10 4744(;10,4744 10,5092 10,5092p10 4744q10 5092);"/>
+                          </edges>
+                        </DOMShape>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="294.75" ty="329"/>
+                          </matrix>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                                <fill>
+                                  <SolidColor color="#7F826D"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!8892 4744|8892 5092"/>
+                            <Edge cubics="!8892 4744(;8892,4744 8892,5092 8892,5092p8892 4744q8892 5092);"/>
+                          </edges>
+                        </DOMShape>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="294.75" ty="329"/>
+                          </matrix>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                                <fill>
+                                  <SolidColor color="#7F826D"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!13339 4744|13339 5092"/>
+                            <Edge cubics="!13339 4744(13339,4744;13339,4744 13339,5092 13339,5092q13339 4744p13339 5092)13339,5092;"/>
+                          </edges>
+                        </DOMShape>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="294.75" ty="329"/>
+                          </matrix>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                                <fill>
+                                  <SolidColor color="#7F826D"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!17819 4765|17819 6064"/>
+                            <Edge cubics="!17819 4765(;17819,4765 17819,6064 17819,6064q17819 4765p17819 6064);"/>
+                          </edges>
+                        </DOMShape>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="294.75" ty="329"/>
+                          </matrix>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                                <fill>
+                                  <SolidColor color="#7F826D"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!4396 4765|4396 6064"/>
+                            <Edge cubics="!4396 4765(;4396,4765 4396,6064 4396,6064q4396 4765p4396 6064)4396,6064;"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMGroup>
+                      <matrix>
+                        <Matrix tx="636.65" ty="316.45"/>
+                      </matrix>
+                      <members>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="294.75" ty="329"/>
+                          </matrix>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                                <fill>
+                                  <SolidColor color="#7F826D"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!664 2810|3664 2810"/>
+                            <Edge cubics="!664 2810(;664,2810 3664,2810 3664,2810q664 2810p3664 2810);"/>
+                          </edges>
+                        </DOMShape>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="294.75" ty="329"/>
+                          </matrix>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                                <fill>
+                                  <SolidColor color="#7F826D"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!22276 2810|26276 2810"/>
+                            <Edge cubics="!22276 2810(;22276,2810 26276,2810 26276,2810q22276 2810p26276 2810);"/>
+                          </edges>
+                        </DOMShape>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="294.75" ty="329"/>
+                          </matrix>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                                <fill>
+                                  <SolidColor color="#7F826D"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!2164 2810|2164 4744"/>
+                            <Edge cubics="!2164 2810(;2164,2810 2164,4744 2164,4744q2164 2810p2164 4744);"/>
+                          </edges>
+                        </DOMShape>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="294.75" ty="329"/>
+                          </matrix>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                                <fill>
+                                  <SolidColor color="#7F826D"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!22276 2810|22276 3158"/>
+                            <Edge cubics="!22276 2810(;22276,2810 22276,3158 22276,3158q22276 2810p22276 3158);"/>
+                          </edges>
+                        </DOMShape>
+                        <DOMGroup selected="true">
+                          <matrix>
+                            <Matrix tx="636.65" ty="316.45"/>
+                          </matrix>
+                          <members>
+                            <DOMShape selected="true" isDrawingObject="true">
+                              <matrix>
+                                <Matrix tx="294.75" ty="329"/>
+                              </matrix>
+                              <strokes>
+                                <StrokeStyle index="1">
+                                  <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                                    <fill>
+                                      <SolidColor color="#7F826D"/>
+                                    </fill>
+                                  </SolidStroke>
+                                </StrokeStyle>
+                              </strokes>
+                              <edges>
+                                <Edge strokeStyle="1" edges="!13809 2810|17809 2810"/>
+                                <Edge cubics="!13809 2810(;13809,2810 17809,2810 17809,2810q13809 2810p17809 2810);"/>
+                              </edges>
+                            </DOMShape>
+                            <DOMShape selected="true" isDrawingObject="true">
+                              <matrix>
+                                <Matrix tx="294.75" ty="329"/>
+                              </matrix>
+                              <strokes>
+                                <StrokeStyle index="1">
+                                  <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                                    <fill>
+                                      <SolidColor color="#7F826D"/>
+                                    </fill>
+                                  </SolidStroke>
+                                </StrokeStyle>
+                              </strokes>
+                              <edges>
+                                <Edge strokeStyle="1" edges="!17806 2810|17806 3158"/>
+                                <Edge cubics="!17806 2810(;17806,2810 17806,3158 17806,3158q17806 2810 17806 3158);"/>
+                              </edges>
+                            </DOMShape>
+                          </members>
+                        </DOMGroup>
+                      </members>
+                    </DOMGroup>
+                    <DOMGroup selected="true">
+                      <matrix>
+                        <Matrix tx="636.65" ty="316.45"/>
+                      </matrix>
+                      <members>
+                        <DOMGroup>
+                          <matrix>
+                            <Matrix tx="636.65" ty="316.45"/>
+                          </matrix>
+                          <members>
+                            <DOMShape selected="true" isDrawingObject="true">
+                              <matrix>
+                                <Matrix tx="294.75" ty="329"/>
+                              </matrix>
+                              <strokes>
+                                <StrokeStyle index="1">
+                                  <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                                    <fill>
+                                      <SolidColor color="#7F826D"/>
+                                    </fill>
+                                  </SolidStroke>
+                                </StrokeStyle>
+                              </strokes>
+                              <edges>
+                                <Edge strokeStyle="1" edges="!10 2013|26913 2013"/>
+                                <Edge cubics="!10 2013(;10,2013 26913,2013 26913,2013q10 2013 26913 2013);"/>
+                              </edges>
+                            </DOMShape>
+                            <DOMShape selected="true" isDrawingObject="true">
+                              <matrix>
+                                <Matrix tx="294.75" ty="329"/>
+                              </matrix>
+                              <strokes>
+                                <StrokeStyle index="1">
+                                  <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                                    <fill>
+                                      <SolidColor color="#7F826D"/>
+                                    </fill>
+                                  </SolidStroke>
+                                </StrokeStyle>
+                              </strokes>
+                              <edges>
+                                <Edge strokeStyle="1" edges="!10 2011|10 2360"/>
+                                <Edge cubics="!10 2011(;10,2011 10,2360 10,2360q10 2011 10 2360);"/>
+                              </edges>
+                            </DOMShape>
+                            <DOMShape selected="true" isDrawingObject="true">
+                              <matrix>
+                                <Matrix tx="294.75" ty="329"/>
+                              </matrix>
+                              <strokes>
+                                <StrokeStyle index="1">
+                                  <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                                    <fill>
+                                      <SolidColor color="#7F826D"/>
+                                    </fill>
+                                  </SolidStroke>
+                                </StrokeStyle>
+                              </strokes>
+                              <edges>
+                                <Edge strokeStyle="1" edges="!8866 2011|8866 3310"/>
+                                <Edge cubics="!8866 2011(;8866,2011 8866,3310 8866,3310q8866 2011 8866 3310);"/>
+                              </edges>
+                            </DOMShape>
+                            <DOMShape selected="true" isDrawingObject="true">
+                              <matrix>
+                                <Matrix tx="294.75" ty="329"/>
+                              </matrix>
+                              <strokes>
+                                <StrokeStyle index="1">
+                                  <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                                    <fill>
+                                      <SolidColor color="#7F826D"/>
+                                    </fill>
+                                  </SolidStroke>
+                                </StrokeStyle>
+                              </strokes>
+                              <edges>
+                                <Edge strokeStyle="1" edges="!13336 2011|13336 2360"/>
+                                <Edge cubics="!13336 2011(;13336,2011 13336,2360 13336,2360q13336 2011 13336 2360);"/>
+                              </edges>
+                            </DOMShape>
+                            <DOMShape selected="true" isDrawingObject="true">
+                              <matrix>
+                                <Matrix tx="294.75" ty="329"/>
+                              </matrix>
+                              <strokes>
+                                <StrokeStyle index="1">
+                                  <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                                    <fill>
+                                      <SolidColor color="#7F826D"/>
+                                    </fill>
+                                  </SolidStroke>
+                                </StrokeStyle>
+                              </strokes>
+                              <edges>
+                                <Edge strokeStyle="1" edges="!26913 2011|26913 2360"/>
+                                <Edge cubics="!26913 2011(;26913,2011 26913,2360 26913,2360q26913 2011 26913 2360);"/>
+                              </edges>
+                            </DOMShape>
+                          </members>
+                        </DOMGroup>
+                        <DOMGroup selected="true">
+                          <matrix>
+                            <Matrix tx="636.65" ty="316.45"/>
+                          </matrix>
+                          <members>
+                            <DOMShape selected="true" isDrawingObject="true">
+                              <matrix>
+                                <Matrix tx="967.8" ty="480.4"/>
+                              </matrix>
+                              <strokes>
+                                <StrokeStyle index="1">
+                                  <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                                    <fill>
+                                      <SolidColor color="#7F826D"/>
+                                    </fill>
+                                  </SolidStroke>
+                                </StrokeStyle>
+                              </strokes>
+                              <edges>
+                                <Edge strokeStyle="1" edges="!-2664 -3018S4|2855 -3018"/>
+                                <Edge cubics="!-2664 -3018(-2664,-3018;-2664,-3018 2855,-3018 2855,-3018q-2664 -3018 2855 -3018)2855,-3018;"/>
+                              </edges>
+                            </DOMShape>
+                            <DOMShape isDrawingObject="true">
+                              <matrix>
+                                <Matrix tx="294.75" ty="329"/>
+                              </matrix>
+                              <strokes>
+                                <StrokeStyle index="1">
+                                  <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                                    <fill>
+                                      <SolidColor color="#7F826D"/>
+                                    </fill>
+                                  </SolidStroke>
+                                </StrokeStyle>
+                              </strokes>
+                              <edges>
+                                <Edge strokeStyle="1" edges="!16312 10|16312 358"/>
+                                <Edge cubics="!16312 10(16312,10;16312,10 16312,358 16312,358q16312 10 16312 358)16312,358;"/>
+                              </edges>
+                            </DOMShape>
+                            <DOMShape isDrawingObject="true">
+                              <matrix>
+                                <Matrix tx="294.75" ty="329"/>
+                              </matrix>
+                              <strokes>
+                                <StrokeStyle index="1">
+                                  <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                                    <fill>
+                                      <SolidColor color="#7F826D"/>
+                                    </fill>
+                                  </SolidStroke>
+                                </StrokeStyle>
+                              </strokes>
+                              <edges>
+                                <Edge strokeStyle="1" edges="!13336 10|13336 2011"/>
+                                <Edge cubics="!13336 10(;13336,10 13336,2011 13336,2011q13336 10 13336 2011);"/>
+                              </edges>
+                            </DOMShape>
+                          </members>
+                        </DOMGroup>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="reference" color="#4FFF4F" locked="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Thu Apr 14 14:42:27 GMT+0100 2011.jpg"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

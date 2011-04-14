@@ -37,6 +37,8 @@ package com.allofus.holburne.learningzone
 		public static const GLOW_ON:Object = {color:0x333333, alpha:1, blurX:12, blurY:12, strength:1, inner:false, knockout:false, quality:1};
 		public static const GLOW_OFF:Object = {color:0x333333, alpha:0, blurX:0, blurY:0, strength:1, inner:false, knockout:false, quality:1, remove:true};
 		
-		public static const TRANSITION_STAGGER:Number = 0.1;
+		public static const TRANSITION_STAGGER : Number = 0.1;
+		
+		public static const TIMELINE_POPUP_WIDTH : Number = 1190;
 	}
 }

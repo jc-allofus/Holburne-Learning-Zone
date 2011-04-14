@@ -26,7 +26,7 @@ package com.allofus.shared.util
 		
 		public static function centerVerticallyByVal(thisObject:DisplayObject, val:Number):void
 		{
-			thisObject.x = Math.round((val * 0.5) - (thisObject.height * 0.5));
+			thisObject.y = Math.round((val * 0.5) - (thisObject.height * 0.5));
 		}
 		
 		public static function positionUnder(thisObject:DisplayObject, underThisOne:DisplayObject, distance:Number = 0):void

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 03/03.3/03.3.1/Slide_3_3_1" itemID="4da2e342-0000032a" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_3_3_1" sourceLibraryItemHRef="Symbol 1" lastModified="1302542137" lastUniqueIdentifier="4">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 03/03.3/03.3.1/Slide_3_3_1" itemID="4da2e342-0000032a" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.chapter3.Slide_3_3_1" sourceLibraryItemHRef="Symbol 1" lastModified="1302790795" lastUniqueIdentifier="4">
   <timeline>
     <DOMTimeline name="Slide_3_3_1" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;630&lt;/guideline&gt;&lt;guideline direction="v"&gt;960&lt;/guideline&gt;&lt;guideline direction="v"&gt;999&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
@@ -55,9 +55,6 @@
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMGroup>
-                  <matrix>
-                    <Matrix tx="959.5" ty="112"/>
-                  </matrix>
                   <members>
                     <DOMSymbolInstance libraryItemName="Chapter 03/03.3/03.3.1/bg" name="" selected="true" centerPoint3DX="959.5" centerPoint3DY="494.5">
                       <matrix>
@@ -90,9 +87,6 @@
                   <filters>
                     <GlowFilter blurX="20" blurY="20" color="#000000" knockout="true" strength="0.2"/>
                   </filters>
-                  <color>
-                    <Color/>
-                  </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>

@@ -4,13 +4,11 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
 	import com.allofus.holburne.learningzone.view.component.MultipageTextBox;
 	import com.allofus.shared.logging.GetLogger;
-	import com.allofus.shared.util.PositionUtil;
 	import com.holburne.learningzone.swc.chapter1.Chap1IntroImage;
 
 	import mx.logging.ILogger;
 
 	import flash.display.Bitmap;
-	import flash.geom.Point;
 
 	/**
 	 * @author jc
@@ -31,10 +29,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			+	"<p class='imageCaption'>1.2001.1</p>";
 			
 			img = new ImageWithBorderAndCaption(new Bitmap(new Chap1IntroImage(0,0)), caption);
-			addChild(img);
-			var pt1:Point = PositionUtil.getPositionInLeftFrame(img);
-			img.x = pt1.x;
-			img.y = pt1.y;
+			positionInLeftFrame(img);
 			img.showCaption(false);
 			addChild(img);
 			
@@ -53,10 +48,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			;
 			text = new MultipageTextBox(title, [page1,page2]);
 			addChild(text);
-			
-			var pt2:Point = PositionUtil.getPositionInRightFrame(text);
-			text.x = pt2.x;
-			text.y = pt2.y;
+			positionInRightFrame(text);
 			text.visible = false;
 			text.alpha = 0;
 			
