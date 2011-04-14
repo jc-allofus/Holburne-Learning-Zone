@@ -42,9 +42,9 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			
 			var title:String ="WHO’S WHO: THE BYAM FAMILY";
 			var description:String = "";
-//				"<p class='justified'></p>"
-//			+	"<p></p>";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
+			addChild(text);
+			text.alpha = 0;
 			
 			super();
 		}

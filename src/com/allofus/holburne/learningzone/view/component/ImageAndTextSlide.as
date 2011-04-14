@@ -18,20 +18,10 @@ package com.allofus.holburne.learningzone.view.component
 			//IMPORTANT!!!!!
 			//be sure to instantiate & addChild() 'image' and 'text' in child class before calling super().
 			img.visible = text.visible = false;
-			positionImageAndText();
+			positionInLeftFrame(img);
+			positionInRightFrame(text);
 			img.showCaption(false);
 			
-		}
-		
-		protected function positionImageAndText():void
-		{
-			var pt:Point = PositionUtil.getPositionInLeftFrame(img);
-			img.x = pt.x;
-			img.y = pt.y;
-			
-			var pt2:Point = PositionUtil.getPositionInRightFrame(text);
-			text.x = pt2.x;
-			text.y = pt2.y;
 		}
 		
 		override public function transitionIn():void

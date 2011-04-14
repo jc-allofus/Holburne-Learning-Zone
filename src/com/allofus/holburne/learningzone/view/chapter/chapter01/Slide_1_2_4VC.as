@@ -41,6 +41,8 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			+	"<p></p>"
 			+	"<p class='justified'>Click on the hotspots to find out more about the house</p>";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
+			addChild(text);
+			text.alpha = 0;
 			
 			super();
 		}

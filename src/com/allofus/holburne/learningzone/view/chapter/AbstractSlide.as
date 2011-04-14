@@ -2,14 +2,17 @@ package com.allofus.holburne.learningzone.view.chapter
 {
 	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.shared.logging.GetLogger;
+	import com.allofus.shared.util.PositionUtil;
 	import com.greensock.TimelineMax;
 	import com.greensock.TweenAlign;
 	import com.greensock.TweenMax;
 
 	import mx.logging.ILogger;
 
+	import flash.display.DisplayObject;
 	import flash.display.Sprite;
 	import flash.events.Event;
+	import flash.geom.Point;
 
 	/**
 	 * @author jc
@@ -28,6 +31,20 @@ package com.allofus.holburne.learningzone.view.chapter
 			{
 				initSlide();
 			}
+		}
+		
+		protected function positionInLeftFrame(instance:DisplayObject):void
+		{
+			var pt:Point = PositionUtil.getPositionInLeftFrame(instance);
+			instance.x = pt.x;
+			instance.y = pt.y;
+		}
+		
+		protected function positionInRightFrame(instance:DisplayObject):void
+		{
+			var pt2:Point = PositionUtil.getPositionInRightFrame(instance);
+			instance.x = pt2.x;
+			instance.y = pt2.y;
 		}
 		
 		protected function initSlide(event : Event = null) : void

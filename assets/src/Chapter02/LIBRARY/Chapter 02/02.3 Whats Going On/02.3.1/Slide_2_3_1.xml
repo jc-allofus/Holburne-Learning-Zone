@@ -1,0 +1,73 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 02/02.3 Whats Going On/02.3.1/Slide_2_3_1" itemID="4da6cad0-0000030b" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.chapter2.Slide_2_3_1" sourceLibraryItemHRef="Chapter 02/02.3 Whats Going On/02.3.2/Slide_2_3_2 copy" lastModified="1302778038" lastUniqueIdentifier="9">
+  <timeline>
+    <DOMTimeline name="Slide_2_3_1">
+      <layers>
+        <DOMLayer name="pin targets" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t2" centerPoint3DX="368.5" centerPoint3DY="566.95">
+                  <matrix>
+                    <Matrix tx="368.5" ty="566.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t3" centerPoint3DX="646.45" centerPoint3DY="542.9">
+                  <matrix>
+                    <Matrix tx="646.45" ty="542.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t4" centerPoint3DX="778.95" centerPoint3DY="407.9">
+                  <matrix>
+                    <Matrix tx="778.95" ty="407.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t5" centerPoint3DX="713.45" centerPoint3DY="370.95">
+                  <matrix>
+                    <Matrix tx="713.45" ty="370.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t6" selected="true" centerPoint3DX="597.45" centerPoint3DY="387.9">
+                  <matrix>
+                    <Matrix tx="597.45" ty="387.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t1" centerPoint3DX="309.55" centerPoint3DY="542.9">
+                  <matrix>
+                    <Matrix tx="309.55" ty="542.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="reference" color="#4FFF4F" locked="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" libraryItemName="Thu Apr 14 10:47:05 GMT+0100 2011.jpg"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

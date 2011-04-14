@@ -7,13 +7,13 @@ package com.allofus.holburne.learningzone.view.component
 	import flash.display.Sprite;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
-	import flash.geom.Point;
 
 	/**
 	 * @author jc
 	 */
 	public class SingleImageWithHotspotsSlide extends AbstractSlide
 	{
+		protected var img:ImageWithBorderAndCaption;
 		protected var text:TextBoxWithTitleAndDescription;
 		protected var pinVOs:Vector.<HotspotPinVO>;
 		protected var pins:Vector.<HotspotPin>;
@@ -22,7 +22,11 @@ package com.allofus.holburne.learningzone.view.component
 		
 		public function SingleImageWithHotspotsSlide()
 		{
-			if(text)addChild(text);
+			if(img)
+				positionInLeftFrame(img);
+			
+			if(text)
+				positionInRightFrame(text);
 		
 			pinsLayer = new Sprite();
 			addChild(pinsLayer);
@@ -30,20 +34,11 @@ package com.allofus.holburne.learningzone.view.component
 			popupPanelLayer = new Sprite();
 			addChild(popupPanelLayer);
 		
-			initText(text);
 			hideTargets();
 			makePins();
 			super();
 		}
 		
-		protected function initText(instance:TextBoxWithTitleAndDescription):void
-		{
-			var pt2:Point = PositionUtil.getPositionInRightFrame(text);
-			instance.x = pt2.x;
-			instance.y = pt2.y;
-			instance.visible = false;
-			instance.alpha = 0;
-		}
 		
 		override protected function staggerInComplete():void
 		{
@@ -56,6 +51,7 @@ package com.allofus.holburne.learningzone.view.component
 		
 		protected function hideTargets():void
 		{
+			if(!pinVOs)return;
 			for (var i : int = 0; i < pinVOs.length; i++) 
 			{
 				pinVOs[i].target.visible = false;
@@ -64,6 +60,7 @@ package com.allofus.holburne.learningzone.view.component
 		
 		protected function makePins():void
 		{
+			if(!pinVOs)return;
 			var pin:HotspotPin;
 			for (var i : int = 0; i < pinVOs.length; i++) 
 			{
@@ -91,6 +88,7 @@ package com.allofus.holburne.learningzone.view.component
 		
 		protected function deselectAllPins(event:Event = null):void
 		{
+			if(!pins)return;
 			for (var i : int = 0; i < pins.length; i++) 
 			{
 				pins[i].deselect();
@@ -136,6 +134,11 @@ package com.allofus.holburne.learningzone.view.component
 			{
 				pins.length = 0;
 			}
+			
+			if(img)
+				img.dispose();
+				
+			img = null;
 			text = null;
 			pins = null;
 			pinsLayer = null;

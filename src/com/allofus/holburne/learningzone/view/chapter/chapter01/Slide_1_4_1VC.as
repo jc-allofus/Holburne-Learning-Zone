@@ -46,6 +46,8 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			+	"<p></p>"
 			+	"<p class='justified'>Tap on the pins on the photo to reveal more information.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
+			addChild(text);
+			text.alpha = 0;
 			
 			super();
 		}

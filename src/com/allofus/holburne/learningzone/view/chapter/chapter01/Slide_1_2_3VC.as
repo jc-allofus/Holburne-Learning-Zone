@@ -64,6 +64,9 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 				"<p class='justified'>Click on the pins on the image to view more details.</p>"
 			+	"<p></p>";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
+			addChild(text);
+			text.alpha = 0;
+			
 			super();
 		}
 		

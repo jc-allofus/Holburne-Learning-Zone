@@ -1,9 +1,9 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="1920" height="1080" frameRate="31" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" viewAngle3D="122.353661987282" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="Chapter 02" itemID="4d7fa2f8-00000279" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 02/02.1 Introduction" itemID="4d90a8b9-000002ac"/>
-          <DOMFolderItem name="Chapter 02/02.2 The Brughal Family" itemID="4d90a8c9-000002ad"/>
-          <DOMFolderItem name="Chapter 02/02.2 The Brughal Family/02.2.1" itemID="4da5ac82-00000268"/>
+          <DOMFolderItem name="Chapter 02/02.1 Introduction" itemID="4d90a8b9-000002ac" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 02/02.2 The Brughal Family" itemID="4d90a8c9-000002ad" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 02/02.2 The Brughal Family/02.2.1" itemID="4da5ac82-00000268" isExpanded="true"/>
           <DOMFolderItem name="Chapter 02/02.2 The Brughal Family/02.2.1/_large" itemID="4da5ace7-0000029e" isExpanded="true"/>
           <DOMFolderItem name="Chapter 02/02.2 The Brughal Family/02.2.1/_thumb" itemID="4da5acd8-00000299"/>
           <DOMFolderItem name="Chapter 02/02.2 The Brughal Family/02.2.2" itemID="4da5d078-0000037c"/>
@@ -11,9 +11,14 @@
           <DOMFolderItem name="Chapter 02/02.2 The Brughal Family/02.2.3/_large" itemID="4da5d111-000003e6" isExpanded="true"/>
           <DOMFolderItem name="Chapter 02/02.2 The Brughal Family/02.2.3/_thumb" itemID="4da5d119-000003ea"/>
           <DOMFolderItem name="Chapter 02/02.2 The Brughal Family/untitled folder 1" itemID="4da5d0e3-000003c7"/>
-          <DOMFolderItem name="Chapter 02/02.3 Whats Going On" itemID="4d90a8d5-000002ae"/>
-          <DOMFolderItem name="Chapter 02/02.4 The Paintings History" itemID="4d90a897-0000029f"/>
-          <DOMFolderItem name="Chapter 02/02.4 The Paintings History/02.4.3" itemID="4d91c2c2-0000031d"/>
+          <DOMFolderItem name="Chapter 02/02.3 Whats Going On" itemID="4d90a8d5-000002ae" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 02/02.3 Whats Going On/02.3.1" itemID="4da6c2f3-0000028e" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 02/02.3 Whats Going On/02.3.2" itemID="4da6c2fb-00000292" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 02/02.3 Whats Going On/02.3.3" itemID="4da6c309-00000296" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 02/02.3 Whats Going On/02.3.3/_large" itemID="4da6d132-00000333" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 02/02.3 Whats Going On/02.3.3/_thumb" itemID="4da6d12a-0000032f"/>
+          <DOMFolderItem name="Chapter 02/02.4 The Paintings History" itemID="4d90a897-0000029f" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 02/02.4 The Paintings History/02.4.3" itemID="4d91c2c2-0000031d" isExpanded="true"/>
      </folders>
      <media>
           <DOMBitmapItem name="Chapter 02/02.1 Introduction/2_1_large_no-boarder.jpg" itemID="4da5ab93-00000262" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter2.Chap2IntroImage" sourceExternalFilepath="./LIBRARY/Chapter 02/02.1 Introduction/2_1_large_no-boarder.jpg" sourceLastImported="1302702750" sourcePlatform="macintosh" externalFileSize="88048" quality="50" href="Chapter 02/02.1 Introduction/2_1_large_no-boarder.jpg" bitmapDataHRef="M 4 1302702762.dat" frameRight="12520" frameBottom="9260" isJPEG="true"/>
@@ -45,8 +50,15 @@
           <DOMBitmapItem name="Chapter 02/02.2 The Brughal Family/02.2.3/_large/2_2_3_7.jpg" itemID="4da5d25a-0000049a" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.chapter2.Img_2_2_3_7" sourceExternalFilepath="./LIBRARY/Chapter 02/02.2 The Brughal Family/02.2.3/_large/2_2_3_7.jpg" sourceLastImported="1302690681" sourcePlatform="macintosh" externalFileSize="131273" quality="50" href="Chapter 02/02.2 The Brughal Family/02.2.3/_large/2_2_3_7.jpg" bitmapDataHRef="M 32 1302712518.dat" frameRight="11500" frameBottom="11880" isJPEG="true"/>
           <DOMBitmapItem name="Chapter 02/02.2 The Brughal Family/02.2.3/_thumb/2_2_3_8_small.png" itemID="4da5d22b-0000048b" sourceExternalFilepath="./LIBRARY/Chapter 02/02.2 The Brughal Family/02.2.3/_thumb/2_2_3_8_small.png" sourceLastImported="1302533866" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Chapter 02/02.2 The Brughal Family/02.2.3/_thumb/2_2_3_8_small.png" bitmapDataHRef="M 33 1302712518.dat" frameRight="2400" frameBottom="1820"/>
           <DOMBitmapItem name="Chapter 02/02.2 The Brughal Family/02.2.3/_large/2_2_3_8.jpg" itemID="4da5d25a-0000049b" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.chapter2.Img_2_2_3_8" sourceExternalFilepath="./LIBRARY/Chapter 02/02.2 The Brughal Family/02.2.3/_large/2_2_3_8.jpg" sourceLastImported="1302690711" sourcePlatform="macintosh" externalFileSize="83763" quality="50" href="Chapter 02/02.2 The Brughal Family/02.2.3/_large/2_2_3_8.jpg" bitmapDataHRef="M 34 1302712518.dat" frameRight="12520" frameBottom="9080" isJPEG="true"/>
+          <DOMBitmapItem name="Chapter 02/02.3 Whats Going On/02.3.3/_thumb/2_3_3_1_small.png" itemID="4da6d181-00000357" sourceExternalFilepath="./LIBRARY/Chapter 02/02.3 Whats Going On/02.3.3/_thumb/2_3_3_1_small.png" sourceLastImported="1302533881" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Chapter 02/02.3 Whats Going On/02.3.3/_thumb/2_3_3_1_small.png" bitmapDataHRef="M 34 1302778124.dat" frameRight="2400" frameBottom="1700"/>
+          <DOMBitmapItem name="Chapter 02/02.3 Whats Going On/02.3.3/_large/2_3_3_1.jpg" itemID="4da6d1f3-00000373" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.chapter2.Img_2_3_3_1" sourceExternalFilepath="./LIBRARY/Chapter 02/02.3 Whats Going On/02.3.3/_large/2_3_3_1.jpg" sourceLastImported="1302690788" sourcePlatform="macintosh" externalFileSize="98665" quality="50" href="Chapter 02/02.3 Whats Going On/02.3.3/_large/2_3_3_1.jpg" bitmapDataHRef="M 35 1302778124.dat" frameRight="12520" frameBottom="8420" isJPEG="true"/>
+          <DOMBitmapItem name="Chapter 02/02.3 Whats Going On/02.3.3/_thumb/2_3_3_2_small.png" itemID="4da6d186-00000361" sourceExternalFilepath="./LIBRARY/Chapter 02/02.3 Whats Going On/02.3.3/_thumb/2_3_3_2_small.png" sourceLastImported="1302533896" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Chapter 02/02.3 Whats Going On/02.3.3/_thumb/2_3_3_2_small.png" bitmapDataHRef="M 36 1302778125.dat" frameRight="2400" frameBottom="1840"/>
+          <DOMBitmapItem name="Chapter 02/02.3 Whats Going On/02.3.3/_large/2_3_3_2.jpg" itemID="4da6d1f4-00000374" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.chapter2.Img_2_3_3_2" sourceExternalFilepath="./LIBRARY/Chapter 02/02.3 Whats Going On/02.3.3/_large/2_3_3_2.jpg" sourceLastImported="1302691185" sourcePlatform="macintosh" externalFileSize="119276" quality="50" href="Chapter 02/02.3 Whats Going On/02.3.3/_large/2_3_3_2.jpg" bitmapDataHRef="M 37 1302778125.dat" frameRight="12520" frameBottom="9260" isJPEG="true"/>
+          <DOMBitmapItem name="Chapter 02/02.3 Whats Going On/02.3.3/_thumb/2_3_3_3_small.png" itemID="4da6d18c-0000036b" sourceExternalFilepath="./LIBRARY/Chapter 02/02.3 Whats Going On/02.3.3/_thumb/2_3_3_3_small.png" sourceLastImported="1302533911" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Chapter 02/02.3 Whats Going On/02.3.3/_thumb/2_3_3_3_small.png" bitmapDataHRef="M 38 1302778125.dat" frameRight="2400" frameBottom="1880"/>
+          <DOMBitmapItem name="Chapter 02/02.3 Whats Going On/02.3.3/_large/2_3_3_3.jpg" itemID="4da6d1f4-00000375" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.chapter2.Img_2_3_3_3" sourceExternalFilepath="./LIBRARY/Chapter 02/02.3 Whats Going On/02.3.3/_large/2_3_3_3.jpg" sourceLastImported="1302691206" sourcePlatform="macintosh" externalFileSize="79329" quality="50" href="Chapter 02/02.3 Whats Going On/02.3.3/_large/2_3_3_3.jpg" bitmapDataHRef="M 39 1302778125.dat" frameRight="12520" frameBottom="9460" isJPEG="true"/>
           <DOMBitmapItem name="Chapter 02/02.4 The Paintings History/02.4.3/2_4_3_large_after.png" itemID="4d91c2ca-0000031e" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Img_2_4_3_Before" sourceExternalFilepath="./LIBRARY/Chapter 02/02.4 The Paintings History/02.4.3/2_4_3_large_after.png" sourceLastImported="1302702701" sourcePlatform="macintosh" externalFileSize="624049" originalCompressionType="lossless" quality="50" href="Chapter 02/02.4 The Paintings History/02.4.3/2_4_3_large_after.png" bitmapDataHRef="M 2 1301398081.dat" frameRight="12520" frameBottom="9380"/>
           <DOMBitmapItem name="Chapter 02/02.4 The Paintings History/02.4.3/2_4_3_large_before.png" itemID="4d91c2cb-0000031f" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Img_2_4_3_After" sourceExternalFilepath="./LIBRARY/Chapter 02/02.4 The Paintings History/02.4.3/2_4_3_large_before.png" sourceLastImported="1302702702" sourcePlatform="macintosh" externalFileSize="592385" originalCompressionType="lossless" quality="50" href="Chapter 02/02.4 The Paintings History/02.4.3/2_4_3_large_before.png" bitmapDataHRef="M 3 1301398082.dat" frameRight="12520" frameBottom="9380"/>
+          <DOMBitmapItem name="Thu Apr 14 10:47:05 GMT+0100 2011.jpg" itemID="4da6c38b-0000029d" sourceExternalFilepath="../../../../../../Users/jc/Documents/HolburneLearningZoneScreenshots/Thu Apr 14 10/47/05 GMT+0100 2011.jpg" sourceLastImported="1302774440" sourcePlatform="macintosh" quality="50" href="Thu Apr 14 10&amp;#5847&amp;#5805 GMT+0100 2011.jpg" bitmapDataHRef="M 33 1302774667.dat" frameRight="38400" frameBottom="21600" isJPEG="true"/>
           <DOMBitmapItem name="Wed Apr 13 15:05:39 GMT+0100 2011.jpg" itemID="4da5ae2e-000002f1" sourceExternalFilepath="../../../../../../Users/jc/Documents/HolburneLearningZoneScreenshots/Wed Apr 13 15/05/39 GMT+0100 2011.jpg" sourceLastImported="1302703555" sourcePlatform="macintosh" quality="50" href="Wed Apr 13 15&amp;#5805&amp;#5839 GMT+0100 2011.jpg" bitmapDataHRef="M 17 1302703662.dat" frameRight="38400" frameBottom="21600" isJPEG="true"/>
      </media>
      <symbols>
@@ -66,6 +78,13 @@
           <Include href="Chapter 02/02.2 The Brughal Family/02.2.3/_thumb/t7.xml" loadImmediate="false"/>
           <Include href="Chapter 02/02.2 The Brughal Family/02.2.3/_thumb/t8.xml" loadImmediate="false"/>
           <Include href="Chapter 02/02.2 The Brughal Family/02.2.3/Slide_2_2_3.xml"/>
+          <Include href="Chapter 02/02.3 Whats Going On/02.3.1/Slide_2_3_1.xml"/>
+          <Include href="Chapter 02/02.3 Whats Going On/02.3.2/Slide_2_3_2.xml"/>
+          <Include href="Chapter 02/02.3 Whats Going On/02.3.3/_thumb/t1.xml" loadImmediate="false"/>
+          <Include href="Chapter 02/02.3 Whats Going On/02.3.3/_thumb/t2.xml" loadImmediate="false"/>
+          <Include href="Chapter 02/02.3 Whats Going On/02.3.3/_thumb/t3.xml" loadImmediate="false"/>
+          <Include href="Chapter 02/02.3 Whats Going On/02.3.3/Slide_2_3_3.xml"/>
+          <Include href="PinTarget.xml" loadImmediate="false"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -383,6 +402,12 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="1867858" publishTime="1302779850"/>
+          <PublishItem publishSize="1854927" publishTime="1302778358"/>
+          <PublishItem publishSize="1557708" publishTime="1302776842"/>
+          <PublishItem publishSize="1557597" publishTime="1302776798"/>
+          <PublishItem publishSize="1557595" publishTime="1302775723"/>
+          <PublishItem publishSize="1557595" publishTime="1302775705"/>
           <PublishItem publishSize="1557311" publishTime="1302716636"/>
           <PublishItem publishSize="1586794" publishTime="1302715581"/>
           <PublishItem publishSize="1586792" publishTime="1302713560"/>
@@ -397,11 +422,5 @@
           <PublishItem publishSize="1149609" publishTime="1300896496"/>
           <PublishItem publishSize="1149604" publishTime="1300896410"/>
           <PublishItem publishSize="1149604" publishTime="1300893797"/>
-          <PublishItem publishSize="1149398" publishTime="1300892936"/>
-          <PublishItem publishSize="1142997" publishTime="1300883995"/>
-          <PublishItem publishSize="1142988" publishTime="1300881906"/>
-          <PublishItem publishSize="1142861" publishTime="1300814237"/>
-          <PublishItem publishSize="1142873" publishTime="1300814221"/>
-          <PublishItem publishSize="1142875" publishTime="1300808603"/>
      </publishHistory>
 </DOMDocument>

@@ -98,6 +98,7 @@ package com.allofus.holburne.learningzone.view.component
 		
 		protected function stopDragging(event:Event = null):void
 		{
+			if(!dragger)return;
 			_isDragging = dragger.selected = false;
 		}
 
