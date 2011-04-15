@@ -34,7 +34,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 		{
 			
 			containerMC = new Slide_3_2_2();
-			
 			pins = new Vector.<HotspotPin>();
 			
 			var str1:String = "<p class='popupPanelTitle'>Benjamin Barker I (1725?-1793)</p><p></p><p class='justified'>Although a practising barrister and the son of a landed gentleman, Benjamin Barker lost his fortune through gambling on horses and by 1760 was forced to earn a living as a painter.  He was moderately successful as a painter of horses, but eventually moved to Wales where he worked as a decorator of Pontypool Japanned wares such as trays and tea caddies.  In 1781 Barker moved with his family to Bristol.  In 1783 they came to Bath, where he worked in a livery stable, although he continued to paint portraits of horses and to work as a carriage-painter.  This was the lot of most provincial painters: to move between portraiture, landscape and decorating mundane objects as demand arose.  However, Bath, with its now well-established fine art market, offered better opportunities for Barker’s sons.  Towards the end of his life, Barker’s eldest son Thomas was successful enough in his own right to help support his father.  There are more examples of Barker Senior’s work in Pontypool Museum.</p>";

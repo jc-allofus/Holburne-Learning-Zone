@@ -1,29 +1,13 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="1920" height="1080" frameRate="31" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" rulerVisible="true" viewAngle3D="122.353661987282" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
-          <DOMFolderItem name="Chapter 04" itemID="4d9defe9-00000361" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 04/04.1 Introduction" itemID="4d9deff0-00000362" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 04/04.2" itemID="4da86411-000003eb" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 04/04.2/04.2.1" itemID="4da86f0f-00000421" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 04/04.3" itemID="4da86417-000003ec" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 04/04.3/04.3.1" itemID="4da873bb-0000048b"/>
-          <DOMFolderItem name="Chapter 04/04.3/04.3.2" itemID="4da873c2-0000048f" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 04/04.3/04.3.3" itemID="4da873ca-00000493" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 04/04.4" itemID="4da86422-000003ed" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 04/04.4/04.4.3" itemID="4d9efc14-0000025a" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 05" itemID="4da86949-00000408" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 05/05.1" itemID="4da86951-00000409" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 05/05.2" itemID="4da86959-0000040a"/>
+          <DOMFolderItem name="Chapter 05/05.3" itemID="4da86964-0000040b"/>
      </folders>
      <media>
-          <DOMBitmapItem name="Chapter 04/04.1 Introduction/4_1_1.jpg" itemID="4da86024-000003ea" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter4.Chap4IntroImage" sourceExternalFilepath="./LIBRARY/Chapter 04/04.1 Introduction/4_1_1.jpg" sourceLastImported="1302691542" sourcePlatform="macintosh" externalFileSize="74528" quality="50" href="Chapter 04/04.1 Introduction/4_1_1.jpg" bitmapDataHRef="M 1 1302880003.dat" frameRight="12520" frameBottom="10720" isJPEG="true"/>
-          <DOMBitmapItem name="Chapter 04/04.2/04.2.1/4_2_1.jpg" itemID="4da8704f-00000429" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter4.Img_4_2_1" sourceExternalFilepath="./LIBRARY/Chapter 04/04.2/04.2.1/4_2_1.jpg" sourceLastImported="1302881950" sourcePlatform="macintosh" externalFileSize="229398" quality="50" href="Chapter 04/04.2/04.2.1/4_2_1.jpg" bitmapDataHRef="M 2 1302884399.dat" frameRight="8040" frameBottom="11880" isJPEG="true"/>
-          <DOMBitmapItem name="Fri Apr 15 17:26:57 GMT+0100 2011.jpg" itemID="4da871e0-00000483" sourceExternalFilepath="../../../../../../Users/jc/Documents/HolburneLearningZoneScreenshots/Fri Apr 15 17/26/57 GMT+0100 2011.jpg" sourceLastImported="1302884821" sourcePlatform="macintosh" quality="50" href="Fri Apr 15 17&amp;#5826&amp;#5857 GMT+0100 2011.jpg" bitmapDataHRef="M 3 1302884832.dat" frameRight="38400" frameBottom="21600" isJPEG="true"/>
-          <DOMBitmapItem name="Fri Apr 15 17:34:15 GMT+0100 2011.jpg" itemID="4da87406-000004a4" sourceExternalFilepath="../../../../../../Users/jc/Documents/HolburneLearningZoneScreenshots/Fri Apr 15 17/34/15 GMT+0100 2011.jpg" sourceLastImported="1302885259" sourcePlatform="macintosh" quality="50" href="Fri Apr 15 17&amp;#5834&amp;#5815 GMT+0100 2011.jpg" bitmapDataHRef="M 4 1302885382.dat" frameRight="38400" frameBottom="21600" isJPEG="true"/>
+          <DOMBitmapItem name="Chapter 05/05.1/5_1_1.jpg" itemID="4da86990-00000411" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter5.Chap5IntroImage" sourceExternalFilepath="./LIBRARY/Chapter 05/05.1/5_1_1.jpg" sourceLastImported="1302794409" sourcePlatform="macintosh" externalFileSize="98668" quality="50" href="Chapter 05/05.1/5_1_1.jpg" bitmapDataHRef="M 8 1302882668.dat" frameRight="12500" frameBottom="9660" isJPEG="true"/>
      </media>
-     <symbols>
-          <Include href="Chapter 04/04.2/04.2.1/Slide_4_2_1.xml"/>
-          <Include href="Chapter 04/04.3/04.3.1/Slide_4_3_1.xml"/>
-          <Include href="Chapter 04/04.3/04.3.2/Slide_4_3_2.xml"/>
-          <Include href="Chapter 04/04.3/04.3.3/Slide_4_3_3.xml"/>
-          <Include href="PinTarget.xml" loadImmediate="false"/>
-     </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
@@ -340,13 +324,6 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="305722" publishTime="1302886331"/>
-          <PublishItem publishSize="305524" publishTime="1302885636"/>
-          <PublishItem publishSize="305106" publishTime="1302884875"/>
-          <PublishItem publishSize="305104" publishTime="1302884794"/>
-          <PublishItem publishSize="305106" publishTime="1302884573"/>
-          <PublishItem publishSize="304971" publishTime="1302884433"/>
-          <PublishItem publishSize="75724" publishTime="1302884172"/>
           <PublishItem publishSize="75453" publishTime="1302880953"/>
           <PublishItem publishSize="75440" publishTime="1302880900"/>
           <PublishItem publishSize="75441" publishTime="1302880296"/>
@@ -360,5 +337,12 @@
           <PublishItem publishSize="1142997" publishTime="1300883995"/>
           <PublishItem publishSize="1142988" publishTime="1300881906"/>
           <PublishItem publishSize="1142861" publishTime="1300814237"/>
+          <PublishItem publishSize="1142873" publishTime="1300814221"/>
+          <PublishItem publishSize="1142875" publishTime="1300808603"/>
+          <PublishItem publishSize="1142872" publishTime="1300807414"/>
+          <PublishItem publishSize="1142872" publishTime="1300807303"/>
+          <PublishItem publishSize="1142701" publishTime="1300806764"/>
+          <PublishItem publishSize="1142701" publishTime="1300806709"/>
+          <PublishItem publishSize="731587" publishTime="1300210508"/>
      </publishHistory>
 </DOMDocument>
