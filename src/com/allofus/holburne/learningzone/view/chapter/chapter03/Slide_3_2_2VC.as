@@ -9,13 +9,13 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 	import com.allofus.holburne.learningzone.view.component.TimelinePopup;
 	import com.allofus.shared.logging.GetLogger;
 	import com.allofus.shared.util.PositionUtil;
-	import com.holburne.learningzone.chapter2.Img_3_2_2_1;
-	import com.holburne.learningzone.chapter2.Img_3_2_2_2;
-	import com.holburne.learningzone.chapter2.Img_3_2_2_3;
-	import com.holburne.learningzone.chapter2.Img_3_2_2_4;
-	import com.holburne.learningzone.chapter2.Img_3_2_2_5;
-	import com.holburne.learningzone.chapter2.Img_3_2_2_6;
-	import com.holburne.learningzone.chapter2.Img_3_2_2_7;
+	import com.holburne.learningzone.chapter3.Img_3_2_2_1;
+	import com.holburne.learningzone.chapter3.Img_3_2_2_2;
+	import com.holburne.learningzone.chapter3.Img_3_2_2_3;
+	import com.holburne.learningzone.chapter3.Img_3_2_2_4;
+	import com.holburne.learningzone.chapter3.Img_3_2_2_5;
+	import com.holburne.learningzone.chapter3.Img_3_2_2_6;
+	import com.holburne.learningzone.chapter3.Img_3_2_2_7;
 	import com.holburne.learningzone.swcassets.chapter3.Slide_3_2_2;
 
 	import mx.logging.ILogger;

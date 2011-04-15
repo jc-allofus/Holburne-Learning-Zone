@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 03/03.2/03.2.2/Slide_3_2_2" itemID="4da6f9ee-00000399" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.chapter3.Slide_3_2_2" sourceLibraryItemHRef="Symbol 1" lastModified="1302795347" lastUniqueIdentifier="12">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 03/03.2/03.2.2/Slide_3_2_2" itemID="4da6f9ee-00000399" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.chapter3.Slide_3_2_2" sourceLibraryItemHRef="Symbol 1" lastModified="1302874689" lastUniqueIdentifier="12">
   <timeline>
     <DOMTimeline name="Slide_3_2_2">
       <layers>
-        <DOMLayer name="pin targets" color="#FF4FFF" autoNamed="false">
+        <DOMLayer name="pin targets" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -30,7 +30,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="t6" centerPoint3DX="293.5" centerPoint3DY="611.45">
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t6" selected="true" centerPoint3DX="293.5" centerPoint3DY="611.45">
                   <matrix>
                     <Matrix tx="293.5" ty="611.45"/>
                   </matrix>
@@ -66,7 +66,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="text" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="text" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -115,7 +115,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText left="20.45" width="103.1" height="34" autoExpand="true" isSelectable="false">
+                <DOMStaticText left="22.2" width="99.6" height="34" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="667.05" ty="506.95"/>
                   </matrix>
@@ -267,14 +267,8 @@
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMGroup>
-                  <matrix>
-                    <Matrix tx="636.65" ty="316.45"/>
-                  </matrix>
                   <members>
                     <DOMGroup>
-                      <matrix>
-                        <Matrix tx="636.65" ty="316.45"/>
-                      </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
@@ -387,9 +381,6 @@
                       </members>
                     </DOMGroup>
                     <DOMGroup>
-                      <matrix>
-                        <Matrix tx="636.65" ty="316.45"/>
-                      </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
@@ -464,9 +455,6 @@
                           </edges>
                         </DOMShape>
                         <DOMGroup selected="true">
-                          <matrix>
-                            <Matrix tx="636.65" ty="316.45"/>
-                          </matrix>
                           <members>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
@@ -509,14 +497,8 @@
                       </members>
                     </DOMGroup>
                     <DOMGroup selected="true">
-                      <matrix>
-                        <Matrix tx="636.65" ty="316.45"/>
-                      </matrix>
                       <members>
                         <DOMGroup>
-                          <matrix>
-                            <Matrix tx="636.65" ty="316.45"/>
-                          </matrix>
                           <members>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
@@ -611,9 +593,6 @@
                           </members>
                         </DOMGroup>
                         <DOMGroup selected="true">
-                          <matrix>
-                            <Matrix tx="636.65" ty="316.45"/>
-                          </matrix>
                           <members>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>

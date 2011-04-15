@@ -40,6 +40,10 @@ p{
 	text-align:justify;	
 }
 
+.centered{
+	text-align:center;	
+}
+
 .buttonLabel{
 	color:#80816d;
 }

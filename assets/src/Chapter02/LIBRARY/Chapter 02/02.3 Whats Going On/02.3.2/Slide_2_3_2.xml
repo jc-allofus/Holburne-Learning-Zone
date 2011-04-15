@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 02/02.3 Whats Going On/02.3.2/Slide_2_3_2" itemID="4da6c33e-00000298" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.chapter2.Slide_2_3_2" sourceLibraryItemHRef="Symbol 1" lastModified="1302776560" lastUniqueIdentifier="9">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 02/02.3 Whats Going On/02.3.2/Slide_2_3_2" itemID="4da6c33e-00000298" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.chapter2.Slide_2_3_2" sourceLibraryItemHRef="Symbol 1" lastModified="1302795518" lastUniqueIdentifier="9">
   <timeline>
     <DOMTimeline name="Slide_2_3_2">
       <layers>
-        <DOMLayer name="pin targets" color="#9933CC" autoNamed="false">
+        <DOMLayer name="pin targets" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -70,7 +70,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="t1" centerPoint3DX="409.5" centerPoint3DY="244.95">
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t1" selected="true" centerPoint3DX="409.5" centerPoint3DY="244.95">
                   <matrix>
                     <Matrix tx="409.5" ty="244.95"/>
                   </matrix>
@@ -82,11 +82,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="reference" color="#4FFF4F" current="true" isSelected="true" autoNamed="false" layerType="guide">
+        <DOMLayer name="reference" color="#4FFF4F" autoNamed="false" layerType="guide">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Thu Apr 14 10:47:05 GMT+0100 2011.jpg"/>
+                <DOMBitmapInstance name="" referenceID="" libraryItemName="Thu Apr 14 10:47:05 GMT+0100 2011.jpg"/>
               </elements>
             </DOMFrame>
           </frames>

@@ -39,8 +39,6 @@ package com.allofus.holburne.learningzone.view.component
 			showSelectedLargeImage();
 		}
 		
-		
-		
 		protected function enableThumbs():void
 		{
 			for (var i : int = 0; i < thumbnailVOs.length; i++) 

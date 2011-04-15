@@ -100,6 +100,17 @@ package com.allofus.holburne.learningzone.view.component
 			
 		}
 		
+		public function set title(value:String):void
+		{
+			titleField.htmlText = "<p class='title'>" + value + "</p>";
+			PositionUtil.centerHorizontally(titleField, this);
+		}
+		
+		public function centerBodyCopy():void
+		{
+			PositionUtil.centerHorizontally(bodyField, this);
+		}
+		
 		public function transitionIn(delay:Number = 0):void
 		{
 			//TweenMax.to(this, AppGlobals.FADE_DURATION, {ease:AppGlobals.FADE_EASE, autoAlpha:1, glowFilter:AppGlobals.GLOW_ON, delay:delay});

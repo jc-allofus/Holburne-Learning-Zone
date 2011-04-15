@@ -1,0 +1,49 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 03/03.2/03.2.4/Slide_3_2_4" itemID="4da84a23-00000319" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.chapter3.Slide_3_2_4" sourceLibraryItemHRef="Chapter 03/03.2/03.2.3/Slide_3_2_3 copy" lastModified="1302877848">
+  <timeline>
+    <DOMTimeline name="Slide_3_2_4">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Chapter 03/03.2/03.2.4/_small/t1" name="t1" centerPoint3DX="1228.3" centerPoint3DY="796.2">
+                  <matrix>
+                    <Matrix tx="1146.3" ty="695.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="82" y="101"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 03/03.2/03.2.4/_small/t2" name="t2" centerPoint3DX="1428.35" centerPoint3DY="796.2">
+                  <matrix>
+                    <Matrix tx="1337.85" ty="656.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="90.5" y="139.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 03/03.2/03.2.4/_small/t3" name="t3" centerPoint3DX="1648.4" centerPoint3DY="796.2">
+                  <matrix>
+                    <Matrix tx="1542.4" ty="717.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="106" y="78.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ref" color="#4FFF4F" current="true" isSelected="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Fri Apr 15 15:29:22 GMT+0100 2011.jpg"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
