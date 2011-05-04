@@ -1,9 +1,9 @@
 package com.allofus.holburne.learningzone.view.component.button
 {
+	import com.allofus.holburne.learningzone.guiassets.HomepageBackSelectedSkin;
+	import com.allofus.holburne.learningzone.guiassets.HomepageBackUpSkin;
 	import com.allofus.holburne.learningzone.guiassets.PrevIconDownSkin;
 	import com.allofus.holburne.learningzone.guiassets.PrevIconUpSkin;
-	import com.allofus.holburne.learningzone.guiassets.NextIconDownSkin;
-	import com.allofus.holburne.learningzone.guiassets.NextIconUpSkin;
 	import com.allofus.holburne.learningzone.model.vo.ButtonVO;
 
 	import flash.display.Bitmap;
@@ -18,12 +18,12 @@ package com.allofus.holburne.learningzone.view.component.button
 		protected var upSkin:Bitmap;
 		protected var downSkin:Bitmap;
 		
-		public function PrevButton(vo : ButtonVO)
+		public function PrevButton(vo : ButtonVO, useLarge:Boolean = false)
 		{
-			upSkin = new Bitmap(new PrevIconUpSkin(0,0));
+			upSkin = useLarge ? new Bitmap(new HomepageBackUpSkin(0,0)) : new Bitmap(new PrevIconUpSkin(0,0));
 			addChild(upSkin);
 			
-			downSkin = new Bitmap(new PrevIconDownSkin(0,0));
+			downSkin = useLarge? new Bitmap(new HomepageBackSelectedSkin(0,0)) : new Bitmap(new PrevIconDownSkin(0,0));
 			downSkin.visible = false;
 			addChild(downSkin);
 			

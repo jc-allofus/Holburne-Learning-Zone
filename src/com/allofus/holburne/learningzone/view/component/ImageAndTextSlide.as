@@ -1,9 +1,6 @@
 package com.allofus.holburne.learningzone.view.component
 {
 	import com.allofus.holburne.learningzone.view.chapter.AbstractSlide;
-	import com.allofus.shared.util.PositionUtil;
-
-	import flash.geom.Point;
 	/**
 	 * @author jc
 	 */

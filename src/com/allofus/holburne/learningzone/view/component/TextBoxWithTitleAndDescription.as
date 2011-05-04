@@ -53,17 +53,24 @@ package com.allofus.holburne.learningzone.view.component
 			addChild(titleField);
 			
 			textfieldWidth = targetWidth - (BORDER_SIZE * 2);
-			bodyField = FontManager.createTextField(body,textfieldWidth,0,true);
-			bodyField.x = BORDER_SIZE;
-			PositionUtil.positionUnder(bodyField, titleField, HEADER_GAP);
-			addChild(bodyField);	
+			if(body != "")
+			{
+				bodyField = FontManager.createTextField(body,textfieldWidth,0,true);
+				bodyField.x = BORDER_SIZE;
+				PositionUtil.positionUnder(bodyField, titleField, HEADER_GAP);
+				addChild(bodyField);	
+			}
 			
-			var th:Number = (isNaN(targetHeight)) ? bodyField.y + bodyField.height + BORDER_SIZE : targetHeight;
+			var th:Number;
+			if(bodyField)
+				th = (isNaN(targetHeight)) ? bodyField.y + bodyField.height + BORDER_SIZE : targetHeight;
+			else
+				th = (isNaN(targetHeight)) ? titleField.y + titleField.height + BORDER_SIZE : targetHeight;
 			
 			glowShape.graphics.beginFill(0xFFFFFF);
 			glowShape.graphics.drawRect(0, 0, targetWidth, th);
 			//{color:0x333333, alpha:1, blurX:12, blurY:12, strength:1, inner:false, knockout:false, quality:1}
-			var gf:GlowFilter = new GlowFilter(0, 0.25,20,20,1,1,false,true);
+			var gf:GlowFilter = new GlowFilter(0, 0.25,20,20,1,3,false,true);
 			glowShape.filters = [gf];
 			
 			graphics.beginFill(0xFFFFFF, 0.3);
@@ -76,7 +83,11 @@ package com.allofus.holburne.learningzone.view.component
 		
 		public function get bottomOfCopy():Number
 		{
-			return bodyField.y + bodyField.height;
+			if(bodyField)
+				return bodyField.y + bodyField.height;
+				
+			else
+				return titleField.y + titleField.height;
 		}
 		
 		public function setAdditionalText(value : String) : void
@@ -86,7 +97,7 @@ package com.allofus.holburne.learningzone.view.component
 				additionalText = FontManager.createTextField(value || "",textfieldWidth, 0, true);
 				addChild(additionalText);
 				additionalText.x = BORDER_SIZE;
-				PositionUtil.positionUnder(additionalText, bodyField, 20);
+				additionalText.y = bottomOfCopy + 20;
 			}
 			else
 			{
@@ -97,7 +108,6 @@ package com.allofus.holburne.learningzone.view.component
 					TweenMax.to(additionalText, AppGlobals.FADE_DURATION, {alpha:1, ease:AppGlobals.FADE_EASE});	
 				}
 			}
-			
 		}
 		
 		public function set title(value:String):void

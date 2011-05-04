@@ -1,8 +1,8 @@
 package com.allofus.holburne.learningzone.view.component
 {
 	import com.allofus.holburne.learningzone.AppGlobals;
-	import com.allofus.holburne.learningzone.view.homepage.HomepageVC;
 	import com.allofus.holburne.learningzone.model.vo.ChapterVO;
+	import com.allofus.holburne.learningzone.view.homepage.HomepageSingleClickVC;
 	import com.allofus.shared.logging.GetLogger;
 	import com.allofus.shared.text.FontManager;
 	import com.allofus.shared.util.PositionUtil;
@@ -97,7 +97,7 @@ package com.allofus.holburne.learningzone.view.component
 			//logger.fatal("hidecaptionComplete()");
 			if(timeline)timeline.clear();
 			timeline = new TimelineMax({onComplete:collapseComplete});
-			timeline.insert(new TweenMax(this, 0.5, {x:_origX, y:_origY, transformAroundCenter:{scaleX:HomepageVC.THUMB_SCALE, scaleY:HomepageVC.THUMB_SCALE}, ease:Expo.easeInOut, glowFilter:AppGlobals.GLOW_OFF}));
+			timeline.insert(new TweenMax(this, 0.5, {x:_origX, y:_origY, transformAroundCenter:{scaleX:HomepageSingleClickVC.THUMB_SCALE, scaleY:HomepageSingleClickVC.THUMB_SCALE}, ease:Expo.easeInOut, glowFilter:AppGlobals.GLOW_OFF}));
 			timeline.insert(new TweenMax(viewPiecePanel, 0.5, {autoAlpha:0, ease:Expo.easeInOut}));
 			timeline.insert(new TweenMax(viewPieceLabel, 0.5, {autoAlpha:0, ease:Expo.easeInOut}));
 		}

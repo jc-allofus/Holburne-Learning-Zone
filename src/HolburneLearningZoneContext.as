@@ -1,7 +1,5 @@
 package
 {
-	import com.allofus.holburne.learningzone.view.chapter.chapter04.Slide_4_4_3VCMediator;
-	import com.allofus.holburne.learningzone.view.chapter.chapter04.Slide_4_4_3VC;
 	import com.allofus.holburne.learningzone.ApplicationMediator;
 	import com.allofus.holburne.learningzone.controller.ApplicationStatusChanged;
 	import com.allofus.holburne.learningzone.controller.ChapterSelectedCommand;
@@ -37,6 +35,7 @@ package
 	import com.allofus.holburne.learningzone.model.Chapter20Model;
 	import com.allofus.holburne.learningzone.model.ConfigProxy;
 	import com.allofus.holburne.learningzone.model.InternetConnectionProxy;
+	import com.allofus.holburne.learningzone.service.ApplicationUpdaterService;
 	import com.allofus.holburne.learningzone.service.XMLFeedService;
 	import com.allofus.holburne.learningzone.view.background.BackgroundVC;
 	import com.allofus.holburne.learningzone.view.background.BackgroundVCMediator;
@@ -49,6 +48,8 @@ package
 	import com.allofus.holburne.learningzone.view.chapter.chapter03.Chapter03Mediator;
 	import com.allofus.holburne.learningzone.view.chapter.chapter04.Chapter04;
 	import com.allofus.holburne.learningzone.view.chapter.chapter04.Chapter04Mediator;
+	import com.allofus.holburne.learningzone.view.chapter.chapter04.Slide_4_4_3VC;
+	import com.allofus.holburne.learningzone.view.chapter.chapter04.Slide_4_4_3VCMediator;
 	import com.allofus.holburne.learningzone.view.chapter.chapter05.Chapter05;
 	import com.allofus.holburne.learningzone.view.chapter.chapter05.Chapter05Mediator;
 	import com.allofus.holburne.learningzone.view.chapter.chapter06.Chapter06;
@@ -119,6 +120,7 @@ package
 			//MODEL & SERVICES
 			injector.mapSingleton(ApplicationStatusModel);
 			injector.mapSingleton(ConfigProxy);
+			injector.mapSingleton(ApplicationUpdaterService);
 			injector.mapSingleton(InternetConnectionProxy);
 			injector.mapSingleton(XMLFeedService);
 			

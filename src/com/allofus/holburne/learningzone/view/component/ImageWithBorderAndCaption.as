@@ -42,13 +42,16 @@ package com.allofus.holburne.learningzone.view.component
 			border.graphics.beginFill(AppGlobals.BORDER_COLOR);
 			border.graphics.drawRect(0, 0, totalWidth, totalHeight);
 
-			_captionLabel = FontManager.createTextField(captionText, img.width, 0, true);
-			_captionLabel.x = AppGlobals.BORDER_SIZE;
-			_captionLabel.y = this.img.y + this.img.height + AppGlobals.BORDER_SIZE;
-			_captionLabel.visible = false;
-			_captionLabel.alpha = 0;
+			if(captionText != "")
+			{
+				_captionLabel = FontManager.createTextField(captionText, img.width, 0, true);
+				_captionLabel.x = AppGlobals.BORDER_SIZE;
+				_captionLabel.y = this.img.y + this.img.height + AppGlobals.BORDER_SIZE;
+				_captionLabel.visible = false;
+				_captionLabel.alpha = 0;
+			}
 			
-			var gf:GlowFilter = new GlowFilter(0,0.25,20,20,1,1);
+			var gf:GlowFilter = new GlowFilter(0, 0.25,20,20,1,3);
 			
 			filters = [gf];
 			
@@ -68,6 +71,12 @@ package com.allofus.holburne.learningzone.view.component
 		
 		public function showCaption(useTween:Boolean = true):void
 		{
+			if(!_captionLabel)
+			{
+				showCaptionComplete();
+				return;
+			}
+			
 			addChild(_captionLabel);
 			var th:Number = _captionLabel.y + _captionLabel.height + AppGlobals.BORDER_SIZE;
 			
@@ -93,6 +102,12 @@ package com.allofus.holburne.learningzone.view.component
 		
 		public function hideCaption():void
 		{
+			if(!_captionLabel)
+			{
+				hideCaptionComplete();
+				return;
+			}
+			
 			var th:Number = Math.round(img.height + (AppGlobals.BORDER_SIZE * 2));;
 			if(captionTimeline) captionTimeline.clear();
 			captionTimeline = new TimelineMax({onComplete:hideCaptionComplete});
@@ -102,9 +117,8 @@ package com.allofus.holburne.learningzone.view.component
 		
 		protected function hideCaptionComplete():void
 		{
-			logger.fatal("my height: " + height);
-			removeChild(_captionLabel);
-			//logger.fatal("hidecaptionComplete()");
+			if(_captionLabel && contains(_captionLabel))
+				removeChild(_captionLabel);
 		}
 		
 		public function dispose():void

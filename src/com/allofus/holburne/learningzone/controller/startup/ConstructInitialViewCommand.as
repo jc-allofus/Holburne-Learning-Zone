@@ -1,19 +1,16 @@
 package com.allofus.holburne.learningzone.controller.startup
 {
-	import com.allofus.holburne.learningzone.view.homepage.HomepageSingleClickVC;
-	import com.greensock.plugins.ColorTransformPlugin;
-	import com.greensock.plugins.TintPlugin;
-	import flash.filters.ColorMatrixFilter;
-	import com.greensock.plugins.EndArrayPlugin;
-	import com.allofus.holburne.learningzone.view.debug.DebugVC;
 	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.controller.FSMConstants;
 	import com.allofus.holburne.learningzone.events.ApplicationStatusEvent;
 	import com.allofus.holburne.learningzone.view.background.BackgroundVC;
+	import com.allofus.holburne.learningzone.view.debug.DebugVC;
 	import com.allofus.holburne.learningzone.view.frame.BlankOutVC;
-	import com.allofus.holburne.learningzone.view.frame.FrameVC;
-	import com.allofus.holburne.learningzone.view.homepage.HomepageVC;
+	import com.allofus.holburne.learningzone.view.homepage.HomepageSingleClickVC;
 	import com.allofus.shared.logging.GetLogger;
+	import com.greensock.plugins.ColorTransformPlugin;
+	import com.greensock.plugins.EndArrayPlugin;
+	import com.greensock.plugins.TintPlugin;
 	import com.greensock.plugins.TransformAroundCenterPlugin;
 	import com.greensock.plugins.TweenPlugin;
 
@@ -22,6 +19,7 @@ package com.allofus.holburne.learningzone.controller.startup
 
 	import mx.logging.ILogger;
 
+	import flash.filters.ColorMatrixFilter;
 	import flash.geom.Rectangle;
 
 	/**

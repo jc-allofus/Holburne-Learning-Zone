@@ -5,6 +5,13 @@ package
 	import com.allofus.shared.logging.MonsterDebuggerTarget;
 	import com.allofus.shared.logging.SOSLoggingTarget;
 	import com.allofus.shared.logging.formatters.JSONFormatter;
+	import com.greensock.easing.Cubic;
+	import com.greensock.easing.FastEase;
+	import com.greensock.easing.Linear;
+	import com.greensock.easing.Quad;
+	import com.greensock.easing.Quart;
+	import com.greensock.easing.Quint;
+	import com.greensock.easing.Strong;
 
 	import org.robotlegs.mvcs.Context;
 
@@ -55,6 +62,7 @@ package
 			testLogging();
 			createLayers();
 			createContext();
+			FastEase.activate([Linear,Quad,Strong,Cubic,Quart,Quint]);
 		}
 		
 		protected function onApplicationInvoked(event:InvokeEvent):void

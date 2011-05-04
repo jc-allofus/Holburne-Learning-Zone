@@ -24,7 +24,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 		
 		public function Slide_3_2_4VC()
 		{
-			logger.fatal("make " + this);
 			containerMc = new Slide_3_2_4();
 			largeImageContainer = new Sprite();
 			containerMc.alpha = largeImageContainer.alpha = 0;

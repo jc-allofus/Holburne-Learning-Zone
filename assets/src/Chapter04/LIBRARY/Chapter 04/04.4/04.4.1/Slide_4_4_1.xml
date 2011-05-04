@@ -1,0 +1,57 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 04/04.4/04.4.1/Slide_4_4_1" itemID="4dbfe94f-000002ce" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter4.Slide_4_4_1" sourceLibraryItemHRef="Symbol 1" lastModified="1304426857" lastUniqueIdentifier="4">
+  <timeline>
+    <DOMTimeline name="Slide_4_4_1">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t1" centerPoint3DX="259" centerPoint3DY="231">
+                  <matrix>
+                    <Matrix tx="259" ty="231"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t2" centerPoint3DX="246" centerPoint3DY="688.95">
+                  <matrix>
+                    <Matrix tx="246" ty="688.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t3" centerPoint3DX="657.95" centerPoint3DY="588.95">
+                  <matrix>
+                    <Matrix tx="657.95" ty="588.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t4" selected="true" centerPoint3DX="473" centerPoint3DY="519">
+                  <matrix>
+                    <Matrix tx="473" ty="519"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ref" color="#4FFF4F" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" libraryItemName="Chapter 04/04.4/Tue May 3 12:32:48 GMT+0100 2011.jpg"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

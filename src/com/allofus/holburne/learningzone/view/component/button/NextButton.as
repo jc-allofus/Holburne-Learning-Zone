@@ -1,5 +1,7 @@
 package com.allofus.holburne.learningzone.view.component.button
 {
+	import com.allofus.holburne.learningzone.guiassets.HomepageNextSelectedSkin;
+	import com.allofus.holburne.learningzone.guiassets.HomepageNextUpSkin;
 	import com.allofus.holburne.learningzone.guiassets.NextIconDownSkin;
 	import com.allofus.holburne.learningzone.guiassets.NextIconUpSkin;
 	import com.allofus.holburne.learningzone.model.vo.ButtonVO;
@@ -16,12 +18,12 @@ package com.allofus.holburne.learningzone.view.component.button
 		protected var upSkin:Bitmap;
 		protected var downSkin:Bitmap;
 		
-		public function NextButton(vo : ButtonVO)
+		public function NextButton(vo : ButtonVO, useLarge:Boolean = false)
 		{
-			upSkin = new Bitmap(new NextIconUpSkin(0,0));
+			upSkin = useLarge ? new Bitmap(new HomepageNextUpSkin(0,0)) : new Bitmap(new NextIconUpSkin(0,0));
 			addChild(upSkin);
 			
-			downSkin = new Bitmap(new NextIconDownSkin(0,0));
+			downSkin = useLarge ? new  Bitmap(new HomepageNextSelectedSkin(0,0)) : new Bitmap(new NextIconDownSkin(0,0));
 			downSkin.visible = false;
 			addChild(downSkin);
 			

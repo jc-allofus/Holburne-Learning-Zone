@@ -32,6 +32,7 @@ package com.allofus.holburne.learningzone.view.component
 			selectDefault();
 			super();
 		}
+		
 		protected function selectDefault(thumbIndex:int = 0):void
 		{
 			selectedThumb = thumbnailVOs[thumbIndex].thumbnail;
