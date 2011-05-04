@@ -1,8 +1,8 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="1920" height="1080" frameRate="31" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" viewAngle3D="122.353661987282" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="Chapter 08" itemID="4d934016-0000038a" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 08/08.1" itemID="4d934024-0000038f"/>
-          <DOMFolderItem name="Chapter 08/08.2" itemID="4d934034-00000396"/>
+          <DOMFolderItem name="Chapter 08/08.1" itemID="4d934024-0000038f" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 08/08.2" itemID="4d934034-00000396" isExpanded="true"/>
           <DOMFolderItem name="Chapter 08/08.2/08.2.1" itemID="4d934062-0000040b"/>
           <DOMFolderItem name="Chapter 08/08.2/08.2.2" itemID="4d93406a-0000040c"/>
           <DOMFolderItem name="Chapter 08/08.3" itemID="4d934038-00000397" isExpanded="true"/>
@@ -11,8 +11,9 @@
           <DOMFolderItem name="Chapter 08/08.3/08.3.3" itemID="4d934098-0000041a"/>
           <DOMFolderItem name="Chapter 08/08.3/08.3.4" itemID="4d9340aa-0000041f"/>
      </folders>
-     <media/>
-     <symbols/>
+     <media>
+          <DOMBitmapItem name="Chapter 08/08.1/8_1_1.jpg" itemID="4dc18988-0000085b" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter8.Img_8_1" sourceExternalFilepath="./LIBRARY/Chapter 08/08.1/8_1_1.jpg" sourceLastImported="1302693021" sourcePlatform="macintosh" externalFileSize="95010" quality="50" href="Chapter 08/08.1/8_1_1.jpg" bitmapDataHRef="M 1 1304529201.dat" frameRight="12500" frameBottom="9480" isJPEG="true"/>
+     </media>
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>

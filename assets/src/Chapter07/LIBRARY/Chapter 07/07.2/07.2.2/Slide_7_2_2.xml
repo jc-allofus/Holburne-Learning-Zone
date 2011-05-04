@@ -1,0 +1,81 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 07/07.2/07.2.2/Slide_7_2_2" itemID="4dc16b8b-0000062c" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter7.Slide_7_2_2" sourceLibraryItemHRef="Symbol 1" lastModified="1304525882">
+  <timeline>
+    <DOMTimeline name="Slide_7_2_2">
+      <layers>
+        <DOMLayer name="thumbs" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Chapter 07/07.2/07.2.2/_thumb/t1" name="t1" centerPoint3DX="1035.9" centerPoint3DY="767.9">
+                  <matrix>
+                    <Matrix tx="975.9" ty="679.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="88"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 07/07.2/07.2.2/_thumb/t7" name="t7" selected="true" centerPoint3DX="1754.9" centerPoint3DY="779">
+                  <matrix>
+                    <Matrix tx="1694.9" ty="718"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="61"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 07/07.2/07.2.2/_thumb/t2" name="t2" centerPoint3DX="1156.95" centerPoint3DY="770">
+                  <matrix>
+                    <Matrix tx="1096.95" ty="681"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="89"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 07/07.2/07.2.2/_thumb/t3" name="t3" centerPoint3DX="1276.95" centerPoint3DY="773">
+                  <matrix>
+                    <Matrix tx="1216.95" ty="698.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="74.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 07/07.2/07.2.2/_thumb/t4" name="t4" centerPoint3DX="1396.95" centerPoint3DY="776">
+                  <matrix>
+                    <Matrix tx="1336.95" ty="698.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="77.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 07/07.2/07.2.2/_thumb/t5" name="t5" centerPoint3DX="1516.95" centerPoint3DY="779">
+                  <matrix>
+                    <Matrix tx="1456.95" ty="730"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="49"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 07/07.2/07.2.2/_thumb/t6" name="t6" centerPoint3DX="1636.95" centerPoint3DY="776.5">
+                  <matrix>
+                    <Matrix tx="1576.95" ty="698.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="78"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ref" color="#9933CC" locked="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Wed May 4 16:26:39 GMT+0100 2011.jpg"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,57 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 07/07.3/07.3.2/Slide_7_3_2" itemID="4dc1816f-000007c8" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter7.Slide_7_3_2" sourceLibraryItemHRef="Chapter 07/07.3/07.3.1/Slide_7_3_1 copy" lastModified="1304529216" lastUniqueIdentifier="6">
+  <timeline>
+    <DOMTimeline name="Slide_7_3_2">
+      <layers>
+        <DOMLayer name="t" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="t1" name="t1" centerPoint3DX="1073.4" centerPoint3DY="771.25">
+                  <matrix>
+                    <Matrix tx="1013.4" ty="725.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="45.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="t2" name="t2" centerPoint3DX="1283.65" centerPoint3DY="776.55">
+                  <matrix>
+                    <Matrix tx="1223.65" ty="701.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="t3" name="t3" centerPoint3DX="1493.9" centerPoint3DY="770.4">
+                  <matrix>
+                    <Matrix tx="1433.9" ty="698.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="71.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="t4" name="t4" selected="true" centerPoint3DX="1704.25" centerPoint3DY="775.7">
+                  <matrix>
+                    <Matrix tx="1644.25" ty="703.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="72.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ref" color="#4FFF4F" locked="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Wed May 4 17:19:36 GMT+0100 2011.jpg"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
