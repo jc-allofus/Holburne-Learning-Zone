@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="t2" itemID="4dc18241-00000828" sourceLibraryItemHRef="Symbol 1" lastModified="1304527425">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 08/08.3/08.3.3/_thumb/t2" itemID="4dc2ce41-00000304" sourceLibraryItemHRef="Symbol 1" lastModified="1304612417">
   <timeline>
     <DOMTimeline name="t2">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Chapter 07/07.3/07.3.2/_thumb/7_3_2_02_small.png"/>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Chapter 08/08.3/08.3.3/_thumb/8_3_3_02_small.png"/>
               </elements>
             </DOMFrame>
           </frames>

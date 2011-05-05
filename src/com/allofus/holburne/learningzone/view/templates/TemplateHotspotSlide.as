@@ -75,7 +75,7 @@ package com.allofus.holburne.learningzone.view.templates
 		
 		override public function transitionIn():void
 		{
-			staggerItemsIn([img,text]); 
+			staggerItemsIn(img,text); 
 		}
 			
 	}

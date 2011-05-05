@@ -42,13 +42,13 @@ package com.allofus.holburne.learningzone.view.component
 		override public function transitionInFromHomeScreen():void
 		{
 			img.showCaption();
-			staggerItemsIn([img,text]);
+			staggerItemsIn(img,text);
 		}
 		
 		override public function transitionIn():void
 		{
 			img.alpha = text.alpha = 0;
-			staggerItemsIn([img,text]);
+			staggerItemsIn(img,text);
 		}
 		
 		override public function transitionOut():void

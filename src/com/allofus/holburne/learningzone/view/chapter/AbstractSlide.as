@@ -63,7 +63,7 @@ package com.allofus.holburne.learningzone.view.chapter
 			logger.warn("haven't implemented transitionInFromHomeScreen() " + this);
 		}
 		
-		protected function staggerItemsIn(items:Array):void
+		protected function staggerItemsIn(...items:Array):void
 		{
 			if(transition)transition.clear();
 			var tweenArr:Array = [];

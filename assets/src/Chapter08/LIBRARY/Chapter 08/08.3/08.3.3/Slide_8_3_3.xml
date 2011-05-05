@@ -1,0 +1,73 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 08/08.3/08.3.3/Slide_8_3_3" itemID="4dc2c3fa-00000397" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter8.Slide_8_3_3" sourceLibraryItemHRef="Chapter 08/08.3/08.3.1/Slide_8_3_1 copy" lastModified="1304613899" lastUniqueIdentifier="5">
+  <timeline>
+    <DOMTimeline name="Slide_8_3_3">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Chapter 08/08.3/08.3.3/_thumb/t1" name="t1" selected="true" centerPoint3DX="1075.25" centerPoint3DY="632.15">
+                  <matrix>
+                    <Matrix tx="1015.25" ty="583.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="49"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 08/08.3/08.3.3/_thumb/t2" name="t2" selected="true" centerPoint3DX="1205.65" centerPoint3DY="632.15">
+                  <matrix>
+                    <Matrix tx="1145.65" ty="585.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="47"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 08/08.3/08.3.3/_thumb/t3" name="t3" selected="true" centerPoint3DX="1336.05" centerPoint3DY="632.15">
+                  <matrix>
+                    <Matrix tx="1276.05" ty="590.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="41.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 08/08.3/08.3.3/_thumb/t4" name="t4" selected="true" centerPoint3DX="1466.45" centerPoint3DY="632.15">
+                  <matrix>
+                    <Matrix tx="1406.45" ty="585.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="47"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 08/08.3/08.3.3/_thumb/t5" name="t5" selected="true" centerPoint3DX="1596.85" centerPoint3DY="632.15">
+                  <matrix>
+                    <Matrix tx="1536.85" ty="590.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="41.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 08/08.3/08.3.3/_thumb/t6" name="t6" selected="true" centerPoint3DX="1727.45" centerPoint3DY="632.15">
+                  <matrix>
+                    <Matrix tx="1667.45" ty="590.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60" y="41.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ref" color="#4FFF4F" locked="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Thu May 5 17:13:59 GMT+0100 2011.jpg"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -73,7 +73,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 		override public function transitionIn():void
 		{
 			text.alpha = 0;
-			staggerItemsIn([containerMC,text]);
+			staggerItemsIn(containerMC,text);
 		}
 		
 		

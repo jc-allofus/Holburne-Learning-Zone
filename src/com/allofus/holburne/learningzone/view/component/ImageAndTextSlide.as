@@ -25,7 +25,7 @@ package com.allofus.holburne.learningzone.view.component
 		{
 			img.alpha = 0;
 			text.alpha = 0;
-			super.staggerItemsIn([img,text]);
+			super.staggerItemsIn(img,text);
 		}
 		
 		override public function dispose():void

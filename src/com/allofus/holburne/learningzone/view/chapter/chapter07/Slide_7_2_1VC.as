@@ -39,7 +39,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter07
 		
 		override public function transitionIn():void
 		{
-			super.staggerItemsIn([img,text]);
+			super.staggerItemsIn(img,text);
 		}
 	}
 }

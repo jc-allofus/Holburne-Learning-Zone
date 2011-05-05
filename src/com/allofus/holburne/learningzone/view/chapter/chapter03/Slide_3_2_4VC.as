@@ -80,7 +80,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 		
 		override public function transitionIn():void
 		{
-			staggerItemsIn([largeImageContainer,containerMc,mpText]);
+			staggerItemsIn(largeImageContainer,containerMc,mpText);
 		}
 		
 		//override protected function staggerInComplete():void{containerMc.t1.alpha = containerMc.t2.alpha = containerMc.t3.alpha = 0;}

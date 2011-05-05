@@ -70,7 +70,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 		
 		override public function transitionIn():void
 		{
-			staggerItemsIn([largeImageContainer,text,containerMc]);
+			staggerItemsIn(largeImageContainer,text,containerMc);
 		}
 		
 		override public function dispose():void

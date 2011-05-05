@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="t1" name="t1" centerPoint3DX="1073.4" centerPoint3DY="771.25">
+                <DOMSymbolInstance libraryItemName="Chapter 07/07.3/07.3.2/_thumb/t1" name="t1" centerPoint3DX="1073.4" centerPoint3DY="771.25">
                   <matrix>
                     <Matrix tx="1013.4" ty="725.75"/>
                   </matrix>
@@ -14,7 +14,7 @@
                     <Point x="60" y="45.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="t2" name="t2" centerPoint3DX="1283.65" centerPoint3DY="776.55">
+                <DOMSymbolInstance libraryItemName="Chapter 07/07.3/07.3.2/_thumb/t2" name="t2" centerPoint3DX="1283.65" centerPoint3DY="776.55">
                   <matrix>
                     <Matrix tx="1223.65" ty="701.55"/>
                   </matrix>
@@ -22,7 +22,7 @@
                     <Point x="60" y="75"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="t3" name="t3" centerPoint3DX="1493.9" centerPoint3DY="770.4">
+                <DOMSymbolInstance libraryItemName="Chapter 07/07.3/07.3.2/_thumb/t3" name="t3" centerPoint3DX="1493.9" centerPoint3DY="770.4">
                   <matrix>
                     <Matrix tx="1433.9" ty="698.9"/>
                   </matrix>
@@ -30,7 +30,7 @@
                     <Point x="60" y="71.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="t4" name="t4" selected="true" centerPoint3DX="1704.25" centerPoint3DY="775.7">
+                <DOMSymbolInstance libraryItemName="Chapter 07/07.3/07.3.2/_thumb/t4" name="t4" selected="true" centerPoint3DX="1704.25" centerPoint3DY="775.7">
                   <matrix>
                     <Matrix tx="1644.25" ty="703.2"/>
                   </matrix>

@@ -44,18 +44,20 @@ package com.allofus.holburne.learningzone.view.component
 		
 		public function transitionIn(delay:Number = 0):void
 		{
-			TweenMax.from(this, AppGlobals.FADE_DURATION, {autoAlpha:0, y:"-20", delay:delay});
+			TweenMax.from(this, AppGlobals.FADE_DURATION, {autoAlpha:0, y:"-20", delay:delay, onComplete:startPulse});
 		}
 		
 		public function select() : void
 		{
+			stopPulse();
 			TweenMax.to(selectedSkin, 0, {autoAlpha:1, ease:AppGlobals.FADE_EASE});
 			_selected = true;
 		}
 		
 		public function deselect() : void
 		{
-			TweenMax.to(selectedSkin, AppGlobals.FADE_DURATION, {autoAlpha:0, ease:AppGlobals.FADE_EASE});
+			stopPulse();
+			TweenMax.to(selectedSkin, AppGlobals.FADE_DURATION, {autoAlpha:0, ease:AppGlobals.FADE_EASE, onComplete:startPulse});
 			_selected = false;
 		}
 
@@ -69,8 +71,25 @@ package com.allofus.holburne.learningzone.view.component
 			_selected = selected;
 		}
 		
+		public function startPulse():void
+		{
+			selectedSkin.alpha = 0; 
+			var d:Number = Math.random() * 2;
+			TweenMax.to(selectedSkin, 1, {autoAlpha:0.5, repeat:-1, yoyo:true, delay:d});
+		}
+		
+		public function stopPulse():void
+		{
+			TweenMax.killTweensOf(selectedSkin);
+		}
+		
 		public function dispose() : void
 		{
+			if(selectedSkin)
+				TweenMax.killTweensOf(selectedSkin);
+				
+			TweenMax.killTweensOf(this);
+				
 			_selected = false;
 			removeChild(upSkin);
 			removeChild(selectedSkin);

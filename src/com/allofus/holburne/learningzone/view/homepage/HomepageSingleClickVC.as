@@ -37,6 +37,8 @@ package com.allofus.holburne.learningzone.view.homepage
 		
 		protected var _selectedChapter:ChapterVO; 
 		
+		public static const ZOOM_IN_SPEED:Number = 1.8;
+		public static const ZOOM_OUT_SPEED:Number = 0.6;
 		public static const THUMB_SCALE:Number = 0.5;
 		public static const SLIDE_DURATION:Number = 0.75;
 
@@ -175,7 +177,7 @@ package com.allofus.holburne.learningzone.view.homepage
 			if(zoomed)
 			{
 				//zoom back to show all thumbs
-				TweenMax.to(currentPage, 0.6, {x:0, y:0, scaleX:THUMB_SCALE, scaleY:THUMB_SCALE, ease:Strong.easeOut, delay:delay, onComplete:cleanup});
+				TweenMax.to(currentPage, ZOOM_OUT_SPEED, {x:0, y:0, scaleX:THUMB_SCALE, scaleY:THUMB_SCALE, ease:Strong.easeOut, delay:delay, onComplete:cleanup});
 				_selectedChapter = null;
 			}
 			else
@@ -184,7 +186,7 @@ package com.allofus.holburne.learningzone.view.homepage
 				if(_selectedChapter && _selectedChapter.thumbnail)
 				{
 					var pt:Point = PositionUtil.getPositionInLeftFrame(_selectedChapter.thumbnail);
-					TweenMax.to(currentPage, 0.6, {x:pt.x, y:pt.y, scaleX:1, scaleY:1, ease:Strong.easeOut, onComplete:dispatchChapter});	
+					TweenMax.to(currentPage, ZOOM_IN_SPEED, {x:pt.x, y:pt.y, scaleX:1, scaleY:1, ease:Strong.easeOut, onComplete:dispatchChapter});	
 				}
 				else
 				{

@@ -73,7 +73,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 		
 		override public function transitionIn():void
 		{
-			staggerItemsIn([bg,container.t1,container.t2,container.t3,container.t4]);
+			staggerItemsIn(bg,container.t1,container.t2,container.t3,container.t4);
 		}
 
 		private function handleAddedToStage(event : Event) : void

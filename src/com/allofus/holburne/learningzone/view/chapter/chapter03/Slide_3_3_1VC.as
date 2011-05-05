@@ -35,7 +35,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 		
 		override public function transitionIn():void
 		{
-			staggerItemsIn([bgPlate,timelineButtons]);
+			staggerItemsIn(bgPlate,timelineButtons);
 		}
 
 		protected function handleButtonSelected(event : TimelineEvent) : void
@@ -44,7 +44,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 			bgPlate.leftContent.alpha = bgPlate.rightContent.alpha = 0;
 			bgPlate.leftContent.gotoAndStop(event.button.vo.actionParams);
 			bgPlate.rightContent.gotoAndStop(event.button.vo.actionParams);
-			staggerItemsIn([bgPlate.leftContent, bgPlate.rightContent]);
+			staggerItemsIn(bgPlate.leftContent, bgPlate.rightContent);
 		}
 		
 		override public function dispose():void

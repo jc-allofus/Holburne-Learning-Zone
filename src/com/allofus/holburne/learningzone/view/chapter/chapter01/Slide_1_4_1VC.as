@@ -56,7 +56,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 		{
 			containerMC.alpha = 0;
 			text.alpha = 0;
-			staggerItemsIn([containerMC,text]);
+			staggerItemsIn(containerMC,text);
 		}
 		
 		private static const logger:ILogger = GetLogger.qualifiedName( Slide_1_3_1VC );

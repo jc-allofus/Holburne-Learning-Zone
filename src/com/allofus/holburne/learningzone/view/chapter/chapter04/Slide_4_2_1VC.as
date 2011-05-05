@@ -62,7 +62,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 		{
 			containerMC.alpha = 0;
 			text.alpha = 0;
-			staggerItemsIn([containerMC,text]);
+			staggerItemsIn(containerMC,text);
 		}
 	}
 }

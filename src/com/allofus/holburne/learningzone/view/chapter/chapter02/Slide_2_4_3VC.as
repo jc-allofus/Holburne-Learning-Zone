@@ -64,7 +64,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 		
 		override public function transitionIn():void
 		{
-			super.staggerItemsIn([img,text]);
+			super.staggerItemsIn(img,text);
 		}
 		
 		override public function dispose():void

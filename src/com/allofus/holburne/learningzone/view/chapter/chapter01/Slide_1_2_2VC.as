@@ -128,7 +128,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 		
 		override public function transitionIn():void
 		{
-			super.staggerItemsIn([largeImageContainer,text,containerMc]);
+			super.staggerItemsIn(largeImageContainer,text,containerMc);
 		}
 		
 		override public function dispose():void

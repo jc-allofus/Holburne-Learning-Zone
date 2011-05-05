@@ -41,10 +41,7 @@ package com.allofus.holburne.learningzone.controller.startup
 			
 			mainView.backgroundLayer.addChild(new BackgroundVC());
 
-			//testing out single click to chapter instead of the double dip
-//			mainView.homepageLayer.addChild(new HomepageVC());
 			mainView.homepageLayer.addChild(new HomepageSingleClickVC());
-
 
 			mainView.blankOutLayer.addChild(new BlankOutVC());
 			//mainView.frameBorderLayer.addChild(new FrameVC());

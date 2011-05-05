@@ -60,7 +60,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 		
 		override public function transitionIn():void
 		{
-			staggerItemsIn([largeImageContainer,containerMc,text]);
+			staggerItemsIn(largeImageContainer,containerMc,text);
 		}
 		
 		override protected function showThumbSelected():void
