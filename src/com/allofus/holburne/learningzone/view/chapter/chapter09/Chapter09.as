@@ -24,6 +24,9 @@ package com.allofus.holburne.learningzone.view.chapter.chapter09
 			slides = new Dictionary();
 			slides["9_1"] = Slide_9_1VC;
 			slides["9_2_1"] = Slide_9_2_1VC;
+			slides["9_2_2"] = Slide_9_2_2VC;
+			slides["9_3_1"] = Slide_9_3_1VC;
+			slides["9_3_2"] = Slide_9_3_2VC;
 			slides["9_3_3"] = Slide_9_3_3VC;
 			slides["9_3_5"] = Slide_9_3_5VC;
 			super();

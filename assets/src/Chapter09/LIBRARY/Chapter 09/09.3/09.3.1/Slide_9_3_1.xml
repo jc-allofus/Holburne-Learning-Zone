@@ -1,0 +1,49 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 09/09.3/09.3.1/Slide_9_3_1" itemID="4dc3fab3-0000032e" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter9.Slide_9_3_1" sourceLibraryItemHRef="Symbol 1" lastModified="1304693454" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="Slide_9_3_1">
+      <layers>
+        <DOMLayer name="t" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t1" centerPoint3DX="439" centerPoint3DY="364.95">
+                  <matrix>
+                    <Matrix tx="439" ty="364.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t2" centerPoint3DX="573.95" centerPoint3DY="433.95">
+                  <matrix>
+                    <Matrix tx="573.95" ty="433.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t3" selected="true" centerPoint3DX="762.95" centerPoint3DY="513.95">
+                  <matrix>
+                    <Matrix tx="762.95" ty="513.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ref" color="#9933CC" locked="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Fri May 6 14:50:32 GMT+0100 2011.jpg"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

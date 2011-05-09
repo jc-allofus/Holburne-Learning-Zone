@@ -1,0 +1,41 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 10/10.3/10.3.1/Slide_10_3_1" itemID="4dc411b6-000003cc" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter10.Slide_10_3_1" sourceLibraryItemHRef="Symbol 1" lastModified="1304695857" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="Slide_10_3_1">
+      <layers>
+        <DOMLayer name="t" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t1" centerPoint3DX="443" centerPoint3DY="436">
+                  <matrix>
+                    <Matrix tx="443" ty="436"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t2" centerPoint3DX="603.95" centerPoint3DY="486.95">
+                  <matrix>
+                    <Matrix tx="603.95" ty="486.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ref" color="#4FFF4F" locked="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Fri May 6 16:19:49 GMT+0100 2011.jpg"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

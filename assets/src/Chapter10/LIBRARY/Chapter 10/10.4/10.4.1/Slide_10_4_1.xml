@@ -1,0 +1,65 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 10/10.4/10.4.1/Slide_10_4_1" itemID="4dc41abc-00000452" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter10.Slide_10_4_1" sourceLibraryItemHRef="Chapter 10/10.3/10.3.2/Slide_10_3_2 copy" lastModified="1304702433" lastUniqueIdentifier="5">
+  <timeline>
+    <DOMTimeline name="Slide_10_4_1">
+      <layers>
+        <DOMLayer name="t" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t1" centerPoint3DX="417.05" centerPoint3DY="466.95">
+                  <matrix>
+                    <Matrix tx="417.05" ty="466.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t2" centerPoint3DX="600.95" centerPoint3DY="486.95">
+                  <matrix>
+                    <Matrix tx="600.95" ty="486.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t3" centerPoint3DX="556.95" centerPoint3DY="556.4">
+                  <matrix>
+                    <Matrix tx="556.95" ty="556.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t4" centerPoint3DX="462" centerPoint3DY="576.4">
+                  <matrix>
+                    <Matrix tx="462" ty="576.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t5" selected="true" centerPoint3DX="462" centerPoint3DY="527.45">
+                  <matrix>
+                    <Matrix tx="462" ty="527.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ref" color="#4FFF4F" locked="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Fri May 6 16:19:49 GMT+0100 2011.jpg"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
