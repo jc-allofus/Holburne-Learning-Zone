@@ -35,7 +35,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			+	"<p class='imageCaption'>Imitator of Pieter Brueghel the Younger (1564/5 - 1637–8)</p>"
 			+	"<p class='imageCaption'>Oil on panel, 36.6 x 49.1 cm</p>"
 			+	"<p class='imageCaption'>Collection of Sir William Holburne, A165</p>";
-			var at01:String = "<p></p> ";
+			var at01:String = "";
 			var vo01:ThumbnailVO = new ThumbnailVO(containerMc.t1, Img_2_2_3_1, st01,at01);
 
 			var st02:String = 
@@ -91,7 +91,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			+	"<p class='imageCaption'>Attributed to David Ryckaert III (1612-1661)</p>"
 			+	"<p class='imageCaption'>Oil on canvas, 65.5 x 86.1 cm diameter</p>"
 			+	"<p class='imageCaption'>Given by O.M. Dalton in 1939, A345</p>";
-			var at08:String = "<p></p> "	;
+			var at08:String = ""	;
 			var vo08:ThumbnailVO = new ThumbnailVO(containerMc.t8, Img_2_2_3_8, st08,at08);
 			
 			thumbnailVOs = new <ThumbnailVO>[vo01, vo02, vo03, vo04, vo05, vo06, vo07, vo08];
@@ -102,7 +102,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 
 			var title:String ="Other Bruenhal works";
 			var description:String = "<p class='justified'>Other Paintings in the Holburne associated with the Bruegel Circle.  Tap a small image to view more detail.</p>";
-			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH, 270);
+			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
 			addChild(text);
 			text.visible = false;
 			text.alpha = 0;

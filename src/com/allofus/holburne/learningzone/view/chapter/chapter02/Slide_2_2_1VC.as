@@ -89,7 +89,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 
 			var title:String ="The Brueghel Family: Who’s Who?";
 			var description:String = "<p class='justified'>Until the eighteenth century, people could spell their surnames however they liked.  Documents show that the members of Pieter Bruegel’s family all signed their names with different spellings.</p>";
-			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH, 410);
+			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
 			addChild(text);
 			text.visible = false;
 			text.alpha = 0;

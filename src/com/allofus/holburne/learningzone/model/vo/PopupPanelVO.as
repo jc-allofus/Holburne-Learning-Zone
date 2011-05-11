@@ -11,7 +11,7 @@ package com.allofus.holburne.learningzone.model.vo
 		
 		public function PopupPanelVO(text:String, imageClassRef:Class = null, imageCaption:String = null)
 		{
-			this.text = text;
+			this.text = "<span class='justified'>" + text + "</span>";
 			this.imageClassRef = imageClassRef;
 			this.imageCaption = imageCaption;
 		}

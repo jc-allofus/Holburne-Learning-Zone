@@ -48,7 +48,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 			+	"<p class='justified'></p>"
 			;
 			
-			text = new TextBoxWithTitleAndDescription(title, page1,AppGlobals.RIGHT_FRAME_WIDTH, 310);
+			text = new TextBoxWithTitleAndDescription(title, page1,AppGlobals.RIGHT_FRAME_WIDTH);
 			addChild(text);
 			positionInRightFrame(text);
 			text.y = AppGlobals.RIGHT_FRAME_Y;

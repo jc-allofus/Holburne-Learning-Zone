@@ -47,7 +47,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter08
 				"<p class='justified'>Before 2011, this charming painting was never displayed because of its very fragile condition.  Now it looks almost as good as new after conservation partly funded by a generous grant of £2,000 from the Veneziana Fund.</p>"
 			+	"<p></p>"
 			+	"<p class='justified'>Conservation was carried out in 2010 by the Simon Gillespie Studio in London.</p>";
-			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH, 410);
+			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
 			addChild(text);
 			positionInRightFrame(text);
 			text.y = AppGlobals.RIGHT_FRAME_Y;

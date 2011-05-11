@@ -1,6 +1,6 @@
 package com.allofus.holburne.learningzone.view.component
 {
-	import com.greensock.TweenMax;
+	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
 	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.guiassets.TextPanelDecoration;
 	import com.allofus.shared.logging.GetLogger;
@@ -32,6 +32,7 @@ package com.allofus.holburne.learningzone.view.component
 		public var titleField:TextField;
 		public var bodyField:TextField;
 		public var additionalText:TextField;
+		public var additionalTextPanel:PopupPanel;
 		
 		public function TextBoxWithTitleAndDescription(title:String, body:String, targetWidth:Number = AppGlobals.RIGHT_FRAME_WIDTH, targetHeight:Number = NaN)
 		{
@@ -92,23 +93,33 @@ package com.allofus.holburne.learningzone.view.component
 		
 		public function setAdditionalText(value : String) : void
 		{
-			if(!additionalText)
+			disposeAdditionalTextPanel();
+			if(value && value != "")
 			{
-				additionalText = FontManager.createTextField(value || "",textfieldWidth, 0, true);
-				addChild(additionalText);
-				additionalText.x = BORDER_SIZE;
-				additionalText.y = bottomOfCopy + 20;
-			}
-			else
-			{
-				if(value != additionalText.htmlText)
-				{
-					additionalText.htmlText = value || "";
-					additionalText.alpha = 0;
-					TweenMax.to(additionalText, AppGlobals.FADE_DURATION, {alpha:1, ease:AppGlobals.FADE_EASE});	
-				}
+				addPopupPanel(value);
 			}
 		}
+		
+		protected function addPopupPanel(value:String):void
+		{
+			additionalTextPanel = new PopupPanel(new PopupPanelVO(value));
+			addChild(additionalTextPanel);
+			additionalTextPanel.y = bottomOfCopy + BORDER_SIZE + 20;
+			additionalTextPanel.transitionIn();
+		}
+		
+		protected function disposeAdditionalTextPanel():void
+		{
+			if(additionalTextPanel)
+			{
+				additionalTextPanel.dispose();
+				if(contains(additionalTextPanel))
+					removeChild(additionalTextPanel);
+			}
+				
+			additionalTextPanel = null;
+		}
+		
 		
 		public function set title(value:String):void
 		{

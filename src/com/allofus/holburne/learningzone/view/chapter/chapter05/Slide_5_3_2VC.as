@@ -155,7 +155,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter05
 
 			var title:String ="Other Saints in the Holburne Museum ";
 			
-			mpText = new TextBoxWithTitleAndDescription(title, "", AppGlobals.RIGHT_FRAME_WIDTH, 280);
+			mpText = new TextBoxWithTitleAndDescription(title, "", AppGlobals.RIGHT_FRAME_WIDTH);
 			addChild(mpText);
 			positionInRightFrame(mpText);
 			mpText.y = AppGlobals.RIGHT_FRAME_Y;
