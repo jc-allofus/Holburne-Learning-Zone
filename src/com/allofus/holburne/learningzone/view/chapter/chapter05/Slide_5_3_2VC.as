@@ -27,7 +27,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter05
 	public class Slide_5_3_2VC extends ThumbnailImagesSlide
 	{
 		protected var containerMc:Slide_5_3_2;
-		protected var mpText:TextBoxWithTitleAndDescription;
 
 		public function Slide_5_3_2VC()
 		{
@@ -60,7 +59,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter05
 			+	"<p class='imageCaption'>68.6 x 53.4 cm </p>"
 			+	"<p class='imageCaption'>Collection of Sir Thomas William Holburne</p>"
 			+	"<p class='imageCaption'>A135</p>";
-			var vo03:ThumbnailVO = new ThumbnailVO(containerMc.t3, Img_5_3_2_3, st03,"<p class='justified'></p>");	
+			var vo03:ThumbnailVO = new ThumbnailVO(containerMc.t3, Img_5_3_2_3, st03,"");	
 			
 			var st04:String = 
 				"<p><span class='imageCaptionItalic'>Sir Thomas More</span><span class='imageCaption'>, after Holbein</span></p>"
@@ -155,19 +154,19 @@ package com.allofus.holburne.learningzone.view.chapter.chapter05
 
 			var title:String ="Other Saints in the Holburne Museum ";
 			
-			mpText = new TextBoxWithTitleAndDescription(title, "", AppGlobals.RIGHT_FRAME_WIDTH);
-			addChild(mpText);
-			positionInRightFrame(mpText);
-			mpText.y = AppGlobals.RIGHT_FRAME_Y;
-			mpText.visible = false;
-			mpText.alpha = 0;
+			text = new TextBoxWithTitleAndDescription(title, "", AppGlobals.RIGHT_FRAME_WIDTH);
+			addChild(text);
+			positionInRightFrame(text);
+			text.y = AppGlobals.RIGHT_FRAME_Y;
+			text.visible = false;
+			text.alpha = 0;
 			
 			super();
 		}
 		
 		override public function transitionIn():void
 		{
-			staggerItemsIn(largeImageContainer,containerMc,mpText);
+			staggerItemsIn(largeImageContainer,containerMc,text);
 		}
 		
 		override protected function showThumbSelected():void
@@ -175,8 +174,14 @@ package com.allofus.holburne.learningzone.view.chapter.chapter05
 			super.showThumbSelected();
 			if(selectedThumbVO)
 			{
-				mpText.setAdditionalText(selectedThumbVO.additionalText);	
+				text.setAdditionalText(selectedThumbVO.additionalText);	
 			}
+		}
+		
+		override public function dispose():void
+		{
+			containerMc = null;
+			super.dispose();
 		}
 		
 	}

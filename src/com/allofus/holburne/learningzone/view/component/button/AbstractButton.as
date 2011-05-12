@@ -52,6 +52,7 @@ package com.allofus.holburne.learningzone.view.component.button
 		
 		public function dispose():void
 		{
+			vo = null;	
 			removeEventListener(Event.ADDED_TO_STAGE, handleAddedToStage);
 			removeEventListener(MouseEvent.MOUSE_DOWN, handleMouseDown);
 			if(stage)stage.removeEventListener(MouseEvent.MOUSE_UP, handleMouseUp);

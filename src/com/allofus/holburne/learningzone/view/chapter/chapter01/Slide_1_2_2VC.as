@@ -27,7 +27,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 	public class Slide_1_2_2VC extends ThumbnailImagesSlide
 	{
 		protected var containerMc:Slide_1_2_2;
-		protected var text:TextBoxWithTitleAndDescription;
 		
 		public function Slide_1_2_2VC()
 		{
@@ -96,16 +95,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			+	"<p class='imageCaption'>A365a</p>";
 			var vo10:ThumbnailVO = new ThumbnailVO(containerMc.t10, Img_1_2_2_10, st10);			
 			
-//			var st01:String = 
-//				"<p><span class='imageCaptionItalic'></span><span class='imageCaption'></span></p>"
-//			+	"<p class='imageCaption'></p>"
-//			+	"<p class='imageCaption'></p>"
-//			+	"<p class='imageCaption'></p>"
-//			+	"<p class='imageCaption'></p>"
-//			+	"<p class='imageCaption'></p>";
-//			var vo01:ThumbnailClickedVO = new ThumbnailClickedVO(containerMc.t1, Img_1_2_2_01, st01);
-
-			
 			thumbnailVOs = new <ThumbnailVO>[ vo01,vo02,vo03,vo04,vo05,vo06,vo07,vo08,vo09,vo10 ];
 			
 			enableThumbs();
@@ -133,12 +122,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 		
 		override public function dispose():void
 		{
-			removeChild(containerMc);
-			removeChild(largeImageContainer);
 			containerMc = null;
-			largeImageContainer = null;
-			thumbnailVOs.length = 0;
-			thumbnailVOs = null;
 			super.dispose();
 		}
 		

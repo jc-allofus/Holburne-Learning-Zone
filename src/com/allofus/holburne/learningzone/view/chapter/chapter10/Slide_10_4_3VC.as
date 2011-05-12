@@ -21,7 +21,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter10
 	public class Slide_10_4_3VC extends ThumbnailImagesSlide
 	{
 		protected var containerMc:Slide_10_4_3;
-		protected var mpText:TextBoxWithTitleAndDescription;
 
 		public function Slide_10_4_3VC()
 		{
@@ -104,19 +103,25 @@ package com.allofus.holburne.learningzone.view.chapter.chapter10
 //			+	"<p></p>"
 //			+	"<p class='justified'>paragraph2text</p>"
 //			;
-			mpText = new TextBoxWithTitleAndDescription(title, page1, AppGlobals.RIGHT_FRAME_WIDTH);
-			addChild(mpText);
-			positionInRightFrame(mpText);
-			mpText.y = AppGlobals.RIGHT_FRAME_Y;
-			mpText.visible = false;
-			mpText.alpha = 0;
+			text = new TextBoxWithTitleAndDescription(title, page1, AppGlobals.RIGHT_FRAME_WIDTH);
+			addChild(text);
+			positionInRightFrame(text);
+			text.y = AppGlobals.RIGHT_FRAME_Y;
+			text.visible = false;
+			text.alpha = 0;
 			
 			super();
 		}
 		
 		override public function transitionIn():void
 		{
-			staggerItemsIn(largeImageContainer,containerMc,mpText);
+			staggerItemsIn(largeImageContainer,containerMc,text);
+		}
+		
+		override public function dispose():void
+		{
+			containerMc = null;
+			super.dispose();
 		}
 		
 	}

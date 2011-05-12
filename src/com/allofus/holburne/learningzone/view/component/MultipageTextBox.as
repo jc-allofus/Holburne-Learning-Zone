@@ -160,6 +160,14 @@ package com.allofus.holburne.learningzone.view.component
 			if(pageDOs)
 				pageDOs.length = 0;
 				
+			if(decoration)
+				decoration.bitmapData.dispose();
+				
+			background = null;
+			glowShape = null;
+			pagesLayer = null;
+			titleField = null;
+				
 			while(numChildren >0)
 			{
 				removeChildAt(0);

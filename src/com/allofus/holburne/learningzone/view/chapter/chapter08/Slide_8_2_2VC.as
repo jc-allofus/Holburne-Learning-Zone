@@ -1,9 +1,8 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter08
 {
-	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
 	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.model.vo.ThumbnailVO;
-	import com.allofus.holburne.learningzone.view.component.MultipageTextBox;
+	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
 	import com.allofus.holburne.learningzone.view.component.ThumbnailImagesSlide;
 	import com.holburne.learningzone.swc.chapter8.Img_8_2_2_1;
 	import com.holburne.learningzone.swc.chapter8.Img_8_2_2_2;
@@ -19,7 +18,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter08
 	public class Slide_8_2_2VC extends ThumbnailImagesSlide
 	{
 		protected var containerMc:Slide_8_2_2;
-		protected var mpText:TextBoxWithTitleAndDescription;
 
 		public function Slide_8_2_2VC()
 		{
@@ -69,19 +67,25 @@ package com.allofus.holburne.learningzone.view.chapter.chapter08
 //			+	"<p class='justified'>paragraph2text</p>"
 			;
 			
-			mpText = new TextBoxWithTitleAndDescription(title, page1, AppGlobals.RIGHT_FRAME_WIDTH);
-			addChild(mpText);
-			positionInRightFrame(mpText);
-			mpText.y = AppGlobals.RIGHT_FRAME_Y;
-			mpText.visible = false;
-			mpText.alpha = 0;
+			text = new TextBoxWithTitleAndDescription(title, page1, AppGlobals.RIGHT_FRAME_WIDTH);
+			addChild(text);
+			positionInRightFrame(text);
+			text.y = AppGlobals.RIGHT_FRAME_Y;
+			text.visible = false;
+			text.alpha = 0;
 			
 			super();
 		}
 		
 		override public function transitionIn():void
 		{
-			staggerItemsIn(largeImageContainer,containerMc,mpText);
+			staggerItemsIn(largeImageContainer,containerMc,text);
+		}
+		
+		override public function dispose():void
+		{
+			containerMc = null;
+			super.dispose();
 		}
 		
 	}

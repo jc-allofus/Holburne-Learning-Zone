@@ -31,7 +31,6 @@ package com.allofus.holburne.learningzone.view.component
 		protected var decoration:Bitmap;
 		public var titleField:TextField;
 		public var bodyField:TextField;
-		public var additionalText:TextField;
 		public var additionalTextPanel:PopupPanel;
 		
 		public function TextBoxWithTitleAndDescription(title:String, body:String, targetWidth:Number = AppGlobals.RIGHT_FRAME_WIDTH, targetHeight:Number = NaN)
@@ -136,6 +135,31 @@ package com.allofus.holburne.learningzone.view.component
 		{
 			//TweenMax.to(this, AppGlobals.FADE_DURATION, {ease:AppGlobals.FADE_EASE, autoAlpha:1, glowFilter:AppGlobals.GLOW_ON, delay:delay});
 		}
+
+		public function dispose() : void
+		{
+			if(background)
+				background.graphics.clear();
+			background = null;
+			
+			if(glowShape)
+				glowShape.graphics.clear();
+			glowShape = null;
+			
+			if(decoration)
+				decoration.bitmapData.dispose();
+			decoration = null;
+			
+			titleField = null;
+			bodyField = null;
+			disposeAdditionalTextPanel();
+			
+			while(numChildren > 0)
+			{
+				removeChildAt(0);
+			}
+		}
+		
 		private static const logger:ILogger = GetLogger.qualifiedName( TextBoxWithTitleAndDescription );
 
 	}

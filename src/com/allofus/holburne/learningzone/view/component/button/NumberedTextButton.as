@@ -54,5 +54,21 @@ package com.allofus.holburne.learningzone.view.component.button
 			iconDown.visible = false;
 			TweenMax.to(label,0,{removeTint:true});
 		}
+		
+		override public function dispose():void
+		{
+			if(iconUp)
+				iconUp.bitmapData.dispose();
+			iconUp = null;
+			
+			if(iconDown)
+				iconDown.bitmapData.dispose();
+			iconDown = null;
+			
+			iconLabel = null;
+			label = null;
+			
+			super.dispose();
+		}
 	}
 }

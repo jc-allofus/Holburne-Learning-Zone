@@ -129,11 +129,6 @@ package com.allofus.holburne.learningzone.view.component
 				captionTimeline = null;
 			}
 			
-			while (numChildren > 0)
-			{
-				removeChildAt(0);
-			}
-			
 			if(img)
 			{
 				if(img is Bitmap)
@@ -146,6 +141,11 @@ package com.allofus.holburne.learningzone.view.component
 			_captionLabel = null;
 			img = null;
 			border = null;
+			
+			while (numChildren > 0)
+			{
+				removeChildAt(0);
+			}
 		}
 		
 		private static const logger:ILogger = GetLogger.qualifiedName( ImageWithBorderAndCaption );

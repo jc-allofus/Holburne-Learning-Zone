@@ -4,13 +4,10 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 	import com.allofus.holburne.learningzone.model.vo.ThumbnailVO;
 	import com.allofus.holburne.learningzone.view.component.MultipageTextBox;
 	import com.allofus.holburne.learningzone.view.component.ThumbnailImagesSlide;
-	import com.allofus.shared.logging.GetLogger;
 	import com.holburne.learningzone.chapter3.Img_3_2_4_1;
 	import com.holburne.learningzone.chapter3.Img_3_2_4_2;
 	import com.holburne.learningzone.chapter3.Img_3_2_4_3;
 	import com.holburne.learningzone.swcassets.chapter3.Slide_3_2_4;
-
-	import mx.logging.ILogger;
 
 	import flash.display.Sprite;
 
@@ -83,8 +80,14 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 			staggerItemsIn(largeImageContainer,containerMc,mpText);
 		}
 		
-		//override protected function staggerInComplete():void{containerMc.t1.alpha = containerMc.t2.alpha = containerMc.t3.alpha = 0;}
-		
-		private static const logger:ILogger = GetLogger.qualifiedName( Slide_3_2_4VC );
+		override public function dispose():void
+		{
+			containerMc = null;
+			
+			if(mpText)
+				mpText.dispose();
+			
+			super.dispose();
+		}
 	}
 }

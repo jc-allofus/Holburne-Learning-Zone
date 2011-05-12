@@ -22,7 +22,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 	public class Slide_2_2_3VC extends ThumbnailImagesSlide
 	{
 		protected var containerMc:Slide_2_2_3;
-		protected var text:TextBoxWithTitleAndDescription;
 		
 		public function Slide_2_2_3VC()
 		{
@@ -126,6 +125,12 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			{
 				text.setAdditionalText(selectedThumbVO.additionalText);	
 			}
-		}		
+		}
+		
+		override public function dispose():void
+		{
+			containerMc = null;
+			super.dispose();
+		}	
 	}
 }

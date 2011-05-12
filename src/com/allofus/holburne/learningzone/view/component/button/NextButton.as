@@ -41,5 +41,18 @@ package com.allofus.holburne.learningzone.view.component.button
 			upSkin.visible = true;
 			downSkin.visible = false;
 		}
+		
+		override public function dispose():void
+		{
+			if(upSkin)
+				upSkin.bitmapData.dispose();
+			upSkin = null;
+			
+			if(downSkin)
+				downSkin.bitmapData.dispose();
+			downSkin = null;
+			
+			super.dispose();
+		}
 	}
 }

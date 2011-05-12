@@ -23,7 +23,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 	public class Slide_2_2_1VC extends ThumbnailImagesSlide
 	{
 		protected var containerMc:Slide_2_2_1;
-		protected var text:TextBoxWithTitleAndDescription;
 		
 		public function Slide_2_2_1VC()
 		{
@@ -114,6 +113,11 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			}
 		}
 		
+		override public function dispose():void
+		{
+			containerMc = null;
+			super.dispose();
+		}
 		private static const logger:ILogger = GetLogger.qualifiedName( Slide_2_2_1VC );
 	}
 }

@@ -18,7 +18,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 	{
 		
 		protected var containerMc:Slide_2_3_3;
-		protected var text:TextBoxWithTitleAndDescription;
 		
 		public function Slide_2_3_3VC()
 		{
@@ -75,12 +74,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 		
 		override public function dispose():void
 		{
-			removeChild(containerMc);
-			removeChild(largeImageContainer);
 			containerMc = null;
-			largeImageContainer = null;
-			thumbnailVOs.length = 0;
-			thumbnailVOs = null;
 			super.dispose();
 		}
 	}

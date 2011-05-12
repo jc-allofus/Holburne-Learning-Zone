@@ -67,6 +67,8 @@ package com.allofus.holburne.learningzone.view.chapter.chapter08
 		protected function removePossibleAnswers():void
 		{
 			removeListeners();
+			if(!possibleAnswersContainer)
+				return;
 			while(possibleAnswersContainer.numChildren > 0)
 			{
 				possibleAnswersContainer.removeChildAt(0);

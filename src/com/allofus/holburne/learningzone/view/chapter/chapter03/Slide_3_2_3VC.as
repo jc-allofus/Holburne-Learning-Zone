@@ -159,7 +159,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 				
 			resultsTween = new TimelineMax();
 			resultsTween.append(new TweenMax(bg.titleField, AppGlobals.FADE_DURATION, {autoAlpha:1, ease:AppGlobals.FADE_EASE}));
-			resultsTween.insert(new TweenMax(pressed, AppGlobals.FADE_DURATION, {autoAlpha:0, ease:AppGlobals.FADE_EASE}));
 			resultsTween.insert(new TweenMax(bg.bodyField, AppGlobals.FADE_DURATION, {autoAlpha:0, ease:AppGlobals.FADE_EASE}));
 			for (var i : int = 0; i < thumbs.length; i++) 
 			{
@@ -197,9 +196,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 			super.dispose();
 		}
 		
-		
-		
 		private static const logger:ILogger = GetLogger.qualifiedName( Slide_3_2_3VC );
-		
 	}
 }

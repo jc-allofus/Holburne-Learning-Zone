@@ -25,7 +25,9 @@ package com.allofus.holburne.learningzone.view.component
 		protected var _selectedThumb:MovieClip;
 		protected var _selectedThumbVO:ThumbnailVO;
 		protected var thumbnailVOs:Vector.<ThumbnailVO>;
+		protected var largeImage:ImageWithBorderAndCaption;
 		protected var largeImageContainer:Sprite;
+		protected var text:TextBoxWithTitleAndDescription;
 		
 		public function ThumbnailImagesSlide()
 		{
@@ -87,15 +89,14 @@ package com.allofus.holburne.learningzone.view.component
 				if (_selectedThumb === thumbnailVOs[i].thumbnail)
 				{
 					clearLargeImages();
-					//var img:MovieClip = new thumbnailVOs[i].largeImageClassRef() as MovieClip;
 					var bmd:BitmapData = new thumbnailVOs[i].largeImageClassRef(0,0) as BitmapData;
-					var img:ImageWithBorderAndCaption = new ImageWithBorderAndCaption(new Bitmap(bmd), thumbnailVOs[i].caption);
-					var pt:Point = PositionUtil.getPositionInLeftFrame(img);
-					img.showCaption(false);
-					img.x = pt.x;
-					img.y = pt.y;
-					largeImageContainer.addChild(img);
-					TweenMax.from(img, AppGlobals.FADE_DURATION, {alpha:0, ease:AppGlobals.FADE_EASE});
+					largeImage = new ImageWithBorderAndCaption(new Bitmap(bmd), thumbnailVOs[i].caption);
+					var pt:Point = PositionUtil.getPositionInLeftFrame(largeImage);
+					largeImage.showCaption(false);
+					largeImage.x = pt.x;
+					largeImage.y = pt.y;
+					largeImageContainer.addChild(largeImage);
+					TweenMax.from(largeImage, AppGlobals.FADE_DURATION, {alpha:0, ease:AppGlobals.FADE_EASE});
 					return;
 				}
 			}
@@ -133,13 +134,22 @@ package com.allofus.holburne.learningzone.view.component
 		
 		override public function dispose():void
 		{
+			logger.warn("disposing: " + this);
 			disableThumbs();
 			if(thumbnailVOs)
-			{
 				thumbnailVOs.length = 0;
-			}
+			
+			if(text)
+				text.dispose();	
+			text = null;
+			
+			if(largeImage)
+				largeImage.dispose();
+			largeImage = null;
+			
 			thumbnailVOs = null;
 			_selectedThumb = null;
+			_selectedThumbVO = null;
 			largeImageContainer = null;
 			super.dispose();	
 		}

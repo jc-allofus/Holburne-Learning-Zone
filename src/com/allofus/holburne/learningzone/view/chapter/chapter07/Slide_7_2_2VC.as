@@ -21,7 +21,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter07
 	public class Slide_7_2_2VC extends ThumbnailImagesSlide
 	{
 		protected var containerMc:Slide_7_2_2;
-		protected var mpText:TextBoxWithTitleAndDescription;
 
 		public function Slide_7_2_2VC()
 		{
@@ -93,19 +92,25 @@ package com.allofus.holburne.learningzone.view.chapter.chapter07
 			+	"<p class='justified'>All three artists, as well as Romanelli, were followers of the Renaissance master Raphael (1483-1520). They favoured the elegant classical style and restrained drama that Raphael developed a century earlier, preferring it to the more mannered and theatrical styles that had developed since his death.  Romanelli’s work was considered so similar to Raphael’s that he was known as ‘Il Raffaelino’.</p>"
 			;
 			
-			mpText = new TextBoxWithTitleAndDescription(title, page1, AppGlobals.RIGHT_FRAME_WIDTH);
-			addChild(mpText);
-			positionInRightFrame(mpText);
-			mpText.y = AppGlobals.RIGHT_FRAME_Y;
-			mpText.visible = false;
-			mpText.alpha = 0;
+			text = new TextBoxWithTitleAndDescription(title, page1, AppGlobals.RIGHT_FRAME_WIDTH);
+			addChild(text);
+			positionInRightFrame(text);
+			text.y = AppGlobals.RIGHT_FRAME_Y;
+			text.visible = false;
+			text.alpha = 0;
 			
 			super();
 		}
 		
 		override public function transitionIn():void
 		{
-			staggerItemsIn(largeImageContainer,containerMc,mpText);
+			staggerItemsIn(largeImageContainer,containerMc,text);
+		}
+		
+		override public function dispose():void
+		{
+			containerMc = null;
+			super.dispose();
 		}
 		
 	}

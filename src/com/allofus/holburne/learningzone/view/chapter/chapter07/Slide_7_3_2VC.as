@@ -18,7 +18,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter07
 	public class Slide_7_3_2VC extends ThumbnailImagesSlide
 	{
 		protected var containerMc:Slide_7_3_2;
-		protected var mpText:TextBoxWithTitleAndDescription;
 
 		public function Slide_7_3_2VC()
 		{
@@ -68,19 +67,19 @@ package com.allofus.holburne.learningzone.view.chapter.chapter07
 //			+	"<p class='justified'>paragraph2text</p>"
 			;
 			
-			mpText = new TextBoxWithTitleAndDescription(title, page1, AppGlobals.RIGHT_FRAME_WIDTH);
-			addChild(mpText);
-			positionInRightFrame(mpText);
-			mpText.y = AppGlobals.RIGHT_FRAME_Y;
-			mpText.visible = false;
-			mpText.alpha = 0;
+			text = new TextBoxWithTitleAndDescription(title, page1, AppGlobals.RIGHT_FRAME_WIDTH);
+			addChild(text);
+			positionInRightFrame(text);
+			text.y = AppGlobals.RIGHT_FRAME_Y;
+			text.visible = false;
+			text.alpha = 0;
 			
 			super();
 		}
 		
 		override public function transitionIn():void
 		{
-			staggerItemsIn(largeImageContainer,containerMc,mpText);
+			staggerItemsIn(largeImageContainer,containerMc,text);
 		}
 		
 		override protected function showThumbSelected():void
@@ -88,8 +87,14 @@ package com.allofus.holburne.learningzone.view.chapter.chapter07
 			super.showThumbSelected();
 			if(selectedThumbVO)
 			{
-				mpText.setAdditionalText(selectedThumbVO.additionalText);	
+				text.setAdditionalText(selectedThumbVO.additionalText);	
 			}
+		}
+		
+		override public function dispose():void
+		{
+			containerMc = null;
+			super.dispose();
 		}
 		
 	}
