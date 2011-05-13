@@ -1,13 +1,17 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter02
 {
+	import com.allofus.holburne.learningzone.guiassets.HotspotZoneTarget;
 	import com.allofus.holburne.learningzone.model.vo.HotspotPinVO;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
 	import com.allofus.holburne.learningzone.view.component.HotspotPin;
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
 	import com.allofus.holburne.learningzone.view.component.SingleImageWithHotspotsSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
+	import com.allofus.shared.logging.GetLogger;
 	import com.holburne.learningzone.chapter2.Slide_2_3_1;
 	import com.holburne.learningzone.swc.chapter2.Chap2IntroImage;
+
+	import mx.logging.ILogger;
 
 	import flash.display.Bitmap;
 
@@ -68,5 +72,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 		{
 			staggerItemsIn(img,text); 
 		}
+		
+		private static const logger:ILogger = GetLogger.qualifiedName( Slide_2_3_1VC );
 	}
 }

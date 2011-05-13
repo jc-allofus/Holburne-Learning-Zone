@@ -4,6 +4,7 @@ package com.allofus.holburne.learningzone.view.component
 
 	import mx.logging.ILogger;
 
+	import flash.display.Bitmap;
 	import flash.display.DisplayObject;
 	import flash.display.Shape;
 	import flash.display.Sprite;
@@ -104,10 +105,21 @@ package com.allofus.holburne.learningzone.view.component
 
 		public function dispose() : void
 		{
+			logger.fatal("disposing swipe: " + this);
 			if(stage)stage.removeEventListener(MouseEvent.MOUSE_UP, stopDragging);
 			removeEventListener(MouseEvent.MOUSE_DOWN, startDragging);
 			removeEventListener(Event.ENTER_FRAME, updateTargetX);
 				
+			if(imgBefore is Bitmap)
+				(imgBefore as Bitmap).bitmapData.dispose();
+			imgBefore = null;
+			imgBeforeMask = null;
+			
+			if(imgAfter is Bitmap)
+				(imgAfter as Bitmap).bitmapData.dispose();
+			imgAfter = null;
+			imgAfterMask = null;
+			
 			while (numChildren > 0)
 			{
 				removeChildAt(0);

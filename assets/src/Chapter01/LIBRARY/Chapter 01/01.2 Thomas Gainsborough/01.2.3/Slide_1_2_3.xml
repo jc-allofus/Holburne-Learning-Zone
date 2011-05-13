@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.2 Thomas Gainsborough/01.2.3/Slide_1_2_3" itemID="4d88a166-00000297" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_2_3" sourceLibraryItemHRef="Chapter 01/01.2 Thomas Gainsborough/01.2.2/Slide_1_2_2 copy" lastModified="1302689041" lastUniqueIdentifier="15">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.2 Thomas Gainsborough/01.2.3/Slide_1_2_3" itemID="4d88a166-00000297" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_2_3" sourceLibraryItemHRef="Chapter 01/01.2 Thomas Gainsborough/01.2.2/Slide_1_2_2 copy" lastModified="1305287401" lastUniqueIdentifier="15">
   <timeline>
     <DOMTimeline name="Slide_1_2_3">
       <layers>
@@ -70,7 +70,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMStaticText selected="true" width="380.5" height="88" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="380.5" height="88" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="279.1" ty="751.15"/>
                   </matrix>
@@ -95,6 +95,14 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="HotspotZoneTarget" name="t11" selected="true" centerPoint3DX="306.6" centerPoint3DY="409.45">
+                  <matrix>
+                    <Matrix d="2.45130920410156" tx="285.15" ty="356.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21.45" y="21.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

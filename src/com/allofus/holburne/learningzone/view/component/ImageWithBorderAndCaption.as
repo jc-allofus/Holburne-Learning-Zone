@@ -132,7 +132,10 @@ package com.allofus.holburne.learningzone.view.component
 			if(img)
 			{
 				if(img is Bitmap)
+				{
+					logger.info("disposing bmd");
 					(img as Bitmap).bitmapData.dispose();
+				}
 					
 				if(img is BeforeAndAfterSwipeWithCaption)
 					(img as BeforeAndAfterSwipeWithCaption).dispose();

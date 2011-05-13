@@ -111,6 +111,10 @@
         <policy-file-url>http://fpdownload.adobe.com/pub/swz/crossdomain.xml</policy-file-url>
         <rsl-url>textLayout_1.0.0.595.swz</rsl-url>
       </library-path-entry>
+      <library-path-entry>
+        <swc-path>../../lib/swc/GuiAssets.swc</swc-path>
+        <linkage>merge</linkage>
+      </library-path-entry>
     </LibraryPath>
     <LibraryVersions>
       <library-version>

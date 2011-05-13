@@ -63,7 +63,6 @@ package com.allofus.holburne.learningzone.view.component.button
 		
 		override public function dispose():void
 		{
-			super.dispose();
 			
 			menuTab.bitmapData.dispose();
 			menuTabSelected.bitmapData.dispose();
@@ -73,6 +72,10 @@ package com.allofus.holburne.learningzone.view.component.button
 			menuTabSelected = null;
 			menuTabClicked = null;
 			label = null;
+			
+			panel = null;
+			
+			super.dispose();
 		}
 		
 		override public function set selected(value:Boolean):void

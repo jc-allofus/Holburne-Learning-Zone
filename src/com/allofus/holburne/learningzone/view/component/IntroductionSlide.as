@@ -2,10 +2,13 @@ package com.allofus.holburne.learningzone.view.component
 {
 	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.view.chapter.AbstractSlide;
+	import com.allofus.shared.logging.GetLogger;
 	import com.allofus.shared.util.PositionUtil;
 	import com.greensock.TimelineMax;
 	import com.greensock.TweenAlign;
 	import com.greensock.TweenMax;
+
+	import mx.logging.ILogger;
 
 	import flash.geom.Point;
 
@@ -63,10 +66,19 @@ package com.allofus.holburne.learningzone.view.component
 		
 		override public function dispose():void
 		{
-			if(transition)transition.clear();
+			logger.fatal("dispose intro slide: " + this);
+				
+			if(img)
+				img.dispose();
+				
+			if(text)
+				text.dispose();
+				
 			img = null;
 			text = null;
 			super.dispose();
 		}
+		
+		private static const logger:ILogger = GetLogger.qualifiedName( IntroductionSlide );
 	}
 }

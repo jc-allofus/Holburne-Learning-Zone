@@ -47,6 +47,7 @@ package com.allofus.holburne.learningzone.view.chapter
 			if(clazz)
 			{
 				abs = new clazz() as AbstractSlide;
+				oldSlides.push(abs);
 			}
 			else
 			{
@@ -74,11 +75,10 @@ package com.allofus.holburne.learningzone.view.chapter
 		{
 			//logger.info("showSlide: " + slideId);
 			
-			//if we already have a slide visible, transition him out & add him to old slides array
+			//if we already have a slide visible, transition him out 
 			if(_currentSelected)
 			{
 				_currentSelected.addEventListener(Event.COMPLETE, cleanupOldSlides);
-				oldSlides.push(_currentSelected);
 				_currentSelected.transitionOut();
 				_currentSelected = null;
 			}
@@ -99,21 +99,42 @@ package com.allofus.holburne.learningzone.view.chapter
 		public function cleanupOldSlides(event:Event = null):void
 		{
 			var slide:AbstractSlide;
+			
+			logger.debug("--oldSlides: " + oldSlides);
 			for (var i : int = 0; i < oldSlides.length; i++) 
 			{
 				slide = oldSlides[i];
-				//logger.debug("cleaning up: " + slide);
+				if(slide == _currentSelected)
+					continue;
+				logger.debug("cleaning up: " + slide);
 				slide.removeEventListener(Event.COMPLETE, cleanupOldSlides);
 				slide.dispose();
 				if(contains(slide))removeChild(slide);
 				oldSlides[i] = null;
+				oldSlides.splice(i, 1);
+				i--;
 			}
-			oldSlides.length = 0;
 		}
 
 		public function dispose() : void
 		{
+			logger.fatal("disposeing chapter__________" + this);
+			_chapterVO = null;
+			_currentSelected = null;
 			removeEventListener(Event.ADDED_TO_STAGE, initChapter);
+			cleanupOldSlides();
+			
+			for (var key:String in slides)
+			{
+				slides[key] = null;
+				delete slides[key];
+			}
+			slides = null;
+			
+			if(oldSlides)
+				oldSlides.length = 0;
+			
+			oldSlides = null;
 		}
 		
 		public function close():void

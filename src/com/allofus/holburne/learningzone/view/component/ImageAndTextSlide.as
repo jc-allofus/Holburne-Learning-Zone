@@ -1,6 +1,9 @@
 package com.allofus.holburne.learningzone.view.component
 {
 	import com.allofus.holburne.learningzone.view.chapter.AbstractSlide;
+	import com.allofus.shared.logging.GetLogger;
+
+	import mx.logging.ILogger;
 	/**
 	 * @author jc
 	 */
@@ -30,9 +33,19 @@ package com.allofus.holburne.learningzone.view.component
 		
 		override public function dispose():void
 		{
+			logger.fatal("dispose image and text slide: " + this);
+			
+			if(img)
+				img.dispose();
+				
+			if(text)
+				text.dispose();
+				
 			img = null;
 			text = null;
 			super.dispose();
 		}
+		
+		private static const logger:ILogger = GetLogger.qualifiedName( ImageAndTextSlide );
 	}
 }

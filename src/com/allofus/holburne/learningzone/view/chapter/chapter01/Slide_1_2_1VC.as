@@ -5,13 +5,11 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
 	import com.allofus.holburne.learningzone.view.component.MultipageTextBox;
 	import com.allofus.shared.logging.GetLogger;
-	import com.allofus.shared.util.PositionUtil;
 	import com.holburne.learningzone.swc.chapter1.Slide_1_2_1_bm;
 
 	import mx.logging.ILogger;
 
 	import flash.display.Bitmap;
-	import flash.geom.Point;
 
 	/**
 	 * @author jc

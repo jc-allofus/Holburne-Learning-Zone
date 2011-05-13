@@ -115,7 +115,7 @@ package com.allofus.holburne.learningzone.view.component
 			{
 				child = largeImageContainer.getChildAt(0);
 				TweenMax.killTweensOf(child);
-				largeImageContainer.removeChild(child);
+				largeImageContainer.removeChildAt(0);
 			}
 		}
 		
@@ -134,7 +134,6 @@ package com.allofus.holburne.learningzone.view.component
 		
 		override public function dispose():void
 		{
-			logger.warn("disposing: " + this);
 			disableThumbs();
 			if(thumbnailVOs)
 				thumbnailVOs.length = 0;

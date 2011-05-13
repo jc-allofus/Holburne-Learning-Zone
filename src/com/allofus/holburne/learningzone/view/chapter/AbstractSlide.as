@@ -105,6 +105,13 @@ package com.allofus.holburne.learningzone.view.chapter
 		
 		public function dispose():void
 		{
+			if(transition)
+			{
+				transition.clear();
+				transition.kill();
+			}
+			transition = null;
+			
 			while(numChildren > 0)
 			{
 				removeChildAt(0);

@@ -21,7 +21,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 		protected var img:ImageWithBorderAndCaption;
 		protected var text:TextBoxWithTitleAndDescription;
 		
-		
 		public function Slide_2_4_3VC()
 		{
 			
@@ -69,8 +68,12 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 		
 		override public function dispose():void
 		{
-			img.dispose();
+			if(img)
+				img.dispose();
 			img = null;
+
+			if(text)
+				text.dispose();				
 			text = null;
 			super.dispose();
 		}

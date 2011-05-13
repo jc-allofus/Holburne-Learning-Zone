@@ -44,7 +44,6 @@ package com.allofus.holburne.learningzone.controller.startup
 			mainView.homepageLayer.addChild(new HomepageSingleClickVC());
 
 			mainView.blankOutLayer.addChild(new BlankOutVC());
-			//mainView.frameBorderLayer.addChild(new FrameVC());
 			mainView.debugLayer.addChild(new DebugVC());
 			
 			mainView.debugLayer.mouseEnabled = mainView.backgroundLayer.mouseEnabled = mainView.frameBorderLayer.mouseEnabled = false;

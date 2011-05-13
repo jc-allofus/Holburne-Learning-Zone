@@ -246,12 +246,12 @@ package com.allofus.holburne.learningzone.view.menu
 		
 		public function dispose():void
 		{
-			currentSelectedMainButton = null;
-			
+			logger.error("disposing chapter menu.");
 			homeButton.removeEventListener(MouseEvent.CLICK, handleClose);
 			homeButton.dispose();
 			homeButton = null;
 			
+			currentSelectedMainButton = null;
 			for (var i : int = 0; i < sectionButtonDOs.length; i++) 
 			{
 				sectionButtonDOs[i].removeEventListener(MouseEvent.CLICK, handleMenuButtonClicked);
@@ -260,12 +260,29 @@ package com.allofus.holburne.learningzone.view.menu
 			sectionButtonDOs.length = 0;
 			sectionButtonDOs = null;
 			
-			for (var j : int = 0; j < subMenuPanelLayer.numChildren; j++) 
+			while(sectionButtonLayer.numChildren>0)
 			{
-				var panel:MenuPanelVC = subMenuPanelLayer.getChildAt(j) as MenuPanelVC;
-				if(panel)panel.dispose();	
+				sectionButtonLayer.removeChildAt(0);
+			}
+			
+
+			currentSelectedPanel = null;
+			while (subMenuPanelLayer.numChildren > 0)
+			{
+				var panel:MenuPanelVC = subMenuPanelLayer.getChildAt(0) as MenuPanelVC;
+				if(panel)
+					panel.dispose();
+				subMenuPanelLayer.removeChildAt(0);
 			}
 			subMenuPanelLayer = null;
+			
+			if(transition)
+			{
+				transition.kill();
+				transition.clear();
+			}
+			transition = null;
+			
 			
 			while(numChildren > 0)
 			{

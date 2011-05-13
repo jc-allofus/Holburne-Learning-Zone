@@ -14,7 +14,6 @@ package com.allofus.holburne.learningzone.view.debug
 	 */
 	public class DebugVC extends Sprite
 	{
-		protected var stats:Stats;
 		protected var leftContentFrame:Shape;
 		protected var rightContentFrame:Shape;
 		protected var mousePosLabel:Label;
@@ -23,8 +22,8 @@ package com.allofus.holburne.learningzone.view.debug
 		{
 			visible = false;
 			
-			stats = new Stats();
-			addChild(stats);
+			
+			//addChild(new Stats());
 			
 			mouseEnabled = false;
 			mouseChildren = false;

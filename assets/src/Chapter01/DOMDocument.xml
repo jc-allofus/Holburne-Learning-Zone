@@ -7,7 +7,7 @@
           <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2" itemID="4d88a081-0000026e"/>
           <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_large" itemID="4da488e7-00000445" isExpanded="true"/>
           <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_small" itemID="4da488eb-00000446"/>
-          <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.3" itemID="4d88a094-00000272"/>
+          <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.3" itemID="4d88a094-00000272" isExpanded="true"/>
           <DOMFolderItem name="Chapter 01/01.2 Thomas Gainsborough/01.2.4" itemID="4d88a09b-00000276"/>
           <DOMFolderItem name="Chapter 01/01.3 The Byam Family" itemID="4d9b2532-000002b4"/>
           <DOMFolderItem name="Chapter 01/01.4 The Painting" itemID="4d88a236-000002ad" isExpanded="true"/>
@@ -70,6 +70,7 @@
           <Include href="Chapter 01/01.4 The Painting/01.4.1/Slide_1_4_1.xml"/>
           <Include href="Chapter 01/Chapter 1 stage reference.xml" loadImmediate="false"/>
           <Include href="Chapter 01/TheFamily.xml" loadImmediate="false"/>
+          <Include href="HotspotZoneTarget.xml"/>
           <Include href="PinTarget.xml" loadImmediate="false"/>
      </symbols>
      <timelines>
@@ -388,6 +389,11 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="1334445" publishTime="1305287402"/>
+          <PublishItem publishSize="1334440" publishTime="1305287003"/>
+          <PublishItem publishSize="1334238" publishTime="1305285868"/>
+          <PublishItem publishSize="1334235" publishTime="1305285864"/>
+          <PublishItem publishSize="1334238" publishTime="1305285073"/>
           <PublishItem publishSize="1334118" publishTime="1304441686"/>
           <PublishItem publishSize="1205320" publishTime="1302692671"/>
           <PublishItem publishSize="1205299" publishTime="1302692085"/>
@@ -403,10 +409,5 @@
           <PublishItem publishSize="887762" publishTime="1302019041"/>
           <PublishItem publishSize="887767" publishTime="1302019028"/>
           <PublishItem publishSize="887763" publishTime="1302018415"/>
-          <PublishItem publishSize="887762" publishTime="1302017635"/>
-          <PublishItem publishSize="887766" publishTime="1302017567"/>
-          <PublishItem publishSize="887762" publishTime="1302017484"/>
-          <PublishItem publishSize="887762" publishTime="1302017072"/>
-          <PublishItem publishSize="887640" publishTime="1302015551"/>
      </publishHistory>
 </DOMDocument>

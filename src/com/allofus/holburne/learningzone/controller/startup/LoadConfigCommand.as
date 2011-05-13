@@ -5,7 +5,6 @@ package com.allofus.holburne.learningzone.controller.startup
 	import com.allofus.holburne.learningzone.events.ApplicationStatusEvent;
 	import com.allofus.holburne.learningzone.model.ConfigProxy;
 	import com.allofus.shared.logging.GetLogger;
-	import com.allofus.shared.text.FontManager;
 
 	import org.robotlegs.mvcs.Command;
 	import org.robotlegs.utilities.statemachine.StateEvent;
@@ -13,7 +12,6 @@ package com.allofus.holburne.learningzone.controller.startup
 	import mx.logging.ILogger;
 
 	import flash.events.Event;
-	import flash.text.StyleSheet;
 	/**
 	 * @author jc
 	 */

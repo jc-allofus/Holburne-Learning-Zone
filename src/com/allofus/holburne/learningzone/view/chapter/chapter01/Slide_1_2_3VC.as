@@ -1,5 +1,6 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter01
 {
+	import com.allofus.holburne.learningzone.guiassets.HotspotZoneTarget;
 	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.model.vo.HotspotPinVO;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
@@ -21,8 +22,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 		public function Slide_1_2_3VC()
 		{
 			containerMC = new Slide_1_2_3();
-			containerMC.alpha = 0;
-			addChild(containerMC);
 			
 			pins = new Vector.<HotspotPin>();
 			

@@ -118,7 +118,7 @@ package com.allofus.holburne.learningzone.view.component
 				p = popupPanelLayer.getChildAt(0) as PopupPanel;
 				p.dispose();
 				p.removeEventListener(Event.CLOSING, deselectAllPins);
-				popupPanelLayer.removeChildAt(0); //faster than removing by reference
+				popupPanelLayer.removeChildAt(0);
 			}
 		}
 		
@@ -140,6 +140,9 @@ package com.allofus.holburne.learningzone.view.component
 			
 			if(img)
 				img.dispose();
+				
+			if(text)
+				text.dispose();
 				
 			img = null;
 			text = null;

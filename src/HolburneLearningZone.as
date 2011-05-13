@@ -1,5 +1,6 @@
 package
 {
+	import nl.demonsters.debugger.MonsterDebugger;
 	import com.allofus.shared.logging.GetLogger;
 	import com.allofus.shared.logging.LogWriter;
 	import com.allofus.shared.logging.MonsterDebuggerTarget;
@@ -43,6 +44,7 @@ package
 		public var chapterMenuLayer:Sprite;
 		public var splashScreenLayer:Sprite;
 		public var debugLayer:Sprite;
+		protected var md:MonsterDebugger;
 		
 		protected var _mouseVisible:Boolean = false;
 		
@@ -72,12 +74,14 @@ package
 		
 		protected function initializeMonsterDebuggerLogging():void
 		{
-			var monsterTarget : MonsterDebuggerTarget = new MonsterDebuggerTarget(this);
-			monsterTarget.includeCategory = true;
-			monsterTarget.includeDate = false;
-			monsterTarget.includeLevel = true;
-			monsterTarget.includeTime = false;
-			Log.addTarget(monsterTarget);
+			//md = new MonsterDebugger(this);
+//			var monsterTarget : MonsterDebuggerTarget = new MonsterDebuggerTarget(this);
+//			monsterTarget.includeCategory = true;
+//			monsterTarget.includeDate = false;
+//			monsterTarget.includeLevel = true;
+//			monsterTarget.includeTime = false;
+//			Log.addTarget(monsterTarget);
+			
 		}		
 		
 		protected function initializeSOSLogging() : void
