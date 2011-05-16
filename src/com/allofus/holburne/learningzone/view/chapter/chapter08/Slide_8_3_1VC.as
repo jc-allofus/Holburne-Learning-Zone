@@ -6,6 +6,11 @@ package com.allofus.holburne.learningzone.view.chapter.chapter08
 	import com.allofus.holburne.learningzone.view.component.SingleImageWithHotspotsSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
 	import com.holburne.learningzone.swc.chapter8.Img_8_1;
+	import com.holburne.learningzone.swc.chapter8.Img_8_3_1_1;
+	import com.holburne.learningzone.swc.chapter8.Img_8_3_1_2;
+	import com.holburne.learningzone.swc.chapter8.Img_8_3_1_3;
+	import com.holburne.learningzone.swc.chapter8.Img_8_3_1_4;
+	import com.holburne.learningzone.swc.chapter8.Img_8_3_1_5;
 	import com.holburne.learningzone.swc.chapter8.Slide_8_3_1;
 
 	import flash.display.Bitmap;
@@ -47,11 +52,11 @@ package com.allofus.holburne.learningzone.view.chapter.chapter08
 			var str5:String = "<p>Roman soldier, in charge of law and order</p>";
 			
 			pinVOs = new <HotspotButtonVO>[
-				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1)),
-				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2)),
-				new HotspotButtonVO(containerMC.t3, new PopupPanelVO(str3)),
-				new HotspotButtonVO(containerMC.t4, new PopupPanelVO(str4)),
-				new HotspotButtonVO(containerMC.t5, new PopupPanelVO(str5))
+				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1, Img_8_3_1_1)),
+				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2, Img_8_3_1_2)),
+				new HotspotButtonVO(containerMC.t3, new PopupPanelVO(str3, Img_8_3_1_3)),
+				new HotspotButtonVO(containerMC.t4, new PopupPanelVO(str4, Img_8_3_1_4)),
+				new HotspotButtonVO(containerMC.t5, new PopupPanelVO(str5, Img_8_3_1_5))
 			];
 			
 			var title:String ="Who’s Who?";

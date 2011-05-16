@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.2 Thomas Gainsborough/01.2.3/Slide_1_2_3" itemID="4d88a166-00000297" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_2_3" sourceLibraryItemHRef="Chapter 01/01.2 Thomas Gainsborough/01.2.2/Slide_1_2_2 copy" lastModified="1305304061" lastUniqueIdentifier="17">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.2 Thomas Gainsborough/01.2.3/Slide_1_2_3" itemID="4d88a166-00000297" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_2_3" sourceLibraryItemHRef="Chapter 01/01.2 Thomas Gainsborough/01.2.2/Slide_1_2_2 copy" lastModified="1305555202" lastUniqueIdentifier="17">
   <timeline>
     <DOMTimeline name="Slide_1_2_3">
       <layers>
@@ -60,14 +60,6 @@
                   </matrix>
                   <transformationPoint>
                     <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="HotspotZoneTarget" name="t11" centerPoint3DX="365" centerPoint3DY="287">
-                  <matrix>
-                    <Matrix tx="340" ty="262"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="25" y="25"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>

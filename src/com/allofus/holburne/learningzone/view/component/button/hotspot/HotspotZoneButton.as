@@ -95,7 +95,7 @@ package com.allofus.holburne.learningzone.view.component.button.hotspot
 				snapshot.bitmapData.dispose();
 				
 			if(outline)
-				outline.graphics.clear;
+				outline.graphics.clear();
 				
 			_vo = null;
 			rect = null;

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 04/04.3/04.3.3/Slide_4_3_3" itemID="4da87a9f-000004f0" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter4.Slide_4_3_3" sourceLibraryItemHRef="Chapter 04/04.3/04.3.2/Slide_4_3_2 copy" lastModified="1302887629" lastUniqueIdentifier="24">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 04/04.3/04.3.3/Slide_4_3_3" itemID="4da87a9f-000004f0" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter4.Slide_4_3_3" sourceLibraryItemHRef="Chapter 04/04.3/04.3.2/Slide_4_3_2 copy" lastModified="1305561474" lastUniqueIdentifier="24">
   <timeline>
     <DOMTimeline name="Slide_4_3_3">
       <layers>
@@ -6,33 +6,33 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="t1" centerPoint3DX="577.95" centerPoint3DY="224.45">
+                <DOMSymbolInstance libraryItemName="ZoneTarget" name="t1" centerPoint3DX="401" centerPoint3DY="440.45">
                   <matrix>
-                    <Matrix tx="577.95" ty="224.45"/>
+                    <Matrix tx="401" ty="440.45"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="t2" centerPoint3DX="496.95" centerPoint3DY="278.45">
+                <DOMSymbolInstance libraryItemName="ZoneTarget" name="t2" centerPoint3DX="401" centerPoint3DY="364.45">
                   <matrix>
-                    <Matrix tx="496.95" ty="278.45"/>
+                    <Matrix tx="401" ty="364.45"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="t3" centerPoint3DX="419.95" centerPoint3DY="368.45">
+                <DOMSymbolInstance libraryItemName="ZoneTarget" name="t3" centerPoint3DX="439.95" centerPoint3DY="237.45">
                   <matrix>
-                    <Matrix tx="419.95" ty="368.45"/>
+                    <Matrix tx="439.95" ty="237.45"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="t4" selected="true" centerPoint3DX="434.95" centerPoint3DY="456.45">
+                <DOMSymbolInstance libraryItemName="ZoneTarget" name="t4" centerPoint3DX="573.9" centerPoint3DY="192.45">
                   <matrix>
-                    <Matrix tx="434.95" ty="456.45"/>
+                    <Matrix tx="573.9" ty="192.45"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>

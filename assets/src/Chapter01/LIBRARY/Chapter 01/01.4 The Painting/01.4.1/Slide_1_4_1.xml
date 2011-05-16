@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.4 The Painting/01.4.1/Slide_1_4_1" itemID="4d88a2a8-000002d2" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_4_1" sourceLibraryItemHRef="Chapter 01/01.3 Thomas Gainsborough/Slide_1_3_1 copy" lastModified="1302692064" lastUniqueIdentifier="11">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.4 The Painting/01.4.1/Slide_1_4_1" itemID="4d88a2a8-000002d2" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_4_1" sourceLibraryItemHRef="Chapter 01/01.3 Thomas Gainsborough/Slide_1_3_1 copy" lastModified="1305555315" lastUniqueIdentifier="17">
   <timeline>
     <DOMTimeline name="Slide_1_4_1">
       <layers>
@@ -6,73 +6,54 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="t1" centerPoint3DX="350.35" centerPoint3DY="419">
+                <DOMSymbolInstance libraryItemName="HotspotZoneTarget" name="t1" centerPoint3DX="360" centerPoint3DY="425">
                   <matrix>
-                    <Matrix tx="350.35" ty="419"/>
+                    <Matrix tx="335" ty="400"/>
                   </matrix>
                   <transformationPoint>
-                    <Point/>
+                    <Point x="25" y="25"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="t2" centerPoint3DX="253.05" centerPoint3DY="222">
+                <DOMSymbolInstance libraryItemName="HotspotZoneTarget" name="t2" selected="true" centerPoint3DX="265" centerPoint3DY="235">
                   <matrix>
-                    <Matrix tx="253.05" ty="222"/>
+                    <Matrix tx="240" ty="210"/>
                   </matrix>
                   <transformationPoint>
-                    <Point/>
+                    <Point x="25" y="25"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="t3" centerPoint3DX="573" centerPoint3DY="527.4">
+                <DOMSymbolInstance libraryItemName="HotspotZoneTarget" name="t3" centerPoint3DX="565" centerPoint3DY="550">
                   <matrix>
-                    <Matrix tx="573" ty="527.4"/>
+                    <Matrix tx="540" ty="525"/>
                   </matrix>
                   <transformationPoint>
-                    <Point/>
+                    <Point x="25" y="25"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="t4" centerPoint3DX="539.45" centerPoint3DY="478.95">
+                <DOMSymbolInstance libraryItemName="HotspotZoneTarget" name="t4" centerPoint3DX="540" centerPoint3DY="485">
                   <matrix>
-                    <Matrix tx="539.45" ty="478.95"/>
+                    <Matrix tx="515" ty="460"/>
                   </matrix>
                   <transformationPoint>
-                    <Point/>
+                    <Point x="25" y="25"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="t5" centerPoint3DX="758.45" centerPoint3DY="575.9">
+                <DOMSymbolInstance libraryItemName="HotspotZoneTarget" name="t5" centerPoint3DX="682" centerPoint3DY="510">
                   <matrix>
-                    <Matrix tx="758.45" ty="575.9"/>
+                    <Matrix tx="657" ty="485"/>
                   </matrix>
                   <transformationPoint>
-                    <Point/>
+                    <Point x="25" y="25"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="t6" centerPoint3DX="690.45" centerPoint3DY="342.95">
+                <DOMSymbolInstance libraryItemName="HotspotZoneTarget" name="t6" centerPoint3DX="629" centerPoint3DY="304">
                   <matrix>
-                    <Matrix tx="690.45" ty="342.95"/>
+                    <Matrix tx="604" ty="279"/>
                   </matrix>
                   <transformationPoint>
-                    <Point/>
+                    <Point x="25" y="25"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMStaticText selected="true" width="375.75" height="106" autoExpand="true" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="214" ty="789.95"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>The Byam Family</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="Baskerville-Italic" fillColor="#80816D"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                    <DOMTextRun>
-                      <characters>&#xD;Thomas Gainsborough (1727-1788)&#xD;Oil on canvas, 1762-66&#xD;238.5 x 229.7 cm&#xD;On long-term loan from the Andrew Brownswood Arts Foundation&#xD;1.2001.1</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="Baskerville" fillColor="#80816D"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
               </elements>
             </DOMFrame>
           </frames>
@@ -80,16 +61,7 @@
         <DOMLayer name="Layer 2" color="#9933CC">
           <frames>
             <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="Chapter 01/TheFamily" name="" centerPoint3DX="511" centerPoint3DY="520.5">
-                  <matrix>
-                    <Matrix tx="171" ty="104"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="340" y="416.5"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
@@ -97,11 +69,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Chapter 01/Chapter 1 stage reference" name="" centerPoint3DX="960" centerPoint3DY="540">
-                  <transformationPoint>
-                    <Point x="960" y="540"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Mon May 16 15:00:06 GMT+0100 2011.jpg"/>
               </elements>
             </DOMFrame>
           </frames>

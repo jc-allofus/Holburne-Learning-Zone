@@ -3,12 +3,16 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.model.vo.HotspotButtonVO;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
+	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
 	import com.allofus.holburne.learningzone.view.component.SingleImageWithHotspotsSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
 	import com.allofus.shared.logging.GetLogger;
+	import com.holburne.learningzone.swc.chapter1.Img_1_2_4;
 	import com.holburne.learningzone.swcassets.Slide_1_2_4;
 
 	import mx.logging.ILogger;
+
+	import flash.display.Bitmap;
 
 
 	/**
@@ -21,7 +25,15 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 		public function Slide_1_2_4VC()
 		{
 			containerMC = new Slide_1_2_4();
-			addChild(containerMC);
+			
+			var caption:String =
+		  		"<p class='imageCaptionItalic'>Thomas Gainsborough's House</p>" +
+		  		"<p class='imageCaptionItalic'>Abbey Street, Bath, 1760-1766</p>" +
+		  		"";
+
+			img = new ImageWithBorderAndCaption(new Bitmap(new Img_1_2_4(0,0)), caption);
+			img.alpha = 0;
+			addChild(img);
 			
 			pinVOs = new <HotspotButtonVO>[
 				new HotspotButtonVO(containerMC.t1, new PopupPanelVO("<p>The house was built by John Wood.   It stood opposite Bath Abbey.</p>")),
@@ -43,12 +55,14 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			text.alpha = 0;
 			
 			super();
+			
+			img.showCaption(false);
 		}
 		
 		override public function transitionIn():void
 		{
-			containerMC.alpha = text.alpha = 0;
-			staggerItemsIn(containerMC,text);
+			text.alpha = 0;
+			staggerItemsIn(img,text);
 		}
 		
 		override public function dispose():void

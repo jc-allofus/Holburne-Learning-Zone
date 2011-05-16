@@ -6,6 +6,10 @@ package com.allofus.holburne.learningzone.view.chapter.chapter09
 	import com.allofus.holburne.learningzone.view.component.SingleImageWithHotspotsSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
 	import com.holburne.learningzone.swc.chapter9.Img_9_1;
+	import com.holburne.learningzone.swc.chapter9.Img_9_3_2_1;
+	import com.holburne.learningzone.swc.chapter9.Img_9_3_2_2;
+	import com.holburne.learningzone.swc.chapter9.Img_9_3_2_3;
+	import com.holburne.learningzone.swc.chapter9.Img_9_3_2_4;
 	import com.holburne.learningzone.swc.chapter9.Slide_9_3_2;
 
 	import flash.display.Bitmap;
@@ -42,14 +46,14 @@ package com.allofus.holburne.learningzone.view.chapter.chapter09
 			
 			var str1:String = "<p>Oil lamp – indicates a scene set at night</p>";
 			var str2:String = "<p>Contemporary dress suitable for a  nobleman</p>";
-			var str3:String = "<p>Contemporary dress suitable for a married lady: dark silk gown, white lace, gauze scarf, pearls, lace cap.</p>";
-			var str4:String = "<p>This scene is set in the ‘Senate House’ within the Doge’s Palace in Venice.  Garrick’s well-travelled audience would have been familiar with the view from the molo, the landing-stage outside the palace.  The painted scenery represents the famous view across the Lagoon to the Palladian church of San Giorgio Maggiore.  Moonlight adds atmosphere to the tragedy.</p>";
+			var str3:String = "<p>This scene is set in the ‘Senate House’ within the Doge’s Palace in Venice.  Garrick’s well-travelled audience would have been familiar with the view from the molo, the landing-stage outside the palace.  The painted scenery represents the famous view across the Lagoon to the Palladian church of San Giorgio Maggiore.  Moonlight adds atmosphere to the tragedy.</p>";
+			var str4:String = "<p>Contemporary dress suitable for a married lady: dark silk gown, white lace, gauze scarf, pearls, lace cap.</p>";
 			
 			pinVOs = new <HotspotButtonVO>[
-				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1)),
-				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2)),
-				new HotspotButtonVO(containerMC.t3, new PopupPanelVO(str3)),
-				new HotspotButtonVO(containerMC.t4, new PopupPanelVO(str4))
+				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1, Img_9_3_2_1)),
+				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2, Img_9_3_2_2)),
+				new HotspotButtonVO(containerMC.t3, new PopupPanelVO(str3, Img_9_3_2_3)),
+				new HotspotButtonVO(containerMC.t4, new PopupPanelVO(str4, Img_9_3_2_4))
 			];
 			
 			var title:String ="Costume, Scenery, Props";

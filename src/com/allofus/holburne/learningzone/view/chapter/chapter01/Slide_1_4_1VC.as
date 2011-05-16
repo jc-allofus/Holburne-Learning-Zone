@@ -3,9 +3,11 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.model.vo.HotspotButtonVO;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
+	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
 	import com.allofus.holburne.learningzone.view.component.SingleImageWithHotspotsSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
 	import com.allofus.shared.logging.GetLogger;
+	import com.holburne.learningzone.swc.chapter1.Chap1IntroImage;
 	import com.holburne.learningzone.swcassets.Img1_4_1_1;
 	import com.holburne.learningzone.swcassets.Img1_4_1_2;
 	import com.holburne.learningzone.swcassets.Img1_4_1_3;
@@ -15,6 +17,8 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 	import com.holburne.learningzone.swcassets.Slide_1_4_1;
 
 	import mx.logging.ILogger;
+
+	import flash.display.Bitmap;
 
 
 	/**
@@ -27,7 +31,18 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 		public function Slide_1_4_1VC()
 		{
 			containerMC = new Slide_1_4_1();
-			addChild(containerMC);
+			
+			var caption:String = 
+				"<p class='imageCaptionItalic'>The Byam Family</p>"
+			+	"<p class='imageCaption'>Thomas Gainsborough (1727-1788)</p>"
+			+	"<p class='imageCaption'>Oil on canvas, 1762-66</p>"
+			+	"<p class='imageCaption'>238.5 x 229.7 cm</p>"
+			+	"<p class='imageCaption'>On long-term loan from the Andrew Brownswood Arts Foundation</p>"
+			+	"<p class='imageCaption'>1.2001.1</p>";
+			
+			img = new ImageWithBorderAndCaption(new Bitmap(new Chap1IntroImage(0,0)), caption);
+			img.alpha = 0;
+			addChild(img);
 			
 			pinVOs = new <HotspotButtonVO>[
 				new HotspotButtonVO(containerMC.t1, new PopupPanelVO("<p>The pale ghostly mist round the bottom of Mr Byam’s hat shows that the artist made some changes here.  X rays reveal that the hat started life extending further to the left, but he later tipped it upwards so as to point towards the sunset.</p>",Img1_4_1_1)),
@@ -48,13 +63,13 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			text.alpha = 0;
 			
 			super();
+			
+			img.showCaption(false);
 		}
 		
 		override public function transitionIn():void
 		{
-			containerMC.alpha = 0;
-			text.alpha = 0;
-			staggerItemsIn(containerMC,text);
+			staggerItemsIn(img,text);
 		}
 		
 		private static const logger:ILogger = GetLogger.qualifiedName( Slide_1_3_1VC );

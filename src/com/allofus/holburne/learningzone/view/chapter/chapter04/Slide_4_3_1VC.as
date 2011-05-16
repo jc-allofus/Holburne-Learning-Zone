@@ -7,6 +7,18 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 	import com.allofus.holburne.learningzone.view.component.SingleImageWithHotspotsSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
 	import com.holburne.learningzone.swc.chapter4.Chap4IntroImage;
+	import com.holburne.learningzone.swc.chapter4.Img_4_3_1_1;
+	import com.holburne.learningzone.swc.chapter4.Img_4_3_1_10;
+	import com.holburne.learningzone.swc.chapter4.Img_4_3_1_11;
+	import com.holburne.learningzone.swc.chapter4.Img_4_3_1_12;
+	import com.holburne.learningzone.swc.chapter4.Img_4_3_1_2;
+	import com.holburne.learningzone.swc.chapter4.Img_4_3_1_3;
+	import com.holburne.learningzone.swc.chapter4.Img_4_3_1_4;
+	import com.holburne.learningzone.swc.chapter4.Img_4_3_1_5;
+	import com.holburne.learningzone.swc.chapter4.Img_4_3_1_6;
+	import com.holburne.learningzone.swc.chapter4.Img_4_3_1_7;
+	import com.holburne.learningzone.swc.chapter4.Img_4_3_1_8;
+	import com.holburne.learningzone.swc.chapter4.Img_4_3_1_9;
 	import com.holburne.learningzone.swc.chapter4.Slide_4_3_1;
 
 	import flash.display.Bitmap;
@@ -36,32 +48,32 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 			img = new ImageWithBorderAndCaption(new Bitmap(new Chap4IntroImage(0,0)), caption);
 			addChild(img);
 			
-			var str1:String = "<p>Black grapes</p>";
-			var str2:String = "<p>Red grapes</p>";
-			var str3:String = "<p>White peach</p>";
-			var str4:String = "<p>orange</p>";
-			var str5:String = "<p>White grapes</p>";
-			var str6:String = "<p>oyster</p>";
-			var str7:String = "<p>Bread roll</p>";
-			var str8:String = "<p>crab</p>";
-			var str9:String = "<p>Hazel nuts</p>";
-			var str10:String = "<p>pomegranate</p>";
-			var str11:String = "<p>apricots</p>";
-			var str12:String = "<p>pear</p>";
+			var str1:String = "<p>orange</p>";
+			var str2:String = "<p>White peach</p>";
+			var str3:String = "<p>White grapes</p>";
+			var str4:String = "<p>oyster</p>";
+			var str5:String = "<p>Red grapes</p>";
+			var str6:String = "<p>Bread roll</p>";
+			var str7:String = "<p>pear</p>";
+			var str8:String = "<p>Black grapes</p>";
+			var str9:String = "<p>crab</p>";
+			var str10:String = "<p>apricots</p>";
+			var str11:String = "<p>pomegranate</p>";
+			var str12:String = "<p>Hazel nuts</p>";
 			
 			pinVOs = new <HotspotButtonVO>[
-				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1)),
-				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2)),
-				new HotspotButtonVO(containerMC.t3, new PopupPanelVO(str3)),
-				new HotspotButtonVO(containerMC.t4, new PopupPanelVO(str4)),
-				new HotspotButtonVO(containerMC.t5, new PopupPanelVO(str5)),
-				new HotspotButtonVO(containerMC.t6, new PopupPanelVO(str6)),
-				new HotspotButtonVO(containerMC.t7, new PopupPanelVO(str7)),
-				new HotspotButtonVO(containerMC.t8, new PopupPanelVO(str8)),
-				new HotspotButtonVO(containerMC.t9, new PopupPanelVO(str9)),
-				new HotspotButtonVO(containerMC.t10, new PopupPanelVO(str10)),
-				new HotspotButtonVO(containerMC.t11, new PopupPanelVO(str11)),
-				new HotspotButtonVO(containerMC.t12, new PopupPanelVO(str12))
+				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1, Img_4_3_1_1)),
+				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2, Img_4_3_1_2)),
+				new HotspotButtonVO(containerMC.t3, new PopupPanelVO(str3, Img_4_3_1_3)),
+				new HotspotButtonVO(containerMC.t4, new PopupPanelVO(str4, Img_4_3_1_4)),
+				new HotspotButtonVO(containerMC.t5, new PopupPanelVO(str5, Img_4_3_1_5)),
+				new HotspotButtonVO(containerMC.t6, new PopupPanelVO(str6, Img_4_3_1_6)),
+				new HotspotButtonVO(containerMC.t7, new PopupPanelVO(str7, Img_4_3_1_7)),
+				new HotspotButtonVO(containerMC.t8, new PopupPanelVO(str8, Img_4_3_1_8)),
+				new HotspotButtonVO(containerMC.t9, new PopupPanelVO(str9, Img_4_3_1_9)),
+				new HotspotButtonVO(containerMC.t10, new PopupPanelVO(str10, Img_4_3_1_10)),
+				new HotspotButtonVO(containerMC.t11, new PopupPanelVO(str11, Img_4_3_1_11)),
+				new HotspotButtonVO(containerMC.t12, new PopupPanelVO(str12, Img_4_3_1_12))
 			];
 			
 			var title:String ="What’s on the menu?";
