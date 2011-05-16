@@ -1,16 +1,16 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter04
 {
 	import com.allofus.holburne.learningzone.AppGlobals;
-	import com.allofus.holburne.learningzone.model.vo.HotspotPinVO;
+	import com.allofus.holburne.learningzone.model.vo.HotspotButtonVO;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
-	import com.allofus.holburne.learningzone.view.component.HotspotPin;
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
 	import com.allofus.holburne.learningzone.view.component.SingleImageWithHotspotsSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
+	import com.allofus.holburne.learningzone.view.component.button.hotspot.HotspotPin;
 	import com.holburne.learningzone.swc.chapter4.Chap4IntroImage;
 	import com.holburne.learningzone.swc.chapter4.Slide_4_3_2;
-
 	import flash.display.Bitmap;
+
 
 	/**
 	 * @author jc
@@ -22,7 +22,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 		public function Slide_4_3_2VC()
 		{
 			containerMC = new Slide_4_3_2();
-			pins = new Vector.<HotspotPin>();
 			
 			var caption:String = 
 				"<p class='imageCaptionItalic'>Still Life with Shellfish and Fruit</p>"
@@ -44,14 +43,14 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 			var str6:String = "<p>Gold cup – parcel gilt??</p>";
 			var str7:String = "<p>Parrot. Exotic pets imported from the southern hemisphere were an important status symbol.</p>";
 			
-			pinVOs = new <HotspotPinVO>[
-				new HotspotPinVO(containerMC.t1, new PopupPanelVO(str1)),
-				new HotspotPinVO(containerMC.t2, new PopupPanelVO(str2)),
-				new HotspotPinVO(containerMC.t3, new PopupPanelVO(str3)),
-				new HotspotPinVO(containerMC.t4, new PopupPanelVO(str4)),
-				new HotspotPinVO(containerMC.t5, new PopupPanelVO(str5)),
-				new HotspotPinVO(containerMC.t6, new PopupPanelVO(str6)),
-				new HotspotPinVO(containerMC.t7, new PopupPanelVO(str7))
+			pinVOs = new <HotspotButtonVO>[
+				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1)),
+				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2)),
+				new HotspotButtonVO(containerMC.t3, new PopupPanelVO(str3)),
+				new HotspotButtonVO(containerMC.t4, new PopupPanelVO(str4)),
+				new HotspotButtonVO(containerMC.t5, new PopupPanelVO(str5)),
+				new HotspotButtonVO(containerMC.t6, new PopupPanelVO(str6)),
+				new HotspotButtonVO(containerMC.t7, new PopupPanelVO(str7))
 			];
 			
 			var title:String ="Treasures of the Banquet table";

@@ -1,17 +1,17 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter10
 {
-	import com.holburne.learningzone.swc.chapter10.Img_10_3_1_2;
-	import com.holburne.learningzone.swc.chapter10.Img_10_3_1_1;
-	import com.allofus.holburne.learningzone.model.vo.HotspotPinVO;
+	import com.allofus.holburne.learningzone.model.vo.HotspotButtonVO;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
-	import com.allofus.holburne.learningzone.view.component.HotspotPin;
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
 	import com.allofus.holburne.learningzone.view.component.SingleImageWithHotspotsSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
 	import com.holburne.learningzone.swc.chapter10.Img_10_1;
+	import com.holburne.learningzone.swc.chapter10.Img_10_3_1_1;
+	import com.holburne.learningzone.swc.chapter10.Img_10_3_1_2;
 	import com.holburne.learningzone.swc.chapter10.Slide_10_3_1;
 
 	import flash.display.Bitmap;
+
 	/**
 	 * @author jc
 	 */
@@ -37,14 +37,12 @@ package com.allofus.holburne.learningzone.view.chapter.chapter10
 			img.alpha = 0;
 			addChild(img);
 			
-			
-			pins = new Vector.<HotspotPin>();
 			var str1:String = "<p class='popupPanelTitle'>Miss Alicia Clarke</p><p>The Clarke sisters were joint owners of the Walford Court  and Hill Court estates near Ross-on-Wye, Herefordshire.  They inherited Walford in 1724 from their neighbour and distant cousin John Kyrle, a well-known local philanthropist and landscape architect.</p>";
 			var str2:String = "<p class='popupPanelTitle'>Miss Jane Clarke (1715-1806)</p><p>Neither of the sisters married but they shared their home and fortune.  They were well-known locally for their hospitality and as patrons of the arts.</p>";
 			
-			pinVOs = new <HotspotPinVO>[
-				new HotspotPinVO(containerMC.t1, new PopupPanelVO(str1,Img_10_3_1_1)),
-				new HotspotPinVO(containerMC.t2, new PopupPanelVO(str2,Img_10_3_1_2))
+			pinVOs = new <HotspotButtonVO>[
+				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1,Img_10_3_1_1)),
+				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2,Img_10_3_1_2))
 			];
 			
 			var title:String ="Who are they?";

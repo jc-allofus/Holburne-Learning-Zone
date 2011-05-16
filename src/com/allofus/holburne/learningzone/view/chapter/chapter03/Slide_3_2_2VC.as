@@ -1,12 +1,12 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter03
 {
 	import com.allofus.holburne.learningzone.AppGlobals;
-	import com.allofus.holburne.learningzone.model.vo.HotspotPinVO;
+	import com.allofus.holburne.learningzone.model.vo.HotspotButtonVO;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
-	import com.allofus.holburne.learningzone.view.component.HotspotPin;
 	import com.allofus.holburne.learningzone.view.component.SingleImageWithHotspotsSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
 	import com.allofus.holburne.learningzone.view.component.TimelinePopup;
+	import com.allofus.holburne.learningzone.view.component.button.hotspot.HotspotPin;
 	import com.allofus.shared.logging.GetLogger;
 	import com.allofus.shared.util.PositionUtil;
 	import com.holburne.learningzone.chapter3.Img_3_2_2_1;
@@ -23,6 +23,8 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 	import flash.events.Event;
 	import flash.events.MouseEvent;
 
+
+
 	/**
 	 * @author jc
 	 */
@@ -34,7 +36,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 		{
 			
 			containerMC = new Slide_3_2_2();
-			pins = new Vector.<HotspotPin>();
 			
 			var str1:String = "<p class='popupPanelTitle'>Benjamin Barker I (1725?-1793)</p><p></p><p class='justified'>Although a practising barrister and the son of a landed gentleman, Benjamin Barker lost his fortune through gambling on horses and by 1760 was forced to earn a living as a painter.  He was moderately successful as a painter of horses, but eventually moved to Wales where he worked as a decorator of Pontypool Japanned wares such as trays and tea caddies.  In 1781 Barker moved with his family to Bristol.  In 1783 they came to Bath, where he worked in a livery stable, although he continued to paint portraits of horses and to work as a carriage-painter.  This was the lot of most provincial painters: to move between portraiture, landscape and decorating mundane objects as demand arose.  However, Bath, with its now well-established fine art market, offered better opportunities for Barker’s sons.  Towards the end of his life, Barker’s eldest son Thomas was successful enough in his own right to help support his father.  There are more examples of Barker Senior’s work in Pontypool Museum.</p>";
 			var str2:String = "<p class='popupPanelTitle'>Thomas Barker (1769-1847)</p><p></p><p class='justified'>Link to main biography in Artist section.</p>";
@@ -101,14 +102,14 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 			+	"<p class='imageCaption'>A314</p>"
 			;
 			
-			pinVOs = new <HotspotPinVO>[
-				new HotspotPinVO(containerMC.t1, new PopupPanelVO(str1,Img_3_2_2_1,cap1)),
-				new HotspotPinVO(containerMC.t2, new PopupPanelVO(str2,Img_3_2_2_2,cap2)),
-				new HotspotPinVO(containerMC.t3, new PopupPanelVO(str3,Img_3_2_2_3,cap3)),
-				new HotspotPinVO(containerMC.t4, new PopupPanelVO(str4,Img_3_2_2_4,cap4)),
-				new HotspotPinVO(containerMC.t5, new PopupPanelVO(str5,Img_3_2_2_5,cap5)),
-				new HotspotPinVO(containerMC.t6, new PopupPanelVO(str6,Img_3_2_2_6,cap6)),
-				new HotspotPinVO(containerMC.t7, new PopupPanelVO(str7,Img_3_2_2_7,cap7))
+			pinVOs = new <HotspotButtonVO>[
+				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1,Img_3_2_2_1,cap1)),
+				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2,Img_3_2_2_2,cap2)),
+				new HotspotButtonVO(containerMC.t3, new PopupPanelVO(str3,Img_3_2_2_3,cap3)),
+				new HotspotButtonVO(containerMC.t4, new PopupPanelVO(str4,Img_3_2_2_4,cap4)),
+				new HotspotButtonVO(containerMC.t5, new PopupPanelVO(str5,Img_3_2_2_5,cap5)),
+				new HotspotButtonVO(containerMC.t6, new PopupPanelVO(str6,Img_3_2_2_6,cap6)),
+				new HotspotButtonVO(containerMC.t7, new PopupPanelVO(str7,Img_3_2_2_7,cap7))
 			];
 			
 			bg = new TextBoxWithTitleAndDescription("THE BARKER FAMILY", "", 1785,760);

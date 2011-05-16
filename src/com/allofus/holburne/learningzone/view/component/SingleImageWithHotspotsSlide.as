@@ -1,15 +1,27 @@
 package com.allofus.holburne.learningzone.view.component
 {
-	import com.allofus.holburne.learningzone.model.vo.HotspotPinVO;
+	import com.greensock.TweenMax;
+	import com.allofus.holburne.learningzone.AppGlobals;
+	import com.allofus.holburne.learningzone.guiassets.HotspotZoneTarget;
+	import com.allofus.holburne.learningzone.model.vo.HotspotButtonVO;
 	import com.allofus.holburne.learningzone.view.chapter.AbstractSlide;
+	import com.allofus.holburne.learningzone.view.component.button.hotspot.HotspotPin;
+	import com.allofus.holburne.learningzone.view.component.button.hotspot.HotspotZoneButton;
+	import com.allofus.holburne.learningzone.view.component.button.hotspot.IHotspotButton;
 	import com.allofus.shared.logging.GetLogger;
 	import com.allofus.shared.util.PositionUtil;
 
 	import mx.logging.ILogger;
 
+	import flash.display.DisplayObject;
+	import flash.display.Shape;
 	import flash.display.Sprite;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
+	import flash.geom.Point;
+	import flash.geom.Rectangle;
+
+
 
 	/**
 	 * @author jc
@@ -18,13 +30,20 @@ package com.allofus.holburne.learningzone.view.component
 	{
 		protected var img:ImageWithBorderAndCaption;
 		protected var text:TextBoxWithTitleAndDescription;
-		protected var pinVOs:Vector.<HotspotPinVO>;
-		protected var pins:Vector.<HotspotPin>;
+		protected var pinVOs:Vector.<HotspotButtonVO>;
+		protected var pins:Vector.<IHotspotButton>;
 		protected var pinsLayer:Sprite;
 		protected var popupPanelLayer:Sprite;
 		
+		protected var usingHotspotZone:Boolean = false;
+		protected var imgBlankOut:Shape;
+		protected var imgBlankOutAlpha:Number = 0.5;
+		
+		
 		public function SingleImageWithHotspotsSlide()
 		{
+			pins = new Vector.<IHotspotButton>();
+			
 			if(img)
 				positionInLeftFrame(img);
 			
@@ -45,12 +64,20 @@ package com.allofus.holburne.learningzone.view.component
 		
 		override protected function staggerInComplete():void
 		{
+			if(usingHotspotZone)
+				TweenMax.to(imgBlankOut, AppGlobals.FADE_DURATION, {alpha:imgBlankOutAlpha, ease:AppGlobals.FADE_EASE, onComplete:staggerInPins});
+			else
+				staggerInPins();
+		}
+		
+		protected function staggerInPins():void
+		{
 			if(!pins)return;
 			for (var i : int = 0; i < pins.length; i++) 
 			{
 				pins[i].transitionIn(i*0.1);
 			}
-		} 
+		}
 		
 		protected function hideTargets():void
 		{
@@ -61,22 +88,43 @@ package com.allofus.holburne.learningzone.view.component
 			}
 		}
 		
+		//hacky, but so is this whole job
 		protected function makePins():void
 		{
 			if(!pinVOs)return;
-			var pin:HotspotPin;
+			var pin:IHotspotButton;
 			for (var i : int = 0; i < pinVOs.length; i++) 
 			{
-				pin = new HotspotPin(pinVOs[i]);
-				pin.addEventListener(MouseEvent.CLICK, handlePinClicked);
-				pinsLayer.addChild(pin);
+				if(pinVOs[i].target is HotspotZoneTarget)
+				{
+					var r:Rectangle = new Rectangle(pinVOs[i].target.x, pinVOs[i].target.y, pinVOs[i].target.width, pinVOs[i].target.height);
+					var offsetPoint:Point = new Point(img.x +AppGlobals.BORDER_SIZE, img.y + AppGlobals.BORDER_SIZE);
+					pin = new HotspotZoneButton(pinVOs[i],r, img.bitmapData, offsetPoint);
+					if(!imgBlankOut)
+					{
+						imgBlankOut = new Shape();
+						imgBlankOut.graphics.beginFill(0xFFFFFF, 0.5);
+						imgBlankOut.graphics.drawRect(offsetPoint.x, offsetPoint.y, img.imageWidth, img.imageHeight);
+						imgBlankOut.alpha = 0;
+						var imgDepth:int = getChildIndex(img);
+						addChildAt(imgBlankOut, imgDepth +1);
+					}
+					usingHotspotZone = true;
+				}
+				else
+				{
+					pin = new HotspotPin(pinVOs[i]);
+				}
+				
+				(pin as DisplayObject).addEventListener(MouseEvent.CLICK, handlePinClicked);
+				pinsLayer.addChild((pin as DisplayObject));
 				pins.push(pin);
 			}
 		}
 		
 		protected function handlePinClicked(event:MouseEvent):void
 		{
-			var pin:HotspotPin = event.currentTarget as HotspotPin;
+			var pin:IHotspotButton = event.currentTarget as IHotspotButton;
 			if(pin.selected) return;
 			deselectAllPins();
 			removeAllPopups();
@@ -100,11 +148,11 @@ package com.allofus.holburne.learningzone.view.component
 		
 		protected function removeAllPins():void
 		{
-			var p:HotspotPin;
+			var p:IHotspotButton;
 			while(pinsLayer.numChildren > 0)
 			{
-				p = pinsLayer.getChildAt(0) as HotspotPin;
-				p.removeEventListener(MouseEvent.CLICK, handlePinClicked);
+				p = pinsLayer.getChildAt(0) as IHotspotButton;
+				(p as DisplayObject).removeEventListener(MouseEvent.CLICK, handlePinClicked);
 				p.dispose();
 				pinsLayer.removeChildAt(0);
 			}
@@ -144,7 +192,11 @@ package com.allofus.holburne.learningzone.view.component
 			if(text)
 				text.dispose();
 				
+			if(imgBlankOut)
+				TweenMax.killTweensOf(imgBlankOut);
+				
 			img = null;
+			imgBlankOut = null;
 			text = null;
 			pins = null;
 			pinsLayer = null;

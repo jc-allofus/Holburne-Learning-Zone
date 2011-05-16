@@ -1,8 +1,7 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter10
 {
-	import com.allofus.holburne.learningzone.model.vo.HotspotPinVO;
+	import com.allofus.holburne.learningzone.model.vo.HotspotButtonVO;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
-	import com.allofus.holburne.learningzone.view.component.HotspotPin;
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
 	import com.allofus.holburne.learningzone.view.component.SingleImageWithHotspotsSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
@@ -16,6 +15,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter10
 	import com.holburne.learningzone.swc.chapter10.Slide_10_4_4;
 
 	import flash.display.Bitmap;
+
 	/**
 	 * @author jc
 	 */
@@ -41,8 +41,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter10
 			img.alpha = 0;
 			addChild(img);
 			
-			
-			pins = new Vector.<HotspotPin>();
 			var str1:String = "<p class='popupPanelTitle'>Corner Cartouche with C-scrolls and  rosette</p><p></p>";
 			var str2:String = "<p class='popupPanelTitle'>Sight moulding</p><p></p>";
 			var str3:String = "<p class='popupPanelTitle'>Pierced rocaille</p><p></p>";
@@ -50,13 +48,13 @@ package com.allofus.holburne.learningzone.view.chapter.chapter10
 			var str5:String = "<p class='popupPanelTitle'>Centre cartouche</p><p></p>";
 			var str6:String = "<p class='popupPanelTitle'>S-shaped sweep</p><p></p>";
 			
-			pinVOs = new <HotspotPinVO>[
-				new HotspotPinVO(containerMC.t1, new PopupPanelVO(str1,Img_10_4_4_1)),
-				new HotspotPinVO(containerMC.t2, new PopupPanelVO(str2,Img_10_4_4_2)),
-				new HotspotPinVO(containerMC.t3, new PopupPanelVO(str3,Img_10_4_4_3)),
-				new HotspotPinVO(containerMC.t4, new PopupPanelVO(str4,Img_10_4_4_4)),
-				new HotspotPinVO(containerMC.t5, new PopupPanelVO(str5,Img_10_4_4_5)),
-				new HotspotPinVO(containerMC.t6, new PopupPanelVO(str6,Img_10_4_4_6))
+			pinVOs = new <HotspotButtonVO>[
+				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1,Img_10_4_4_1)),
+				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2,Img_10_4_4_2)),
+				new HotspotButtonVO(containerMC.t3, new PopupPanelVO(str3,Img_10_4_4_3)),
+				new HotspotButtonVO(containerMC.t4, new PopupPanelVO(str4,Img_10_4_4_4)),
+				new HotspotButtonVO(containerMC.t5, new PopupPanelVO(str5,Img_10_4_4_5)),
+				new HotspotButtonVO(containerMC.t6, new PopupPanelVO(str6,Img_10_4_4_6))
 			];
 			
 			var title:String ="About the frame";

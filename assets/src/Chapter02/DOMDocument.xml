@@ -84,8 +84,8 @@
           <Include href="Chapter 02/02.3 Whats Going On/02.3.3/_thumb/t2.xml" loadImmediate="false"/>
           <Include href="Chapter 02/02.3 Whats Going On/02.3.3/_thumb/t3.xml" loadImmediate="false"/>
           <Include href="Chapter 02/02.3 Whats Going On/02.3.3/Slide_2_3_3.xml"/>
+          <Include href="HotspotZoneTarget.xml"/>
           <Include href="PinTarget.xml" loadImmediate="false"/>
-          <Include href="ZoneTarget.xml"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -403,6 +403,8 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="1868041" publishTime="1305545643"/>
+          <PublishItem publishSize="1868045" publishTime="1305545589"/>
           <PublishItem publishSize="1868061" publishTime="1305287392"/>
           <PublishItem publishSize="1867858" publishTime="1302779850"/>
           <PublishItem publishSize="1854927" publishTime="1302778358"/>
@@ -421,7 +423,5 @@
           <PublishItem publishSize="77210" publishTime="1301331772"/>
           <PublishItem publishSize="77187" publishTime="1300896598"/>
           <PublishItem publishSize="1149610" publishTime="1300896536"/>
-          <PublishItem publishSize="1149609" publishTime="1300896496"/>
-          <PublishItem publishSize="1149604" publishTime="1300896410"/>
      </publishHistory>
 </DOMDocument>

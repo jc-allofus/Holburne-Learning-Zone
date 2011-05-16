@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="HotspotZoneTarget" itemID="4dcd174a-00000325" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.HotspotZoneTarget" sourceFlashFilepath="../Gui Assets.fla" sourceLibraryItemHRef="Hotspot Zone Target/HotspotZoneTarget" sourceLastModified="1305286973" sourceAutoUpdate="true" lastModified="1305286973">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="HotspotZoneTarget" itemID="4dcd174a-00000325" linkageExportForAS="true" linkageClassName="com.allofus.holburne.learningzone.guiassets.HotspotZoneTarget" sourceFlashFilepath="../Gui Assets.fla" sourceLibraryItemHRef="Hotspot Zone Target/HotspotZoneTarget" sourceLastModified="1305296275" sourceAutoUpdate="true" lastModified="1305296275">
   <timeline>
     <DOMTimeline name="HotspotZoneTarget">
       <layers>
@@ -8,7 +8,7 @@
               <elements>
                 <DOMShape selected="true" isFloating="true">
                   <matrix>
-                    <Matrix a="2.89999389648438"/>
+                    <Matrix a="0.5" d="0.5"/>
                   </matrix>
                   <fills>
                     <FillStyle index="1">
@@ -16,7 +16,7 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!2000 2000S2|0 2000!0 2000|0 0!0 0|2000 0!2000 0|2000 2000"/>
+                    <Edge fillStyle1="1" edges="!0 2000S2|0 0!0 0|2000 0!2000 0|2000 2000!2000 2000|0 2000"/>
                   </edges>
                 </DOMShape>
               </elements>

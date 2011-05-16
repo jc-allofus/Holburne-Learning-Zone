@@ -1,8 +1,7 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter07
 {
-	import com.allofus.holburne.learningzone.model.vo.HotspotPinVO;
+	import com.allofus.holburne.learningzone.model.vo.HotspotButtonVO;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
-	import com.allofus.holburne.learningzone.view.component.HotspotPin;
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
 	import com.allofus.holburne.learningzone.view.component.SingleImageWithHotspotsSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
@@ -10,6 +9,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter07
 	import com.holburne.learningzone.swc.chapter7.Slide_7_3_1;
 
 	import flash.display.Bitmap;
+
 	/**
 	 * COPY AND PASTE THIS BADBOY TO SETUP A NEW HOTSPOT SLIDE
 	 * 
@@ -40,8 +40,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter07
 			img.alpha = 0;
 			addChild(img);
 			
-			
-			pins = new Vector.<HotspotPin>();
 			var str1:String = "<p class='popupPanelTitle'>Joseph</p><p>A rich man of Arimathaea ... who also himself was Jesus' disciple.</p>";
 			var str2:String = "<p class='popupPanelTitle'>John</p><p>The disciple whom Jesus loved.</p>";
 			var str3:String = "<p class='popupPanelTitle'>Mary Magdalene</p><p>out of whom he had cast seven devils</p>";
@@ -49,13 +47,13 @@ package com.allofus.holburne.learningzone.view.chapter.chapter07
 			var str5:String = "<p class='popupPanelTitle'>Mary</p><p>The mother of Jesus</p>";
 			var str6:String = "<p class='popupPanelTitle'>An angel</p><p></p>";
 			
-			pinVOs = new <HotspotPinVO>[
-				new HotspotPinVO(containerMC.t1, new PopupPanelVO(str1)),
-				new HotspotPinVO(containerMC.t2, new PopupPanelVO(str2)),
-				new HotspotPinVO(containerMC.t3, new PopupPanelVO(str3)),
-				new HotspotPinVO(containerMC.t4, new PopupPanelVO(str4)),
-				new HotspotPinVO(containerMC.t5, new PopupPanelVO(str5)),
-				new HotspotPinVO(containerMC.t6, new PopupPanelVO(str6))
+			pinVOs = new <HotspotButtonVO>[
+				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1)),
+				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2)),
+				new HotspotButtonVO(containerMC.t3, new PopupPanelVO(str3)),
+				new HotspotButtonVO(containerMC.t4, new PopupPanelVO(str4)),
+				new HotspotButtonVO(containerMC.t5, new PopupPanelVO(str5)),
+				new HotspotButtonVO(containerMC.t6, new PopupPanelVO(str6))
 			];
 			
 			var title:String ="Who’s who";

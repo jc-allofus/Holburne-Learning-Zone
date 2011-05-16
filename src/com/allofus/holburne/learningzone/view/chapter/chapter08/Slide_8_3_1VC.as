@@ -1,8 +1,7 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter08
 {
-	import com.allofus.holburne.learningzone.model.vo.HotspotPinVO;
+	import com.allofus.holburne.learningzone.model.vo.HotspotButtonVO;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
-	import com.allofus.holburne.learningzone.view.component.HotspotPin;
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
 	import com.allofus.holburne.learningzone.view.component.SingleImageWithHotspotsSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
@@ -10,6 +9,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter08
 	import com.holburne.learningzone.swc.chapter8.Slide_8_3_1;
 
 	import flash.display.Bitmap;
+
 	/**
 	 * COPY AND PASTE THIS BADBOY TO SETUP A NEW HOTSPOT SLIDE
 	 * 
@@ -40,20 +40,18 @@ package com.allofus.holburne.learningzone.view.chapter.chapter08
 			img.alpha = 0;
 			addChild(img);
 			
-			
-			pins = new Vector.<HotspotPin>();
 			var str1:String = "<p>Virgil, Roman poet and legendary sage</p>";
 			var str2:String = "<p>A young wife accused of adultery</p>";
 			var str3:String = "<p>Virgil’s magic lie-detector, the Mask of Truth.  If you have told a lie, it bites off your hand.</p>";
 			var str4:String = "<p>A jealous older husband</p>";
 			var str5:String = "<p>Roman soldier, in charge of law and order</p>";
 			
-			pinVOs = new <HotspotPinVO>[
-				new HotspotPinVO(containerMC.t1, new PopupPanelVO(str1)),
-				new HotspotPinVO(containerMC.t2, new PopupPanelVO(str2)),
-				new HotspotPinVO(containerMC.t3, new PopupPanelVO(str3)),
-				new HotspotPinVO(containerMC.t4, new PopupPanelVO(str4)),
-				new HotspotPinVO(containerMC.t5, new PopupPanelVO(str5))
+			pinVOs = new <HotspotButtonVO>[
+				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1)),
+				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2)),
+				new HotspotButtonVO(containerMC.t3, new PopupPanelVO(str3)),
+				new HotspotButtonVO(containerMC.t4, new PopupPanelVO(str4)),
+				new HotspotButtonVO(containerMC.t5, new PopupPanelVO(str5))
 			];
 			
 			var title:String ="Who’s Who?";

@@ -1,9 +1,8 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter09
 {
 	import com.allofus.holburne.learningzone.AppGlobals;
-	import com.allofus.holburne.learningzone.model.vo.HotspotPinVO;
+	import com.allofus.holburne.learningzone.model.vo.HotspotButtonVO;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
-	import com.allofus.holburne.learningzone.view.component.HotspotPin;
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
 	import com.allofus.holburne.learningzone.view.component.SingleImageWithHotspotsSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
@@ -11,6 +10,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter09
 	import com.holburne.learningzone.swc.chapter9.Slide_9_3_1;
 
 	import flash.display.Bitmap;
+
 	/**
 	 * COPY AND PASTE THIS BADBOY TO SETUP A NEW HOTSPOT SLIDE
 	 * 
@@ -41,16 +41,14 @@ package com.allofus.holburne.learningzone.view.chapter.chapter09
 			img.alpha = 0;
 			addChild(img);
 			
-			
-			pins = new Vector.<HotspotPin>();
 			var str1:String = "<p>Jaffier, a Venetian nobleman [David Garrick, actor, playwright and theatre manager]</p>";
 			var str2:String = "<p>Belvidera, a Venetian Senator’s daughter, wife of Jaffier [Susannah Cibber, singer and actress]</p>";
 			var str3:String = "<p>The mouth of the Grand Canal, Venice [Theatre Royal, Drury Lane, London] </p>";
 			
-			pinVOs = new <HotspotPinVO>[
-				new HotspotPinVO(containerMC.t1, new PopupPanelVO(str1)),
-				new HotspotPinVO(containerMC.t2, new PopupPanelVO(str2)),
-				new HotspotPinVO(containerMC.t3, new PopupPanelVO(str3))
+			pinVOs = new <HotspotButtonVO>[
+				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1)),
+				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2)),
+				new HotspotButtonVO(containerMC.t3, new PopupPanelVO(str3))
 			];
 			
 			var title:String ="Whats going on?";

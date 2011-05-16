@@ -1,9 +1,8 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter04
 {
 	import com.allofus.holburne.learningzone.AppGlobals;
-	import com.allofus.holburne.learningzone.model.vo.HotspotPinVO;
+	import com.allofus.holburne.learningzone.model.vo.HotspotButtonVO;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
-	import com.allofus.holburne.learningzone.view.component.HotspotPin;
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
 	import com.allofus.holburne.learningzone.view.component.SingleImageWithHotspotsSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
@@ -11,6 +10,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 	import com.holburne.learningzone.swc.chapter4.Slide_4_2_1;
 
 	import flash.display.Bitmap;
+
 
 	/**
 	 * @author jc
@@ -22,7 +22,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 		public function Slide_4_2_1VC()
 		{
 			containerMC = new Slide_4_2_1();
-			pins = new Vector.<HotspotPin>();
 			
 			var caption:String = 
 				"<p class='imageCaptionItalic'>Still Life with Shellfish and Fruit</p>"
@@ -39,9 +38,9 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 			var str1:String = "<p>The artist’s reflection</p>";
 			var str2:String = "<p>Easel reflected in silver ewer</p>";
 			
-			pinVOs = new <HotspotPinVO>[
-				new HotspotPinVO(containerMC.t1, new PopupPanelVO(str1)),
-				new HotspotPinVO(containerMC.t2, new PopupPanelVO(str2)),
+			pinVOs = new <HotspotButtonVO>[
+				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1)),
+				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2)),
 			];
 			
 			var title:String ="INTRODUCTION";

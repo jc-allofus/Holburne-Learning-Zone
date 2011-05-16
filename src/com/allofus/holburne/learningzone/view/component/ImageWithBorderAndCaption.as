@@ -10,6 +10,7 @@ package com.allofus.holburne.learningzone.view.component
 	import mx.logging.ILogger;
 
 	import flash.display.Bitmap;
+	import flash.display.BitmapData;
 	import flash.display.DisplayObject;
 	import flash.display.Shape;
 	import flash.display.Sprite;
@@ -119,6 +120,25 @@ package com.allofus.holburne.learningzone.view.component
 		{
 			if(_captionLabel && contains(_captionLabel))
 				removeChild(_captionLabel);
+		}
+		
+		public function get bitmapData():BitmapData
+		{
+			if (img is Bitmap)
+				return (img as Bitmap).bitmapData;
+				
+			else
+				return new BitmapData(50, 50, false, 0xFF0000);
+		}
+		
+		public function get imageWidth():int
+		{
+			return img.width;
+		}
+		
+		public function get imageHeight():int
+		{
+			return img.height;	
 		}
 		
 		public function dispose():void

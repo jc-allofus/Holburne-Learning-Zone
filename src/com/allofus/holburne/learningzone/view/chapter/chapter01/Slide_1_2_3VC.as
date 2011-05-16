@@ -1,16 +1,20 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter01
 {
-	import com.allofus.holburne.learningzone.guiassets.HotspotZoneTarget;
 	import com.allofus.holburne.learningzone.AppGlobals;
-	import com.allofus.holburne.learningzone.model.vo.HotspotPinVO;
+	import com.allofus.holburne.learningzone.model.vo.HotspotButtonVO;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
-	import com.allofus.holburne.learningzone.view.component.HotspotPin;
+	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
 	import com.allofus.holburne.learningzone.view.component.SingleImageWithHotspotsSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
 	import com.allofus.shared.logging.GetLogger;
+	import com.holburne.learningzone.chapter1.Img_1_2_3;
 	import com.holburne.learningzone.swcassets.Slide_1_2_3;
 
 	import mx.logging.ILogger;
+
+	import flash.display.Bitmap;
+
+
 
 	/**
 	 * @author jc
@@ -22,8 +26,19 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 		public function Slide_1_2_3VC()
 		{
 			containerMC = new Slide_1_2_3();
-			
-			pins = new Vector.<HotspotPin>();
+		  	
+		  	var caption:String =
+		  		"<p class='imageCaptionItalic'>A New and Correct Plan of the City of Bath with the New Additional Buildings</p>" +
+		  		"<p class='imageCaptionItalic'>William Hibbart</p>" +
+		  		"<p class='imageCaptionItalic'>1772</p>" +
+		  		"<p class='imageCaptionItalic'>Engraving, 37.5 x 49 cm</p>" +
+		  		"<p class='imageCaptionItalic'>Bath Central Library, image courtesy of Bath in Time [ref 26519]</p>" +
+		  		"";
+
+			img = new ImageWithBorderAndCaption(new Bitmap(new Img_1_2_3(0,0)), caption);
+			img.alpha = 0;
+			addChild(img);
+ 
 			
 			
 			var str1:String = "<p class='popupPanelTitle'>Upper Assembly Rooms</p>"
@@ -48,14 +63,14 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			+	"<p>In 1763 Gainsborough and his family moved to a detached house high above the city on Lansdown Road.  He continued to work at Abbey Street ‘in the smoake’, but let the rest of the house as lodgings.</p>";
 			
 			
-			pinVOs = new <HotspotPinVO>[
-				new HotspotPinVO(containerMC.t1, new PopupPanelVO(str1)),
-				new HotspotPinVO(containerMC.t2, new PopupPanelVO(str2)),
-				new HotspotPinVO(containerMC.t3, new PopupPanelVO(str3)),
-				new HotspotPinVO(containerMC.t4, new PopupPanelVO(str4)),
-				new HotspotPinVO(containerMC.t5, new PopupPanelVO(str5)),
-				new HotspotPinVO(containerMC.t6, new PopupPanelVO(str6)),
-				new HotspotPinVO(containerMC.t7, new PopupPanelVO(str7))
+			pinVOs = new <HotspotButtonVO>[
+				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1)),
+				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2)),
+				new HotspotButtonVO(containerMC.t3, new PopupPanelVO(str3)),
+				new HotspotButtonVO(containerMC.t4, new PopupPanelVO(str4)),
+				new HotspotButtonVO(containerMC.t5, new PopupPanelVO(str5)),
+				new HotspotButtonVO(containerMC.t6, new PopupPanelVO(str6)),
+				new HotspotButtonVO(containerMC.t7, new PopupPanelVO(str7))
 			];
 			
 			var title:String ="WHERE HE LIVED";
@@ -67,12 +82,14 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			text.alpha = 0;
 			
 			super();
+			
+			img.showCaption(false);
 		}
 		
 		override public function transitionIn():void
 		{
 			text.alpha = 0;
-			staggerItemsIn(containerMC,text);
+			staggerItemsIn(img,text);
 		}
 		
 		

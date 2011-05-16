@@ -100,13 +100,11 @@ package com.allofus.holburne.learningzone.view.chapter
 		{
 			var slide:AbstractSlide;
 			
-			logger.debug("--oldSlides: " + oldSlides);
 			for (var i : int = 0; i < oldSlides.length; i++) 
 			{
 				slide = oldSlides[i];
 				if(slide == _currentSelected)
 					continue;
-				logger.debug("cleaning up: " + slide);
 				slide.removeEventListener(Event.COMPLETE, cleanupOldSlides);
 				slide.dispose();
 				if(contains(slide))removeChild(slide);
@@ -118,7 +116,6 @@ package com.allofus.holburne.learningzone.view.chapter
 
 		public function dispose() : void
 		{
-			logger.fatal("disposeing chapter__________" + this);
 			_chapterVO = null;
 			_currentSelected = null;
 			removeEventListener(Event.ADDED_TO_STAGE, initChapter);

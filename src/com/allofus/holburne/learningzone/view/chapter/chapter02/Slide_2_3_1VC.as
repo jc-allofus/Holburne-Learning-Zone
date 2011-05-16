@@ -1,9 +1,7 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter02
 {
-	import com.allofus.holburne.learningzone.guiassets.HotspotZoneTarget;
-	import com.allofus.holburne.learningzone.model.vo.HotspotPinVO;
+	import com.allofus.holburne.learningzone.model.vo.HotspotButtonVO;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
-	import com.allofus.holburne.learningzone.view.component.HotspotPin;
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
 	import com.allofus.holburne.learningzone.view.component.SingleImageWithHotspotsSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
@@ -14,6 +12,8 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 	import mx.logging.ILogger;
 
 	import flash.display.Bitmap;
+
+
 
 	/**
 	 * @author jc
@@ -39,8 +39,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			img.alpha = 0;
 			addChild(img);
 			
-			
-			pins = new Vector.<HotspotPin>();
 			var str1:String = "<p>The farmer’s wife.</p>";
 			var str2:String = "<p>A new-born baby.  The landlord and his wife are paying a visit to the farm to welcome the farmer’s new baby.</p>";
 			var str3:String = "<p>The farmer’s first son.  Traditionally, the landlord was godfather to his tenants’ eldest sons.</p>";
@@ -48,13 +46,13 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			var str5:String = "<p>The landowner</p>";
 			var str6:String = "<p>A tenant farmer.  He rents the farmhouse and land and shares his produce with the landowner.</p>";
 			
-			pinVOs = new <HotspotPinVO>[
-				new HotspotPinVO(containerMC.t1, new PopupPanelVO(str1)),
-				new HotspotPinVO(containerMC.t2, new PopupPanelVO(str2)),
-				new HotspotPinVO(containerMC.t3, new PopupPanelVO(str3)),
-				new HotspotPinVO(containerMC.t4, new PopupPanelVO(str4)),
-				new HotspotPinVO(containerMC.t5, new PopupPanelVO(str5)),
-				new HotspotPinVO(containerMC.t6, new PopupPanelVO(str6))
+			pinVOs = new <HotspotButtonVO>[
+				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1)),
+				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2)),
+				new HotspotButtonVO(containerMC.t3, new PopupPanelVO(str3)),
+				new HotspotButtonVO(containerMC.t4, new PopupPanelVO(str4)),
+				new HotspotButtonVO(containerMC.t5, new PopupPanelVO(str5)),
+				new HotspotButtonVO(containerMC.t6, new PopupPanelVO(str6))
 			];
 			
 			var title:String ="Who's who?";

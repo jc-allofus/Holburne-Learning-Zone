@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 02/02.3 Whats Going On/02.3.1/Slide_2_3_1" itemID="4da6cad0-0000030b" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.chapter2.Slide_2_3_1" sourceLibraryItemHRef="Chapter 02/02.3 Whats Going On/02.3.2/Slide_2_3_2 copy" lastModified="1305287479" lastUniqueIdentifier="10">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 02/02.3 Whats Going On/02.3.1/Slide_2_3_1" itemID="4da6cad0-0000030b" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.chapter2.Slide_2_3_1" sourceLibraryItemHRef="Chapter 02/02.3 Whats Going On/02.3.2/Slide_2_3_2 copy" lastModified="1305545676" lastUniqueIdentifier="11">
   <timeline>
     <DOMTimeline name="Slide_2_3_1">
       <layers>
@@ -54,9 +54,9 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="ZoneTarget" name="t11" selected="true" centerPoint3DX="158" centerPoint3DY="102.95">
+                <DOMSymbolInstance libraryItemName="HotspotZoneTarget" name="t11" selected="true" centerPoint3DX="642" centerPoint3DY="344">
                   <matrix>
-                    <Matrix a="0.324142456054688" d="0.660003662109375" tx="111" ty="69.95"/>
+                    <Matrix tx="497" ty="294"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="145" y="50"/>

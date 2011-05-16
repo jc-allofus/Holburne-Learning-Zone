@@ -1,8 +1,7 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter05
 {
-	import com.allofus.holburne.learningzone.model.vo.HotspotPinVO;
+	import com.allofus.holburne.learningzone.model.vo.HotspotButtonVO;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
-	import com.allofus.holburne.learningzone.view.component.HotspotPin;
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
 	import com.allofus.holburne.learningzone.view.component.SingleImageWithHotspotsSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
@@ -10,6 +9,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter05
 	import com.holburne.learningzone.swc.chapter5.Slide_5_3_1;
 
 	import flash.display.Bitmap;
+
 	/**
 	 * @author jc
 	 */
@@ -36,8 +36,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter05
 			img.alpha = 0;
 			addChild(img);
 			
-			
-			pins = new Vector.<HotspotPin>();
 			var str1:String = "<p>St Anthony (251–356), a Christian hermit who lived in the Egyptian desert</p>";
 			var str2:String = "<p>Temptation: this imaginary figure with a bag of money is tempting St Anthony away from the desert with thoughts of wealth.</p>";
 			var str3:String = "<p>Temptation: these demons are trying to drive the Saint out of the desert through Fear.</p>";
@@ -48,16 +46,16 @@ package com.allofus.holburne.learningzone.view.chapter.chapter05
 			var str8:String = "<p>St Anthony’s pet pig.  Before Father Anthony was a hermit, he worked as a swineherd.  This pig followed him into the desert and never left him.  His taming of the pig may symbolise his victory over the sin of gluttony.</p>";
 			var str9:String = "<p>Book:  St Anthony contemplates God in scripture.</p>";
 			
-			pinVOs = new <HotspotPinVO>[
-				new HotspotPinVO(containerMC.t1, new PopupPanelVO(str1)),
-				new HotspotPinVO(containerMC.t2, new PopupPanelVO(str2)),
-				new HotspotPinVO(containerMC.t3, new PopupPanelVO(str3)),
-				new HotspotPinVO(containerMC.t4, new PopupPanelVO(str4)),
-				new HotspotPinVO(containerMC.t5, new PopupPanelVO(str5)),
-				new HotspotPinVO(containerMC.t6, new PopupPanelVO(str6)),
-				new HotspotPinVO(containerMC.t7, new PopupPanelVO(str7)),
-				new HotspotPinVO(containerMC.t8, new PopupPanelVO(str8)),
-				new HotspotPinVO(containerMC.t9, new PopupPanelVO(str9)),
+			pinVOs = new <HotspotButtonVO>[
+				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1)),
+				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2)),
+				new HotspotButtonVO(containerMC.t3, new PopupPanelVO(str3)),
+				new HotspotButtonVO(containerMC.t4, new PopupPanelVO(str4)),
+				new HotspotButtonVO(containerMC.t5, new PopupPanelVO(str5)),
+				new HotspotButtonVO(containerMC.t6, new PopupPanelVO(str6)),
+				new HotspotButtonVO(containerMC.t7, new PopupPanelVO(str7)),
+				new HotspotButtonVO(containerMC.t8, new PopupPanelVO(str8)),
+				new HotspotButtonVO(containerMC.t9, new PopupPanelVO(str9)),
 			];
 			
 			var title:String ="What are those strange things?";

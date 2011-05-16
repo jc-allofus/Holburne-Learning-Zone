@@ -1,9 +1,8 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter02
 {
 	import com.allofus.holburne.learningzone.AppGlobals;
-	import com.allofus.holburne.learningzone.model.vo.HotspotPinVO;
+	import com.allofus.holburne.learningzone.model.vo.HotspotButtonVO;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
-	import com.allofus.holburne.learningzone.view.component.HotspotPin;
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
 	import com.allofus.holburne.learningzone.view.component.SingleImageWithHotspotsSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
@@ -11,6 +10,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 	import com.holburne.learningzone.swc.chapter2.Chap2IntroImage;
 
 	import flash.display.Bitmap;
+
 
 	/**
 	 * @author jc
@@ -35,8 +35,6 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			img.alpha = 0;
 			addChild(img);
 			
-			
-			pins = new Vector.<HotspotPin>();
 			var str1:String = "<p class='popupPanelTitle'>Cheese</p><p>Maturing on a rack</p>";
 			var str2:String = "<p class='popupPanelTitle'>Wool winders</p><p>To keep yarn tidy after spinning</p>";
 			var str3:String = "<p class='popupPanelTitle'>Prints</p><p>Cheap woodcuts of holy pictures, prayers, sayings and calendars were often pinned or pasted to cottage walls or furniture.</p>";
@@ -47,16 +45,16 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			var str8:String = "<p class='popupPanelTitle'>Sugarloaf</p><p>Sugar had only recently been introduced to Europe, and was very expensive.  It was sold in large loaves which were cut into small lumps or pounded into powder for cooking.  It was a traditional gift for families with new babies.</p>";
 			var str9:String = "<p class='popupPanelTitle'>Butter Churn</p><p>Cream is beaten until the fat particles join together to form a lump of butter.</p>";
 			
-			pinVOs = new <HotspotPinVO>[
-				new HotspotPinVO(containerMC.t1, new PopupPanelVO(str1)),
-				new HotspotPinVO(containerMC.t2, new PopupPanelVO(str2)),
-				new HotspotPinVO(containerMC.t3, new PopupPanelVO(str3)),
-				new HotspotPinVO(containerMC.t4, new PopupPanelVO(str4)),
-				new HotspotPinVO(containerMC.t5, new PopupPanelVO(str5)),
-				new HotspotPinVO(containerMC.t6, new PopupPanelVO(str6)),
-				new HotspotPinVO(containerMC.t7, new PopupPanelVO(str7)),
-				new HotspotPinVO(containerMC.t8, new PopupPanelVO(str8)),
-				new HotspotPinVO(containerMC.t9, new PopupPanelVO(str9))
+			pinVOs = new <HotspotButtonVO>[
+				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1)),
+				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2)),
+				new HotspotButtonVO(containerMC.t3, new PopupPanelVO(str3)),
+				new HotspotButtonVO(containerMC.t4, new PopupPanelVO(str4)),
+				new HotspotButtonVO(containerMC.t5, new PopupPanelVO(str5)),
+				new HotspotButtonVO(containerMC.t6, new PopupPanelVO(str6)),
+				new HotspotButtonVO(containerMC.t7, new PopupPanelVO(str7)),
+				new HotspotButtonVO(containerMC.t8, new PopupPanelVO(str8)),
+				new HotspotButtonVO(containerMC.t9, new PopupPanelVO(str9))
 			];
 			
 			var title:String ="What are all those things?";

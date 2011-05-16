@@ -246,7 +246,6 @@ package com.allofus.holburne.learningzone.view.menu
 		
 		public function dispose():void
 		{
-			logger.error("disposing chapter menu.");
 			homeButton.removeEventListener(MouseEvent.CLICK, handleClose);
 			homeButton.dispose();
 			homeButton = null;

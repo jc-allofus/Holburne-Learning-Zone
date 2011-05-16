@@ -66,7 +66,6 @@ package com.allofus.holburne.learningzone.view.component
 		
 		override public function dispose():void
 		{
-			logger.fatal("dispose intro slide: " + this);
 				
 			if(img)
 				img.dispose();

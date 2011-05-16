@@ -1,8 +1,7 @@
 package com.allofus.holburne.learningzone.view.templates
 {
-	import com.allofus.holburne.learningzone.model.vo.HotspotPinVO;
+	import com.allofus.holburne.learningzone.model.vo.HotspotButtonVO;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
-	import com.allofus.holburne.learningzone.view.component.HotspotPin;
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
 	import com.allofus.holburne.learningzone.view.component.SingleImageWithHotspotsSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
@@ -10,6 +9,7 @@ package com.allofus.holburne.learningzone.view.templates
 	import flash.display.Bitmap;
 	import flash.display.BitmapData;
 	import flash.display.MovieClip;
+
 	/**
 	 * COPY AND PASTE THIS BADBOY TO SETUP A NEW HOTSPOT SLIDE
 	 * 
@@ -38,8 +38,6 @@ package com.allofus.holburne.learningzone.view.templates
 			img.alpha = 0;
 			addChild(img);
 			
-			
-			pins = new Vector.<HotspotPin>();
 			var str1:String = "<p class='popupPanelTitle'></p><p></p>";
 			var str2:String = "<p class='popupPanelTitle'></p><p></p>";
 			var str3:String = "<p class='popupPanelTitle'></p><p></p>";
@@ -50,16 +48,16 @@ package com.allofus.holburne.learningzone.view.templates
 			var str8:String = "<p class='popupPanelTitle'></p><p></p>";
 			var str9:String = "<p class='popupPanelTitle'></p><p></p>";
 			
-			pinVOs = new <HotspotPinVO>[
-				new HotspotPinVO(containerMC.t1, new PopupPanelVO(str1)),
-				new HotspotPinVO(containerMC.t2, new PopupPanelVO(str2)),
-				new HotspotPinVO(containerMC.t3, new PopupPanelVO(str3)),
-				new HotspotPinVO(containerMC.t4, new PopupPanelVO(str4)),
-				new HotspotPinVO(containerMC.t5, new PopupPanelVO(str5)),
-				new HotspotPinVO(containerMC.t6, new PopupPanelVO(str6)),
-				new HotspotPinVO(containerMC.t7, new PopupPanelVO(str7)),
-				new HotspotPinVO(containerMC.t8, new PopupPanelVO(str8)),
-				new HotspotPinVO(containerMC.t9, new PopupPanelVO(str9)),
+			pinVOs = new <HotspotButtonVO>[
+				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1)),
+				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2)),
+				new HotspotButtonVO(containerMC.t3, new PopupPanelVO(str3)),
+				new HotspotButtonVO(containerMC.t4, new PopupPanelVO(str4)),
+				new HotspotButtonVO(containerMC.t5, new PopupPanelVO(str5)),
+				new HotspotButtonVO(containerMC.t6, new PopupPanelVO(str6)),
+				new HotspotButtonVO(containerMC.t7, new PopupPanelVO(str7)),
+				new HotspotButtonVO(containerMC.t8, new PopupPanelVO(str8)),
+				new HotspotButtonVO(containerMC.t9, new PopupPanelVO(str9)),
 			];
 			
 			var title:String ="Title text here...";

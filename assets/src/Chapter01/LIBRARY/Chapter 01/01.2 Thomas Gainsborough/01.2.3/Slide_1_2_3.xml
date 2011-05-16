@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.2 Thomas Gainsborough/01.2.3/Slide_1_2_3" itemID="4d88a166-00000297" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_2_3" sourceLibraryItemHRef="Chapter 01/01.2 Thomas Gainsborough/01.2.2/Slide_1_2_2 copy" lastModified="1305287401" lastUniqueIdentifier="15">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.2 Thomas Gainsborough/01.2.3/Slide_1_2_3" itemID="4d88a166-00000297" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_2_3" sourceLibraryItemHRef="Chapter 01/01.2 Thomas Gainsborough/01.2.2/Slide_1_2_2 copy" lastModified="1305304061" lastUniqueIdentifier="17">
   <timeline>
     <DOMTimeline name="Slide_1_2_3">
       <layers>
-        <DOMLayer name="pin markers" color="#FF4FFF" autoNamed="false">
+        <DOMLayer name="pin markers" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -62,60 +62,14 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="caption" color="#FF800A" current="true" isSelected="true" autoNamed="false">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMStaticText width="380.5" height="88" autoExpand="true" isSelectable="false">
+                <DOMSymbolInstance libraryItemName="HotspotZoneTarget" name="t11" centerPoint3DX="365" centerPoint3DY="287">
                   <matrix>
-                    <Matrix tx="279.1" ty="751.15"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>A New and Correct Plan of the City of Bath with the New Additional Buildings</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="Baskerville-Italic" fillColor="#80816D"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                    <DOMTextRun>
-                      <characters>&#xD;William Hibbart &#xD;1772&#xD;Engraving, 37.5 x 49 cm&#xD;Bath Central Library, image courtesy of Bath in Time [ref 26519]</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="Baskerville" fillColor="#80816D"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                    <DOMTextRun>
-                      <characters></characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="Baskerville-Italic" fillColor="#80816D"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
-                <DOMSymbolInstance libraryItemName="HotspotZoneTarget" name="t11" selected="true" centerPoint3DX="306.6" centerPoint3DY="409.45">
-                  <matrix>
-                    <Matrix d="2.45130920410156" tx="285.15" ty="356.85"/>
+                    <Matrix tx="340" ty="262"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="21.45" y="21.5"/>
+                    <Point x="25" y="25"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="image" color="#9933CC" locked="true" autoNamed="false">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Chapter 01/01.2 Thomas Gainsborough/01.2.3/1_2_3.png">
-                  <matrix>
-                    <Matrix tx="235.1" ty="102.9"/>
-                  </matrix>
-                </DOMBitmapInstance>
               </elements>
             </DOMFrame>
           </frames>
@@ -124,11 +78,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Chapter 01/Chapter 1 stage reference" name="" centerPoint3DX="960" centerPoint3DY="540">
-                  <transformationPoint>
-                    <Point x="960" y="540"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Fri May 13 15:40:34 GMT+0100 2011.jpg"/>
               </elements>
             </DOMFrame>
           </frames>

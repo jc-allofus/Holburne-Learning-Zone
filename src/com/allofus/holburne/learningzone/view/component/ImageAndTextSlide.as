@@ -33,7 +33,6 @@ package com.allofus.holburne.learningzone.view.component
 		
 		override public function dispose():void
 		{
-			logger.fatal("dispose image and text slide: " + this);
 			
 			if(img)
 				img.dispose();
