@@ -54,7 +54,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			];
 			
 			var title:String ="The People";
-			var description:String = "Touch the picture to find out who's who.";
+			var description:String = "<p>Touch the picture to find out who's who.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
 			addChild(text);
 			text.alpha = 0;

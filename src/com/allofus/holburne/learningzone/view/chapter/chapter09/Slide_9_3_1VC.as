@@ -44,9 +44,9 @@ package com.allofus.holburne.learningzone.view.chapter.chapter09
 			img.alpha = 0;
 			addChild(img);
 			
-			var str1:String = "<p>Jaffier, a Venetian nobleman [David Garrick, actor, playwright and theatre manager]</p>";
-			var str2:String = "<p>Belvidera, a Venetian Senator’s daughter, wife of Jaffier [Susannah Cibber, singer and actress]</p>";
-			var str3:String = "<p>The mouth of the Grand Canal, Venice [Theatre Royal, Drury Lane, London] </p>";
+			var str1:String = "<p>Jaffier, a Venetian nobleman [David Garrick, actor playwright and theatre manager]. Zoffany painted at least three other versions of the painting. The main difference between them is the material of Garrick's waistcoat.</p>";
+			var str2:String = "<p>Belvidera, a Venetian Senator’s daughter, wife of Jaffier [Susannah Cibber, singer and actress]. Although the play was written 80 years earlier she is shown in contemporary clothes.</p>";
+			var str3:String = "<p>The mouth of the Grand Canal, Venice. The scene is set outside the Doge's Palace and the painted scenery represents the famous view across the Lagoon to the Palladian church of San Giorgio Maggiore.  Moonlight adds atmosphere to the tragedy [Theatre Royal, Drury Lane, London]</p>";
 			
 			pinVOs = new <HotspotButtonVO>[
 				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1, Img_9_3_1_1)),
@@ -55,11 +55,8 @@ package com.allofus.holburne.learningzone.view.chapter.chapter09
 			];
 			
 			var title:String ="Whats going on?";
-			var description:String = "<p class='justified'>A scene from the tragedy Venice Preserv’d by Thomas Otway (1652-1685), first staged in 1682, in its revival at Drury Lane of 1762.</p>" +
-			"<p></p>" +
-			"<p class='justified'>The plot revolves around a political conspiracy in the republic of Venice, and its tragic consequences: the conspirators are executed, the hero Jaffier commits suicide and his faithful wife Belvidera dies insane.</p>" +
-			"<p></p>" +
-			"<p class='justified'>In this scene, Jaffier is attempting to kill his wife for persuading him to betray his friend Pierre, the chief conspirator.  His honour is at stake.  She needs to stop the plot to kill senators, so that she can save her father’s life.  Husband and wife are both caught in a terrible dilemma, but Jaffier loses his nerve and throws aside his dagger, saying: “'Tis but one blow! Yet, by immortal love, I cannot longer bear a thought to harm thee.”</p>";
+			var description:String = "<p class='justified'>Venice Preserv'd was a byword for Tragedy in the eighteenth century. The scene is one of the most dramatic: the Venetian nobleman Jaffier's wife has persuaded himn to betray his friend and condemn him to the gallows. Driven to despair, Jaffier threatens to kill his wife and himself.</p>"
+			;
 			text = new TextBoxWithTitleAndDescription(title, description);
 			text.alpha = 0;
 			addChild(text);

@@ -1,5 +1,6 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter10
 {
+	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.model.vo.HotspotButtonVO;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
@@ -37,8 +38,8 @@ package com.allofus.holburne.learningzone.view.chapter.chapter10
 			img.alpha = 0;
 			addChild(img);
 			
-			var str1:String = "<p class='popupPanelTitle'>A gift of flowers</p><p>Jane is picking some flowers to give to her sister.  The sweet-smelling honeysuckle winds itself round other plants and is attractive to bees, and for those two reasons it has long been associated with devotion and faithful affection.  It was normally used as a symbol of marriage, but here it indicates the bond between two happily unmarried sisters.</p>";
-			var str2:String = "<p class='popupPanelTitle'>Genteel behaviour</p><p>In Georgian society, the way a person moved was an important indicator of politeness.  Deportment was such an important accomplishment for ladies and gentlemen that it was taught to children by hired tutors, usually dancing masters, who were often French or Italian.</p><p>In 1737 the French dancer François Nivelon wrote a treatise on Genteel Behaviour for the aspiring middle classes that probably influenced Devis.  Nivelon instructs his lady readers ‘To Give or Receive’ … with becoming Modesty and gentle Motion, not too near, nor … at too great Distance.’  The giver must curtsey before presenting their right hand with the gift in it, ‘easily withdrawing the Hand, till it comes to a circular Action.’</p>";
+			var str1:String = "<p class='popupPanelTitle'>A gift of flowers</p><p>Jane is picking some flowers to give to her sister.  The sweet-smelling honeysuckle winds itself round other plants and is attractive to bees, so it has long been associated with devotion and faithful affection.  Although normally used to symbolise marriage, here it indicates the bond between two happily unmarried sisters.</p>";
+			var str2:String = "<p class='popupPanelTitle'>Genteel behaviour</p><p>In 1737 the French dancer François Nivelon wrote a treatise on Genteel Behaviour for the aspiring middle classes that probably influenced Devis.  When giving an object to someone, a lady must curtsey before presenting her right hand with the gift in it, ‘easily withdrawing the Hand, till it comes to a circular Action.’</p>";
 			
 			pinVOs = new <HotspotButtonVO>[
 				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1, Img_10_4_2_1)),
@@ -46,13 +47,14 @@ package com.allofus.holburne.learningzone.view.chapter.chapter10
 			];
 			
 			var title:String ="Meanings";
-			var description:String = "<p class='justified'>lorem ipsum...</p>";
+			var description:String = "<p class='justified'>Touch the picture to find out more about Georgian manners.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description);
 			text.alpha = 0;
 			addChild(text);
 			
 			super();
 			
+//			text.y = AppGlobals.RIGHT_FRAME_Y;
 			img.showCaption(false);
 		}
 		

@@ -69,7 +69,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			+	"<p class='imageCaption'>Musée du Louvre, Paris</p>"
 			+	"<p class='imageCaption'></p>"
 			+	"<p class='imageCaption'></p>";
-			var at05:String = "<p>Pieter the Younger’s brother Jan was known as ‘Velvet’ or ‘Paradise’ Breughel because of his beautifully detailed flower paintings and landscapes.  His first teacher was his grandmother, a successful watercolour painter.  He enjoyed a high status in Antwerp society and had many very distinguished patrons throughout Europe.</p>";
+			var at05:String = "<p>Jan is sometimes known as ‘Paradise' Breughel because of his many idealised paradise landscapes such as this one.</p>";
 			var vo05:ThumbnailVO = new ThumbnailVO(containerMc.t5, Img_2_2_1_5, st05, at05);
 
 			var st06:String = 

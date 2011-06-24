@@ -51,6 +51,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 			+	"<p></p>"
 			+	"<p class='justified'>Whoever he was he has included himself in the painting, reflected in the silver ewer, wearing a tall cap and sitting at an easel (to the right) under the light of a high window (to the left).</p>";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
+			text.y = AppGlobals.RIGHT_FRAME_Y;
 			addChild(text);
 			text.visible = false;
 			text.alpha = 0;

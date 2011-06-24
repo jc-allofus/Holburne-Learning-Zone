@@ -1,5 +1,6 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter10
 {
+	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.model.vo.HotspotButtonVO;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
@@ -58,14 +59,15 @@ package com.allofus.holburne.learningzone.view.chapter.chapter10
 			];
 			
 			var title:String ="About the frame";
-			var description:String = "<p class='justified'>The frame is carved from wood.  Some of the detail, such as the fragile s-shaped sweeps or the little flowers in each corner, are carved separately and attached with pins and glue.  The surface of the frame is coated in gesso, a mixture of powdered chalk and glue that gives a smooth finish, before gilding with very thin gold leaf.</p>" +
-									 "<p class='justified'>This frame is typical of an English mid-eighteenth-century frame in the Rococo style, with its wealth of curves and naturalistic detail.  The basic architectural shape of the frame has been brought to life with curling leaves, flowers and rocaille, a type of asymmetrical decoration originally inspired by natural rock formations.  The delicate frame inspired by nature is a perfect companion for Devis’s ladies in their garden.</p>";
+			var description:String = "<p class='justified'>About the frame  The basic architectural shape of the frame has been brought to life with curling leaves, flowers and rocaille, a type of asymmetrical decoration originally inspired by natural rock formations.  The delicate English Rococo frame inspired by nature is a perfect companion for Devis’s ladies in their garden.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description);
+			
 			text.alpha = 0;
 			addChild(text);
 			
 			super();
 			
+//			text.y = AppGlobals.RIGHT_FRAME_Y;
 			img.showCaption(false);
 		}
 		

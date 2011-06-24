@@ -83,12 +83,12 @@ package com.allofus.holburne.learningzone.view.chapter.chapter09
 			addChild(containerMc);
 			addChild(largeImageContainer);
 
-			var title:String ="Other works";
-			var page1:String = "";
-//				"<p class='justified'>paragraph1text</p>"
+			var title:String ="Other works by artist";
+			var page1:String = 
+				"<p class='justified'>With the transfer of painitngs from the Somerset Maugham Collection from the National Theatre, the Holburne now has an impressive collection of works by and associated with Zoffany.</p>"
 //			+	"<p></p>"
 //			+	"<p class='justified'>paragraph2text</p>"
-//			;
+			;
 			
 			text = new TextBoxWithTitleAndDescription(title, page1, AppGlobals.RIGHT_FRAME_WIDTH);
 			addChild(text);

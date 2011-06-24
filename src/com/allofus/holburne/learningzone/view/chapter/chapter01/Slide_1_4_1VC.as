@@ -45,7 +45,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			addChild(img);
 			
 			pinVOs = new <HotspotButtonVO>[
-				new HotspotButtonVO(containerMC.t1, new PopupPanelVO("<p>The pale ghostly mist round the bottom of Mr Byam’s hat shows that the artist made some changes here.  X rays reveal that the hat started life extending further to the left, but he later tipped it upwards so as to point towards the sunset.</p>",Img1_4_1_1)),
+				new HotspotButtonVO(containerMC.t1, new PopupPanelVO("<p>The pale ghostly mist round the bottom of Mr Byam’s hat shows that the artist made some changes here.  X rays reveal that the hat started life extending further to the left, but Gainsborough later tipped it upwards so as to point towards the sunset.</p>",Img1_4_1_1)),
 				new HotspotButtonVO(containerMC.t2, new PopupPanelVO("<p>Are these grey pebbly shapes cloud or leaves?  Gainsborough must have changed his mind about the size of the tree, and altered some of the overhanging leaves to make them look like part of a stormy cloud.</p>",Img1_4_1_2)),
 				new HotspotButtonVO(containerMC.t3, new PopupPanelVO("<p>Mrs Byam’s gown was once reddish-pink.  Look through the cracks in the blue paint, and you can see the old pink colour showing through.  When Louisa first came to Gainsborough’s studio, red and pink were fashionable, but by the mid 1760s all the latest gowns were blue.</p>",Img1_4_1_3)),
 				new HotspotButtonVO(containerMC.t4, new PopupPanelVO("<p>George Byam’s waistcoat was once blue.  You can see some of the blue showing through the gold decoration on his pocket.</p>",Img1_4_1_4)),
@@ -53,11 +53,11 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 				new HotspotButtonVO(containerMC.t6, new PopupPanelVO("<p>X-rays have shown that in the first version of her portrait, Mrs Byam was wearing a white cap on the back of her head, and her hair was dressed lower.  In the finished painting, her hairstyle has been updated and raised to keep up with the fashion of the later 1760s.</p>",Img1_4_1_6))
 			];
 			
-			var title:String ="GAINSBOROUGH'S CHANGES";
+			var title:String ="Gainsborough's Changes";
 			var description:String = 
-				"<p class='justified'>Gainsborough began George and Louisa Byam’s portrait around 1762, shortly after their marriage.  Letters from the time tell us that it was in his studio four years later, and that the little girl Selina’s portrait was added to the picture around that time.  The painting itself is full of evidence that Gainsborough made several other changes.  Oil paint often turns more transparent over the years, revealing things that the artist had meant to hide.  This can tell us a lot about how a painting was made.</p>"
+				"<p class='justified'>Gainsborough began the portrait around 1762, shortly after the couple's marriage.  Surviving letters tell us that it was in his studio four years later when Selina, the little girl, was added to the picture. The painting reveals that Gainsborough made several other changes.</p>"
 			+	"<p></p>"
-			+	"<p class='justified'>Tap on the pins on the photo to reveal more information.</p>";
+			+	"<p class='justified'>Touch the picture to find out more.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
 			addChild(text);
 			text.alpha = 0;

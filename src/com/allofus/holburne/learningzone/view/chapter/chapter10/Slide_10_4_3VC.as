@@ -98,19 +98,19 @@ package com.allofus.holburne.learningzone.view.chapter.chapter10
 			addChild(largeImageContainer);
 
 			var title:String ="Conversation Pieces";
-			var page1:String = "lorem ipsum...";
-//				"<p class='justified'>paragraph1text</p>"
+			var page1:String = 
+				"<p class='justified'>Georgian Conversation Pieces in the Holburne Museum</p>";
 //			+	"<p></p>"
 //			+	"<p class='justified'>paragraph2text</p>"
 //			;
 			text = new TextBoxWithTitleAndDescription(title, page1, AppGlobals.RIGHT_FRAME_WIDTH);
 			addChild(text);
 			positionInRightFrame(text);
-			text.y = AppGlobals.RIGHT_FRAME_Y;
 			text.visible = false;
 			text.alpha = 0;
 			
 			super();
+//			text.y = AppGlobals.RIGHT_FRAME_Y;
 		}
 		
 		override public function transitionIn():void

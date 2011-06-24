@@ -1,5 +1,6 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter01
 {
+	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
 	import com.allofus.holburne.learningzone.view.chapter.AbstractSlide;
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
 	import com.allofus.holburne.learningzone.view.component.MultipageTextBox;
@@ -16,7 +17,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 	public class Slide_1_4_3VC extends AbstractSlide
 	{
 		protected var img:ImageWithBorderAndCaption;
-		protected var text:MultipageTextBox;
+		protected var text:TextBoxWithTitleAndDescription;
 		
 		public function Slide_1_4_3VC()
 		{
@@ -35,18 +36,13 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			
 			var title:String ="HOW MUCH DID IT COST?";
 			var page1:String = 
-				"<p class='justified'>When he began painting this portrait in the early 1760s, it was the largest painting Gainsborough had ever attempted.  He must have known his client, George Byam, was willing and able to pay handsomely for it.  Fifty years later, Jane Austen wrote “No people spend more freely, I believe, than West Indians”, and as a West Indian landowner, Byam and his wife must have been very welcome customers in Bath.</p>"
+				"<p class='justified'>When Gainsborough began painting this portrait in the early 1760s, it was the largest painting he had ever attempted. He must have known his client, George Byam, was willing and able to pay handsomely for it. Fifty years later, Jane Austen wrote “No people spend more freely, I believe, than West Indians”, and as a West Indian landowner, Byam and his wife must have been very welcome customers in Bath.</p>"
 			+	"<p></p>"
-			+ 	"<p>In April 1766, a Cornish clergyman, Rev John Penrose, reported to his daughter on a visit to Gainsborough’s showroom:</p>" 
-			+	"<p class='copyItalic'>Your Mamma and Fanny have both been to see the Pictures, and are much pleased with them.  Amongst the rest is a fine Portrait of a father, mother and child: the finest Portrait, she ever saw, and she liked it the better for the child’s being very like little Molly.</p>"
-			;
-			var page2:String = 
-				"<p>Penrose often noted prices of goods and services in his letters from Bath, and he added:</p>"
-			+	"<p class='copyItalic'>The Picture ... cost £120, drawing the Gentleman and Lady only.  What the child’s Picture cost, I can’t tell.</p>"
+			+ 	"<p>In April 1766, a Cornish clergyman, Rev John Penrose, saw the picture in Gainsborough's showroom and wrote to his daughter abouth the “fine Portrait of a father, mother and child: the finest Portrait, [your Mamma] ever saw, and she liked it the better for the child’s being very like little Molly.” Penrose added  “The Picture … cost £120, drawing the Gentleman and Lady only. What the child’s Picture cost, I can’t tell.”</p>" 
 			+	"<p></p>"
-			+	"<p>In the 1760s, £120 would pay a labourer’s wages for five years, or buy you two tons of cheese.  For Gainsborough, it would have paid eight months’ rent on his spacious house in the centre of Bath.</p>"
+			+	"<p>In the 1760s, £120 would pay a labourer’s wages for five years, or buy you two tons of cheese. For Gainsborough, it would have paid eight months’ rent on his spacious house in the centre of Bath.</p>"
 			;
-			text = new MultipageTextBox(title, [page1,page2]);
+			text = new TextBoxWithTitleAndDescription(title, page1);
 			addChild(text);
 			positionInRightFrame(text);
 			text.visible = false;

@@ -2,23 +2,23 @@
      <folders>
           <DOMFolderItem name="Chapter 09" itemID="4dc2db3e-00000372" isExpanded="true"/>
           <DOMFolderItem name="Chapter 09/09.1" itemID="4dc2db5a-0000037f"/>
-          <DOMFolderItem name="Chapter 09/09.2" itemID="4dc2db60-00000380"/>
+          <DOMFolderItem name="Chapter 09/09.2" itemID="4dc2db60-00000380" isExpanded="true"/>
           <DOMFolderItem name="Chapter 09/09.2/09.2.1" itemID="4dc2dcdb-0000038c"/>
-          <DOMFolderItem name="Chapter 09/09.2/09.2.2" itemID="4dc2dce2-00000390"/>
-          <DOMFolderItem name="Chapter 09/09.2/09.2.2/_large" itemID="4dc3e0f4-000002a2"/>
-          <DOMFolderItem name="Chapter 09/09.2/09.2.2/_thumb" itemID="4dc3e0ea-0000029e"/>
-          <DOMFolderItem name="Chapter 09/09.3" itemID="4dc2db64-00000381" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 09/09.3/09.3.1" itemID="4dc2dd94-000003b0" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 09/09.3/09.3.2" itemID="4dc2dd99-000003b1" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 09/09.2/09.2.2" itemID="4dc2dce2-00000390" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 09/09.2/09.2.2/_large" itemID="4dc3e0f4-000002a2" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 09/09.2/09.2.2/_thumb" itemID="4dc3e0ea-0000029e" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 09/09.3" itemID="4dc2db64-00000381"/>
+          <DOMFolderItem name="Chapter 09/09.3/09.3.1" itemID="4dc2dd94-000003b0"/>
+          <DOMFolderItem name="Chapter 09/09.3/09.3.2" itemID="4dc2dd99-000003b1"/>
           <DOMFolderItem name="Chapter 09/09.3/09.3.3" itemID="4dc2dd9d-000003b2"/>
           <DOMFolderItem name="Chapter 09/09.3/09.3.4" itemID="4dc2dda3-000003b3"/>
           <DOMFolderItem name="Chapter 09/09.3/09.3.5" itemID="4dc2dda9-000003b4"/>
      </folders>
      <media>
-          <DOMBitmapItem name="Chapter 09/09.1/9_1_1.jpg" itemID="4dc3d625-0000026a" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter9.Img_9_1" sourceExternalFilepath="./LIBRARY/Chapter 09/09.1/9_1_1.jpg" sourceLastImported="1304677383" sourcePlatform="macintosh" externalFileSize="80018" quality="50" href="Chapter 09/09.1/9_1_1.jpg" bitmapDataHRef="M 26 1304615792.dat" frameRight="12500" frameBottom="9560" isJPEG="true"/>
+          <DOMBitmapItem name="Chapter 09/09.1/9_1_1.jpg" itemID="4e04a389-0000030e" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter9.Img_9_1" sourceExternalFilepath="./LIBRARY/Chapter 09/09.1/9_1_1.jpg" sourceLastImported="1308837574" sourcePlatform="macintosh" externalFileSize="52683" quality="50" href="Chapter 09/09.1/9_1_1.jpg" bitmapDataHRef="M 26 1304615792.dat" frameRight="12520" frameBottom="9820" isJPEG="true"/>
           <DOMBitmapItem name="Chapter 09/09.2/09.2.1/9_2_1.jpg" itemID="4dc3f507-000002a7" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter9.Img_9_2_1" sourceExternalFilepath="./LIBRARY/Chapter 09/09.2/09.2.1/9_2_1.jpg" sourceLastImported="1304683004" sourcePlatform="macintosh" externalFileSize="89300" quality="50" href="Chapter 09/09.2/09.2.1/9_2_1.jpg" bitmapDataHRef="M 27 1304616173.dat" frameRight="12500" frameBottom="13380" isJPEG="true"/>
-          <DOMBitmapItem name="Chapter 09/09.2/09.2.2/_thumb/9_2_2_01_small.png" itemID="4dc3f568-000002f0" sourceExternalFilepath="./LIBRARY/Chapter 09/09.2/09.2.2/_thumb/9_2_2_01_small.png" sourceLastImported="1302626189" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Chapter 09/09.2/09.2.2/_thumb/9_2_2_01_small.png" bitmapDataHRef="M 16 1304687918.dat" frameRight="2400" frameBottom="2780"/>
-          <DOMBitmapItem name="Chapter 09/09.2/09.2.2/_large/9_2_2_01.jpg" itemID="4dc3f507-000002a8" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter9.Img_9_2_2_1" sourceExternalFilepath="./LIBRARY/Chapter 09/09.2/09.2.2/_large/9_2_2_01.jpg" sourceLastImported="1302626150" sourcePlatform="macintosh" externalFileSize="88297" quality="50" href="Chapter 09/09.2/09.2.2/_large/9_2_2_01.jpg" bitmapDataHRef="M 5 1304682696.dat" frameRight="10020" frameBottom="11880" isJPEG="true"/>
+          <DOMBitmapItem name="Chapter 09/09.2/09.2.2/_thumb/9_2_2_01_small.png" itemID="4e04be99-00000311" sourceExternalFilepath="./LIBRARY/Chapter 09/09.2/09.2.2/_thumb/9_2_2_01_small.png" sourceLastImported="1308837952" sourcePlatform="macintosh" externalFileSize="28469" originalCompressionType="lossless" quality="50" href="Chapter 09/09.2/09.2.2/_thumb/9_2_2_01_small.png" bitmapDataHRef="M 16 1304687918.dat" frameRight="2460" frameBottom="2860"/>
+          <DOMBitmapItem name="Chapter 09/09.2/09.2.2/_large/9_2_2_01.jpg" itemID="4e04be99-00000312" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter9.Img_9_2_2_1" sourceExternalFilepath="./LIBRARY/Chapter 09/09.2/09.2.2/_large/9_2_2_01.jpg" sourceLastImported="1308837738" sourcePlatform="macintosh" externalFileSize="59823" quality="50" href="Chapter 09/09.2/09.2.2/_large/9_2_2_01.jpg" bitmapDataHRef="M 5 1304682696.dat" frameRight="9940" frameBottom="11880" isJPEG="true"/>
           <DOMBitmapItem name="Chapter 09/09.2/09.2.2/_thumb/9_2_2_02_small.png" itemID="4dc3f507-000002a9" sourceExternalFilepath="./LIBRARY/Chapter 09/09.2/09.2.2/_thumb/9_2_2_02_small.png" sourceLastImported="1302626252" sourcePlatform="macintosh" externalFileSize="32229" originalCompressionType="lossless" quality="50" href="Chapter 09/09.2/09.2.2/_thumb/9_2_2_02_small.png" bitmapDataHRef="M 6 1304682696.dat" frameRight="2400" frameBottom="3040"/>
           <DOMBitmapItem name="Chapter 09/09.2/09.2.2/_large/9_2_2_02.jpg" itemID="4dc3f507-000002aa" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter9.Img_9_2_2_2" sourceExternalFilepath="./LIBRARY/Chapter 09/09.2/09.2.2/_large/9_2_2_02.jpg" sourceLastImported="1302626226" sourcePlatform="macintosh" externalFileSize="66802" quality="50" href="Chapter 09/09.2/09.2.2/_large/9_2_2_02.jpg" bitmapDataHRef="M 7 1304682696.dat" frameRight="9020" frameBottom="11880" isJPEG="true"/>
           <DOMBitmapItem name="Chapter 09/09.2/09.2.2/_thumb/9_2_2_03_small.png" itemID="4dc3f507-000002ab" sourceExternalFilepath="./LIBRARY/Chapter 09/09.2/09.2.2/_thumb/9_2_2_03_small.png" sourceLastImported="1302626345" sourcePlatform="macintosh" externalFileSize="21973" originalCompressionType="lossless" quality="50" href="Chapter 09/09.2/09.2.2/_thumb/9_2_2_03_small.png" bitmapDataHRef="M 8 1304682696.dat" frameRight="2400" frameBottom="1960"/>
@@ -369,6 +369,7 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="810675" publishTime="1308926860"/>
           <PublishItem publishSize="840597" publishTime="1305565090"/>
           <PublishItem publishSize="840601" publishTime="1305564946"/>
           <PublishItem publishSize="792784" publishTime="1305564713"/>
@@ -388,6 +389,5 @@
           <PublishItem publishSize="635507" publishTime="1304526448"/>
           <PublishItem publishSize="635398" publishTime="1304525926"/>
           <PublishItem publishSize="635263" publishTime="1304523184"/>
-          <PublishItem publishSize="635173" publishTime="1304523129"/>
      </publishHistory>
 </DOMDocument>

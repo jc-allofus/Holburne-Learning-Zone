@@ -27,7 +27,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter09
 			img = new ImageWithBorderAndCaption(new Bitmap(new Img_9_1(0,0)), caption);
 			addChild(img);
 			
-			var title:String ="INTRODUCTION";
+			var title:String ="Introduction";
 			var description:String = 
 				"<p class='justified'>This scene is from a 1762 production of Thomas Otway’s tragedy Venice Preserv’d, written in 1682.  It took place at London’s Drury Lane theatre, and the tragic hero Jaffier was played by the theatre’s manager David Garrick.  The role of Jaffier’s faithful wife was taken by Susannah Cibber, one of the most able singers and actresses of her time.</p>"
 			+	"<p></p>"
