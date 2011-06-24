@@ -60,7 +60,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter08
 			];
 			
 			var title:String ="Who’s Who?";
-			var description:String = "<p class='justified'>Tap on the pins on the image to find out more about the characters in this painting.</p>";
+			var description:String = "<p class='justified'>Touch the picture to find out who's who..</p>";
 			text = new TextBoxWithTitleAndDescription(title, description);
 			text.alpha = 0;
 			addChild(text);

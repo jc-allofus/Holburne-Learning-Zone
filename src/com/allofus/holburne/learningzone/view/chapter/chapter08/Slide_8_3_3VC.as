@@ -32,7 +32,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter08
 			var vo03:ThumbnailVO = new ThumbnailVO(containerMc.t3, Img_8_3_3_3, "","<p class='justified'>The paint is separating from the surface of its canvas and could easily flake off.  The picture has to be lined with a new piece of canvas to secure the paint.</p>");			
 			var vo04:ThumbnailVO = new ThumbnailVO(containerMc.t4, Img_8_3_3_4, "","<p class='justified'>The painting during cleaning.  The original bright colours are appearing and details are revealed.</p>");			
 			var vo05:ThumbnailVO = new ThumbnailVO(containerMc.t5, Img_8_3_3_5, "","<p class='justified'>Detail of the frame Long strips of ornamental moulding have cracked and dropped off.  The gilded surface is scratched, worn and flaking.</p>");			
-			var vo06:ThumbnailVO = new ThumbnailVO(containerMc.t6, Img_8_3_3_6, "","<p class='justified'>NEEDS TEXT...</p>");			
+			var vo06:ThumbnailVO = new ThumbnailVO(containerMc.t6, Img_8_3_3_6, "");			
 			
 			
 			thumbnailVOs = new <ThumbnailVO>[ vo01,vo02,vo03, vo04,vo05,vo06];

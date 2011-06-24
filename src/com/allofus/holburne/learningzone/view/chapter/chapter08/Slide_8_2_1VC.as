@@ -28,7 +28,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter08
 			addChild(img);
 			
 			var title:String ="Michele Rocca (1666-1751)";
-			var description:String = "<p class='justified'>Rocca worked in Rome, but was known as ‘Il Parmigiano’ because he was born and studied in Parma.  There he was influenced by the graceful and light-hearted style and rich colours of his great sixteenth-century predecessor Correggio.  In Rome he made his name as a painter of small-scale mythological and religious subjects, but from around 1730 he seems to have moved to Venice.</p>";
+			var description:String = "<p class='justified'>Rocca worked in Rome, but was known as ‘Il Parmigiano’ because he was born and studied in Parma.  There he was influenced by the graceful and light-hearted style and rich colours of his great sixteenth-century predecessor Correggio.  In Rome he made his name as a painter of small-scale mythological and religious subjects before moving to Venice from around 1730.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description);
 			addChild(text);
 			

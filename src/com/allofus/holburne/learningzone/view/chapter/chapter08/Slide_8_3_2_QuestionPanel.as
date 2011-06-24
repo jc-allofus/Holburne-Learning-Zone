@@ -28,7 +28,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter08
 		
 		public function Slide_8_3_2_QuestionPanel()
 		{
-			questionPanel = new TextBoxWithTitleAndDescription("WHAT HAPPENS NEXT?", "", AppGlobals.RIGHT_FRAME_WIDTH, 610);
+			questionPanel = new TextBoxWithTitleAndDescription("What happens next?", "", AppGlobals.RIGHT_FRAME_WIDTH, 610);
 			addChild(questionPanel);
 			
 			possibleAnswers = new <NumberedTextButton>
@@ -61,7 +61,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter08
 				if(i>0)
 					PositionUtil.positionUnder(possibleAnswers[i], possibleAnswers[i-1], -15);	
 			}
-			possibleAnswersContainer.y = questionPanel.bottomOfCopy;
+			possibleAnswersContainer.y = questionPanel.underTitle;
 		}
 		
 		protected function removePossibleAnswers():void

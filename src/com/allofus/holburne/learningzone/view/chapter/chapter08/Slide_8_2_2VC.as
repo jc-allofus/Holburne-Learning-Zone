@@ -62,12 +62,12 @@ package com.allofus.holburne.learningzone.view.chapter.chapter08
 
 			var title:String ="Examples of work by Michele Rocca";
 			var page1:String = 
-				"<p class='justified'>copy needed...</p>"
+				"<p class='justified'></p>"
 //			+	"<p></p>"
 //			+	"<p class='justified'>paragraph2text</p>"
 			;
 			
-			text = new TextBoxWithTitleAndDescription(title, page1, AppGlobals.RIGHT_FRAME_WIDTH);
+			text = new TextBoxWithTitleAndDescription(title, "", AppGlobals.RIGHT_FRAME_WIDTH);
 			addChild(text);
 			positionInRightFrame(text);
 			text.y = AppGlobals.RIGHT_FRAME_Y;

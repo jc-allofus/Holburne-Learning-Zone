@@ -35,7 +35,8 @@ package com.allofus.holburne.learningzone.view.component
 		protected var decoration:Bitmap;
 		public var titleField:TextField;
 		public var bodyField:TextField;
-		public var additionalTextPanel:PopupPanel;
+		public var additionalTextPanel : PopupPanel;
+		
 		
 		public function TextBoxWithTitleAndDescription(title:String, body:String, targetWidth:Number = AppGlobals.RIGHT_FRAME_WIDTH, targetHeight:Number = NaN)
 		{
@@ -96,6 +97,11 @@ package com.allofus.holburne.learningzone.view.component
 //			else
 //				return titleField.y + titleField.height;
 			return _height;
+		}
+		
+		public function get underTitle():Number
+		{
+			return titleField.y + titleField.height;
 		}
 		
 		public function setAdditionalText(value : String) : void
