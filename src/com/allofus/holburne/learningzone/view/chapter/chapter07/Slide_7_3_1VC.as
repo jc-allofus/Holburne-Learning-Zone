@@ -46,12 +46,12 @@ package com.allofus.holburne.learningzone.view.chapter.chapter07
 			img.alpha = 0;
 			addChild(img);
 			
-			var str1:String = "<p class='popupPanelTitle'>Joseph</p><p>A rich man of Arimathaea ... who also himself was Jesus' disciple.</p>";
-			var str2:String = "<p class='popupPanelTitle'>John</p><p>The disciple whom Jesus loved.</p>";
-			var str3:String = "<p class='popupPanelTitle'>Mary</p><p>The mother of Jesus</p>";
-			var str4:String = "<p class='popupPanelTitle'>An angel</p><p></p>";
-			var str5:String = "<p class='popupPanelTitle'>Jesus</p><p>the Christ, the Son of the living God</p>";
-			var str6:String = "<p class='popupPanelTitle'>Mary Magdalene</p><p>out of whom he had cast seven devils</p>";
+			var str1:String = "<p class='popupPanelTitle'>Joseph</p><p>Joseph is described in the Gospels as 'a rich man of Arimathaea' who asked Pontius Pilate for the dead body of Christ in order to bury him.</p>";
+			var str2:String = "<p class='popupPanelTitle'>St. John</p><p>St John or 'the disciple whom Jesus loved' is the only disciple described as being present at the Crucifixion in the Gospels.</p>";
+			var str3:String = "<p class='popupPanelTitle'>Mary</p><p>Jesus's mother is shown as the model of compassion (litearally 'suffering with').</p>";
+			var str4:String = "<p class='popupPanelTitle'>An angel</p><p>An angel transforms the painting from a simple narrative to a timeless devotional image. He draws the viewer's attention to the nail hole in Christ's hand.</p>";
+			var str5:String = "<p class='popupPanelTitle'>Jesus</p><p>The dead Christ. Although the wounds of the crucifixion are visible, the painting does not emphasise the physical suffering of Christ.</p>";
+			var str6:String = "<p class='popupPanelTitle'>Mary Magdalene</p><p>Mary Magdalene is traditionally shown in images of the Crucifixion and Entombment. Although she is often shown displaying the extremes of grief, here she shares the contemplative calm of the painting.</p>";
 			
 			pinVOs = new <HotspotButtonVO>[
 				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1, Img_7_3_1_1)),
@@ -62,9 +62,9 @@ package com.allofus.holburne.learningzone.view.chapter.chapter07
 				new HotspotButtonVO(containerMC.t6, new PopupPanelVO(str6, Img_7_3_1_6))
 			];
 			
-			var title:String ="Who’s who";
-			//var description:String = "<p class='justified'>lorem ipsum...</p>";
-			text = new TextBoxWithTitleAndDescription(title, "");
+			var title:String ="The subject";
+			var body:String = "<p class='justified'>Romanelli's painting combines two episodes in the Easter story: Christ's body has been taken down from the cross and is now being prepared for burial.  The surrounding figures, like the viewer of the painting, contemplate the dead body.</p>";
+			text = new TextBoxWithTitleAndDescription(title, body);
 			text.alpha = 0;
 			addChild(text);
 			

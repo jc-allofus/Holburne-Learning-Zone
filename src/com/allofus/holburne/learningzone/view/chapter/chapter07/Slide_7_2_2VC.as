@@ -51,7 +51,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter07
 			
 			var st04:String = 
 				"<p><span class='imageCaptionItalic'>The Lamentation</span><span class='imageCaption'>, 1603</span></p>"
-			+	"<p class='imageCaption'>Domenichino (1581-1641)</p>"
+			+	"<p class='imageCaption'>Domencio Zampieri, called Domenichino (1581-1641)</p>"
 			+	"<p class='imageCaption'>Oil on copper, 53 x 37.5 cm</p>"
 			+	"<p class='imageCaption'>Metropolitan Museum of Art, New York</p>";
 			var vo04:ThumbnailVO = new ThumbnailVO(containerMc.t4, Img_7_2_2_4, st04);	

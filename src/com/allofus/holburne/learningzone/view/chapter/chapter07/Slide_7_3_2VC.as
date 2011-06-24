@@ -62,7 +62,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter07
 
 			var title:String ="More paintings by Romanelli";
 			var page1:String = 
-				"<p class='justified'>Romanelli made several little paintings on copper of scenes for Pope Urban VIII and the Barberini family.  There are at least three scenes from the Easter story made around 1640, the same time as the Holburne’s.  Most of these include the disciple John, who was a witness to both the death and the Resurrection of Christ.  John is traditionally depicted as a very young man, and is thought to have written the fourth Gospel many years after these things took place.  Here is John’s account of the story.</p>"
+				"<p class='justified'>Romanellli painted a number of similar small-scale painitngs depicting episodes from the same story, including the less usual scene of the disciples discovering the empty tomb following the Resurrection.</p>"
 //			+	"<p></p>"
 //			+	"<p class='justified'>paragraph2text</p>"
 			;
