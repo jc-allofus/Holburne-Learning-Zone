@@ -1,6 +1,7 @@
 package com.allofus.holburne.learningzone.view.menu
 {
 	import com.allofus.holburne.learningzone.events.ChapterMenuEvent;
+	import com.allofus.holburne.learningzone.guiassets.TextPanelDecoration;
 	import com.allofus.holburne.learningzone.guiassets.menu.MenuPanel;
 	import com.allofus.holburne.learningzone.model.vo.ButtonVO;
 	import com.allofus.holburne.learningzone.view.component.button.SubMenuButton;
@@ -8,10 +9,12 @@ package com.allofus.holburne.learningzone.view.menu
 	import com.allofus.shared.util.PositionUtil;
 	import com.greensock.TweenMax;
 	import com.greensock.easing.Expo;
+
+	import mx.logging.ILogger;
+
 	import flash.display.Bitmap;
 	import flash.display.Sprite;
 	import flash.events.MouseEvent;
-	import mx.logging.ILogger;
 
 
 
@@ -57,7 +60,7 @@ package com.allofus.holburne.learningzone.view.menu
 				
 				if(i < menuButtonVOs.length-1)
 				{
-					var sep:SubMenuSeparator = new SubMenuSeparator();
+					var sep:Bitmap = new Bitmap(new TextPanelDecoration(0,0));
 					addChild(sep);
 					PositionUtil.positionUnder(sep, btn, 7);
 					PositionUtil.centerHorizontally(sep, this);

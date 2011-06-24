@@ -9,6 +9,7 @@ package com.allofus.holburne.learningzone.view.component
 	import mx.logging.ILogger;
 
 	import flash.display.Graphics;
+	import flash.events.MouseEvent;
 	import flash.filters.GlowFilter;
 	import flash.text.TextField;
 
@@ -26,13 +27,13 @@ package com.allofus.holburne.learningzone.view.component
 		protected var panelWidth:Number = AppGlobals.TIMELINE_POPUP_WIDTH;
 		protected var panelHeight:Number = NaN;
 		
+		public var closeButton:ClosePanelButton;
+		
 		
 		public function TimelinePopup(vo:PopupPanelVO, tWidth:Number = AppGlobals.TIMELINE_POPUP_WIDTH, tHeight:Number = NaN)
 		{
 			panelWidth = tWidth;
 			panelHeight = tHeight;
-			
-			super(vo);
 			
 			if(image && vo.imageCaption)
 			{
@@ -40,10 +41,15 @@ package com.allofus.holburne.learningzone.view.component
 				addChild(caption);
 			}
 			
+			closeButton = new ClosePanelButton();
+			closeButton.addEventListener(MouseEvent.CLICK, close);
+			addChild(closeButton);
+			
 			
 			//hacky business - reset & redraw (because panel is already drawn in super())
 			panelHeight = NaN;
-			draw();
+			
+			super(vo);
 		}
 		
 		override protected function draw():void
@@ -94,6 +100,13 @@ package com.allofus.holburne.learningzone.view.component
 		{
 			if(caption)
 				removeChild(caption);
+				
+			if(closeButton)
+			{
+				closeButton.removeEventListener(MouseEvent.CLICK, close);
+				removeChild(closeButton);
+			}
+			closeButton = null;
 				
 			caption = null;
 		}

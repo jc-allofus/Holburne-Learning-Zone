@@ -61,8 +61,8 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 				new HotspotButtonVO(containerMC.t6, new PopupPanelVO(str6, Img_2_3_1_6))
 			];
 			
-			var title:String ="Who's who?";
-			var description:String = "<p class='justified'>Tap a pin on the large image on the right to see more details.</p>";
+			var title:String ="The Scene";
+			var description:String = "<p class='justified'>Touch the picture to find out who's who.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description);
 			text.alpha = 0;
 			addChild(text);

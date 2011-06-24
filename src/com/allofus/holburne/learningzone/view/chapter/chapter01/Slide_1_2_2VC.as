@@ -37,7 +37,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			var st01:String = 
 				"<p><span class='imageCaptionItalic'>William Wollaston MP</span><span class='imageCaption'>, late 1750s</span></p>"
 			+	"<p class='imageCaption'>Oil on canvas, 216 x 147 cm</p>"
-			+	"<p class='imageCaption'>By Kind Permission of the Trustees of the HC Wollaston Will Trust</p>";
+			+	"<p class='imageCaption'>By Kind Permission of the Trustees of the <br />HC Wollaston Will Trust</p>";
 			var vo01:ThumbnailVO = new ThumbnailVO(containerMc.t1, Img_1_2_2_01, st01);
 			
 			var st02:String = 
@@ -55,7 +55,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			var st04:String = 
 				"<p><span class='imageCaptionItalic'>Dr Rice Charleton</span><span class='imageCaption'>, about 1764</span></p>"
 			+	"<p class='imageCaption'>Oil on canvas, 229 x 152 cm</p>"
-			+	"<p class='imageCaption'>Acquired as part of the Ernest Cook Bequest through the National Art Collections Fund 1955</p>"
+			+	"<p class='imageCaption'>Acquired as part of the Ernest Cook Bequest <br />through the National Art Collections Fund 1955</p>"
 			+	"<p class='imageCaption'>A365</p>";
 			var vo04:ThumbnailVO = new ThumbnailVO(containerMc.t4, Img_1_2_2_04, st04);
 			
@@ -71,11 +71,11 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			+	"<p class='imageCaption'>Collection of Sir William Holburne, A66</p>";
 			var vo06:ThumbnailVO = new ThumbnailVO(containerMc.t6, Img_1_2_2_06, st06);			
 
-			var st07:String = 
-				"<p><span class='imageCaptionItalic'>Dr Abel Moysey</span><span class='imageCaption'>, about 1765</span></p>"
-			+	"<p class='imageCaption'>Oil on canvas, 127.5 x 102 cm</p>"
-			+	"<p class='imageCaption'>On loan from a private collection</p>";
-			var vo07:ThumbnailVO = new ThumbnailVO(containerMc.t7, Img_1_2_2_07, st07);
+//			var st07:String = 
+//				"<p><span class='imageCaptionItalic'>Dr Abel Moysey</span><span class='imageCaption'>, about 1765</span></p>"
+//			+	"<p class='imageCaption'>Oil on canvas, 127.5 x 102 cm</p>"
+//			+	"<p class='imageCaption'>On loan from a private collection</p>";
+//			var vo07:ThumbnailVO = new ThumbnailVO(containerMc.t7, Img_1_2_2_07, st07);
 			
 			var st08:String = 
 				"<p><span class='imageCaptionItalic'>Thomas Bowlby MP</span><span class='imageCaption'>, 1766</span></p>"
@@ -85,17 +85,18 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			
 			var st09:String = 
 				"<p><span class='imageCaptionItalic'>Louisa, Lady Clarges</span><span class='imageCaption'>, 1778</span></p>"
-			+	"<p class='imageCaption'>Oil on canvas, 126 x 100.5 cm</p>";
+			+	"<p class='imageCaption'>Oil on canvas, 126 x 100.5 cm</p>"
+			+	"<p class='imageCaption'>On loan from the Victoria Art Gallery,<br />Bath & North East Somerset Council</p>";
 			var vo09:ThumbnailVO = new ThumbnailVO(containerMc.t9, Img_1_2_2_09, st09);	
 			
 			var st10:String = 
 				"<p><span class='imageCaptionItalic'>Letter to Dr Rice Charleton</span><span class='imageCaption'>, 24 June 1779</span></p>"
 			+	"<p class='imageCaption'>Ink and sealing wax on paper, 21.8 x 37.7 cm</p>"
-			+	"<p class='imageCaption'>Acquired as part of the Ernest Cook Bequest through the National Art Collections Fund 1955</p>"
+			+	"<p class='imageCaption'>Acquired as part of the Ernest Cook Bequest through the <br />National Art Collections Fund 1955</p>"
 			+	"<p class='imageCaption'>A365a</p>";
 			var vo10:ThumbnailVO = new ThumbnailVO(containerMc.t10, Img_1_2_2_10, st10);			
 			
-			thumbnailVOs = new <ThumbnailVO>[ vo01,vo02,vo03,vo04,vo05,vo06,vo07,vo08,vo09,vo10 ];
+			thumbnailVOs = new <ThumbnailVO>[ vo01,vo02,vo03,vo04,vo05,vo06,vo08,vo09,vo10 ];
 			
 			enableThumbs();
 			addChild(containerMc);

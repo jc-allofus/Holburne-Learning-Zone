@@ -153,8 +153,9 @@ package com.allofus.holburne.learningzone.view.chapter.chapter05
 			addChild(largeImageContainer);
 
 			var title:String ="Other Saints in the Holburne Museum ";
+			var body:String = "<p class='justified'>Sir William Holburne's collection is not rich in religious imagery, but a number of saints can be found depicted among his paintings and statues.</p>";
 			
-			text = new TextBoxWithTitleAndDescription(title, "", AppGlobals.RIGHT_FRAME_WIDTH);
+			text = new TextBoxWithTitleAndDescription(title, body, AppGlobals.RIGHT_FRAME_WIDTH,180);
 			addChild(text);
 			positionInRightFrame(text);
 			text.y = AppGlobals.RIGHT_FRAME_Y;

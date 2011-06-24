@@ -48,7 +48,7 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="HotspotZoneTarget" name="t6" centerPoint3DX="663" centerPoint3DY="516">
                   <matrix>
-                    <Matrix a="0.99993896484375" d="1.00007629394531" tx="638" ty="491"/>
+                    <Matrix a="0.99993896484375" d="1.00006103515625" tx="638" ty="491"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="25" y="25"/>

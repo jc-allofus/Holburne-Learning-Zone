@@ -48,18 +48,18 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 			img = new ImageWithBorderAndCaption(new Bitmap(new Chap4IntroImage(0,0)), caption);
 			addChild(img);
 			
-			var str1:String = "<p>orange</p>";
-			var str2:String = "<p>White peach</p>";
-			var str3:String = "<p>White grapes</p>";
-			var str4:String = "<p>oyster</p>";
-			var str5:String = "<p>Red grapes</p>";
-			var str6:String = "<p>Bread roll</p>";
-			var str7:String = "<p>pear</p>";
-			var str8:String = "<p>Black grapes</p>";
-			var str9:String = "<p>crab</p>";
-			var str10:String = "<p>apricots</p>";
-			var str11:String = "<p>pomegranate</p>";
-			var str12:String = "<p>Hazel nuts</p>";
+			var str1:String = "<p class='popupPanelTitle'>Orange</p>";
+			var str2:String = "<p class='popupPanelTitle'>White peach</p>";
+			var str3:String = "<p class='popupPanelTitle'>White grapes</p>";
+			var str4:String = "<p class='popupPanelTitle'>Oyster</p>";
+			var str5:String = "<p class='popupPanelTitle'>Red grapes</p>";
+			var str6:String = "<p class='popupPanelTitle'>Bread roll</p>";
+			var str7:String = "<p class='popupPanelTitle'>Pear</p>";
+			var str8:String = "<p class='popupPanelTitle'>Black grapes</p>";
+			var str9:String = "<p class='popupPanelTitle'>Crab</p>";
+			var str10:String = "<p class='popupPanelTitle'>Apricots</p>";
+			var str11:String = "<p class='popupPanelTitle'>Pomegranate</p>";
+			var str12:String = "<p class='popupPanelTitle'>Hazel nuts</p>";
 			
 			pinVOs = new <HotspotButtonVO>[
 				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1, Img_4_3_1_1)),

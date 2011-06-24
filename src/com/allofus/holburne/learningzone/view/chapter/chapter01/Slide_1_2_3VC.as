@@ -75,7 +75,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			
 			var title:String ="WHERE HE LIVED";
 			var description:String = 
-				"<p class='justified'>Click on the pins on the image to view more details.</p>"
+				"<p class='justified'>Gainsborough moved to a rapidly changing city. His first house stood opposite the Abbey but he was also to live in Lansdown and the newly built Circus.</p>"
 			+	"<p></p>";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
 			addChild(text);

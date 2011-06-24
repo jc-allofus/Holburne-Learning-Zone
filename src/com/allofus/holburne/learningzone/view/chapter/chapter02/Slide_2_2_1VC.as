@@ -35,7 +35,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			+	"<p class='imageCaption'>Pieter Bruegel I</p>"
 			+	"<p class='imageCaption'>Pen and black ink on brown paper, 25.5 x 21.5 cm</p>"
 			+	"<p class='imageCaption'>Graphische Sammlung Albertina, Vienna</p>";
-			var at01:String = "<p>The elder Bruegel was probably born in Breda and worked mainly in Antwerp.  Antwerp (now in Belgium) was a great trading city with a wealthy and discerning Imperial Court and an appreciative eye for his landscapes, religious paintings and scenes of everyday peasant life.  His landscape work was transformed by a journey over the Alps to the far south of Italy.  He was also influenced by Hieronymus Bosch.  Much-loved paintings include the <span class='copyItalic'>Tower of Babel, Netherlandish Proverbs</span> and <span class='copyItalic'>The Peasant Wedding</span>.</p> "	;
+			var at01:String = "<p>Pieter Bruegel the Elder was probably born in Breda and worked mainly in Antwerp where he painted his landscapes, religious paintings and scenes of everyday peasant life.  His much-loved paintings include the <span class='copyItalic'>Tower of Babel, Netherlandish Proverbs</span> and <span class='copyItalic'>The Peasant Wedding</span>.</p> "	;
 			var vo01:ThumbnailVO = new ThumbnailVO(containerMc.t1, Img_2_2_1_1, st01,at01);
 			
 			var st02:String = 
@@ -43,7 +43,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			+	"<p class='imageCaption'>Pieter Bruegel I</p>"
 			+	"<p class='imageCaption'>Oil on panel, 117 x 162 cm</p>"
 			+	"<p class='imageCaption'>Kunsthistorisches Museum, Vienna</p>";
-			var at02:String = "<p>The elder Bruegel was probably born in Breda and worked mainly in Antwerp.  Antwerp (now in Belgium) was a great trading city with a wealthy and discerning Imperial Court and an appreciative eye for his landscapes, religious paintings and scenes of everyday peasant life.  His landscape work was transformed by a journey over the Alps to the far south of Italy.  He was also influenced by Hieronymus Bosch.  Much-loved paintings include the <span class='copyItalic'>Tower of Babel, Netherlandish Proverbs</span> and <span class='copyItalic'>The Peasant Wedding</span>.</p> "	;
+			var at02:String = "<p>Pieter Bruegel the Elder's expansive landscapes were transformed by a journey over the Alps. </p> ";
 			var vo02:ThumbnailVO = new ThumbnailVO(containerMc.t2, Img_2_2_1_2, st02, at02);	
 			
 			var st03:String = 
@@ -86,8 +86,8 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			addChild(containerMc);
 			addChild(largeImageContainer);
 
-			var title:String ="The Brueghel Family: Who’s Who?";
-			var description:String = "<p class='justified'>Until the eighteenth century, people could spell their surnames however they liked.  Documents show that the members of Pieter Bruegel’s family all signed their names with different spellings.</p>";
+			var title:String ="Who’s Who?";
+			var description:String = "<p class='justified'>The Bruegel family often worked together.  Documents show that the members of Pieter Bruegel’s family all signed their names with different spellings, as spelling had not yet been standardised.  Touch each picture to find out more about three generations of Bruegels.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
 			addChild(text);
 			text.visible = false;

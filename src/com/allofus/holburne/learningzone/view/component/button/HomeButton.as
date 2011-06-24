@@ -28,7 +28,7 @@ package com.allofus.holburne.learningzone.view.component.button
 			
 			homeTab = new Bitmap(new HomeTab(0,0));
 			homeTabSelected = new Bitmap(new HomeTabClicked(0,0));
-			label = FontManager.createTextField("<p class='buttonLabel'>HOME</p>");
+			label = FontManager.createTextField("<p class='buttonLabel'>Collection</p>");
 			
 			addChild(homeTab);
 			addChild(homeTabSelected);

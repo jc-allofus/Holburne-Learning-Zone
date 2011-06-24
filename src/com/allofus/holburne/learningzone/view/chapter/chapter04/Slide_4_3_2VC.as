@@ -39,16 +39,17 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 			+	"<p class='imageCaption'>A15</p>"
 			;
 			
+			//var str1:String = "<p class='popupPanelTitle'></p><p></p>";
 			img = new ImageWithBorderAndCaption(new Bitmap(new Chap4IntroImage(0,0)), caption);
 			addChild(img);
 			
-			var str1:String = "<p>Porcelain dish</p>";
-			var str2:String = "<p>ewer</p>";
-			var str3:String = "<p>Cover to gold cup.  Figure with lance. </p>";
-			var str4:String = "<p>Pocket watch.  The artist has included a time-piece as a reminder that all the riches of nature and art will pass away</p>";
-			var str5:String = "<p>Roemer</p>";
-			var str6:String = "<p>Gold cup – parcel gilt??</p>";
-			var str7:String = "<p>Parrot. Exotic pets imported from the southern hemisphere were an important status symbol.</p>";
+			var str1:String = "<p class='popupPanelTitle'>Chinese porcelain dish</p><p></p>";
+			var str2:String = "<p class='popupPanelTitle'>Silver Ewer</p>";
+			var str3:String = "<p class='popupPanelTitle'>Cover to the silver gilt cup</p><p>Decorated with a figure with a lance.</p>";
+			var str4:String = "<p class='popupPanelTitle'>Pocket watch.</p><p>The artist has included a time-piece as a reminder that all the riches of nature and art will pass away</p>";
+			var str5:String = "<p class='popupPanelTitle'>Roemer</p><p>Roemer Traditional Netherlandish style of drinking glass</p>";
+			var str6:String = "<p class='popupPanelTitle'>Silver gilt cup</p><p>A German parcel-gilt silver cup, probably made in Nuremberg.  Its cover is lying on the table to the left.</p>";
+			var str7:String = "<p class='popupPanelTitle'>Parrot</p><p>Exotic pets imported from the southern hemisphere were an important status symbol.</p>";
 			
 			pinVOs = new <HotspotButtonVO>[
 				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1, Img_4_3_2_1)),

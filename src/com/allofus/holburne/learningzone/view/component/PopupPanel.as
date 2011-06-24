@@ -14,7 +14,6 @@ package com.allofus.holburne.learningzone.view.component
 	import flash.display.Shape;
 	import flash.display.Sprite;
 	import flash.events.Event;
-	import flash.events.MouseEvent;
 	import flash.filters.GlowFilter;
 	import flash.text.TextField;
 
@@ -31,7 +30,7 @@ package com.allofus.holburne.learningzone.view.component
 		protected var text:TextField;
 		protected var image:Bitmap;
 		
-		public var closeButton:ClosePanelButton;
+		//public var closeButton:ClosePanelButton;
 
 		public function PopupPanel(vo:PopupPanelVO)
 		{
@@ -49,9 +48,9 @@ package com.allofus.holburne.learningzone.view.component
 				addChild(image);
 			}
 			
-			closeButton = new ClosePanelButton();
-			closeButton.addEventListener(MouseEvent.CLICK, close);
-			addChild(closeButton);
+//			closeButton = new ClosePanelButton();
+//			closeButton.addEventListener(MouseEvent.CLICK, close);
+//			addChild(closeButton);
 			
 			draw();
 		}
@@ -71,19 +70,23 @@ package com.allofus.holburne.learningzone.view.component
 			}
 			text.y = MARGIN;
 			
+			var th:Number = height + (MARGIN*2);
+			
 			var g:Graphics = backgroundPane.graphics;
 			g.clear();
 			g.beginFill(0xFFFFFF);
-			g.drawRect(0, 0, AppGlobals.RIGHT_FRAME_WIDTH, height + MARGIN);
+			g.drawRect(0, 0, AppGlobals.RIGHT_FRAME_WIDTH, th);
 			
 			var gf:GlowFilter = new GlowFilter(0, 0.25,20,20,1,1,false,true);
 			backgroundPane.filters = [gf];
 			
 			graphics.beginFill(0xFFFFFF, 0.3);
-			graphics.drawRect(0, 0, width, height);
+			graphics.drawRect(0, 0, width, th);
 			
-			closeButton.x = width - closeButton.width;
-			closeButton.y = height - closeButton.height;
+			
+			
+//			closeButton.x = width - closeButton.width;
+//			closeButton.y = height - closeButton.height;
 		}
 		
 		public function transitionIn():void
@@ -116,12 +119,12 @@ package com.allofus.holburne.learningzone.view.component
 			if(text)removeChild(text);
 			text = null;
 			
-			if(closeButton)
-			{
-				closeButton.removeEventListener(MouseEvent.CLICK, close);
-				removeChild(closeButton);
-			}
-			closeButton = null;
+//			if(closeButton)
+//			{
+//				closeButton.removeEventListener(MouseEvent.CLICK, close);
+//				removeChild(closeButton);
+//			}
+//			closeButton = null;
 			
 			if(backgroundPane)
 			{

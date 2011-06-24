@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 10/10.4/10.4.4/Slide_10_4_4" itemID="4dc41b96-0000046b" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter10.Slide_10_4_4" sourceLibraryItemHRef="Chapter 10/10.4/10.4.2/Slide_10_4_2 copy" lastModified="1304947834" lastUniqueIdentifier="6">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 10/10.4/10.4.4/Slide_10_4_4" itemID="4dc41b96-0000046b" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter10.Slide_10_4_4" sourceLibraryItemHRef="Chapter 10/10.4/10.4.2/Slide_10_4_2 copy" lastModified="1305643609" lastUniqueIdentifier="6">
   <timeline>
     <DOMTimeline name="Slide_10_4_4">
       <layers>
@@ -6,49 +6,49 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="t1" centerPoint3DX="317.05" centerPoint3DY="209">
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t1" centerPoint3DX="300" centerPoint3DY="186">
                   <matrix>
-                    <Matrix tx="317.05" ty="209"/>
+                    <Matrix tx="300" ty="186"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="t2" centerPoint3DX="515" centerPoint3DY="216">
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t2" centerPoint3DX="487" centerPoint3DY="182">
                   <matrix>
-                    <Matrix tx="515" ty="216"/>
+                    <Matrix tx="487" ty="182"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="t3" centerPoint3DX="692.95" centerPoint3DY="363">
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t3" centerPoint3DX="672" centerPoint3DY="320">
                   <matrix>
-                    <Matrix tx="692.95" ty="363"/>
+                    <Matrix tx="672" ty="320"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="t4" centerPoint3DX="668.95" centerPoint3DY="713.4">
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t4" centerPoint3DX="641" centerPoint3DY="676">
                   <matrix>
-                    <Matrix tx="668.95" ty="713.4"/>
+                    <Matrix tx="641" ty="676"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="t5" centerPoint3DX="515" centerPoint3DY="707.4">
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t5" centerPoint3DX="487" centerPoint3DY="669">
                   <matrix>
-                    <Matrix tx="515" ty="707.4"/>
+                    <Matrix tx="487" ty="669"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PinTarget" name="t6" selected="true" centerPoint3DX="297.05" centerPoint3DY="378.45">
+                <DOMSymbolInstance libraryItemName="PinTarget" name="t6" selected="true" centerPoint3DX="284" centerPoint3DY="401">
                   <matrix>
-                    <Matrix tx="297.05" ty="378.45"/>
+                    <Matrix tx="284" ty="401"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>

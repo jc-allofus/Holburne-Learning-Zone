@@ -1,5 +1,6 @@
 package com.allofus.holburne.learningzone.view.component
 {
+	import flash.text.TextFieldAutoSize;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
 	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.guiassets.TextPanelDecoration;
@@ -25,6 +26,9 @@ package com.allofus.holburne.learningzone.view.component
 		protected var BORDER_SIZE:int = AppGlobals.TEXT_BORDER_SIZE;
 		protected var HEADER_GAP:int = AppGlobals.TEXT_HEADER_GAP;
 		protected var textfieldWidth:Number = 100;
+		protected var _targetWidth:Number;
+		protected var _targetHeight:Number = NaN;
+		protected var _height:Number;
 		
 		protected var background:Shape;
 		protected var glowShape:Shape;
@@ -35,6 +39,8 @@ package com.allofus.holburne.learningzone.view.component
 		
 		public function TextBoxWithTitleAndDescription(title:String, body:String, targetWidth:Number = AppGlobals.RIGHT_FRAME_WIDTH, targetHeight:Number = NaN)
 		{
+			_targetWidth = targetWidth;
+			_targetHeight = targetHeight;
 			
 			glowShape = new Shape();
 			addChild(glowShape);
@@ -76,6 +82,7 @@ package com.allofus.holburne.learningzone.view.component
 			graphics.beginFill(0xFFFFFF, 0.3);
 			graphics.drawRect(0, 0, targetWidth, th);		
 			
+			_height = th;
 			
 			PositionUtil.centerHorizontally(decoration, this );
 			PositionUtil.centerHorizontally(titleField, this);
@@ -83,11 +90,12 @@ package com.allofus.holburne.learningzone.view.component
 		
 		public function get bottomOfCopy():Number
 		{
-			if(bodyField)
-				return bodyField.y + bodyField.height;
-				
-			else
-				return titleField.y + titleField.height;
+//			if(bodyField)
+//				return bodyField.y + bodyField.height;
+//				
+//			else
+//				return titleField.y + titleField.height;
+			return _height;
 		}
 		
 		public function setAdditionalText(value : String) : void
@@ -103,7 +111,7 @@ package com.allofus.holburne.learningzone.view.component
 		{
 			additionalTextPanel = new PopupPanel(new PopupPanelVO(value));
 			addChild(additionalTextPanel);
-			additionalTextPanel.y = bottomOfCopy + BORDER_SIZE + 20;
+			additionalTextPanel.y = bottomOfCopy + 20;
 			additionalTextPanel.transitionIn();
 		}
 		
@@ -122,8 +130,12 @@ package com.allofus.holburne.learningzone.view.component
 		
 		public function set title(value:String):void
 		{
+			titleField.autoSize = TextFieldAutoSize.LEFT;
 			titleField.htmlText = "<p class='title'>" + value + "</p>";
-			PositionUtil.centerHorizontally(titleField, this);
+			if(_targetWidth)
+				PositionUtil.centerHorizontallyByVal(titleField, _targetWidth);
+			else
+				PositionUtil.centerHorizontally(titleField, this);
 		}
 		
 		public function centerBodyCopy():void

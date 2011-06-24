@@ -6,8 +6,8 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
 	import com.allofus.shared.util.PositionUtil;
+	import com.holburne.learningzone.swc.chapter2.Chap2IntroImage;
 	import com.holburne.learningzone.swcassets.Img_2_4_3_After;
-	import com.holburne.learningzone.swcassets.Img_2_4_3_Before;
 
 	import flash.display.Bitmap;
 	import flash.geom.Point;
@@ -32,7 +32,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			+	"<p class='imageCaption'>Collection of Sir Thomas William Holburne</p>"
 			+	"<p class='imageCaption'>A46</p>";
 			
-			var imgBefore:Bitmap = new Bitmap(new Img_2_4_3_Before(0,0));
+			var imgBefore:Bitmap = new Bitmap(new Chap2IntroImage(0,0));
 			var imgAfter:Bitmap = new Bitmap(new Img_2_4_3_After(0,0));
 			
 			var swipey:BeforeAndAfterSwipeWithCaption = new BeforeAndAfterSwipeWithCaption(imgBefore, imgAfter);
@@ -47,7 +47,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			
 			var title:String ="Before & After";
 			var description:String = 
-				"<p class='justified'>This life-size view of a wealthy English family enjoying the countryside is one of the most ambitions paintings made during Thomas Gainsborough's sixteen years in Bath.  From 1759 to 1774 he rented one of the most expensive houses in the town, right opposite the Abbey and next to the Pump Room.  In had a spacious studio where visitors to the Spa could come to be recorded in their fashionable finery.</p>"
+				"<p class='justified'>This painting on a fragile wooden panel had lost a lot of its painted surface over the years, particularly in the lower left quarter. Past restorers had made some mistakes in reconstructing missing details like the mother’s face and feet and the rockers on the cradle. X rays and other versions of the image have been used as guides to clean and restore the painting.</p>"
 			+	"<p></p>"
 			+	"<p class='justified'>Swipe across the image to see the transition over time</p>";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);

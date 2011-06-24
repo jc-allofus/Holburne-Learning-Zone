@@ -47,9 +47,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			
 			var title:String ="THOMAS GAINSBOROUGH'S HOUSE";
 			var description:String = 
-				"<p class='justified'>Gainsborough lived here between 1760 and 1766.  The house was built by john wood. it stood on Abbey Street opposite Bath Abbey.</p>"
-			+	"<p></p>"
-			+	"<p class='justified'>Click on the hotspots to find out more about the house</p>";
+				"<p class='justified'>Gainsborough's first house does not survive. Built by John Wood, responsible for much of the expanding city, it stood opposite the Abbey.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
 			addChild(text);
 			text.alpha = 0;
@@ -67,9 +65,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 		
 		override public function dispose():void
 		{
-			if(containerMC)removeChild(containerMC);
 			containerMC = null;
-			
 			super.dispose();
 		}
 		

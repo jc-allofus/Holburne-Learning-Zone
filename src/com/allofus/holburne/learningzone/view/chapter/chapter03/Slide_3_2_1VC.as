@@ -1,5 +1,6 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter03
 {
+	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
 	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.view.chapter.AbstractSlide;
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
@@ -14,7 +15,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 	public class Slide_3_2_1VC extends AbstractSlide
 	{
 		protected var img:ImageWithBorderAndCaption;
-		protected var text:MultipageTextBox;
+		protected var text:TextBoxWithTitleAndDescription;
 		
 		public function Slide_3_2_1VC()
 		{
@@ -33,14 +34,16 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 			
 			var title:String ="Thomas Barker of Bath  (1769-1847)";
 			var page1:String = 
-				"<p class='justified'>Thomas was the eldest son of Benjamin Barker, an animal painter and decorator of japanned ware, who brought his family from Pontypool in 1783 to settle in Bath.  Thomas soon showed precocious artistic talent, possibly nurtured under William Hoare.  With the patronage of Charles Spackman, a local coach builder and property owner, he was encouraged to copy old master pictures and also the later landscapes and fancy pictures of Thomas Gainsborough.  Barker's fame as an artist grew rapidly.  After a period of study in Italy from 1792 and a brief trial stay in London, he returned to Bath in 1798 to remain there for the rest of his life.</p>"
+				"<p class='justified'>Thomas was the eldest son of Benjamin Barker, an animal painter who brought his family to Bath from Pontypool in 1783.  Thomas showed precocious artistic talent and under the patronage of Charles Spackman, a local coach builder, he was encouraged to copy old masters. His fame grew rapidly; , after a period of study in Italy from 1792 and a brief stay in London, he returned to Bath in 1798.</p>"
 			+	"<p></p>"
-			+	"<p class='justified'>Thomas married Priscilla Jones in 1803, and the young couple commissioned the architect Joseph Michael Gandy, a pupil of Sir John Soane to build them a Greek Revival style villa, called Doric House, on the slopes of Lansdown.  In order to provide the essential showroom where he could exhibit his work, a thirty-foot long gallery was included in the plans of the villa.  On one wall of this room he painted a large impressive fresco of <span class='copyItalic'>The Massacre of the Inhabitants of Chios by the Turks</span>.  He held regular exhibitions in his gallery, and also exhibited regularly at the Royal Academy.  Barker's studio in Doric House lay just across the road from William Holburne's house in Cavendish Crescent. </p>"
+			+	"<p class='justified'>Thomas married Priscilla Jones in 1803, and built a Greek Revival style villa, called Doric House, on the slopes of Lansdown. The villa had a thirty-foot long gallery for use as a showroom, with a huge fresco of the Massacre of Chios on one wall. Barker's studio in Doric House was just across the road from William Holburne's house in Cavendish Crescent.</p>"
+			+	"<p></p>"
+			+	"<p class='justified'>In 1793, Sir Edward Harington wrote: “I will venture to pronounce, as exceeding probable, that the name Barker will be at length found to revive the ancient great and beautiful taste in painting, and to do immortal honour to our country”.  That proved to be an over-optimistic forecast.  Barker failed to live up to his early promise, and although he continued to work prolifically, he died in poverty.</p>"
 			;
 			
 			var page2:String = "<p class='justified'>In 1793, Sir Edward Harington wrote: “I will venture to pronounce, as exceeding probable, that the name Barker will be at length found to revive the ancient great and beautiful taste in painting, and to do immortal honour to our country”.  That proved to be an over-optimistic forecast.  Barker failed to live up to his early promise, and although he continued to work prolifically, he died in poverty.</p>";
 			
-			text = new MultipageTextBox(title, [page1,page2], AppGlobals.RIGHT_FRAME_WIDTH);
+			text = new TextBoxWithTitleAndDescription(title, page1);
 			addChild(text);
 			positionInRightFrame(text);
 			text.visible = false;

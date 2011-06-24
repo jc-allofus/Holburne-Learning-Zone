@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/Slide_1_2_2" itemID="4d88a0ee-00000279" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_2_2" sourceLibraryItemHRef="Symbol 1" lastModified="1305555196" lastUniqueIdentifier="11">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 01/01.2 Thomas Gainsborough/01.2.2/Slide_1_2_2" itemID="4d88a0ee-00000279" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.Slide_1_2_2" sourceLibraryItemHRef="Symbol 1" lastModified="1308848527" lastUniqueIdentifier="11">
   <timeline>
     <DOMTimeline name="Slide_1_2_2">
       <layers>
-        <DOMLayer name="thumbs" color="#9933CC" autoNamed="false">
+        <DOMLayer name="thumbs" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -46,7 +46,7 @@
                     <Point x="60" y="42"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_small/t122_06" name="t6" centerPoint3DX="1105.95" centerPoint3DY="731.95">
+                <DOMSymbolInstance libraryItemName="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_small/t122_06" name="t6" selected="true" centerPoint3DX="1105.95" centerPoint3DY="731.95">
                   <matrix>
                     <Matrix tx="1045.95" ty="660.45"/>
                   </matrix>
@@ -54,25 +54,17 @@
                     <Point x="60" y="71.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_small/t122_07" name="t7" centerPoint3DX="1301.95" centerPoint3DY="739">
+                <DOMSymbolInstance libraryItemName="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_small/t122_08" name="t8" centerPoint3DX="1307.6" centerPoint3DY="727.95">
                   <matrix>
-                    <Matrix tx="1241.95" ty="665"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="60" y="74"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_small/t122_08" name="t8" centerPoint3DX="1434.9" centerPoint3DY="727.95">
-                  <matrix>
-                    <Matrix tx="1374.9" ty="657.45"/>
+                    <Matrix tx="1247.6" ty="657.45"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60" y="70.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_small/t122_09" name="t9" centerPoint3DX="1578.9" centerPoint3DY="730.45">
+                <DOMSymbolInstance libraryItemName="Chapter 01/01.2 Thomas Gainsborough/01.2.2/_small/t122_09" name="t9" centerPoint3DX="1509.25" centerPoint3DY="730.45">
                   <matrix>
-                    <Matrix tx="1518.9" ty="657.45"/>
+                    <Matrix tx="1449.25" ty="657.45"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60" y="73"/>
@@ -90,7 +82,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="reference" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false" layerType="guide">
+        <DOMLayer name="reference" color="#4FFF4F" locked="true" autoNamed="false" layerType="guide">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

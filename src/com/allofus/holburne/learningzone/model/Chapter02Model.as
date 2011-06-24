@@ -36,9 +36,9 @@ package com.allofus.holburne.learningzone.model
 			
 			_menuVOs.push
 			(
-				new ButtonVO({label:"<p class='buttonLabel'>The Paintings History</p>", subMenuButtons:new <ButtonVO>[
-					new ButtonVO({label:"<p class='buttonLabel'>The Problem</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"2_4_1"}),
-					new ButtonVO({label:"<p class='buttonLabel'>Work in Progress</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"2_4_2"}),
+				new ButtonVO({label:"<p class='buttonLabel'>Cleaning and Conserving</p>", subMenuButtons:new <ButtonVO>[
+//					new ButtonVO({label:"<p class='buttonLabel'>The Problem</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"2_4_1"}),
+//					new ButtonVO({label:"<p class='buttonLabel'>Work in Progress</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"2_4_2"}),
 					new ButtonVO({label:"<p class='buttonLabel'>Before & After</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"2_4_3"})
 				]})
 			);

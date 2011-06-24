@@ -29,11 +29,10 @@ package com.allofus.holburne.learningzone.view.chapter.chapter05
 			
 			var title:String ="INTRODUCTION";
 			var description:String = 
-				"<p class='justified'>Jan van der Venne of Brussels painted low-life scenes, specialising in gypsy encampments and images of old people.  Here he uses a favourite religious subject, the temptation of St Anthony, as an excuse to invent some spectacularly hideous monsters.  </p>"
+				"<p class='justified'>This teeming scene, with its crowd of grotesque monsters shows the 3rd-century Saint Anthony tormented by demons in the desert. The swirling shrieking movement of the gang of fiends is contrasted with the peaceful rock-like silence of the praying hermit.</p>"
 			+	"<p></p>"
-			+	"<p class='justified'>St Anthony the Great is revered throughout Christianity as the leader of a community of hermits that grew up in the Egyptian desert in the first few centuries after Christ.  The artist shows St Anthony kneeling at the door of his cave attended by his faithful pig.  He is tempted to the sins of the flesh by a beckoning blonde wrapped in soft satin, while Avarice rattles a bulging purse.  Spiritual troubles swarm on him in the form of visionary demons flaunting some delightfully gruesome details.</p>"
-			+	"<p></p>"
-			+	"<p class='justified'>The artist contrasts the swirling, shrieking movement of the gang of fiends with the peaceful rock-like silence of the hermit kneeling in prayer.</p>";
+			+	"<p class='justified'>Jan van der Venne of Brussels painted low-life scenes, specialising in gypsy encampments and images of old people.  Here he uses a favourite religious subject, the temptation of St Anthony, as an excuse to invent some spectacularly hideous monsters.</p>"
+			;
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
 			addChild(text);
 			text.visible = false;

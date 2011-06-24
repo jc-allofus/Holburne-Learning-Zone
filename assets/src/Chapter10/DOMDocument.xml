@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="1920" height="1080" frameRate="31" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" rulerVisible="true" viewAngle3D="122.353661987282" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="1920" height="1080" frameRate="31" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" guidesSnapTo="false" rulerVisible="true" pixelSnap="true" snapAlign="false" objectsSnapTo="false" viewAngle3D="122.353661987282" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="Chapter 10" itemID="4dc40d10-00000352" isExpanded="true"/>
           <DOMFolderItem name="Chapter 10/10.1" itemID="4dc40d1f-00000360"/>
@@ -8,11 +8,11 @@
           <DOMFolderItem name="Chapter 10/10.3/10.3.2" itemID="4dc4169d-000003f1"/>
           <DOMFolderItem name="Chapter 10/10.4" itemID="4dc40d28-00000366" isExpanded="true"/>
           <DOMFolderItem name="Chapter 10/10.4/10.4.1" itemID="4dc416b7-00000400"/>
-          <DOMFolderItem name="Chapter 10/10.4/10.4.2" itemID="4dc416bd-00000401" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 10/10.4/10.4.3" itemID="4dc416c2-00000402" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 10/10.4/10.4.2" itemID="4dc416bd-00000401"/>
+          <DOMFolderItem name="Chapter 10/10.4/10.4.3" itemID="4dc416c2-00000402"/>
           <DOMFolderItem name="Chapter 10/10.4/10.4.3/_large" itemID="4dc7ed10-00000290"/>
           <DOMFolderItem name="Chapter 10/10.4/10.4.3/_thumb" itemID="4dc7ed06-0000028f"/>
-          <DOMFolderItem name="Chapter 10/10.4/10.4.4" itemID="4dc416b1-000003fe"/>
+          <DOMFolderItem name="Chapter 10/10.4/10.4.4" itemID="4dc416b1-000003fe" isExpanded="true"/>
      </folders>
      <media>
           <DOMBitmapItem name="Chapter 10/10.1/10_1_1.jpg" itemID="4dc40d83-0000037f" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter10.Img_10_1" sourceExternalFilepath="./LIBRARY/Chapter 10/10.1/10_1_1.jpg" sourceLastImported="1302686118" sourcePlatform="macintosh" externalFileSize="96369" quality="50" href="Chapter 10/10.1/10_1_1.jpg" bitmapDataHRef="M 20 1304694140.dat" frameRight="9320" frameBottom="11880" isJPEG="true"/>
@@ -63,7 +63,7 @@
           <Include href="Chapter 10/10.4/10.4.3/_thumb/t7.xml" loadImmediate="false"/>
           <Include href="Chapter 10/10.4/10.4.3/Slide_10_4_3.xml"/>
           <Include href="Chapter 10/10.4/10.4.4/Slide_10_4_4.xml"/>
-          <Include href="PinTarget.xml" loadImmediate="false"/>
+          <Include href="PinTarget.xml"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -381,6 +381,8 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="986479" publishTime="1305643386"/>
+          <PublishItem publishSize="986479" publishTime="1305643338"/>
           <PublishItem publishSize="986254" publishTime="1304949496"/>
           <PublishItem publishSize="986179" publishTime="1304949400"/>
           <PublishItem publishSize="951017" publishTime="1304949332"/>
@@ -399,7 +401,5 @@
           <PublishItem publishSize="754935" publishTime="1304693519"/>
           <PublishItem publishSize="754938" publishTime="1304693509"/>
           <PublishItem publishSize="754870" publishTime="1304693123"/>
-          <PublishItem publishSize="754871" publishTime="1304689602"/>
-          <PublishItem publishSize="754783" publishTime="1304689428"/>
      </publishHistory>
 </DOMDocument>

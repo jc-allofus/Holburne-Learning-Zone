@@ -53,8 +53,8 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 				new HotspotButtonVO(containerMC.t3, new PopupPanelVO(str3))
 			];
 			
-			var title:String ="WHO’S WHO: THE BYAM FAMILY";
-			var description:String = "";
+			var title:String ="The People";
+			var description:String = "Touch the picture to find out who's who.";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
 			addChild(text);
 			text.alpha = 0;

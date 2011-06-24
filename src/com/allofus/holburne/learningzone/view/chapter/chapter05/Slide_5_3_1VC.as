@@ -67,8 +67,8 @@ package com.allofus.holburne.learningzone.view.chapter.chapter05
 				new HotspotButtonVO(containerMC.t9, new PopupPanelVO(str9, Img_5_3_1_9)),
 			];
 			
-			var title:String ="What are those strange things?";
-			var description:String = "<p class='justified'></p>";
+			var title:String ="A closer look";
+			var description:String = "<p class='justified'>Touch the painting to find out more.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description);
 			text.alpha = 0;
 			addChild(text);

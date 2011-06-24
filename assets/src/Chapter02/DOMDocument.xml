@@ -1,7 +1,7 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="1920" height="1080" frameRate="31" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" pixelSnap="true" snapAlign="false" objectsSnapTo="false" viewAngle3D="122.353661987282" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="Chapter 02" itemID="4d7fa2f8-00000279" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 02/02.1 Introduction" itemID="4d90a8b9-000002ac"/>
+          <DOMFolderItem name="Chapter 02/02.1 Introduction" itemID="4d90a8b9-000002ac" isExpanded="true"/>
           <DOMFolderItem name="Chapter 02/02.2 The Brughal Family" itemID="4d90a8c9-000002ad"/>
           <DOMFolderItem name="Chapter 02/02.2 The Brughal Family/02.2.1" itemID="4da5ac82-00000268"/>
           <DOMFolderItem name="Chapter 02/02.2 The Brughal Family/02.2.1/_large" itemID="4da5ace7-0000029e" isExpanded="true"/>
@@ -11,9 +11,9 @@
           <DOMFolderItem name="Chapter 02/02.2 The Brughal Family/02.2.3/_large" itemID="4da5d111-000003e6" isExpanded="true"/>
           <DOMFolderItem name="Chapter 02/02.2 The Brughal Family/02.2.3/_thumb" itemID="4da5d119-000003ea"/>
           <DOMFolderItem name="Chapter 02/02.2 The Brughal Family/untitled folder 1" itemID="4da5d0e3-000003c7"/>
-          <DOMFolderItem name="Chapter 02/02.3 Whats Going On" itemID="4d90a8d5-000002ae" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 02/02.3 Whats Going On" itemID="4d90a8d5-000002ae"/>
           <DOMFolderItem name="Chapter 02/02.3 Whats Going On/02.3.1" itemID="4da6c2f3-0000028e"/>
-          <DOMFolderItem name="Chapter 02/02.3 Whats Going On/02.3.2" itemID="4da6c2fb-00000292" isExpanded="true"/>
+          <DOMFolderItem name="Chapter 02/02.3 Whats Going On/02.3.2" itemID="4da6c2fb-00000292"/>
           <DOMFolderItem name="Chapter 02/02.3 Whats Going On/02.3.3" itemID="4da6c309-00000296" isExpanded="true"/>
           <DOMFolderItem name="Chapter 02/02.3 Whats Going On/02.3.3/_large" itemID="4da6d132-00000333" isExpanded="true"/>
           <DOMFolderItem name="Chapter 02/02.3 Whats Going On/02.3.3/_thumb" itemID="4da6d12a-0000032f"/>
@@ -21,7 +21,7 @@
           <DOMFolderItem name="Chapter 02/02.4 The Paintings History/02.4.3" itemID="4d91c2c2-0000031d"/>
      </folders>
      <media>
-          <DOMBitmapItem name="Chapter 02/02.1 Introduction/2_1_large_no-boarder.jpg" itemID="4da5ab93-00000262" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter2.Chap2IntroImage" sourceExternalFilepath="./LIBRARY/Chapter 02/02.1 Introduction/2_1_large_no-boarder.jpg" sourceLastImported="1302702750" sourcePlatform="macintosh" externalFileSize="88048" quality="50" href="Chapter 02/02.1 Introduction/2_1_large_no-boarder.jpg" bitmapDataHRef="M 4 1302702762.dat" frameRight="12520" frameBottom="9260" isJPEG="true"/>
+          <DOMBitmapItem name="Chapter 02/02.1 Introduction/2_1_large_no-boarder.jpg" itemID="4e037249-00000463" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter2.Chap2IntroImage" sourceExternalFilepath="./LIBRARY/Chapter 02/02.1 Introduction/2_1_large_no-boarder.jpg" sourceLastImported="1308836264" sourcePlatform="macintosh" externalFileSize="103059" quality="50" href="Chapter 02/02.1 Introduction/2_1_large_no-boarder.jpg" bitmapDataHRef="M 4 1302702762.dat" frameRight="12520" frameBottom="9300" isJPEG="true"/>
           <DOMBitmapItem name="Chapter 02/02.2 The Brughal Family/02.2.1/_thumb/2_2_1_1_small.png" itemID="4da5bc8c-00000336" sourceExternalFilepath="./LIBRARY/Chapter 02/02.2 The Brughal Family/02.2.1/_thumb/2_2_1_1_small.png" sourceLastImported="1302533628" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Chapter 02/02.2 The Brughal Family/02.2.1/_thumb/2_2_1_1_small.png" bitmapDataHRef="M 16 1302703368.dat" frameRight="2400" frameBottom="2800"/>
           <DOMBitmapItem name="Chapter 02/02.2 The Brughal Family/02.2.1/_large/2_2_1_1.jpg" itemID="4da5bccd-00000370" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.chapter2.Img_2_2_1_1" sourceExternalFilepath="./LIBRARY/Chapter 02/02.2 The Brughal Family/02.2.1/_large/2_2_1_1.jpg" sourceLastImported="1302690331" sourcePlatform="macintosh" externalFileSize="127370" quality="50" href="Chapter 02/02.2 The Brughal Family/02.2.1/_large/2_2_1_1.jpg" bitmapDataHRef="M 5 1302703292.dat" frameRight="9940" frameBottom="11880" isJPEG="true"/>
           <DOMBitmapItem name="Chapter 02/02.2 The Brughal Family/02.2.1/_thumb/2_2_1_2_small.png" itemID="4da5bc92-00000340" sourceExternalFilepath="./LIBRARY/Chapter 02/02.2 The Brughal Family/02.2.1/_thumb/2_2_1_2_small.png" sourceLastImported="1302533675" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Chapter 02/02.2 The Brughal Family/02.2.1/_thumb/2_2_1_2_small.png" bitmapDataHRef="M 6 1302703292.dat" frameRight="2400" frameBottom="1760"/>
@@ -418,6 +418,8 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="2048631" publishTime="1308852371"/>
+          <PublishItem publishSize="2048629" publishTime="1308848718"/>
           <PublishItem publishSize="2035991" publishTime="1305556487"/>
           <PublishItem publishSize="2035991" publishTime="1305556465"/>
           <PublishItem publishSize="1929894" publishTime="1305555989"/>
@@ -436,7 +438,5 @@
           <PublishItem publishSize="1557311" publishTime="1302716636"/>
           <PublishItem publishSize="1586794" publishTime="1302715581"/>
           <PublishItem publishSize="1586792" publishTime="1302713560"/>
-          <PublishItem publishSize="1497235" publishTime="1302712929"/>
-          <PublishItem publishSize="827593" publishTime="1302708834"/>
      </publishHistory>
 </DOMDocument>

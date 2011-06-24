@@ -5,7 +5,7 @@
      <media>
           <DOMBitmapItem name="Home Page/01_b.png" itemID="4dc034fb-0000050b" sourceExternalFilepath="./LIBRARY/Home Page/01_b.png" sourceLastImported="1304442058" sourcePlatform="macintosh" externalFileSize="6862042" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Home Page/01_b.png" bitmapDataHRef="M 2 1304436812.dat" frameRight="76800" frameBottom="43200"/>
           <DOMBitmapItem name="Home Page/02_b.png" itemID="4dc020e3-00000407" sourceExternalFilepath="./LIBRARY/Home Page/02_b.png" sourceLastImported="1304436491" sourcePlatform="macintosh" externalFileSize="6023504" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Home Page/02_b.png" bitmapDataHRef="M 3 1304436821.dat" frameRight="76800" frameBottom="43200"/>
-          <DOMBitmapItem name="Home Page/homepage_large.png" itemID="4d77bb91-000003b9" sourceExternalFilepath="../Chapters1-10/LIBRARY/Home Pages/homepage_large.png" sourceLastImported="1299692429" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Home Page/homepage_large.png" bitmapDataHRef="M 8 1299684418.dat" frameRight="64020" frameBottom="36020"/>
+          <DOMBitmapItem name="Home Page/homepage_large.png" itemID="4d77bb91-000003b9" sourceExternalFilepath="../Chapters1-10/LIBRARY/Home Pages/homepage_large.png" sourceLastImported="1299692429" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Home Page/homepage_large.png" bitmapDataHRef="M 8 1299684418.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
      </media>
      <symbols>
           <Include href="Home Page/invisButton.xml" loadImmediate="false"/>

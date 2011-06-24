@@ -34,7 +34,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			+	"<p class='imageCaption'>Imitator of Pieter Brueghel the Younger (1564/5 - 1637–8)</p>"
 			+	"<p class='imageCaption'>Oil on panel, 36.6 x 49.1 cm</p>"
 			+	"<p class='imageCaption'>Collection of Sir William Holburne, A165</p>";
-			var at01:String = "";
+			var at01:String = "<p>Holburne bought this painting as a pair with The Visit of the Godfather but it is a later copy of a much reproduced work from the studio.</p>";
 			var vo01:ThumbnailVO = new ThumbnailVO(containerMc.t1, Img_2_2_3_1, st01,at01);
 
 			var st02:String = 

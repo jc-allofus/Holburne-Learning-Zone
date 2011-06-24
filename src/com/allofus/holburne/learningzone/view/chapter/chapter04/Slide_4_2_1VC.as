@@ -7,6 +7,8 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 	import com.allofus.holburne.learningzone.view.component.SingleImageWithHotspotsSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
 	import com.holburne.learningzone.swc.chapter4.Img_4_2_1;
+	import com.holburne.learningzone.swc.chapter4.Img_4_2_1_1;
+	import com.holburne.learningzone.swc.chapter4.Img_4_2_1_2;
 	import com.holburne.learningzone.swc.chapter4.Slide_4_2_1;
 
 	import flash.display.Bitmap;
@@ -35,19 +37,19 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 			img = new ImageWithBorderAndCaption(new Bitmap(new Img_4_2_1(0,0)), caption);
 			addChild(img);
 			
-			var str1:String = "<p>The artist’s reflection</p>";
-			var str2:String = "<p>Easel reflected in silver ewer</p>";
+			var str1:String = "<p class='popupPanelTitle'>The artist’s reflection</p>";
+			var str2:String = "<p class='popupPanelTitle'>Easel reflected in silver ewer</p>";
 			
 			pinVOs = new <HotspotButtonVO>[
-				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1)),
-				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2)),
+				new HotspotButtonVO(containerMC.t1, new PopupPanelVO(str1, Img_4_2_1_1)),
+				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2, Img_4_2_1_2)),
 			];
 			
-			var title:String ="INTRODUCTION";
+			var title:String ="A shadowy figure";
 			var description:String = 
-				"<p class='justified'>We do not know who painted this still life, but we think it must have been painted in the Hague around the 1660s.  In 1867 Sir William Holburne thought this must be the work of one of the De Heem family, who lived and worked in various cities in the Low Countries throughout the seventeenth century.  Although not one of the de Heems, the painter of this banquet table has borrowed from Abraham van Beyeren, who created many rich still lifes similar to this one in the 1660s, under the influence of Jan de Heem.  The artist is probably a shadowy figure working in Antwerp around 1670 known as ‘Pseudo-Simons’, because of his confusion with the Utrecht still life painter Michiel Simons (active by 1648, died 1673).</p>"
+				"<p class='justified'>We do not know who painted this still life, but it was probably painted in the Hague around the 1660s.  It is close to the work of Abraham van Beyeren, who created many similarly rich still lifes in the 1660s. The artist is probably the shadowy figure called 'Pseudo-Simons' by art-historians because of his confusion with the Utrecht still life painter Michiel Simons (active by 1648, died 1673).</p>"
 			+	"<p></p>"
-			+	"<p class='justified'>Whoever the artist is, he has left one tantalising clue: a self portrait.  If you look closely at the polishsed body of the silver ewer, you will see a reflection of the artist himself, wearing a tall cap and sitting at an easel (to the right) under the light of a high window (to the left).</p>";
+			+	"<p class='justified'>Whoever he was he has included himself in the painting, reflected in the silver ewer, wearing a tall cap and sitting at an easel (to the right) under the light of a high window (to the left).</p>";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
 			addChild(text);
 			text.visible = false;
