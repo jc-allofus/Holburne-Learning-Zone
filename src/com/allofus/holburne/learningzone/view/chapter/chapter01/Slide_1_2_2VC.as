@@ -102,7 +102,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			addChild(containerMc);
 			addChild(largeImageContainer);
 			
-			var title:String ="OTHER WORKS IN THE HOLBURNE COLLECTION";
+			var title:String ="Other Work by this Artist in the Holburne";
 			var description:String = 
 				"<p class='justified'>Because of Gainsborough's importance to Bath, the Holburne has become a centre for display and study of his work in Bath.  The museum itself owns few examples of his paintings and drawings, and we are grateful to all those lenders who have allowed the Holburne to exhibit some particularly fine examples of his portraiture.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);

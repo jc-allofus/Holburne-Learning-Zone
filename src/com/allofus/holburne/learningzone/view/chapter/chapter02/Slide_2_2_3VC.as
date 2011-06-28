@@ -31,7 +31,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			
 			var st01:String = 
 				"<p><span class='imageCaptionItalic'>The Wedding Dance</span><span class='imageCaption'></span></p>"
-			+	"<p class='imageCaption'>Imitator of Pieter Brueghel the Younger (1564/5 - 1637–8)</p>"
+			+	"<p class='imageCaption'>Imitator of Pieter Bruegel the Younger (1564/5 - 1637–8)</p>"
 			+	"<p class='imageCaption'>Oil on panel, 36.6 x 49.1 cm</p>"
 			+	"<p class='imageCaption'>Collection of Sir William Holburne, A165</p>";
 			var at01:String = "<p>Holburne bought this painting as a pair with The Visit of the Godfather but it is a later copy of a much reproduced work from the studio.</p>";
@@ -50,7 +50,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			+	"<p class='imageCaption'>Attributed to David Teniers I (1582-1649)</p>"
 			+	"<p class='imageCaption'>Oil on panel, 61 x 55.2 cm</p>"
 			+	"<p class='imageCaption'>Collection of Sir William Holburne, A52</p>";
-			var at03:String = "<p>David Teniers the Elder was related to the Brueghels through the marriage of his son David the Younger.</p> "	;
+			var at03:String = "<p>David Teniers the Elder was related to the Bruegels through the marriage of his son David the Younger.</p> "	;
 			var vo03:ThumbnailVO = new ThumbnailVO(containerMc.t3, Img_2_2_3_3, st03,at03);
 
 			var st04:String = 
@@ -58,7 +58,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			+	"<p class='imageCaption'>Manner of David Teniers I (1582-1649)</p>"
 			+	"<p class='imageCaption'>Oil on panel, 24.1 x 34.6 cm</p>"
 			+	"<p class='imageCaption'>Collection of Sir William Holburne, A61</p>";
-			var at04:String = "<p>David Teniers the Elder was related to the Brueghels through the marriage of his son David the Younger.</p> "	;
+			var at04:String = "<p>David Teniers the Elder was related to the Bruegels through the marriage of his son David the Younger.</p> "	;
 			var vo04:ThumbnailVO = new ThumbnailVO(containerMc.t4, Img_2_2_3_4, st04,at04);
 
 			var st05:String = 
@@ -67,11 +67,11 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			+	"<p class='imageCaption'>Oil on panel, 16.5 x 20.3 cm</p>"
 			+	"<p class='imageCaption'>Collection of Sir William Holburne, A165</p>";
 			var at05:String = "<p>Jan van Kessel was the grandson of Jan Breughel the Elder.</p> ";
-			var vo05:ThumbnailVO = new ThumbnailVO(containerMc.t5, Img_2_2_3_5, st01,at05);
+			var vo05:ThumbnailVO = new ThumbnailVO(containerMc.t5, Img_2_2_3_5, st05,at05);
 
 			var st06:String = 
 				"<p><span class='imageCaptionItalic'>The Peasant and the Birdnester</span><span class='imageCaption'></span></p>"
-			+	"<p class='imageCaption'>Pieter Brueghel the Younger (1564/5 - 1637–8)</p>"
+			+	"<p class='imageCaption'>Pieter Bruegel the Younger (1564/5 - 1637–8)</p>"
 			+	"<p class='imageCaption'>Oil on panel, 17.8 cm diameter</p>"
 			+	"<p class='imageCaption'>Collection of Sir William Holburne, A166</p>";
 			var at06:String = "<p>A version of a painting by the artist’s father, Peter Bruegel the Elder.</p> "	;
@@ -99,8 +99,8 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			addChild(containerMc);
 			addChild(largeImageContainer);
 
-			var title:String ="Other Bruenhal works";
-			var description:String = "<p class='justified'>Other Paintings in the Holburne associated with the Bruegel Circle.  Tap a small image to view more detail.</p>";
+			var title:String ="The Family Workshop";
+			var description:String = "<p class='justified'>Artists often passed on their skills, tools and workshops to their sons and relations, and the Bruegels were no exception. These works from the Holburne collection all have links back to the Bruegel workshop.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
 			addChild(text);
 			text.visible = false;

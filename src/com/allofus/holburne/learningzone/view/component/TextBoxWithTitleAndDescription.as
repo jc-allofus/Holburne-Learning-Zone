@@ -104,6 +104,11 @@ package com.allofus.holburne.learningzone.view.component
 			return titleField.y + titleField.height;
 		}
 		
+		public function get underBody():Number
+		{
+			return bodyField.y + bodyField.height;
+		}
+		
 		public function setAdditionalText(value : String) : void
 		{
 			disposeAdditionalTextPanel();

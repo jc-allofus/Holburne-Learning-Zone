@@ -4,8 +4,8 @@
           <DOMFolderItem name="Chapter 05/05.1" itemID="4da86951-00000409"/>
           <DOMFolderItem name="Chapter 05/05.2" itemID="4da86959-0000040a" isExpanded="true"/>
           <DOMFolderItem name="Chapter 05/05.3" itemID="4da86964-0000040b" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 05/05.3/05.3.1" itemID="4dc14460-00000314" isExpanded="true"/>
-          <DOMFolderItem name="Chapter 05/05.3/05.3.2" itemID="4dc144a6-00000318"/>
+          <DOMFolderItem name="Chapter 05/05.3/05.3.1" itemID="4dc14460-00000314"/>
+          <DOMFolderItem name="Chapter 05/05.3/05.3.2" itemID="4dc144a6-00000318" isExpanded="true"/>
           <DOMFolderItem name="Chapter 05/05.3/05.3.2/_large" itemID="4dc149f4-0000040c"/>
           <DOMFolderItem name="Chapter 05/05.3/05.3.2/_thumb" itemID="4dc149e4-00000408"/>
           <DOMFolderItem name="Chapter 05/05.3/05.3.3" itemID="4dc144ac-0000031c" isExpanded="true"/>
@@ -48,6 +48,7 @@
           <DOMBitmapItem name="Chapter 05/05.3/05.3.2/_large/5_3_2_12.jpg" itemID="4dc14acf-000004b3" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter5.Img_5_3_2_12" sourceExternalFilepath="./LIBRARY/Chapter 05/05.3/05.3.2/_large/5_3_2_12.jpg" sourceLastImported="1302692405" sourcePlatform="macintosh" externalFileSize="83796" quality="50" href="Chapter 05/05.3/05.3.2/_large/5_3_2_12.jpg" bitmapDataHRef="M 27 1304512946.dat" frameRight="9560" frameBottom="11880" isJPEG="true"/>
           <DOMBitmapItem name="Chapter 05/05.3/05.3.2/_thumb/5_3_2_13_small.png" itemID="4dc14acf-000004b4" sourceExternalFilepath="./LIBRARY/Chapter 05/05.3/05.3.2/_thumb/5_3_2_13_small.png" sourceLastImported="1302530312" sourcePlatform="macintosh" externalFileSize="17610" originalCompressionType="lossless" quality="50" href="Chapter 05/05.3/05.3.2/_thumb/5_3_2_13_small.png" bitmapDataHRef="M 28 1304512946.dat" frameRight="2940" frameBottom="2160"/>
           <DOMBitmapItem name="Chapter 05/05.3/05.3.2/_large/5_3_2_13.jpg" itemID="4dc14acf-000004b5" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter5.Img_5_3_2_13" sourceExternalFilepath="./LIBRARY/Chapter 05/05.3/05.3.2/_large/5_3_2_13.jpg" sourceLastImported="1302692430" sourcePlatform="macintosh" externalFileSize="28562" quality="50" href="Chapter 05/05.3/05.3.2/_large/5_3_2_13.jpg" bitmapDataHRef="M 29 1304512947.dat" frameRight="12500" frameBottom="8840" isJPEG="true"/>
+          <DOMBitmapItem name="Mon Jun 27 18:05:10 GMT+0100 2011.jpg" itemID="4e08b869-00000520" sourceExternalFilepath="../../../../../../Users/jc/Documents/HolburneLearningZoneScreenshots/Mon Jun 27 18/05/10 GMT+0100 2011.jpg" sourceLastImported="1309194314" sourcePlatform="macintosh" quality="50" href="Mon Jun 27 18&amp;#5805&amp;#5810 GMT+0100 2011.jpg" bitmapDataHRef="M 39 1309194345.dat" frameRight="38400" frameBottom="21600" isJPEG="true"/>
           <DOMBitmapItem name="Wed May 4 13:23:13 GMT+0100 2011.jpg" itemID="4dc145ca-00000370" sourceExternalFilepath="../../../../../../Users/jc/Documents/HolburneLearningZoneScreenshots/Wed May 4 13/23/13 GMT+0100 2011.jpg" sourceLastImported="1304511798" sourcePlatform="macintosh" quality="50" href="Wed May 4 13&amp;#5823&amp;#5813 GMT+0100 2011.jpg" bitmapDataHRef="M 3 1304511946.dat" frameRight="38400" frameBottom="21600" isJPEG="true"/>
      </media>
      <symbols>
@@ -384,6 +385,7 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="1205619" publishTime="1309194380"/>
           <PublishItem publishSize="1205607" publishTime="1305562133"/>
           <PublishItem publishSize="1140559" publishTime="1304513740"/>
           <PublishItem publishSize="1140534" publishTime="1304513452"/>
@@ -403,6 +405,5 @@
           <PublishItem publishSize="1149398" publishTime="1300892936"/>
           <PublishItem publishSize="1142997" publishTime="1300883995"/>
           <PublishItem publishSize="1142988" publishTime="1300881906"/>
-          <PublishItem publishSize="1142861" publishTime="1300814237"/>
      </publishHistory>
 </DOMDocument>

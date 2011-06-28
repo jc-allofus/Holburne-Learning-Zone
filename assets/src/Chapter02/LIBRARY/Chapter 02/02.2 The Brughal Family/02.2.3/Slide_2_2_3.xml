@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 02/02.2 The Brughal Family/02.2.3/Slide_2_2_3" itemID="4da5d102-000003e2" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.chapter2.Slide_2_2_3" sourceLibraryItemHRef="Chapter 02/02.2 The Brughal Family/02.2.1/Slide_2_2_1 copy" lastModified="1302717217">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 02/02.2 The Brughal Family/02.2.3/Slide_2_2_3" itemID="4da5d102-000003e2" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.chapter2.Slide_2_2_3" sourceLibraryItemHRef="Chapter 02/02.2 The Brughal Family/02.2.1/Slide_2_2_1 copy" lastModified="1309186640">
   <timeline>
     <DOMTimeline name="Slide_2_2_3">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Chapter 02/02.2 The Brughal Family/02.2.3/_thumb/t1" name="t1" selected="true" centerPoint3DX="1134.95" centerPoint3DY="604.9">
+                <DOMSymbolInstance libraryItemName="Chapter 02/02.2 The Brughal Family/02.2.3/_thumb/t1" name="t1" centerPoint3DX="1134.95" centerPoint3DY="604.9">
                   <matrix>
                     <Matrix tx="1074.95" ty="558.4"/>
                   </matrix>
@@ -46,7 +46,7 @@
                     <Point x="60" y="49.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 02/02.2 The Brughal Family/02.2.3/_thumb/t6" name="t6" centerPoint3DX="1278.95" centerPoint3DY="735.9">
+                <DOMSymbolInstance libraryItemName="Chapter 02/02.2 The Brughal Family/02.2.3/_thumb/t6" name="t6" selected="true" centerPoint3DX="1278.95" centerPoint3DY="735.9">
                   <matrix>
                     <Matrix tx="1218.95" ty="680.4"/>
                   </matrix>

@@ -25,7 +25,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter05
 			addChild(img);
 			
 			
-			var title:String ="Who is Jan van der Venne?";
+			var title:String ="Jan van der Venne";
 			var description:String = 
 				"<p class='justified'>The artist of this painting has only recently emerged from the shadows.  Jan van der Venne (active by 1616, died before 1651) has been confused with the more famous Adriaen van de Venne (1589-1662), a painter and of allegories and portraits, and Adriaen’s brother Jan, a publisher.  The van de Vennes were based in Middelburg in Zeeland and later in The Hague, whereas the artist of this painting lived in Brussels. </p>"
 			+	"<p></p>"

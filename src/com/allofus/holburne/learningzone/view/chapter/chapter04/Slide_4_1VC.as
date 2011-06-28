@@ -27,7 +27,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 			img = new ImageWithBorderAndCaption(new Bitmap(new Chap4IntroImage(0,0)), caption);
 			addChild(img);
 			
-			var title:String ="INTRODUCTION";
+			var title:String ="Introduction";
 			var description:String = 
 				"<p class='justified'>This sumptuous banquet table, which once hung in Sir William Holburne’s dining room, has recently been cleaned and repaired.  The composition is particularly rich in detail, and cleaning has revealed a silver ewer, a crab, oysters, a pomegranate and a pocket-watch.  The watch is a reminder that all earthly delights, fruit, food, even fine ceramics and glass, eventually pass away.</p>"
 				;

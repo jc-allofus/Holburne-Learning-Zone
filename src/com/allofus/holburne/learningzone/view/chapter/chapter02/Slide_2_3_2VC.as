@@ -35,7 +35,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			
 			var caption:String = 
 				"<p class='imageCaptionItalic'>The Visit of the Godfather</p>"
-			+	"<p class='imageCaption'>Pieter Brueghel the Younger (1565-1638)</p>"
+			+	"<p class='imageCaption'>Pieter Bruegel the Younger (1565-1638)</p>"
 			+	"<p class='imageCaption'>Oil on panel</p>"
 			+	"<p class='imageCaption'>36.5 x 49.4 cm</p>"
 			+	"<p class='imageCaption'>Collection of Sir Thomas William Holburne, A46</p>";
@@ -66,7 +66,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 				new HotspotButtonVO(containerMC.t9, new PopupPanelVO(str9, Img_2_3_2_9))
 			];
 			
-			var title:String ="Around the farmhouse";
+			var title:String ="Around the Farmhouse";
 			var description:String = "<p class='justified'>Touch the picture to identify some of the objects in the farmer's cottage.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
 			text.alpha = 0;

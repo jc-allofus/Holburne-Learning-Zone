@@ -27,7 +27,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 			img = new ImageWithBorderAndCaption(new Bitmap(new Chap3IntroImage(0,0)), caption);
 			addChild(img);
 			
-			var title:String ="INTRODUCTION";
+			var title:String ="Introduction";
 			var description:String = 
 				"<p class='justified'>Benjamin Barker and his family settled in Bath in 1783.  His sons Thomas, Benjamin and Joseph were trained as landscape painters.  Thomas soon showed a precocious artistic talent, nurtured by the coachbuilder Charles Spackman who sent him to Italy to study in the early 1790s.</p>"
 			+	"<p></p>"

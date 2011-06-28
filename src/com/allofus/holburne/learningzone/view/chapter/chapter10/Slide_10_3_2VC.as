@@ -1,6 +1,5 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter10
 {
-	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.model.vo.HotspotButtonVO;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
 	import com.allofus.holburne.learningzone.view.component.ImageWithBorderAndCaption;
@@ -46,7 +45,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter10
 				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2,Img_10_3_2_2))
 			];
 			
-			var title:String ="Where do they live?";
+			var title:String ="Where Do They Live?";
 			var description:String = "<p class='justified'>Touch the picture to have a look round the landscape.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description);
 			text.alpha = 0;

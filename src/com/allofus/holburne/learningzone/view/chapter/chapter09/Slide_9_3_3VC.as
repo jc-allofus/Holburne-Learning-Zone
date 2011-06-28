@@ -25,7 +25,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter09
 			addChild(img);
 			
 			
-			var title:String ="DAVID GARRICK (1717-1779)";
+			var title:String ="David Garrick(1717-1779)";
 			var description:String = 
 				"<p class='justified'>Actor, manager and writer David Garrick (1717–1779) transformed the art and profession of the actor.  Brought up in Lichfield, he arrived in London with his schoolmaster Samuel Johnson and set up as a wine merchant with his brother.</p>"
 				;

@@ -26,7 +26,7 @@ package com.allofus.holburne.learningzone.model
 			_menuVOs.push
 			(
 				new ButtonVO({label:"<p class='buttonLabel'>The Painting</p>", subMenuButtons:new <ButtonVO>[
-					new ButtonVO({label:"<p class='buttonLabel'>What are those strange things?</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"5_3_1"}),
+					new ButtonVO({label:"<p class='buttonLabel'>A Closer Look</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"5_3_1"}),
 					new ButtonVO({label:"<p class='buttonLabel'>Other Saints in Holburne</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"5_3_2"})
 					//new ButtonVO({label:"<p class='buttonLabel'>Other Monsters in Holburne</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"5_3_3"})
 				]})

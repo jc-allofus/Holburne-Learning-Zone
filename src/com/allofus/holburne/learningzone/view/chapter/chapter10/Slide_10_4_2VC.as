@@ -54,7 +54,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter10
 			
 			super();
 			
-//			text.y = AppGlobals.RIGHT_FRAME_Y;
+			text.y = AppGlobals.RIGHT_FRAME_Y;
 			img.showCaption(false);
 		}
 		

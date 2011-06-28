@@ -60,7 +60,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter08
 			addChild(containerMc);
 			addChild(largeImageContainer);
 
-			var title:String ="Examples of work by Michele Rocca";
+			var title:String ="Examples of Work by Michele Rocca";
 			var page1:String = 
 				"<p class='justified'></p>"
 //			+	"<p></p>"

@@ -58,7 +58,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter10
 				new HotspotButtonVO(containerMC.t6, new PopupPanelVO(str6,Img_10_4_4_6))
 			];
 			
-			var title:String ="About the frame";
+			var title:String ="About the Frame";
 			var description:String = "<p class='justified'>About the frame  The basic architectural shape of the frame has been brought to life with curling leaves, flowers and rocaille, a type of asymmetrical decoration originally inspired by natural rock formations.  The delicate English Rococo frame inspired by nature is a perfect companion for Devis’s ladies in their garden.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description);
 			
@@ -67,7 +67,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter10
 			
 			super();
 			
-//			text.y = AppGlobals.RIGHT_FRAME_Y;
+			text.y = AppGlobals.RIGHT_FRAME_Y;
 			img.showCaption(false);
 		}
 		

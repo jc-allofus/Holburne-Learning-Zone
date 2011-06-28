@@ -28,7 +28,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			var description:String = 
 				"<p class='justified'>Artists often passed on their skills, tools and workshops to their sons, and the Bruegels were no exception.  They and their relatives worked as artists over many generations, beginning with Pieter the Elder’s in-laws (and teachers) Pieter Coecke Van Aelst and Mayken Verhulst.</p>"
 			+	"<p></p>"
-			+	"<p class='justified'>While Pieter Brueghel the Younger made a living copying his father, the more successful members of the family developed their own styles.  Pieter II had a particularly busy studio selling lots of paintings fairly cheaply.  His many apprentices included the great still-life painter Frans Snyders.</p>";
+			+	"<p class='justified'>While Pieter Bruegel the Younger made a living copying his father, the more successful members of the family developed their own styles.  Pieter II had a particularly busy studio selling lots of paintings fairly cheaply.  His many apprentices included the great still-life painter Frans Snyders.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description);
 			addChild(text);
 			

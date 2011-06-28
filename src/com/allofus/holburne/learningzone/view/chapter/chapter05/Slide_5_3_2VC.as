@@ -77,7 +77,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter05
 			+	"<p class='imageCaption'>47.3 x 39.4 cm</p>"
 			+	"<p class='imageCaption'>Collection of Sir Thomas William Holburne</p>"
 			+	"<p class='imageCaption'>A242</p>";
-			var vo05:ThumbnailVO = new ThumbnailVO(containerMc.t5, Img_5_3_2_6, st05,"<p class='justified'>Mary Magdalene was a follower of Jesus and one of the first to witness his Resurrection.  According to legend, she went to live in the desert as a hermit.  She is depicted here at a little altar with the jar of ointment which she took to Christ’s tomb to anoint his body, and a skull to remind her of death.  On the ground, a still life of vegetables represents her simple diet.</p>");
+			var vo05:ThumbnailVO = new ThumbnailVO(containerMc.t5, Img_5_3_2_5, st05,"<p class='justified'>Mary Magdalene was a follower of Jesus and one of the first to witness his Resurrection.  According to legend, she went to live in the desert as a hermit.  She is depicted here at a little altar with the jar of ointment which she took to Christ’s tomb to anoint his body, and a skull to remind her of death.  On the ground, a still life of vegetables represents her simple diet.</p>");
 			
 			var st06:String = 
 				"<p><span class='imageCaptionItalic'>The Stoning of St Stephen</span><span class='imageCaption'></span></p>"
@@ -86,7 +86,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter05
 			+	"<p class='imageCaption'>56.5 x 48 cm</p>"
 			+	"<p class='imageCaption'>Collection of Sir Thomas William Holburne</p>"
 			+	"<p class='imageCaption'>A282</p>";
-			var vo06:ThumbnailVO = new ThumbnailVO(containerMc.t6, Img_5_3_2_5, st06,"<p class='justified'>Saint Stephen was a deacon of the early church and the first Christian martyr.  He was stoned to death by an angry crowd in Jerusalem for preaching the Gospel.  As he died, he “looked up steadfastly into heaven, and saw the glory of God, and Jesus standing on the right hand of God.”</p>");
+			var vo06:ThumbnailVO = new ThumbnailVO(containerMc.t6, Img_5_3_2_6, st06,"<p class='justified'>Saint Stephen was a deacon of the early church and the first Christian martyr.  He was stoned to death by an angry crowd in Jerusalem for preaching the Gospel.  As he died, he “looked up steadfastly into heaven, and saw the glory of God, and Jesus standing on the right hand of God.”</p>");
 			
 			var st07:String = 
 				"<p><span class='imageCaptionItalic'>St Charles Borromeo & St Francis of Assisi</span><span class='imageCaption'></span></p>"
@@ -152,7 +152,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter05
 			addChild(containerMc);
 			addChild(largeImageContainer);
 
-			var title:String ="Other Saints in the Holburne Museum ";
+			var title:String ="Other Saints in Holburne";
 			var body:String = "<p class='justified'>Sir William Holburne's collection is not rich in religious imagery, but a number of saints can be found depicted among his paintings and statues.</p>";
 			
 			text = new TextBoxWithTitleAndDescription(title, body, AppGlobals.RIGHT_FRAME_WIDTH,180);

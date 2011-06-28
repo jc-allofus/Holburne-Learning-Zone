@@ -28,7 +28,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter08
 		
 		public function Slide_8_3_2_QuestionPanel()
 		{
-			questionPanel = new TextBoxWithTitleAndDescription("What happens next?", "", AppGlobals.RIGHT_FRAME_WIDTH, 610);
+			questionPanel = new TextBoxWithTitleAndDescription("What Happens Next?", "", AppGlobals.RIGHT_FRAME_WIDTH, 610);
 			addChild(questionPanel);
 			
 			possibleAnswers = new <NumberedTextButton>
@@ -88,7 +88,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter08
 			removeListeners();
 			var correctAnswer:Boolean = event.currentTarget === possibleAnswers[CORRECT_ANSWER_INDEX];
 			TweenMax.to(questionPanel, AppGlobals.FADE_DURATION, {autoAlpha:0, ease:AppGlobals.FADE_EASE});
-			var title:String = correctAnswer ? "RIGHT ANSWER, WELL DONE!" : "SORRY, WRONG ANSWER";
+			var title:String = correctAnswer ? "Right Answer, Well Done!" : "Sorry, Wrong Answer";
 			resultPanel.title = title;
 			TweenMax.to(resultPanel, AppGlobals.FADE_DURATION, {autoAlpha:1, ease:AppGlobals.FADE_EASE, delay:AppGlobals.FADE_DURATION});
 		}

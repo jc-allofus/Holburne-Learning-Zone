@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 05/05.3/05.3.2/Slide_5_3_2" itemID="4dc14962-0000039a" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter5.Slide_5_3_2" sourceLibraryItemHRef="Chapter 05/05.3/05.3.1/Slide_5_3_1 copy" lastModified="1304517279" lastUniqueIdentifier="9">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 05/05.3/05.3.2/Slide_5_3_2" itemID="4dc14962-0000039a" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter5.Slide_5_3_2" sourceLibraryItemHRef="Chapter 05/05.3/05.3.1/Slide_5_3_1 copy" lastModified="1309194370" lastUniqueIdentifier="9">
   <timeline>
     <DOMTimeline name="Slide_5_3_2">
       <layers>
@@ -6,105 +6,105 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t1" name="t1" centerPoint3DX="993" centerPoint3DY="555">
+                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t1" name="t1" centerPoint3DX="993" centerPoint3DY="593">
                   <matrix>
-                    <Matrix tx="933" ty="475.5"/>
+                    <Matrix tx="933" ty="513.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60" y="79.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t2" name="t2" centerPoint3DX="1133.05" centerPoint3DY="552.5">
+                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t2" name="t2" centerPoint3DX="1133.05" centerPoint3DY="590.5">
                   <matrix>
-                    <Matrix tx="1073.05" ty="475.5"/>
+                    <Matrix tx="1073.05" ty="513.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60" y="77"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t3" name="t3" centerPoint3DX="1281.95" centerPoint3DY="553.5">
+                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t3" name="t3" centerPoint3DX="1281.95" centerPoint3DY="591.5">
                   <matrix>
-                    <Matrix tx="1221.95" ty="477.5"/>
+                    <Matrix tx="1221.95" ty="515.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60" y="76"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t4" name="t4" centerPoint3DX="1424.05" centerPoint3DY="547.5">
+                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t4" name="t4" centerPoint3DX="1424.05" centerPoint3DY="585.5">
                   <matrix>
-                    <Matrix tx="1364.05" ty="477.5"/>
+                    <Matrix tx="1364.05" ty="515.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60" y="70"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t5" name="t5" centerPoint3DX="1587" centerPoint3DY="551">
+                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t5" name="t5" centerPoint3DX="1587" centerPoint3DY="589">
                   <matrix>
-                    <Matrix tx="1527" ty="477.5"/>
+                    <Matrix tx="1527" ty="515.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60" y="73.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t6" name="t6" centerPoint3DX="1781.95" centerPoint3DY="548">
+                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t6" name="t6" selected="true" centerPoint3DX="1781.95" centerPoint3DY="586">
                   <matrix>
-                    <Matrix tx="1721.95" ty="477.5"/>
+                    <Matrix tx="1721.95" ty="515.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60" y="70.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t7" name="t7" centerPoint3DX="1003.5" centerPoint3DY="693.5">
+                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t7" name="t7" centerPoint3DX="1003.5" centerPoint3DY="731.5">
                   <matrix>
-                    <Matrix tx="930" ty="634.5"/>
+                    <Matrix tx="930" ty="672.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="73.5" y="59"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t8" name="t8" centerPoint3DX="1142" centerPoint3DY="704.5">
+                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t8" name="t8" centerPoint3DX="1142" centerPoint3DY="742.5">
                   <matrix>
-                    <Matrix tx="1082" ty="634.5"/>
+                    <Matrix tx="1082" ty="672.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60" y="70"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t9" name="t9" centerPoint3DX="1267" centerPoint3DY="700">
+                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t9" name="t9" centerPoint3DX="1267" centerPoint3DY="738">
                   <matrix>
-                    <Matrix tx="1207" ty="634.5"/>
+                    <Matrix tx="1207" ty="672.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60" y="65.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t10" name="t10" centerPoint3DX="1387" centerPoint3DY="713">
+                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t10" name="t10" centerPoint3DX="1387" centerPoint3DY="751">
                   <matrix>
-                    <Matrix tx="1327" ty="634.5"/>
+                    <Matrix tx="1327" ty="672.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60" y="78.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t11" name="t11" centerPoint3DX="1507" centerPoint3DY="720">
+                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t11" name="t11" centerPoint3DX="1507" centerPoint3DY="758">
                   <matrix>
-                    <Matrix tx="1447" ty="634.5"/>
+                    <Matrix tx="1447" ty="672.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60" y="85.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t12" name="t12" centerPoint3DX="1627" centerPoint3DY="707">
+                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t12" name="t12" centerPoint3DX="1627" centerPoint3DY="745">
                   <matrix>
-                    <Matrix tx="1567" ty="634.5"/>
+                    <Matrix tx="1567" ty="672.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60" y="72.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t13" name="t13" centerPoint3DX="1767.45" centerPoint3DY="688.5">
+                <DOMSymbolInstance libraryItemName="Chapter 05/05.3/05.3.2/_thumb/t13" name="t13" centerPoint3DX="1767.45" centerPoint3DY="726.5">
                   <matrix>
-                    <Matrix tx="1693.95" ty="634.5"/>
+                    <Matrix tx="1693.95" ty="672.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="73.5" y="54"/>
@@ -118,7 +118,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Wed May 4 13:23:13 GMT+0100 2011.jpg"/>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Mon Jun 27 18:05:10 GMT+0100 2011.jpg"/>
               </elements>
             </DOMFrame>
           </frames>

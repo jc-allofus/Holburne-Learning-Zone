@@ -1,15 +1,12 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 03/03.3/03.3.1/timeline stuff" itemID="4da2e9ae-0000036e" sourceLibraryItemHRef="Symbol 1" lastModified="1302537493">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 03/03.3/03.3.1/timeline stuff" itemID="4da2e9ae-0000036e" sourceLibraryItemHRef="Symbol 1" lastModified="1309193514">
   <timeline>
     <DOMTimeline name="timeline stuff">
       <layers>
-        <DOMLayer name="Layer 3" color="#FF800A">
+        <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMGroup>
-                  <matrix>
-                    <Matrix tx="-191.4" ty="-402.1"/>
-                  </matrix>
                   <members>
                     <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Chapter 03/03.3/03.3.1/text detail.png">
                       <matrix>
@@ -18,13 +15,13 @@
                     </DOMBitmapInstance>
                   </members>
                 </DOMGroup>
-                <DOMStaticText width="225.55" height="28" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="298.75" height="28" autoExpand="true" isSelectable="false">
                   <matrix>
-                    <Matrix tx="-112.75" ty="62"/>
+                    <Matrix tx="-149.35" ty="62"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
-                      <characters>HOW IT GOT HERE</characters>
+                      <characters>How Did it Come to Holburne</characters>
                       <textAttrs>
                         <DOMTextAttrs aliasText="false" size="24" bitmapSize="480" face="Baskerville" fillColor="#B00404"/>
                       </textAttrs>
@@ -61,20 +58,20 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="bounds" color="#4FFF4F" current="true" isSelected="true" autoNamed="false" layerType="guide">
+        <DOMLayer name="bounds" color="#4FFF4F" autoNamed="false" layerType="guide">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <fills>
                         <FillStyle index="1">
                           <SolidColor color="#FFFFFF" alpha="0"/>
                         </FillStyle>
                       </fills>
                       <edges>
-                        <Edge fillStyle1="1" edges="!17850 15300|-17850 15300!-17850 15300|-17850 0!-17850 0|17850 0!17850 0|17850 15300"/>
+                        <Edge fillStyle1="1" edges="!17850 15300S2|-17850 15300!-17850 15300|-17850 0!-17850 0|17850 0!17850 0|17850 15300"/>
                       </edges>
                     </DOMShape>
                   </members>

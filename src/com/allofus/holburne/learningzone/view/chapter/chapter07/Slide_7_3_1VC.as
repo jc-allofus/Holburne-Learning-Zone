@@ -62,7 +62,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter07
 				new HotspotButtonVO(containerMC.t6, new PopupPanelVO(str6, Img_7_3_1_6))
 			];
 			
-			var title:String ="The subject";
+			var title:String ="The Subject";
 			var body:String = "<p class='justified'>Romanelli's painting combines two episodes in the Easter story: Christ's body has been taken down from the cross and is now being prepared for burial.  The surrounding figures, like the viewer of the painting, contemplate the dead body.</p>";
 			text = new TextBoxWithTitleAndDescription(title, body);
 			text.alpha = 0;

@@ -27,7 +27,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			img = new ImageWithBorderAndCaption(new Bitmap(new Chap1IntroImage(0,0)), caption);
 			addChild(img);
 			
-			var title:String ="INTRODUCTION";
+			var title:String ="Introduction";
 			var description:String = 
 				"<p class='justified'>This life-size portrait is one of the most ambitious paintings made during Gainsborough’s sixteen years in Bath.  Gainsborough rented one of the most expensive houses in town, opposite the Abbey, with a spacious studio where visitors to Bath could come to be recorded in their fashionable finery.</p>"
 			+	"<p></p>"

@@ -60,7 +60,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter07
 			addChild(containerMc);
 			addChild(largeImageContainer);
 
-			var title:String ="More paintings by Romanelli";
+			var title:String ="More Paintings by Romanelli";
 			var page1:String = 
 				"<p class='justified'>Romanellli painted a number of similar small-scale painitngs depicting episodes from the same story, including the less usual scene of the disciples discovering the empty tomb following the Resurrection.</p>"
 //			+	"<p></p>"

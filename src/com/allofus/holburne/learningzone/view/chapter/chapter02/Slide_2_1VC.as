@@ -17,7 +17,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 		{
 			var caption:String = 
 				"<p class='imageCaptionItalic'>The Visit of the Godfather</p>"
-			+	"<p class='imageCaption'>Pieter Brueghel the Younger (1565-1638)</p>"
+			+	"<p class='imageCaption'>Pieter Bruegel the Younger (1565-1638)</p>"
 			+	"<p class='imageCaption'>Oil on panel</p>"
 			+	"<p class='imageCaption'>36.5 x 49.4 cm</p>"
 			+	"<p class='imageCaption'>Collection of Sir Thomas William Holburne, A46</p>"
@@ -26,7 +26,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			img = new ImageWithBorderAndCaption(new Bitmap(new Chap2IntroImage(0,0)), caption);
 			addChild(img);
 			
-			var title:String ="INTRODUCTION";
+			var title:String ="Introduction";
 			var description:String = 
 				"<p class='justified'>The Bruegel family of Antwerp produced four generations of artists.  The dynasty’s founder was Pieter Bruegel the Elder, whose scenes of peasant life, religious subjects and landscapes are greatly loved.  His humorous depictions of country folk usually have a moralising message, sometimes illustrating traditional proverbs.</p>"
 			+	"<p></p>"

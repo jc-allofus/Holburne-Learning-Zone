@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 03/03.2/03.2.3/Slide_3_2_3" itemID="4da817b0-00000277" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.chapter3.Slide_3_2_3" sourceLibraryItemHRef="Symbol 1" lastModified="1302874633">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 03/03.2/03.2.3/Slide_3_2_3" itemID="4da817b0-00000277" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.chapter3.Slide_3_2_3" sourceLibraryItemHRef="Symbol 1" lastModified="1309181621">
   <timeline>
     <DOMTimeline name="Slide_3_2_3">
       <layers>
@@ -6,36 +6,44 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Chapter 03/03.2/03.2.3/t1" name="t1" centerPoint3DX="278.05" centerPoint3DY="516.1">
+                <DOMSymbolInstance libraryItemName="Chapter 03/03.2/03.2.3/t1" name="t1" centerPoint3DX="248.05" centerPoint3DY="515.6">
                   <matrix>
-                    <Matrix tx="114.05" ty="331.1"/>
+                    <Matrix tx="84.05" ty="330.6"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="164" y="185"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 03/03.2/03.2.3/t2" name="t2" centerPoint3DX="738.8" centerPoint3DY="516.1">
+                <DOMSymbolInstance libraryItemName="Chapter 03/03.2/03.2.3/t5" name="t5" centerPoint3DX="600.5" centerPoint3DY="516.1">
                   <matrix>
-                    <Matrix tx="592.3" ty="351.6"/>
+                    <Matrix tx="436.5" ty="331.1"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="146.5" y="164.5"/>
+                    <Point x="164" y="185"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 03/03.2/03.2.3/t3" name="t3" centerPoint3DX="1199.55" centerPoint3DY="516.1">
+                <DOMSymbolInstance libraryItemName="Chapter 03/03.2/03.2.3/t3" name="t3" centerPoint3DX="952.95" centerPoint3DY="516.1">
                   <matrix>
-                    <Matrix tx="1053.05" ty="331.6"/>
+                    <Matrix tx="788.95" ty="331.1"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="146.5" y="184.5"/>
+                    <Point x="164" y="185"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 03/03.2/03.2.3/t4" name="t4" centerPoint3DX="1660.4" centerPoint3DY="516.1">
+                <DOMSymbolInstance libraryItemName="Chapter 03/03.2/03.2.3/t4" name="t4" centerPoint3DX="1305.4" centerPoint3DY="515.6">
                   <matrix>
-                    <Matrix tx="1522.9" ty="346.6"/>
+                    <Matrix tx="1141.4" ty="330.6"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="137.5" y="169.5"/>
+                    <Point x="164" y="185"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chapter 03/03.2/03.2.3/t2" name="t2" selected="true" centerPoint3DX="1657.9" centerPoint3DY="516.1">
+                  <matrix>
+                    <Matrix tx="1493.9" ty="331.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="164" y="185"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>

@@ -54,7 +54,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter09
 				new HotspotButtonVO(containerMC.t3, new PopupPanelVO(str3, Img_9_3_1_3))
 			];
 			
-			var title:String ="Whats going on?";
+			var title:String ="Whats Going On?";
 			var description:String = "<p class='justified'>Venice Preserv'd was a byword for Tragedy in the eighteenth century. The scene is one of the most dramatic: the Venetian nobleman Jaffier's wife has persuaded himn to betray his friend and condemn him to the gallows. Driven to despair, Jaffier threatens to kill his wife and himself.</p>"
 			;
 			text = new TextBoxWithTitleAndDescription(title, description);

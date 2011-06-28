@@ -10,6 +10,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter09
 	import com.holburne.learningzone.swc.chapter9.Img_9_2_2_4;
 	import com.holburne.learningzone.swc.chapter9.Img_9_2_2_5;
 	import com.holburne.learningzone.swc.chapter9.Img_9_2_2_6;
+	import com.holburne.learningzone.swc.chapter9.Img_9_2_2_7;
 	import com.holburne.learningzone.swc.chapter9.Slide_9_2_2;
 
 	import flash.display.Sprite;
@@ -74,16 +75,25 @@ package com.allofus.holburne.learningzone.view.chapter.chapter09
 			+	"<p class='imageCaption'>Oil on canvas, about 1769</p>"
 			+	"<p class='imageCaption'>38.5 x 63 cm</p>"
 			+	"<p class='imageCaption'>Acquired as part of the Somerset Maugham Collection, 2011</p>";
-			var vo06:ThumbnailVO = new ThumbnailVO(containerMc.t6, Img_9_2_2_6, st06);			
+			var vo06:ThumbnailVO = new ThumbnailVO(containerMc.t6, Img_9_2_2_6, st06);		
+			
+			var st07:String = 
+				"<p><span class='imageCaptionItalic'></span><span class='imageCaption'>Two unknown actors, possibly Jeffrey Dunstan as Dr Last</span></p>"
+			+	"<p class='imageCaption'>attributed to Johan Zoffany (1733-1810)</p>"
+			+	"<p class='imageCaption'>Oil on canvas, about 1780</p>"
+			+	"<p class='imageCaption'>56 x 39 cm</p>"
+			+	"<p class='imageCaption'>The Somerset Maugham Collection, transferred from the National Theatre, 2010</p>"
+			+	"<p class='imageCaption'>2010.2.56</p>";
+			var vo07:ThumbnailVO = new ThumbnailVO(containerMc.t7, Img_9_2_2_7, st07);		
 			
 			
-			thumbnailVOs = new <ThumbnailVO>[ vo01,vo02,vo03,vo04,vo05,vo06];
+			thumbnailVOs = new <ThumbnailVO>[ vo01,vo02,vo03,vo04,vo05,vo06,vo07];
 			
 			enableThumbs();
 			addChild(containerMc);
 			addChild(largeImageContainer);
 
-			var title:String ="Other works by artist";
+			var title:String ="Other Works by Artist";
 			var page1:String = 
 				"<p class='justified'>With the transfer of painitngs from the Somerset Maugham Collection from the National Theatre, the Holburne now has an impressive collection of works by and associated with Zoffany.</p>"
 //			+	"<p></p>"

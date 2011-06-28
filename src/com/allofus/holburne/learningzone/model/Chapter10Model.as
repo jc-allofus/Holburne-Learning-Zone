@@ -16,18 +16,18 @@ package com.allofus.holburne.learningzone.model
 				new ButtonVO({label:"<p class='buttonLabel'>Introduction</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"10_1"})
 			);
 			
-			_menuVOs.push
-			(
-				new ButtonVO({label:"<p class='buttonLabel'>The Artist</p>", subMenuButtons:new <ButtonVO>[
-					new ButtonVO({label:"<p class='buttonLabel'>Biography</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"10_2_1"})
-					]})
-			);
+//			_menuVOs.push
+//			(
+//				new ButtonVO({label:"<p class='buttonLabel'>The Artist</p>", subMenuButtons:new <ButtonVO>[
+//					new ButtonVO({label:"<p class='buttonLabel'>Biography</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"10_2_1"})
+//					]})
+//			);
 			
 			_menuVOs.push
 			(
 				new ButtonVO({label:"<p class='buttonLabel'>The Sitters</p>", subMenuButtons:new <ButtonVO>[
-					new ButtonVO({label:"<p class='buttonLabel'>Who are they?</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"10_3_1"}),
-					new ButtonVO({label:"<p class='buttonLabel'>Where did they live?</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"10_3_2"})
+					new ButtonVO({label:"<p class='buttonLabel'>Who Are They?</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"10_3_1"}),
+					new ButtonVO({label:"<p class='buttonLabel'>Where Did They Live?</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"10_3_2"})
 				]})
 			);
 			

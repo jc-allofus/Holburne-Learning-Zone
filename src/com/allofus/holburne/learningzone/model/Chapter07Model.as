@@ -28,7 +28,7 @@ package com.allofus.holburne.learningzone.model
 			(
 				new ButtonVO({label:"<p class='buttonLabel'>The Painting</p>", subMenuButtons:new <ButtonVO>[
 					new ButtonVO({label:"<p class='buttonLabel'>Who's who?</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"7_3_1"}),
-					new ButtonVO({label:"<p class='buttonLabel'>Other episodes from this story</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"7_3_2"})
+					new ButtonVO({label:"<p class='buttonLabel'>Other Episodes From This Story</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"7_3_2"})
 				]})
 			);
 			

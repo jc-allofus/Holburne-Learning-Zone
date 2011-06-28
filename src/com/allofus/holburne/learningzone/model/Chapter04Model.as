@@ -19,15 +19,15 @@ package com.allofus.holburne.learningzone.model
 			_menuVOs.push
 			(
 				new ButtonVO({label:"<p class='buttonLabel'>The Artist</p>", subMenuButtons:new <ButtonVO>[
-					new ButtonVO({label:"<p class='buttonLabel'>Biography</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"4_2_1"})
+					new ButtonVO({label:"<p class='buttonLabel'>A Shadowy Figure</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"4_2_1"})
 					]})
 			);
 			
 			_menuVOs.push
 			(
-				new ButtonVO({label:"<p class='buttonLabel'>What's on the Menu?</p>", subMenuButtons:new <ButtonVO>[
-					new ButtonVO({label:"<p class='buttonLabel'>What's on the menu?</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"4_3_1"}),
-					new ButtonVO({label:"<p class='buttonLabel'>Treasures of the banquet table</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"4_3_2"}),
+				new ButtonVO({label:"<p class='buttonLabel'>A Closer Look</p>", subMenuButtons:new <ButtonVO>[
+					new ButtonVO({label:"<p class='buttonLabel'>What's on the Menu?</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"4_3_1"}),
+					new ButtonVO({label:"<p class='buttonLabel'>Treasures of the Banquet Table</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"4_3_2"}),
 					new ButtonVO({label:"<p class='buttonLabel'>Secrets</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"4_3_3"})
 				]})
 			);
@@ -37,7 +37,7 @@ package com.allofus.holburne.learningzone.model
 				new ButtonVO({label:"<p class='buttonLabel'>Conservation</p>", subMenuButtons:new <ButtonVO>[
 					new ButtonVO({label:"<p class='buttonLabel'>The Problem</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"4_4_1"}),
 					new ButtonVO({label:"<p class='buttonLabel'>Work in Progress</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"4_4_2"}),
-					new ButtonVO({label:"<p class='buttonLabel'>Did we do the right thing?</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"4_4_3"})
+					new ButtonVO({label:"<p class='buttonLabel'>Did We Do the Right Thing?</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"4_4_3"})
 				]})
 			);
 			

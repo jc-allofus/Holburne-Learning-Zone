@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 03/03.3/03.3.1/Slide_3_3_1" itemID="4da2e342-0000032a" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.chapter3.Slide_3_3_1" sourceLibraryItemHRef="Symbol 1" lastModified="1302790795" lastUniqueIdentifier="4">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 03/03.3/03.3.1/Slide_3_3_1" itemID="4da2e342-0000032a" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swcassets.chapter3.Slide_3_3_1" sourceLibraryItemHRef="Symbol 1" lastModified="1309193483" lastUniqueIdentifier="4">
   <timeline>
     <DOMTimeline name="Slide_3_3_1" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;630&lt;/guideline&gt;&lt;guideline direction="v"&gt;960&lt;/guideline&gt;&lt;guideline direction="v"&gt;999&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Chapter 03/03.3/03.3.1/RightContent" name="rightContent" selected="true" centerPoint3DX="1300" centerPoint3DY="745">
+                <DOMSymbolInstance libraryItemName="Chapter 03/03.3/03.3.1/RightContent" name="rightContent" centerPoint3DX="1300" centerPoint3DY="745">
                   <matrix>
                     <Matrix tx="1000" ty="630"/>
                   </matrix>

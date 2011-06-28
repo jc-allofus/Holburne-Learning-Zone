@@ -52,5 +52,15 @@ package com.allofus.shared.util
 			var ty:Number = -obj.y + ((AppGlobals.RIGHT_FRAME_HEIGHT * 0.5) - (obj.height * 0.5)) + AppGlobals.RIGHT_FRAME_Y;
 			return new Point(tx, ty);
 		}
+		
+		public static function alignRight(thisObject : DisplayObject, alignedToTheRightOf : DisplayObject, offset:int = 0) : void
+		{
+			thisObject.x = Math.round(alignedToTheRightOf.x + alignedToTheRightOf.width - thisObject.width + offset);
+		}
+
+		public static function alignBottom(thisObject : DisplayObject, alignedToTheBottomOf : DisplayObject, offset:int = 0) : void
+		{
+			thisObject.y = Math.round(alignedToTheBottomOf.y + alignedToTheBottomOf.height - thisObject.height + offset);
+		}
 	}
 }

@@ -34,7 +34,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			img.showCaption(false);
 			addChild(img);
 			
-			var title:String ="HOW MUCH DID IT COST?";
+			var title:String ="How Much Did it Cost?";
 			var page1:String = 
 				"<p class='justified'>When Gainsborough began painting this portrait in the early 1760s, it was the largest painting he had ever attempted. He must have known his client, George Byam, was willing and able to pay handsomely for it. Fifty years later, Jane Austen wrote “No people spend more freely, I believe, than West Indians”, and as a West Indian landowner, Byam and his wife must have been very welcome customers in Bath.</p>"
 			+	"<p></p>"

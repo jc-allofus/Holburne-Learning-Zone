@@ -67,7 +67,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter05
 				new HotspotButtonVO(containerMC.t9, new PopupPanelVO(str9, Img_5_3_1_9)),
 			];
 			
-			var title:String ="A closer look";
+			var title:String ="A Closer Look";
 			var description:String = "<p class='justified'>Touch the painting to find out more.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description);
 			text.alpha = 0;

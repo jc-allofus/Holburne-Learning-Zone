@@ -27,7 +27,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter08
 			img = new ImageWithBorderAndCaption(new Bitmap(new Img_8_1(0,0)), caption);
 			addChild(img);
 			
-			var title:String ="INTRODUCTION";
+			var title:String ="Introduction";
 			var description:String = 
 				"<p class='justified'>The <span class='copyItalic'>Bocca della Verità</span> (the ‘Mouth of Truth’) is an ancient drain-cover in Rome carved into a moon-like face.  Its mouth and eyes are gaping holes.  It is said that anyone guilty of lying who dares to place their hand inside will have their hand bitten off.  A medieval legend tells that the Mask was invented by the poet and sage Virgil as a sort of public lie-detector.  This eighteenth-century Roman cabinet-painting tells the story of how Virgil’s machine was foiled by an adulterous young wife.</p>"
 			+	"<p></p>"

@@ -6,5 +6,7 @@
     </LoaderMax>
     
 	<UpdateURL path="http://insert/update/url/here" />
-	<APIBaseURL path="http://jc.allofus.local/holburneLearningZoneAPI" />
+	<API>
+		<Endpoint id="didrightthing" url="http://localhost/HolburneLearningZoneAPI/index.php/didrightthing/" />
+	</API>
 </HolburneLearningZone>

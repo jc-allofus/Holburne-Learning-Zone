@@ -3,6 +3,7 @@
           <DOMFolderItem name="Home Page" itemID="4d7e1060-000002c1" isExpanded="true"/>
      </folders>
      <media>
+          <DOMBitmapItem name="00_screensaver_1-10_final-02.png" itemID="4e08634d-00000260" sourceExternalFilepath="./LIBRARY/00_screensaver_1-10_final-02.png" sourceLastImported="1309171469" sourcePlatform="macintosh" externalFileSize="6556857" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="00_screensaver_1-10_final-02.png" bitmapDataHRef="M 4 1309172434.dat" frameRight="76800" frameBottom="43200"/>
           <DOMBitmapItem name="Home Page/01_b.png" itemID="4dc034fb-0000050b" sourceExternalFilepath="./LIBRARY/Home Page/01_b.png" sourceLastImported="1304442058" sourcePlatform="macintosh" externalFileSize="6862042" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Home Page/01_b.png" bitmapDataHRef="M 2 1304436812.dat" frameRight="76800" frameBottom="43200"/>
           <DOMBitmapItem name="Home Page/02_b.png" itemID="4dc020e3-00000407" sourceExternalFilepath="./LIBRARY/Home Page/02_b.png" sourceLastImported="1304436491" sourcePlatform="macintosh" externalFileSize="6023504" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Home Page/02_b.png" bitmapDataHRef="M 3 1304436821.dat" frameRight="76800" frameBottom="43200"/>
           <DOMBitmapItem name="Home Page/homepage_large.png" itemID="4d77bb91-000003b9" sourceExternalFilepath="../Chapters1-10/LIBRARY/Home Pages/homepage_large.png" sourceLastImported="1299692429" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Home Page/homepage_large.png" bitmapDataHRef="M 8 1299684418.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
@@ -10,6 +11,7 @@
      <symbols>
           <Include href="Home Page/invisButton.xml" loadImmediate="false"/>
           <Include href="Home Page/Page1.xml"/>
+          <Include href="Home Page/Page1OnlyPaintings.xml"/>
           <Include href="Home Page/Page2.xml"/>
      </symbols>
      <timelines>
@@ -18,7 +20,16 @@
                     <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
-                                   <elements/>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Home Page/Page1OnlyPaintings" name="" selected="true" centerPoint3DX="1003.9" centerPoint3DY="501">
+                                             <matrix>
+                                                  <Matrix tx="-916.1" ty="-579"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="1920" y="1080"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
@@ -328,6 +339,9 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="1760713" publishTime="1309174957"/>
+          <PublishItem publishSize="1760713" publishTime="1309174948"/>
+          <PublishItem publishSize="1760541" publishTime="1309172574"/>
           <PublishItem publishSize="1193451" publishTime="1304441460"/>
           <PublishItem publishSize="643152" publishTime="1304440751"/>
           <PublishItem publishSize="643146" publishTime="1304439960"/>

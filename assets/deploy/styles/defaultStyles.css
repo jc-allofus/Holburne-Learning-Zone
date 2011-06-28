@@ -27,13 +27,20 @@ p{
 	font-size: 14px;
 }
 
-.videoTime{
-	font-size: 12px;
+.imageCaptionRight{
+	font-size: 14px;
+	text-align:right;
 }
 
 .imageCaptionItalic{
 	font-family:BaskervilleGreekItalic;
 	font-size: 14px;
+}
+
+.imageCaptionItalicRight{
+	font-family:BaskervilleGreekItalic;
+	font-size: 14px;
+	text-align:right;
 }
 
 .justified{
@@ -46,6 +53,10 @@ p{
 
 .buttonLabel{
 	color:#80816d;
+}
+
+.videoTime{
+	font-size: 12px;
 }
 
 .voteResultDiscLabel{

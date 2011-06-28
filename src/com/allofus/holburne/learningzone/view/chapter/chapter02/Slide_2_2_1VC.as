@@ -51,7 +51,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			+	"<p class='imageCaption'>Sir Anthony van Dyck (1599-1641)</p>"
 			+	"<p class='imageCaption'>Pen and ink</p>"
 			+	"<p class='imageCaption'>Teylers Museum, Haarlem</p>";
-			var at03:String = "<p>Pieter Bruegel the Elder’s first son, also Pieter, spent his life in his father’s shadow.  Most of the paintings he produced with his large studio were copies of Brugel the elder’s famous works.  In the case of one winter scene, at least 60 copies are known.  He was also known as ‘Hell’ Brueghel because of his many paintings of grotesque and demonic scenes.</p>";
+			var at03:String = "<p>Pieter Bruegel the Elder’s first son, also Pieter, spent his life in his father’s shadow.  Most of the paintings he produced with his large studio were copies of Brugel the elder’s famous works.  In the case of one winter scene, at least 60 copies are known.  He was also known as ‘Hell’ Bruegel because of his many paintings of grotesque and demonic scenes.</p>";
 			var vo03:ThumbnailVO = new ThumbnailVO(containerMc.t3, Img_2_2_1_3, st03, at03);
 
 			var st04:String = 

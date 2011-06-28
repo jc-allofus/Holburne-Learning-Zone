@@ -36,7 +36,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter02
 			
 			var caption:String = 
 				"<p class='imageCaptionItalic'>The Visit of the Godfather</p>"
-			+	"<p class='imageCaption'>Pieter Brueghel the Younger (1565-1638)</p>"
+			+	"<p class='imageCaption'>Pieter Bruegel the Younger (1565-1638)</p>"
 			+	"<p class='imageCaption'>Oil on panel</p>"
 			+	"<p class='imageCaption'>36.5 x 49.4 cm</p>"
 			+	"<p class='imageCaption'>Collection of Sir Thomas William Holburne, A46</p>";

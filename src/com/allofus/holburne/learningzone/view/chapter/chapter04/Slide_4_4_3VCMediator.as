@@ -36,7 +36,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 			eventMap.mapListener(eventDispatcher, XMLFeedEvent.FETCH_FAILED, failed);
 			rightThingVO = event.vo;
 			var userVote:String = rightThingVO.userVotedYes ? "yes" : "no";
-			var url:String = configProxy.apiBaseURL + "/didrightthing/" + userVote;
+			var url:String = configProxy.didRightThingURL + "/didrightthing/" + userVote;
 			xmlFeedService.retrieveFeed(url);
 		}
 		

@@ -18,19 +18,19 @@ package com.allofus.holburne.learningzone.model
 			
 			_menuVOs.push
 			(
-				new ButtonVO({label:"<p class='buttonLabel'>The Bruenhal Family</p>", subMenuButtons:new <ButtonVO>[
+				new ButtonVO({label:"<p class='buttonLabel'>The Bruegel Family</p>", subMenuButtons:new <ButtonVO>[
 					new ButtonVO({label:"<p class='buttonLabel'>Who's Who?</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"2_2_1"}),
-					new ButtonVO({label:"<p class='buttonLabel'>The Family Workshop</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"2_2_2"}),
-					new ButtonVO({label:"<p class='buttonLabel'>Other Bruenhal works</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"2_2_3"})
+//					new ButtonVO({label:"<p class='buttonLabel'>The Family Workshop</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"2_2_2"}),
+					new ButtonVO({label:"<p class='buttonLabel'>The Family Workshop</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"2_2_3"})
 					]})
 			);
 			
 			_menuVOs.push
 			(
-				new ButtonVO({label:"<p class='buttonLabel'>What's Going On</p>", subMenuButtons:new <ButtonVO>[
+				new ButtonVO({label:"<p class='buttonLabel'>A Closer Look</p>", subMenuButtons:new <ButtonVO>[
 					new ButtonVO({label:"<p class='buttonLabel'>The Scene</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"2_3_1"}),
-					new ButtonVO({label:"<p class='buttonLabel'>What are all those things?</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"2_3_2"}),
-					new ButtonVO({label:"<p class='buttonLabel'>Other versions of this scene</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"2_3_3"})	
+					new ButtonVO({label:"<p class='buttonLabel'>Around the Farmhouse</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"2_3_2"}),
+					new ButtonVO({label:"<p class='buttonLabel'>Other Versions</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"2_3_3"})	
 				]})
 			);
 			

@@ -6,7 +6,7 @@ package com.allofus.holburne.learningzone.controller.startup
 	import com.allofus.holburne.learningzone.view.background.BackgroundVC;
 	import com.allofus.holburne.learningzone.view.debug.DebugVC;
 	import com.allofus.holburne.learningzone.view.frame.BlankOutVC;
-	import com.allofus.holburne.learningzone.view.homepage.HomepageSingleClickVC;
+	import com.allofus.holburne.learningzone.view.homepage.HomepagePaintingsOnly;
 	import com.allofus.shared.logging.GetLogger;
 	import com.greensock.plugins.ColorTransformPlugin;
 	import com.greensock.plugins.EndArrayPlugin;
@@ -41,7 +41,8 @@ package com.allofus.holburne.learningzone.controller.startup
 			
 			mainView.backgroundLayer.addChild(new BackgroundVC());
 
-			mainView.homepageLayer.addChild(new HomepageSingleClickVC());
+//			mainView.homepageLayer.addChild(new HomepageSingleClickVC());
+			mainView.homepageLayer.addChild(new HomepagePaintingsOnly());
 
 			mainView.blankOutLayer.addChild(new BlankOutVC());
 			mainView.debugLayer.addChild(new DebugVC());
@@ -49,7 +50,7 @@ package com.allofus.holburne.learningzone.controller.startup
 			mainView.debugLayer.mouseEnabled = mainView.backgroundLayer.mouseEnabled = mainView.frameBorderLayer.mouseEnabled = false;
 			mainView.debugLayer.mouseChildren = mainView.backgroundLayer.mouseChildren = mainView.frameBorderLayer.mouseChildren = false;
 			
-			//mainView.mouseVisible = false;
+			mainView.mouseVisible = false;
 						
 			dispatch(new StateEvent(StateEvent.ACTION, FSMConstants.CONSTRUCTING_VIEW_COMPLETE));
 		}

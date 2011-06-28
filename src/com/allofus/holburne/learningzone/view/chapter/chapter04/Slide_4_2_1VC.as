@@ -45,7 +45,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 				new HotspotButtonVO(containerMC.t2, new PopupPanelVO(str2, Img_4_2_1_2)),
 			];
 			
-			var title:String ="A shadowy figure";
+			var title:String ="A Shadowy Figure";
 			var description:String = 
 				"<p class='justified'>We do not know who painted this still life, but it was probably painted in the Hague around the 1660s.  It is close to the work of Abraham van Beyeren, who created many similarly rich still lifes in the 1660s. The artist is probably the shadowy figure called 'Pseudo-Simons' by art-historians because of his confusion with the Utrecht still life painter Michiel Simons (active by 1648, died 1673).</p>"
 			+	"<p></p>"

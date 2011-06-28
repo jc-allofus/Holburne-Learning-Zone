@@ -28,7 +28,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 			containerMC = new Slide_1_2_3();
 		  	
 		  	var caption:String =
-		  		"<p class='imageCaptionItalic'>A New and Correct Plan of the City of Bath with the New Additional Buildings</p>" +
+		  		"<p class='imageCaptionItalic'>A New and Correct Plan of the City of Bath with <br />the New Additional Buildings</p>" +
 		  		"<p class='imageCaptionItalic'>William Hibbart</p>" +
 		  		"<p class='imageCaptionItalic'>1772</p>" +
 		  		"<p class='imageCaptionItalic'>Engraving, 37.5 x 49 cm</p>" +
@@ -73,7 +73,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 				new HotspotButtonVO(containerMC.t7, new PopupPanelVO(str7))
 			];
 			
-			var title:String ="WHERE HE LIVED";
+			var title:String ="Where He Lived";
 			var description:String = 
 				"<p class='justified'>Gainsborough moved to a rapidly changing city. His first house stood opposite the Abbey but he was also to live in Lansdown and the newly built Circus.</p>"
 			+	"<p></p>";

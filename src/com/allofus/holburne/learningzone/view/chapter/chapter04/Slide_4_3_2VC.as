@@ -46,7 +46,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 			var str1:String = "<p class='popupPanelTitle'>Chinese porcelain dish</p><p></p>";
 			var str2:String = "<p class='popupPanelTitle'>Silver Ewer</p>";
 			var str3:String = "<p class='popupPanelTitle'>Cover to the silver gilt cup</p><p>Decorated with a figure with a lance.</p>";
-			var str4:String = "<p class='popupPanelTitle'>Pocket watch.</p><p>The artist has included a time-piece as a reminder that all the riches of nature and art will pass away</p>";
+			var str4:String = "<p class='popupPanelTitle'>Pocket watch</p><p>The artist has included a time-piece as a reminder that all the riches of nature and art will pass away</p>";
 			var str5:String = "<p class='popupPanelTitle'>Roemer</p><p>Roemer Traditional Netherlandish style of drinking glass</p>";
 			var str6:String = "<p class='popupPanelTitle'>Silver gilt cup</p><p>A German parcel-gilt silver cup, probably made in Nuremberg.  Its cover is lying on the table to the left.</p>";
 			var str7:String = "<p class='popupPanelTitle'>Parrot</p><p>Exotic pets imported from the southern hemisphere were an important status symbol.</p>";
@@ -61,9 +61,10 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 				new HotspotButtonVO(containerMC.t7, new PopupPanelVO(str7, Img_4_3_2_7))
 			];
 			
-			var title:String ="Treasures of the Banquet table";
-			var description:String = "";
-//				"<p class='justified'></p>"
+			var title:String ="Treasures of the Banquet Table";
+			var description:String = 
+				"<p class='justified'>Extravagant still lifes such as this one display the wealth of goods available in the prosperous Northern Netherlands in the seventeenth century. As well as celebrating this embarassment of riches, Dutch still lifes also often suggest the transience of such wealth. Touch the picture to find out more.</p>"
+				;
 //			+	"<p></p>"
 //			+	"<p class='justified'></p>";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);

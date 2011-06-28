@@ -1,5 +1,6 @@
 package com.allofus.holburne.learningzone.model
 {
+	import nl.demonsters.debugger.MonsterDebugger;
 	import com.allofus.shared.logging.GetLogger;
 	import com.allofus.shared.text.FontManager;
 	import com.greensock.events.LoaderEvent;
@@ -33,7 +34,7 @@ package com.allofus.holburne.learningzone.model
 		protected var loader : LoaderMax;
 		
 		protected var _updateURL : String;
-		protected var _apiBaseURL : String;
+		protected var _didRightThingURL : String;
 		
 		public function ConfigProxy()
 		{
@@ -80,7 +81,7 @@ package com.allofus.holburne.learningzone.model
 			if(result)
 			{
 				_updateURL = result.UpdateURL.@path;
-				_apiBaseURL = result.APIBaseURL.@path;
+				_didRightThingURL = result.API.Endpoint.(@id == "didrightthing").@url;
 				logger.info("update url: " + _updateURL);
 				success();
 			}
@@ -105,9 +106,9 @@ package com.allofus.holburne.learningzone.model
 			return _updateURL;
 		}
 		
-		public function get apiBaseURL():String
+		public function get didRightThingURL():String
 		{
-			return _apiBaseURL;
+			return _didRightThingURL;
 		}
 
 		private static const logger : ILogger = GetLogger.qualifiedName(ConfigProxy);

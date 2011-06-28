@@ -57,7 +57,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 			addChild(containerMc);
 			addChild(largeImageContainer);
 
-			var title:String ="Barker’s Self Portrait";
+			var title:String ="Influences";
 			var page1:String = 
 				"<p class='justified'>Thomas Barker used his self portrait as a way of telling the public about himself and his art.  As an artist who admired and imitated the great artists of the past, he used the self portrait as a way of comparing himself to them. In particular his painting harks back to two other famous self portraits.</p>"
 			;

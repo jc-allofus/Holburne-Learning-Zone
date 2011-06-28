@@ -112,7 +112,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 				new HotspotButtonVO(containerMC.t7, new PopupPanelVO(str7,Img_3_2_2_7,cap7))
 			];
 			
-			bg = new TextBoxWithTitleAndDescription("THE BARKER FAMILY", "", 1785,760);
+			bg = new TextBoxWithTitleAndDescription("The Barker Family", "", 1785,760);
 			PositionUtil.centerHorizontallyByVal(bg, AppGlobals.APP_WIDTH);
 			bg.y = AppGlobals.RIGHT_FRAME_Y;
 			addChild(bg);

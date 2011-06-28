@@ -1,5 +1,7 @@
 package com.allofus.holburne.learningzone.view.chapter.chapter03
 {
+	import flash.text.TextFormatAlign;
+	import flash.text.TextFormat;
 	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.view.chapter.AbstractSlide;
 	import com.allofus.holburne.learningzone.view.component.TextBoxWithTitleAndDescription;
@@ -13,6 +15,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 	import com.holburne.learningzone.chapter3.Img_3_2_3_2;
 	import com.holburne.learningzone.chapter3.Img_3_2_3_3;
 	import com.holburne.learningzone.chapter3.Img_3_2_3_4;
+	import com.holburne.learningzone.chapter3.Img_3_2_3_5;
 	import com.holburne.learningzone.swcassets.chapter3.Slide_3_2_3;
 
 	import mx.logging.ILogger;
@@ -47,11 +50,11 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 		{
 			container = new Slide_3_2_3();
 			
-			thumbs = new <MovieClip>[container.t1,container.t2,container.t3,container.t4];
+			thumbs = new <MovieClip>[container.t1,container.t2,container.t3,container.t4,container.t5];
 			
-			correctThumb = container.t2;
+			correctThumb = container.t5;
 			
-			container.t1.alpha = container.t2.alpha = container.t3.alpha = container.t4.alpha = 0;
+			container.t1.alpha = container.t2.alpha = container.t3.alpha = container.t4.alpha = container.t5.alpha = 0;
 			
 			answerDesc = FontManager.createTextField("",correctThumb.width, correctThumb.height, true);
 			answerDesc.alpha = 0;
@@ -98,7 +101,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 		
 		override public function transitionIn():void
 		{
-			staggerItemsIn(bg,container.t1,container.t2,container.t3,container.t4);
+			staggerItemsIn(bg,container.t1,container.t5,container.t3,container.t4,container.t2);
 		}
 
 		private function handleAddedToStage(event : Event) : void
@@ -159,6 +162,10 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 				case container.t4:
 					bmd = new Img_3_2_3_4(0,0);
 					break;
+					
+				case container.t5:
+					bmd = new Img_3_2_3_5(0,0);
+					break;
 			}
 			pressed = new Bitmap(bmd);
 			pressed.x = p.x;
@@ -182,25 +189,19 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 					"<p class='imageCaption'>A311a</p>" 
 					;
 					answerDesc.htmlText = caption;
-					PositionUtil.positionToTheRight(answerDesc, selectedThumb, 15);
-					answerDesc.y = selectedThumb.y + 20;
-					PositionUtil.centerHorizontally(tryAgainButton, answerDesc);
-					tryAgainButton.y = selectedThumb.y + selectedThumb.height - tryAgainButton.height;
+					positionResultsRight();
 					break;
 				
-				//CORRECT	
+				//WRONG	
 				case container.t2:
-					caption = 	"<p><span class='imageCaptionItalic'>Thomas Barker Esquire, Painter of the Woodman</span><span class='imageCaption'>, 1848 (detail)</span></p>" +
-					"<p class='imageCaption'>John Joseph Barker (1824-1904)</p>" +
-					"<p class='imageCaption'>Lithograph, 26.6 x 20 cm</p>" +
-					"<p class='imageCaption'>Collection of Sir Thomas William Holburne</p>" +
-					"<p class='imageCaption'>A304a</p>" 
+					caption = 	"<p><span class='imageCaptionItalicRight'>The Blind Beggar</span><span class='imageCaption'>, about 1788 (detail)</span></p>" +
+					"<p class='imageCaptionRight'>Thomas Barker (1769-1847)</p>" +
+					"<p class='imageCaptionRight'>Oil on canvas, 47.5 x 40.2 cm</p>" +
+					"<p class='imageCaptionRight'>Gift of Sir John Clough, 1918</p>" +
+					"<p class='imageCaptionRight'>A118</p>" 
 					;
 					answerDesc.htmlText = caption;
-					PositionUtil.positionToTheRight(answerDesc, selectedThumb, 15);
-					answerDesc.y = selectedThumb.y + 20;
-					PositionUtil.centerHorizontally(tryAgainButton, answerDesc);
-					tryAgainButton.y = selectedThumb.y + selectedThumb.height - tryAgainButton.height;
+					positionResultsLeft();
 					break;
 				
 				//WRONG	
@@ -211,28 +212,51 @@ package com.allofus.holburne.learningzone.view.chapter.chapter03
 					"<p class='imageCaption'>Victoria Art Gallery, Bath and North East Somerset Council	</p>"
 					;
 					answerDesc.htmlText = caption;
-					PositionUtil.positionToTheRight(answerDesc, selectedThumb, 15);
-					answerDesc.y = selectedThumb.y + 20;
-					PositionUtil.centerHorizontally(tryAgainButton, answerDesc);
-					tryAgainButton.y = selectedThumb.y + selectedThumb.height - tryAgainButton.height;
+					positionResultsRight();
 					break;
 				
 				//WRONG	
 				case container.t4:
-					caption = 	"<p><span class='imageCaptionItalic'>The Woodman and his Dog</span><span class='imageCaption'>, 1789 (detail)</span></p>" +
-					"<p class='imageCaption'>Thomas Barker (1769-1847)</p>" +
-					"<p class='imageCaption'>Oil on canvas</p>" +
-					"<p class='imageCaption'>Torfaen Museum Trust</p>" 
+					caption = 	"<p><span class='imageCaptionItalicRight'>The Woodman and his Dog</span><span class='imageCaption'>, 1789 (detail)</span></p>" +
+					"<p class='imageCaptionRight'>Thomas Barker (1769-1847)</p>" +
+					"<p class='imageCaptionRight'>Oil on canvas</p>" +
+					"<p class='imageCaptionRight'>Torfaen Museum Trust</p>" 
 					;
-					answerDesc.htmlText = "<p>wrong answer description...</p>";
-					answerDesc.x = selectedThumb.x - answerDesc.width - 15;
-					answerDesc.y = selectedThumb.y + 20;
-					PositionUtil.centerHorizontally(tryAgainButton, answerDesc);
-					tryAgainButton.y = selectedThumb.y + selectedThumb.height - tryAgainButton.height;
+					answerDesc.htmlText = caption;
+					positionResultsLeft();
 					break;
+					
+				case container.t5:
+					caption = 	"<p><span class='imageCaptionItalic'>Thomas Barker Esquire, Painter of the Woodman</span><span class='imageCaption'>, 1848 (detail)</span></p>" +
+					"<p class='imageCaption'>John Joseph Barker (1824-1904)</p>" +
+					"<p class='imageCaption'>Lithograph, 26.6 x 20 cm</p>" +
+					"<p class='imageCaption'>Collection of Sir Thomas William Holburne</p>" +
+					"<p class='imageCaption'>A304a</p>" 
+					;
+					answerDesc.htmlText = caption;
+					positionResultsRight();
+					break;
+					
 					
 			}
 			showResults();
+		}
+		
+		protected function positionResultsLeft():void
+		{
+			answerDesc.x = selectedThumb.x - answerDesc.width - 15;
+			answerDesc.y = selectedThumb.y + 20;
+			PositionUtil.alignRight(tryAgainButton, answerDesc, 15);
+			tryAgainButton.y = selectedThumb.y + selectedThumb.height - tryAgainButton.height - 20;
+			
+		}
+		
+		protected function positionResultsRight():void
+		{
+			PositionUtil.positionToTheRight(answerDesc, selectedThumb, 15);
+			answerDesc.y = selectedThumb.y + 20;
+			tryAgainButton.x = answerDesc.x - 10;
+			tryAgainButton.y = selectedThumb.y + selectedThumb.height - tryAgainButton.height - 20;
 		}
 		
 		protected function showResults():void

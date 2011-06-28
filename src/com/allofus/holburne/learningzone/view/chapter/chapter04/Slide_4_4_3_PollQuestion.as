@@ -30,18 +30,18 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 			hRule.graphics.lineTo(width, 0);
 			addChild(hRule);
 			
-			question = FontManager.createStyledTextField("WHAT WOULD YOU HAVE DONE?","title");
+			question = FontManager.createStyledTextField("What Would You Have Done?","title");
 			PositionUtil.centerHorizontally(question, this);
 			addChild(question);
 			
 			buttonYes = new ButtonWithCheckIcon(
-				new ButtonVO({label:"<p>KEPT THE HALF-PARROT HIDDEN</p>"}),
+				new ButtonVO({label:"<p>Kept the Half-Parrot Hidden</p>"}),
 				ButtonWithCheckIcon.ICON_CHECK_GREEN
 				);
 			addChild(buttonYes);
 				
 			buttonNo = new ButtonWithCheckIcon(
-				new ButtonVO({label:"<p>CLEANED THE OVERPAINT OFF THE PARROT</p><p>(so that people could see it)</p>"}),
+				new ButtonVO({label:"<p>Cleaned the Overpaint off the Parrot</p><p>(so that people could see it)</p>"}),
 				ButtonWithCheckIcon.ICON_CHECK_BLUE
 				);
 			addChild(buttonNo);

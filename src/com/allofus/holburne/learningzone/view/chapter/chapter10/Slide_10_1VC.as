@@ -26,7 +26,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter10
 			img = new ImageWithBorderAndCaption(new Bitmap(new Img_10_1(0,0)), caption);
 			addChild(img);
 			
-			var title:String ="INTRODUCTION";
+			var title:String ="Introduction";
 			var description:String = 
 				"<p class='justified'>Arthur Devis is one of the best-known painters of a new type of portrait that appeared during the eighteenth century.  ‘Conversation Pieces’ were small-scale informal portraits of groups of people.  They depicted a family or friends in stylised representations of their homes or in idealised landscapes.  Devis’s portraits of country gentry are a fascinating record of Georgian domestic life, fashion, and manners.</p>"
 			+	"<p></p>"

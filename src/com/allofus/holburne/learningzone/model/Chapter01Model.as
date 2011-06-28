@@ -29,7 +29,7 @@ package com.allofus.holburne.learningzone.model
 			_menuVOs.push
 			(
 				new ButtonVO({label:"<p class='buttonLabel'>The Byam Family</p>", subMenuButtons:new <ButtonVO>[
-					new ButtonVO({label:"<p class='buttonLabel'>Who's Who?</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"1_3"})
+					new ButtonVO({label:"<p class='buttonLabel'>The People</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"1_3"})
 					]})
 			);
 			

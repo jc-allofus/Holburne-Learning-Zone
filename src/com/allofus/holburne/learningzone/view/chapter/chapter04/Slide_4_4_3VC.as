@@ -22,7 +22,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 		{
 			
 			
-			var title:String ="DID WE DO THE RIGHT THING?";
+			var title:String ="Did We Do the Right Thing?";
 			var description:String = 
 				"<p class='justified'>When the picture was cleaned, the little parrot appeared perched on a hoop at the top of the picture.  We think the canvas must have been cut down at some point to fit a new frame. When the edges of the picture were cut off, the parrot’s head went with them, so the parts of the parrot left behind were painted over to hide them.</p>"
 			+	"<p></p>"
@@ -36,7 +36,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 			pollQuestion = new Slide_4_4_3_PollQuestion(600);
 			pollQuestion.addEventListener(VoteEvent.SEND_VOTE, redispatch);
 			addChild(pollQuestion);
-			pollQuestion.y = text.y + text.bottomOfCopy + 20;
+			pollQuestion.y = text.y + text.underBody + 20;
 			PositionUtil.centerHorizontally(pollQuestion, text);
 			
 			pollResults = new Slide_4_4_3_PollResults(AppGlobals.RIGHT_FRAME_WIDTH, text.height);

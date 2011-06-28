@@ -76,11 +76,11 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 				new HotspotButtonVO(containerMC.t12, new PopupPanelVO(str12, Img_4_3_1_12))
 			];
 			
-			var title:String ="What’s on the menu?";
+			var title:String ="What’s on the Menu?";
 			var description:String = 
 				"<p class='justified'>How many different types of fruit and other food can you see?</p>"
 			+	"<p></p>"
-			+	"<p class='justified'>How many can you find in 60 seconds?</p>";
+			+	"<p class='justified'>Touch the picture to find out more.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);
 			addChild(text);
 			text.visible = false;

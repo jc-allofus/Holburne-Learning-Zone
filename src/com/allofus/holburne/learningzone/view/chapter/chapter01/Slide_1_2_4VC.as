@@ -45,7 +45,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter01
 				new HotspotButtonVO(containerMC.t7, new PopupPanelVO("<p>Gainsborough worked in the main room on the first floor, which faced north.</p>"))
 			];
 			
-			var title:String ="THOMAS GAINSBOROUGH'S HOUSE";
+			var title:String ="Thomas Gainsborough's House";
 			var description:String = 
 				"<p class='justified'>Gainsborough's first house does not survive. Built by John Wood, responsible for much of the expanding city, it stood opposite the Abbey.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description, AppGlobals.RIGHT_FRAME_WIDTH);

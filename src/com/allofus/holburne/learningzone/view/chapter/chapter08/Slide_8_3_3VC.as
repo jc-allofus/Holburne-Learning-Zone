@@ -41,7 +41,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter08
 			addChild(containerMc);
 			addChild(largeImageContainer);
 
-			var title:String ="The problem";
+			var title:String ="The Problem";
 			var description:String = 
 				"<p class='justified'>Before 2011, this charming painting was never displayed because of its very fragile condition.  Now it looks almost as good as new after conservation partly funded by a generous grant of £2,000 from the Veneziana Fund.</p>"
 			+	"<p></p>"

@@ -27,7 +27,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter05
 			img = new ImageWithBorderAndCaption(new Bitmap(new Chap5IntroImage(0,0)), caption);
 			addChild(img);
 			
-			var title:String ="INTRODUCTION";
+			var title:String ="Introduction";
 			var description:String = 
 				"<p class='justified'>This teeming scene, with its crowd of grotesque monsters shows the 3rd-century Saint Anthony tormented by demons in the desert. The swirling shrieking movement of the gang of fiends is contrasted with the peaceful rock-like silence of the praying hermit.</p>"
 			+	"<p></p>"

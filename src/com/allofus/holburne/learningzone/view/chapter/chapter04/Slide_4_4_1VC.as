@@ -52,7 +52,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter04
 				new HotspotButtonVO(containerMC.t4, new PopupPanelVO(str4,Img_4_4_1_4))
 			];
 			
-			var title:String ="The problem";
+			var title:String ="The Problem";
 			var description:String = "<p class='justified'>The still life and its frame before conservation.</p>";
 			text = new TextBoxWithTitleAndDescription(title, description);
 			text.alpha = 0;

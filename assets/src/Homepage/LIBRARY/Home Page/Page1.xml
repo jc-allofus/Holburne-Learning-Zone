@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Home Page/Page1" itemID="4dc021cc-00000408" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.homepage.Page1" sourceLibraryItemHRef="Symbol 1" lastModified="1308911231" lastUniqueIdentifier="42">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Home Page/Page1" itemID="4dc021cc-00000408" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.homepage.Page1" sourceLibraryItemHRef="Symbol 1" lastModified="1309172488" lastUniqueIdentifier="42">
   <timeline>
     <DOMTimeline name="Page1">
       <layers>
@@ -24,20 +24,14 @@
                   <transformationPoint>
                     <Point x="50" y="50"/>
                   </transformationPoint>
-                  <color>
-                    <Color/>
-                  </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Home Page/invisButton" name="t1" centerPoint3DX="2216.7" centerPoint3DY="1505.6">
+                <DOMSymbolInstance libraryItemName="Home Page/invisButton" name="t1" selected="true" centerPoint3DX="2216.7" centerPoint3DY="1505.6">
                   <matrix>
                     <Matrix a="6.02984619140625" d="6.3502197265625" tx="1915" ty="1188"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50.05" y="49.9"/>
                   </transformationPoint>
-                  <color>
-                    <Color/>
-                  </color>
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Home Page/invisButton" name="t2" centerPoint3DX="3279.3" centerPoint3DY="400.45">
                   <matrix>
@@ -46,9 +40,6 @@
                   <transformationPoint>
                     <Point x="50.05" y="50"/>
                   </transformationPoint>
-                  <color>
-                    <Color/>
-                  </color>
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Home Page/invisButton" name="t20" centerPoint3DX="428.35" centerPoint3DY="485.6">
                   <matrix>
@@ -57,9 +48,6 @@
                   <transformationPoint>
                     <Point x="49.95" y="50.05"/>
                   </transformationPoint>
-                  <color>
-                    <Color/>
-                  </color>
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Home Page/invisButton" name="t18" centerPoint3DX="2215.95" centerPoint3DY="400.5">
                   <matrix>
@@ -68,9 +56,6 @@
                   <transformationPoint>
                     <Point x="49.9" y="50"/>
                   </transformationPoint>
-                  <color>
-                    <Color/>
-                  </color>
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Home Page/invisButton" name="t6" centerPoint3DX="1471" centerPoint3DY="1249.9">
                   <matrix>
@@ -79,9 +64,6 @@
                   <transformationPoint>
                     <Point x="50" y="50.05"/>
                   </transformationPoint>
-                  <color>
-                    <Color/>
-                  </color>
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Home Page/invisButton" name="t8" centerPoint3DX="2965.95" centerPoint3DY="1077.75">
                   <matrix>
@@ -90,9 +72,6 @@
                   <transformationPoint>
                     <Point x="49.95" y="50.05"/>
                   </transformationPoint>
-                  <color>
-                    <Color/>
-                  </color>
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Home Page/invisButton" name="t10" centerPoint3DX="582.7" centerPoint3DY="1314.45">
                   <matrix>
@@ -101,9 +80,6 @@
                   <transformationPoint>
                     <Point x="50.05" y="50"/>
                   </transformationPoint>
-                  <color>
-                    <Color/>
-                  </color>
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Home Page/invisButton" name="t16" centerPoint3DX="1471.1" centerPoint3DY="1863.5">
                   <matrix>
@@ -112,9 +88,6 @@
                   <transformationPoint>
                     <Point x="50.05" y="50"/>
                   </transformationPoint>
-                  <color>
-                    <Color/>
-                  </color>
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Home Page/invisButton" name="t12" centerPoint3DX="3190.45" centerPoint3DY="1760.45">
                   <matrix>
@@ -123,9 +96,6 @@
                   <transformationPoint>
                     <Point x="50" y="50"/>
                   </transformationPoint>
-                  <color>
-                    <Color/>
-                  </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>

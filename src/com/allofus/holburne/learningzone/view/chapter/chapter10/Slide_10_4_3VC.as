@@ -110,7 +110,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter10
 			text.alpha = 0;
 			
 			super();
-//			text.y = AppGlobals.RIGHT_FRAME_Y;
+			text.y = AppGlobals.RIGHT_FRAME_Y;
 		}
 		
 		override public function transitionIn():void
