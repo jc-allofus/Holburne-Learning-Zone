@@ -45,17 +45,17 @@ package com.allofus.holburne.learningzone.view.chapter.chapter09
 			+	"<p class='imageCaption'>A359</p>";
 			var vo02:ThumbnailVO = new ThumbnailVO(containerMc.t2, Img_9_2_2_2, st02);
 			
-			var st03:String = 
-				"<p><span class='imageCaptionItalic'>Edward Shuter, John Beard and John Dunstall in Love in a Village by Isaac Bickerstaffe</span><span class='imageCaption'></span></p>"
-			+	"<p class='imageCaption'>Johan Zoffany (1733-1810)</p>"
-			+	"<p class='imageCaption'>Oil on canvas, about 1767</p>"
-			+	"<p class='imageCaption'>101.5 x 127 cm</p>"
-			+	"<p class='imageCaption'>Acquired as part of the Somerset Maugham Collection, 2011</p>";
-			var vo03:ThumbnailVO = new ThumbnailVO(containerMc.t3, Img_9_2_2_3, st03);	
+//			var st03:String = 
+//				"<p><span class='imageCaptionItalic'>Edward Shuter, John Beard and John Dunstall in Love in a Village by Isaac Bickerstaffe</span><span class='imageCaption'></span></p>"
+//			+	"<p class='imageCaption'>Johan Zoffany (1733-1810)</p>"
+//			+	"<p class='imageCaption'>Oil on canvas, about 1767</p>"
+//			+	"<p class='imageCaption'>101.5 x 127 cm</p>"
+//			+	"<p class='imageCaption'>Acquired as part of the Somerset Maugham Collection, 2011</p>";
+//			var vo03:ThumbnailVO = new ThumbnailVO(containerMc.t3, Img_9_2_2_3, st03);	
 			
 			var st04:String = 
-				"<p><span class='imageCaptionItalic'></span><span class='imageCaption'></span></p>"
-			+	"<p class='imageCaption'>John Finlayson (about 1730 – about 1776) after Johan Zoffany </p>"
+				"<p><span class='imageCaptionItalic'>Edward Shuter, John Beard and John Dunstall in Love in a Village by Isaac Bickerstaffe</span><span class='imageCaption'></span></p>"
+			+	"<p class='imageCaption'>John Finlayson (about 1730 – about 1776) after Johan Zoffany</p>"
 			+	"<p class='imageCaption'>Oil on canvas, about 1767</p>"
 			+	"<p class='imageCaption'>39 x 53 cm</p>"
 			+	"<p class='imageCaption'>Acquired as part of the Somerset Maugham Collection, 2011</p>";
@@ -87,7 +87,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter09
 			var vo07:ThumbnailVO = new ThumbnailVO(containerMc.t7, Img_9_2_2_7, st07);		
 			
 			
-			thumbnailVOs = new <ThumbnailVO>[ vo01,vo02,vo03,vo04,vo05,vo06,vo07];
+			thumbnailVOs = new <ThumbnailVO>[ vo01,vo02,vo04,vo05,vo06,vo07];
 			
 			enableThumbs();
 			addChild(containerMc);

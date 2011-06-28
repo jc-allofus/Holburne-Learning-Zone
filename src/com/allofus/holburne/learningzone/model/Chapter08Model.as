@@ -20,14 +20,14 @@ package com.allofus.holburne.learningzone.model
 			(
 				new ButtonVO({label:"<p class='buttonLabel'>The Artist</p>", subMenuButtons:new <ButtonVO>[
 					new ButtonVO({label:"<p class='buttonLabel'>Biography</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"8_2_1"}),
-					new ButtonVO({label:"<p class='buttonLabel'>Other Works by Artist</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"8_2_2"})
+					new ButtonVO({label:"<p class='buttonLabel'>Other Works</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"8_2_2"})
 					]})
 			);
 			
 			_menuVOs.push
 			(
 				new ButtonVO({label:"<p class='buttonLabel'>The Painting</p>", subMenuButtons:new <ButtonVO>[
-					new ButtonVO({label:"<p class='buttonLabel'>Who's Who?</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"8_3_1"}),
+					new ButtonVO({label:"<p class='buttonLabel'>Who's Who</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"8_3_1"}),
 					new ButtonVO({label:"<p class='buttonLabel'>What Happens Next?</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"8_3_2"}),
 					new ButtonVO({label:"<p class='buttonLabel'>The Problem</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"8_3_3"})
 //					new ButtonVO({label:"<p class='buttonLabel'>Work in progress</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"8_3_4"})

@@ -22,7 +22,7 @@ package com.allofus.holburne.learningzone.view.chapter.chapter09
 			addChild(img);
 			
 			
-			var title:String ="The Maugham Collection";
+			var title:String ="The Somerset Maugham Collection";
 			var description:String = 
 				"<p class='justified'>This is one of a handful of works by Zoffany once owned by the novelist and playwright William Somerset Maugham (1874–1965).  Maugham gave his collection of over eighty Georgian theatrical paintings to the National Theatre in 1951.  In 2010 they were transferred to the Holburne Museum and the Theatre Royal, Bath.</p>"
 			+	"<p></p>"

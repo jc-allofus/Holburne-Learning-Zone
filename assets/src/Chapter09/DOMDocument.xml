@@ -372,6 +372,7 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="798338" publishTime="1309261517"/>
           <PublishItem publishSize="801861" publishTime="1309186888"/>
           <PublishItem publishSize="810675" publishTime="1308926860"/>
           <PublishItem publishSize="840597" publishTime="1305565090"/>
@@ -391,6 +392,5 @@
           <PublishItem publishSize="932357" publishTime="1304527450"/>
           <PublishItem publishSize="635510" publishTime="1304526501"/>
           <PublishItem publishSize="635507" publishTime="1304526448"/>
-          <PublishItem publishSize="635398" publishTime="1304525926"/>
      </publishHistory>
 </DOMDocument>

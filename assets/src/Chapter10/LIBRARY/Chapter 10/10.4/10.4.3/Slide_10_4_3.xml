@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 10/10.4/10.4.3/Slide_10_4_3" itemID="4dc7ecfe-00000288" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter10.Slide_10_4_3" sourceLibraryItemHRef="Chapter 10/10.4/10.4.2/Slide_10_4_2 copy" lastModified="1309188064" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 10/10.4/10.4.3/Slide_10_4_3" itemID="4dc7ecfe-00000288" linkageExportForAS="true" linkageClassName="com.holburne.learningzone.swc.chapter10.Slide_10_4_3" sourceLibraryItemHRef="Chapter 10/10.4/10.4.2/Slide_10_4_2 copy" lastModified="1309261976" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="Slide_10_4_3">
       <layers>
@@ -6,57 +6,57 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Chapter 10/10.4/10.4.3/_thumb/t1" name="t1" selected="true" centerPoint3DX="1128.95" centerPoint3DY="489">
+                <DOMSymbolInstance libraryItemName="Chapter 10/10.4/10.4.3/_thumb/t1" name="t1" selected="true" centerPoint3DX="1129" centerPoint3DY="451">
                   <matrix>
-                    <Matrix tx="1068.95" ty="421"/>
+                    <Matrix tx="1069" ty="383"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60" y="68"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 10/10.4/10.4.3/_thumb/t2" name="t2" selected="true" centerPoint3DX="1300.25" centerPoint3DY="489">
+                <DOMSymbolInstance libraryItemName="Chapter 10/10.4/10.4.3/_thumb/t2" name="t2" selected="true" centerPoint3DX="1300.3" centerPoint3DY="451">
                   <matrix>
-                    <Matrix tx="1240.25" ty="427"/>
+                    <Matrix tx="1240.3" ty="389"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60" y="62"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 10/10.4/10.4.3/_thumb/t3" name="t3" selected="true" centerPoint3DX="1471.55" centerPoint3DY="489">
+                <DOMSymbolInstance libraryItemName="Chapter 10/10.4/10.4.3/_thumb/t3" name="t3" selected="true" centerPoint3DX="1471.6" centerPoint3DY="451">
                   <matrix>
-                    <Matrix tx="1411.55" ty="417.5"/>
+                    <Matrix tx="1411.6" ty="379.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60" y="71.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 10/10.4/10.4.3/_thumb/t4" name="t4" selected="true" centerPoint3DX="1642.9" centerPoint3DY="489">
+                <DOMSymbolInstance libraryItemName="Chapter 10/10.4/10.4.3/_thumb/t4" name="t4" selected="true" centerPoint3DX="1642.95" centerPoint3DY="451">
                   <matrix>
-                    <Matrix tx="1582.9" ty="443"/>
+                    <Matrix tx="1582.95" ty="405"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60" y="46"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 10/10.4/10.4.3/_thumb/t5" name="t5" selected="true" centerPoint3DX="1128.95" centerPoint3DY="663.2">
+                <DOMSymbolInstance libraryItemName="Chapter 10/10.4/10.4.3/_thumb/t5" name="t5" selected="true" centerPoint3DX="1129" centerPoint3DY="625.2">
                   <matrix>
-                    <Matrix tx="1068.95" ty="597.2"/>
+                    <Matrix tx="1069" ty="559.2"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60" y="66"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 10/10.4/10.4.3/_thumb/t6" name="t6" selected="true" centerPoint3DX="1388.9" centerPoint3DY="663.2">
+                <DOMSymbolInstance libraryItemName="Chapter 10/10.4/10.4.3/_thumb/t6" name="t6" selected="true" centerPoint3DX="1388.95" centerPoint3DY="625.2">
                   <matrix>
-                    <Matrix tx="1328.9" ty="585.2"/>
+                    <Matrix tx="1328.95" ty="547.2"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60" y="78"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Chapter 10/10.4/10.4.3/_thumb/t7" name="t7" selected="true" centerPoint3DX="1648.9" centerPoint3DY="663.2">
+                <DOMSymbolInstance libraryItemName="Chapter 10/10.4/10.4.3/_thumb/t7" name="t7" selected="true" centerPoint3DX="1648.95" centerPoint3DY="625.2">
                   <matrix>
-                    <Matrix tx="1588.9" ty="586.7"/>
+                    <Matrix tx="1588.95" ty="548.7"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60" y="76.5"/>

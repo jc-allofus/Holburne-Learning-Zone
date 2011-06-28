@@ -27,7 +27,7 @@ package com.allofus.holburne.learningzone.model
 			_menuVOs.push
 			(
 				new ButtonVO({label:"<p class='buttonLabel'>The Painting</p>", subMenuButtons:new <ButtonVO>[
-					new ButtonVO({label:"<p class='buttonLabel'>What's Going On?</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"9_3_1"}),
+					new ButtonVO({label:"<p class='buttonLabel'>What's Going On</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"9_3_1"}),
 					new ButtonVO({label:"<p class='buttonLabel'>Costume, Scenery, Props</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"9_3_2"}),
 					new ButtonVO({label:"<p class='buttonLabel'>David Garrick</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"9_3_3"}),
 //					new ButtonVO({label:"<p class='buttonLabel'>Susannah Cibber</p>", action:ButtonVO.SHOW_SLIDE, actionParams:"9_3_4"}),
