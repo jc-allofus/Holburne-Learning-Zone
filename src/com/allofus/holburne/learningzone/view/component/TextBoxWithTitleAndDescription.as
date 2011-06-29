@@ -1,5 +1,6 @@
 package com.allofus.holburne.learningzone.view.component
 {
+	import com.greensock.TweenMax;
 	import flash.text.TextFieldAutoSize;
 	import com.allofus.holburne.learningzone.model.vo.PopupPanelVO;
 	import com.allofus.holburne.learningzone.AppGlobals;
@@ -154,10 +155,12 @@ package com.allofus.holburne.learningzone.view.component
 			PositionUtil.centerHorizontally(bodyField, this);
 		}
 		
-		public function transitionIn(delay:Number = 0):void
+		public function transitionIn(delay:Number = 0) : void
 		{
-			//TweenMax.to(this, AppGlobals.FADE_DURATION, {ease:AppGlobals.FADE_EASE, autoAlpha:1, glowFilter:AppGlobals.GLOW_ON, delay:delay});
+			decoration.alpha = titleField.alpha = bodyField.alpha = alpha = 0;
+			TweenMax.allTo([this, decoration, titleField, bodyField], AppGlobals.FADE_DURATION, {alpha:1, ease:AppGlobals.FADE_EASE, delay:delay},0.25);
 		}
+		
 
 		public function dispose() : void
 		{
@@ -183,7 +186,7 @@ package com.allofus.holburne.learningzone.view.component
 			}
 		}
 		
-		private static const logger:ILogger = GetLogger.qualifiedName( TextBoxWithTitleAndDescription );
+		private static const logger : ILogger = GetLogger.qualifiedName(TextBoxWithTitleAndDescription);
 
 	}
 }

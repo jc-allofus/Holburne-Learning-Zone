@@ -1,18 +1,13 @@
 package com.allofus.holburne.learningzone.view.homepage
 {
-	import com.holburne.learningzone.swc.homepage.Page1OnlyPaintings;
-	import com.allofus.holburne.learningzone.AppGlobals;
 	import com.allofus.holburne.learningzone.events.ChapterEvent;
 	import com.allofus.holburne.learningzone.model.ChapterIDs;
 	import com.allofus.holburne.learningzone.model.vo.ChapterVO;
-	import com.allofus.holburne.learningzone.view.component.button.NextButton;
-	import com.allofus.holburne.learningzone.view.component.button.PrevButton;
 	import com.allofus.shared.logging.GetLogger;
 	import com.allofus.shared.util.PositionUtil;
 	import com.greensock.TweenMax;
 	import com.greensock.easing.Strong;
-	import com.holburne.learningzone.swc.homepage.Page1;
-	import com.holburne.learningzone.swc.homepage.Page2;
+	import com.holburne.learningzone.swc.homepage.Page1OnlyPaintings;
 
 	import mx.logging.ILogger;
 
@@ -35,7 +30,7 @@ package com.allofus.holburne.learningzone.view.homepage
 		
 		protected var _selectedChapter:ChapterVO; 
 		
-		public static const ZOOM_IN_SPEED:Number = 1.8;
+		public static const ZOOM_IN_SPEED:Number = 2.2;
 		public static const ZOOM_OUT_SPEED:Number = 0.6;
 		public static const THUMB_SCALE:Number = 0.5;
 		public static const SLIDE_DURATION:Number = 0.75;

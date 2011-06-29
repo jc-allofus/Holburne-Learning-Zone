@@ -45,24 +45,27 @@ package com.allofus.holburne.learningzone.view.component
 		override public function transitionInFromHomeScreen():void
 		{
 			img.showCaption();
-			staggerItemsIn(img,text);
+			text.alpha = 0;
+			text.visible = true;
+			text.transitionIn(1.5);
 		}
 		
 		override public function transitionIn():void
 		{
 			img.alpha = text.alpha = 0;
+			img.showCaption(false);
 			staggerItemsIn(img,text);
 		}
 		
-		override public function transitionOut():void
-		{
-			if(transition)transition.clear();
-			transition = new TimelineMax({onComplete:dispatchOut});
-			transition.insertMultiple([
-			new TweenMax(img, AppGlobals.FADE_DURATION, {ease:AppGlobals.FADE_EASE, autoAlpha:0}),
-			new TweenMax(text, AppGlobals.FADE_DURATION, {ease:AppGlobals.FADE_EASE, autoAlpha:0})
-			],0,TweenAlign.NORMAL,AppGlobals.TRANSITION_STAGGER);
-		}
+//		override public function transitionOut():void
+//		{
+//			if(transition)transition.clear();
+//			transition = new TimelineMax({onComplete:dispatchOut});
+//			transition.insertMultiple([
+//			new TweenMax(img, AppGlobals.FADE_DURATION, {ease:AppGlobals.FADE_EASE, autoAlpha:0}),
+//			new TweenMax(text, AppGlobals.FADE_DURATION, {ease:AppGlobals.FADE_EASE, autoAlpha:0})
+//			],0,TweenAlign.NORMAL,0.1);
+//		}
 		
 		override public function dispose():void
 		{

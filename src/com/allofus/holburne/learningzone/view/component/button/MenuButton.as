@@ -27,7 +27,7 @@ package com.allofus.holburne.learningzone.view.component.button
 		protected var menuTabSelected:Bitmap;
 		protected var menuTabClicked:Bitmap;
 		
-		protected var label : TextField;
+		protected var _label : TextField;
 		public var panel : MenuPanelVC;
 		
 		
@@ -43,10 +43,10 @@ package com.allofus.holburne.learningzone.view.component.button
 			addChild(menuTabSelected);
 			addChild(menuTabClicked);
 			
-			label = FontManager.createTextField(vo.label);
-			addChild(label);
-			PositionUtil.centerHorizontally(label, this);
-			PositionUtil.centerVertically(label, this);
+			_label = FontManager.createTextField(vo.label);
+			addChild(_label);
+			PositionUtil.centerHorizontally(_label, this);
+			PositionUtil.centerVertically(_label, this);
 			
 			menuTabSelected.visible = menuTabClicked.visible = false;
 		}
@@ -71,7 +71,7 @@ package com.allofus.holburne.learningzone.view.component.button
 			menuTab = null;
 			menuTabSelected = null;
 			menuTabClicked = null;
-			label = null;
+			_label = null;
 			
 			panel = null;
 			
@@ -86,15 +86,28 @@ package com.allofus.holburne.learningzone.view.component.button
 			{
 				menuTabClicked.visible = false;
 				menuTabSelected.visible = true;
-				TweenMax.to(label, 0.2, {tint:0xb00404});
+				TweenMax.to(_label, 0.2, {tint:0xb00404});
 			}
 			else
 			{
 				menuTabSelected.visible = menuTabClicked.visible = false;
-				TweenMax.to(label, 0.2, {removeTint:true});
+				TweenMax.to(_label, 0.2, {removeTint:true});
 			}
 		}
+
+		public function dropDown(ty : int) : void
+		{
+			y = ty;
+			if(panel)
+				panel.y = y;
+		}
 		
-		private static const logger:ILogger = GetLogger.qualifiedName( MenuButton );
+		public function get label():String
+		{
+			return _label.text;
+		}
+		
+
+		private static const logger : ILogger = GetLogger.qualifiedName(MenuButton);
 	}
 }

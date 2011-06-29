@@ -1,6 +1,7 @@
 package com.allofus.holburne.learningzone
 {
 	import com.greensock.easing.Quart;
+	import com.greensock.easing.Sine;
 	/**
 	 * @author jc
 	 */
@@ -32,13 +33,13 @@ package com.allofus.holburne.learningzone
 		
 		//animation vars
 		public static const FADE_DURATION:Number = 0.5;
-		public static const FADE_EASE:Function = Quart.easeOut;
-		public static const SLIDE_EASE :Function = Quart.easeInOut;
+		public static const FADE_EASE:Function = Sine.easeOut;
+		public static const SLIDE_EASE :Function = Sine.easeInOut;
 		public static const DROPSHADOW:Object = {color:0x333333, alpha:1, blurX:12, blurY:12, strength:1, angle:45, distance:5};
 		public static const GLOW_ON:Object = {color:0x333333, alpha:1, blurX:12, blurY:12, strength:1, inner:false, knockout:false, quality:1};
 		public static const GLOW_OFF:Object = {color:0x333333, alpha:0, blurX:0, blurY:0, strength:1, inner:false, knockout:false, quality:1, remove:true};
 		
-		public static const TRANSITION_STAGGER : Number = 0.1;
+		public static const TRANSITION_STAGGER : Number = 0.55;
 		
 		public static const TIMELINE_POPUP_WIDTH : Number = 1190;
 	}

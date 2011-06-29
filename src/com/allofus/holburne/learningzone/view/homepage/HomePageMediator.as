@@ -33,7 +33,7 @@ package com.allofus.holburne.learningzone.view.homepage
 		
 		protected function handleChapterClosed(event:ChapterMenuEvent):void
 		{
-			view.zoom(0.75);
+			view.zoom(1.1);
 		}
 		
 		protected function handleComplete(event:Event):void

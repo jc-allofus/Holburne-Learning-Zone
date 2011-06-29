@@ -104,15 +104,37 @@ package com.allofus.holburne.learningzone.view.menu
 			currentSelectedMainButton = firstItem;
 		}
 		
-		public function transitionIn(delay:Number = 0.5):void
+		public function transitionIn(delay:Number = 0.75):void
 		{
+			logger.debug("transitionIn menu itmes: " );
 			homeButton.y = sectionButtonLayer.y = AppGlobals.APP_HEIGHT;
 			if(transition)transition.clear();
 			transition = new TimelineMax({delay:delay});
 			transition.insertMultiple([
-			new TweenMax(sectionButtonLayer, AppGlobals.FADE_DURATION, {y:POS_Y}),
-			new TweenMax(homeButton, AppGlobals.FADE_DURATION, {y:POS_Y})
-			],0,TweenAlign.NORMAL,AppGlobals.TRANSITION_STAGGER);
+			new TweenMax(homeButton, AppGlobals.FADE_DURATION, {y:POS_Y}),
+			new TweenMax(sectionButtonLayer, AppGlobals.FADE_DURATION, {y:POS_Y, onStart:staggerIndividualButtons})
+			],0,TweenAlign.NORMAL,0.2);
+		}
+		
+		private function staggerIndividualButtons():void
+		{
+			pushSectionButtonsDown();
+			var a:Array = new Array();
+			for (var i : int = 0; i < sectionButtonDOs.length; i++) 
+			{
+				a[i] = sectionButtonDOs[i];
+			}
+			
+			TweenMax.allTo(a, 0.6, {y:0, ease:AppGlobals.SLIDE_EASE},0.2);
+		}
+		
+		private function pushSectionButtonsDown():void
+		{
+			var ty:int = sectionButtonDOs.length > 1 ? ty = sectionButtonDOs[0].height : 0;
+			for (var i : int = 0; i < sectionButtonDOs.length; i++) 
+			{
+				sectionButtonDOs[i].dropDown(ty);
+			}
 		}
 		
 		public function transitionOut(delay:Number = 0):void
@@ -123,16 +145,20 @@ package com.allofus.holburne.learningzone.view.menu
 				var panel:MenuPanelVC = subMenuPanelLayer.getChildAt(i) as MenuPanelVC;
 				panel.close();
 			}
-			transition = new TimelineMax({delay:delay});
+			transition = new TimelineMax({delay:delay, onComplete:dispatchClosed});
 			transition.insertMultiple([
-			new TweenMax(homeButton, AppGlobals.FADE_DURATION, {y:AppGlobals.APP_HEIGHT}),
-			new TweenMax(sectionButtonLayer, AppGlobals.FADE_DURATION, {y:AppGlobals.APP_HEIGHT})
-			],0,TweenAlign.NORMAL,AppGlobals.TRANSITION_STAGGER);
+			new TweenMax(homeButton, AppGlobals.FADE_DURATION, {y:AppGlobals.APP_HEIGHT, ease:AppGlobals.SLIDE_EASE}),
+			new TweenMax(sectionButtonLayer, AppGlobals.FADE_DURATION, {y:AppGlobals.APP_HEIGHT, ease:AppGlobals.SLIDE_EASE})
+			],0,TweenAlign.NORMAL,0.25);
 		}
 		
 		protected function handleClose(event:Event):void
 		{
 			transitionOut();
+		}
+		
+		protected function dispatchClosed(event:Event = null):void
+		{
 			dispatchEvent(new Event(Event.CLOSE));
 		}
 		

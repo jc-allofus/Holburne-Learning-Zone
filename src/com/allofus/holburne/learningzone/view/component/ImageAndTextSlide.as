@@ -21,7 +21,6 @@ package com.allofus.holburne.learningzone.view.component
 			positionInLeftFrame(img);
 			positionInRightFrame(text);
 			img.showCaption(false);
-			
 		}
 		
 		override public function transitionIn():void

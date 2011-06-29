@@ -94,8 +94,12 @@ package com.allofus.holburne.learningzone.view.chapter
 		
 		public function transitionOut():void
 		{
-			visible = false;
-			dispatchOut();
+//			visible = false;
+//			dispatchOut();
+			if(transition)
+				transition.clear();
+			TweenMax.to(this, AppGlobals.FADE_DURATION, {autoAlpha:0, ease:AppGlobals.FADE_EASE, onComplete:dispatchOut});
+
 		}
 		
 		protected function dispatchOut():void

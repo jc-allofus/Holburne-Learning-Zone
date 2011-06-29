@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 03/03.3/03.3.1/RightContent" itemID="4da33331-0000061a" sourceLibraryItemHRef="Symbol 1" lastModified="1302542155">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Chapter 03/03.3/03.3.1/RightContent" itemID="4da33331-0000061a" sourceLibraryItemHRef="Symbol 1" lastModified="1309342494">
   <timeline>
-    <DOMTimeline name="RightContent">
+    <DOMTimeline name="RightContent" currentFrame="10">
       <layers>
-        <DOMLayer name="Layer 5" color="#4FFFFF" current="true" isSelected="true">
+        <DOMLayer name="Layer 5" color="#4FFFFF">
           <frames>
             <DOMFrame index="0" duration="11" keyMode="9728">
               <Actionscript>
@@ -12,7 +12,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="text" color="#FF800A" autoNamed="false">
+        <DOMLayer name="text" color="#FF800A" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -210,38 +210,10 @@
               </elements>
             </DOMFrame>
             <DOMFrame index="9" keyMode="9728">
-              <elements>
-                <DOMStaticText selected="true" width="504.15" height="20" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="242" ty="2"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>TBC</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" size="18" face="Baskerville" fillColor="#80816D"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
-              </elements>
+              <elements/>
             </DOMFrame>
             <DOMFrame index="10" keyMode="9728">
-              <elements>
-                <DOMStaticText selected="true" width="504.15" height="20" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="242" ty="2"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>TBC</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" size="18" face="Baskerville" fillColor="#80816D"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
-              </elements>
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
